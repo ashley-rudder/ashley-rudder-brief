@@ -820,26 +820,21 @@ footer .author { color: var(--accent); }
         <text class="viz-now" x="696" y="66" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" fill="#F9F9F9" letter-spacing="2.8" font-weight="500">NOW</text>
       </g>
 
-      <!-- inflection callout — offset with leader line so text stays clear of the crossing -->
+      <!-- inflection callout — dot sits AT the true mathematical crossing (x≈600, y≈193) -->
       <g id="inflection" opacity="0">
-        <!-- crossing dot -->
-        <circle cx="528" cy="198" r="6" fill="#c2410c"/>
-        <circle cx="528" cy="198" r="13" fill="none" stroke="#c2410c" stroke-width="0.9" opacity="0.45"/>
-        <!-- leader line up-left from dot to label -->
-        <line x1="522" y1="194" x2="432" y2="134" stroke="#c2410c" stroke-width="0.7" stroke-dasharray="2 3" opacity="0.75"/>
-        <circle cx="432" cy="134" r="1.8" fill="#c2410c"/>
-        <!-- label (anchored at right, above-left of crossing) -->
-        <text class="viz-inflection outlined" x="422" y="124" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c2410c" letter-spacing="2.4" font-weight="500">INFLECTION · 2023</text>
-        <text class="viz-inflection-sub outlined" x="422" y="142" text-anchor="end" font-family="'Playfair Display', serif" font-style="italic" font-size="14" fill="#1a1a1a">the curves cross</text>
+        <!-- crossing dot at the actual intersection -->
+        <circle cx="600" cy="193" r="6.5" fill="#c2410c"/>
+        <circle cx="600" cy="193" r="14" fill="none" stroke="#c2410c" stroke-width="0.9" opacity="0.5"/>
+        <!-- label directly above the dot, center-anchored, halo stroked for readability -->
+        <text class="viz-inflection outlined" x="600" y="156" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c2410c" letter-spacing="2.4" font-weight="500">INFLECTION · 2024</text>
+        <text class="viz-inflection-sub outlined" x="600" y="174" text-anchor="middle" font-family="'Playfair Display', serif" font-style="italic" font-size="14" fill="#1a1a1a">the curves cross</text>
       </g>
 
-      <!-- Rented series label -->
-      <text class="viz-series outlined" x="160" y="88" font-family="'JetBrains Mono', monospace" font-size="12" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">RENTED TRUST</text>
-      <text class="viz-series-sub outlined" x="160" y="106" font-family="'Playfair Display', serif" font-style="italic" font-size="14" fill="#6a6a6a">— decays.</text>
+      <!-- Rented series label — single line, mono label + italic descriptor -->
+      <text class="viz-series outlined" x="110" y="88" font-family="'JetBrains Mono', monospace" font-size="12" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">RENTED TRUST<tspan font-family="'Playfair Display', Georgia, serif" font-style="italic" font-weight="400" font-size="14" fill="#6a6a6a" letter-spacing="0" dx="10">— decays.</tspan></text>
 
-      <!-- Owned series label -->
-      <text class="viz-series outlined" x="840" y="62" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c2410c" letter-spacing="2.4" font-weight="500">OWNED TRUST</text>
-      <text class="viz-series-sub outlined" x="840" y="80" text-anchor="end" font-family="'Playfair Display', serif" font-style="italic" font-size="14" fill="#1a1a1a">— compounds.</text>
+      <!-- Owned series label — single line, right-anchored -->
+      <text class="viz-series outlined" x="890" y="64" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c2410c" letter-spacing="2.4" font-weight="500">OWNED TRUST<tspan font-family="'Playfair Display', Georgia, serif" font-style="italic" font-weight="400" font-size="14" fill="#1a1a1a" letter-spacing="0" dx="10">— compounds.</tspan></text>
     </svg>
     <div class="viz-caption">
       <span class="lead mono">FIG. 01 · TRUST INDEX · Owned vs Rented creator equity, 2015 — 2030</span>
