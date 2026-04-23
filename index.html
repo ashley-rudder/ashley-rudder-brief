@@ -278,6 +278,19 @@ h1 .unit {
   stroke-linejoin: round;
 }
 
+/* Soft radiating pulse from the inflection dot */
+@keyframes inflectionPulse {
+  0%   { r: 7;  opacity: 0.5; stroke-width: 1.2; }
+  80%  { opacity: 0; stroke-width: 0.4; }
+  100% { r: 34; opacity: 0; stroke-width: 0.2; }
+}
+.viz .pulse-ring {
+  animation: inflectionPulse 2.8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+.viz .pulse-ring.delayed {
+  animation-delay: 1.4s;
+}
+
 .thesis-pull {
   font-family: 'Playfair Display', Didot, 'Bodoni 72', Georgia, serif;
   font-style: italic;
@@ -822,16 +835,19 @@ footer .author { color: var(--accent); }
 
       <!-- inflection callout — dot sits AT the true mathematical crossing (x≈600, y≈193) -->
       <g id="inflection" opacity="0">
-        <!-- crossing dot at the actual intersection -->
-        <circle cx="600" cy="193" r="6.5" fill="#c2410c"/>
+        <!-- two soft radiating pulse rings with offset timing -->
+        <circle class="pulse-ring" cx="600" cy="193" r="7" fill="none" stroke="#c2410c" stroke-width="1.2"/>
+        <circle class="pulse-ring delayed" cx="600" cy="193" r="7" fill="none" stroke="#c2410c" stroke-width="1.2"/>
+        <!-- static outer ring + solid dot -->
         <circle cx="600" cy="193" r="14" fill="none" stroke="#c2410c" stroke-width="0.9" opacity="0.5"/>
-        <!-- label directly above the dot, center-anchored, halo stroked for readability -->
-        <text class="viz-inflection outlined" x="600" y="156" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c2410c" letter-spacing="2.4" font-weight="500">INFLECTION · 2024</text>
-        <text class="viz-inflection-sub outlined" x="600" y="174" text-anchor="middle" font-family="'Playfair Display', serif" font-style="italic" font-size="14" fill="#1a1a1a">the curves cross</text>
+        <circle cx="600" cy="193" r="6.5" fill="#c2410c"/>
+        <!-- label below the dot, center-anchored -->
+        <text class="viz-inflection outlined" x="600" y="226" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c2410c" letter-spacing="2.4" font-weight="500">INFLECTION · 2024</text>
+        <text class="viz-inflection-sub outlined" x="600" y="244" text-anchor="middle" font-family="'Playfair Display', serif" font-style="italic" font-size="14" fill="#1a1a1a">the curves cross</text>
       </g>
 
-      <!-- Rented series label — single line, mono label + italic descriptor -->
-      <text class="viz-series outlined" x="110" y="88" font-family="'JetBrains Mono', monospace" font-size="12" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">RENTED TRUST<tspan font-family="'Playfair Display', Georgia, serif" font-style="italic" font-weight="400" font-size="14" fill="#6a6a6a" letter-spacing="0" dx="10">— decays.</tspan></text>
+      <!-- Rented series label — single line, positioned UNDER the flat-high section of the curve -->
+      <text class="viz-series outlined" x="90" y="130" font-family="'JetBrains Mono', monospace" font-size="12" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">RENTED TRUST<tspan font-family="'Playfair Display', Georgia, serif" font-style="italic" font-weight="400" font-size="14" fill="#6a6a6a" letter-spacing="0" dx="10">— decays.</tspan></text>
 
       <!-- Owned series label — single line, right-anchored -->
       <text class="viz-series outlined" x="890" y="64" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c2410c" letter-spacing="2.4" font-weight="500">OWNED TRUST<tspan font-family="'Playfair Display', Georgia, serif" font-style="italic" font-weight="400" font-size="14" fill="#1a1a1a" letter-spacing="0" dx="10">— compounds.</tspan></text>
