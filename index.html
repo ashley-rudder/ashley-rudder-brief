@@ -385,6 +385,7 @@ h1 .unit {
   display: block;
   margin-bottom: 10px;
   line-height: 1.15;
+  white-space: nowrap;
 }
 .triad-item strong .mark {
   font-family: 'JetBrains Mono', monospace;
@@ -607,11 +608,24 @@ footer .author { color: var(--accent); }
 /* Hand-held: hide HUD text, shrink frame, reflow eyebrow, boost SVG text */
 @media (max-width: 680px) {
   .hud-tl, .hud-tr { display: none; }
-  .corner { width: 26px; height: 26px; }
+  .corner {
+    width: 26px;
+    height: 26px;
+    transition: opacity 0.35s ease, transform 0.35s ease;
+  }
   .corner-tl { top: 12px; left: 12px; }
   .corner-tr { top: 12px; right: 12px; }
   .corner-bl { bottom: 12px; left: 12px; }
   .corner-br { bottom: 12px; right: 12px; }
+  body.scrolled .corner {
+    opacity: 0;
+    transform: scale(0.6);
+    pointer-events: none;
+  }
+
+  .section-title .t-dash { display: none; }
+  .section-title .t-lead { display: block; margin-bottom: 2px; }
+  .section-title .t-product { display: inline-block; }
 
   .container { padding: 44px 18px 24px; }
 
@@ -850,7 +864,7 @@ footer .author { color: var(--accent); }
 <section class="section">
   <div class="section-head">
     <div class="section-num">Field I <span class="accent">·</span> 02</div>
-    <div class="section-title">What I've built &mdash; <em>Creator Darwinism OS</em><span class="period">.</span></div>
+    <div class="section-title"><span class="t-lead">What I've built</span><span class="t-dash" aria-hidden="true"> &mdash; </span><em class="t-product">Creator Darwinism OS</em><span class="period">.</span></div>
   </div>
   <div class="section-body">
     <div class="spacer"></div>
@@ -985,6 +999,21 @@ const io = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.15 });
 document.querySelectorAll('.section, .cta').forEach(s => io.observe(s));
+
+// ─── MOBILE: HIDE CORNER BRACKETS ONCE USER SCROLLS PAST HERO ───
+(function mobileCornerHide() {
+  const mq = window.matchMedia('(max-width: 680px)');
+  if (!mq.matches) return;
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      document.body.classList.toggle('scrolled', window.scrollY > 120);
+      ticking = false;
+    });
+  }, { passive: true });
+})();
 
 // ─── HUD SECTION TRACKER ───
 const sections = [...document.querySelectorAll('.section')];
