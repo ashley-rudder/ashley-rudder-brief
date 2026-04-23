@@ -165,13 +165,13 @@ header {
 .eyebrow-strip .author { color: var(--accent); }
 
 h1 {
-  font-size: clamp(44px, 7.2vw, 92px);
+  font-size: clamp(44px, 5.8vw, 78px);
   font-weight: 400;
   letter-spacing: -2px;
   line-height: 0.95;
   margin-bottom: 22px;
   font-style: italic;
-  max-width: 960px;
+  white-space: nowrap;
 }
 h1 .word {
   display: inline-block;
@@ -665,6 +665,7 @@ footer .author { color: var(--accent); }
     letter-spacing: -0.8px;
     line-height: 0.98;
     margin-bottom: 18px;
+    white-space: normal; /* allow wrap to 2+ lines on phones */
   }
 
   .subtitle { font-size: 10px; letter-spacing: 2.4px; line-height: 1.55; }
