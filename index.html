@@ -270,6 +270,14 @@ h1 .unit {
 .viz-caption .lead { color: var(--ink); }
 .viz-caption .src  { color: var(--ink-faint); }
 
+/* Text halo — renders stroke first so labels read over the curves */
+.viz text.outlined {
+  paint-order: stroke;
+  stroke: #F9F9F9;
+  stroke-width: 4;
+  stroke-linejoin: round;
+}
+
 .thesis-pull {
   font-family: 'Playfair Display', Didot, 'Bodoni 72', Georgia, serif;
   font-style: italic;
@@ -774,59 +782,64 @@ footer .author { color: var(--accent); }
       </g>
 
       <!-- x-axis labels -->
-      <g font-family="'JetBrains Mono', monospace" font-size="9" fill="#6a6a6a" letter-spacing="1.4">
-        <text class="viz-axis" x="80"  y="402" text-anchor="middle">2015</text>
-        <text class="viz-axis" x="304" y="402" text-anchor="middle">2019</text>
-        <text class="viz-axis" x="528" y="402" text-anchor="middle">2023</text>
-        <text class="viz-axis" x="752" y="402" text-anchor="middle">2027</text>
-        <text class="viz-axis" x="920" y="402" text-anchor="middle">2030</text>
+      <g font-family="'JetBrains Mono', monospace" font-size="11" fill="#6a6a6a" letter-spacing="1.6">
+        <text class="viz-axis" x="80"  y="406" text-anchor="middle">2015</text>
+        <text class="viz-axis" x="304" y="406" text-anchor="middle">2019</text>
+        <text class="viz-axis" x="528" y="406" text-anchor="middle">2023</text>
+        <text class="viz-axis" x="752" y="406" text-anchor="middle">2027</text>
+        <text class="viz-axis" x="920" y="406" text-anchor="middle">2030</text>
       </g>
 
-      <!-- y-axis labels (small) -->
-      <g font-family="'JetBrains Mono', monospace" font-size="8" fill="#a0a0a0" letter-spacing="1.2">
+      <!-- y-axis labels -->
+      <g font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#a0a0a0" letter-spacing="1.4">
         <text class="viz-ylabel" x="70" y="64" text-anchor="end">HIGH</text>
         <text class="viz-ylabel" x="70" y="224" text-anchor="end">MID</text>
         <text class="viz-ylabel" x="70" y="384" text-anchor="end">LOW</text>
       </g>
 
       <!-- chart title -->
-      <text class="viz-title" x="80" y="40" font-family="'JetBrains Mono', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.4">TRUST INDEX · RENTED VS OWNED · 15-YEAR HORIZON</text>
-      <text class="viz-fig" x="920" y="40" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9" fill="#c2410c" letter-spacing="2">FIELD I · FIG. 01</text>
+      <text class="viz-title" x="80" y="34" font-family="'JetBrains Mono', monospace" font-size="12" fill="#1a1a1a" letter-spacing="2.6" font-weight="500">TRUST INDEX · RENTED VS OWNED · 15-YEAR HORIZON</text>
+      <text class="viz-fig" x="920" y="34" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c2410c" letter-spacing="2" font-weight="500">FIELD I · FIG. 01</text>
 
       <!-- rented trust curve (decays) -->
       <path id="rentedCurve"
             d="M 80 100 C 240 96 360 108 500 152 C 620 196 760 272 920 318"
-            fill="none" stroke="url(#gradRented)" stroke-width="1.8" stroke-linecap="round"
+            fill="none" stroke="url(#gradRented)" stroke-width="2.4" stroke-linecap="round"
             stroke-dasharray="2000" stroke-dashoffset="2000"/>
 
       <!-- owned trust curve (compounds) -->
       <path id="ownedCurve"
             d="M 80 320 C 240 316 360 300 500 244 C 620 182 760 110 920 76"
-            fill="none" stroke="url(#gradOwned)" stroke-width="2.2" stroke-linecap="round"
+            fill="none" stroke="url(#gradOwned)" stroke-width="2.8" stroke-linecap="round"
             stroke-dasharray="2000" stroke-dashoffset="2000"/>
 
-      <!-- inflection marker -->
-      <g id="inflection" opacity="0">
-        <line x1="528" y1="60" x2="528" y2="380" stroke="#c2410c" stroke-width="0.6" stroke-dasharray="2 4" opacity="0.55"/>
-        <circle cx="528" cy="198" r="5" fill="#c2410c"/>
-        <circle cx="528" cy="198" r="10" fill="none" stroke="#c2410c" stroke-width="0.8" opacity="0.5"/>
-        <text class="viz-inflection" x="536" y="194" font-family="'JetBrains Mono', monospace" font-size="9" fill="#c2410c" letter-spacing="2">INFLECTION · 2023</text>
-        <text class="viz-inflection-sub" x="536" y="206" font-family="'Playfair Display', serif" font-style="italic" font-size="11" fill="#1a1a1a">the curves cross</text>
-      </g>
-
-      <!-- NOW marker -->
+      <!-- NOW marker (bold vertical + solid pill) -->
       <g id="nowMark" opacity="0">
-        <line x1="696" y1="60" x2="696" y2="380" stroke="#1a1a1a" stroke-width="0.5" stroke-dasharray="1 3" opacity="0.7"/>
-        <rect x="680" y="46" width="36" height="14" fill="#1a1a1a"/>
-        <text class="viz-now" x="698" y="57" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#F9F9F9" letter-spacing="2">NOW</text>
+        <line x1="696" y1="60" x2="696" y2="380" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="3 4" opacity="0.78"/>
+        <rect x="674" y="52" width="44" height="20" fill="#1a1a1a"/>
+        <text class="viz-now" x="696" y="66" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" fill="#F9F9F9" letter-spacing="2.8" font-weight="500">NOW</text>
       </g>
 
-      <!-- labels -->
-      <text class="viz-series" x="130" y="90"  font-family="'JetBrains Mono', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.2">RENTED TRUST</text>
-      <text class="viz-series-sub" x="130" y="104" font-family="'Playfair Display', serif" font-style="italic" font-size="12" fill="#6a6a6a">— decays.</text>
+      <!-- inflection callout — offset with leader line so text stays clear of the crossing -->
+      <g id="inflection" opacity="0">
+        <!-- crossing dot -->
+        <circle cx="528" cy="198" r="6" fill="#c2410c"/>
+        <circle cx="528" cy="198" r="13" fill="none" stroke="#c2410c" stroke-width="0.9" opacity="0.45"/>
+        <!-- leader line up-left from dot to label -->
+        <line x1="522" y1="194" x2="432" y2="134" stroke="#c2410c" stroke-width="0.7" stroke-dasharray="2 3" opacity="0.75"/>
+        <circle cx="432" cy="134" r="1.8" fill="#c2410c"/>
+        <!-- label (anchored at right, above-left of crossing) -->
+        <text class="viz-inflection outlined" x="422" y="124" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c2410c" letter-spacing="2.4" font-weight="500">INFLECTION · 2023</text>
+        <text class="viz-inflection-sub outlined" x="422" y="142" text-anchor="end" font-family="'Playfair Display', serif" font-style="italic" font-size="14" fill="#1a1a1a">the curves cross</text>
+      </g>
 
-      <text class="viz-series" x="870" y="70"  text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#c2410c" letter-spacing="2.2">OWNED TRUST</text>
-      <text class="viz-series-sub" x="870" y="84"  text-anchor="end" font-family="'Playfair Display', serif" font-style="italic" font-size="12" fill="#1a1a1a">— compounds.</text>
+      <!-- Rented series label -->
+      <text class="viz-series outlined" x="160" y="88" font-family="'JetBrains Mono', monospace" font-size="12" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">RENTED TRUST</text>
+      <text class="viz-series-sub outlined" x="160" y="106" font-family="'Playfair Display', serif" font-style="italic" font-size="14" fill="#6a6a6a">— decays.</text>
+
+      <!-- Owned series label -->
+      <text class="viz-series outlined" x="840" y="62" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c2410c" letter-spacing="2.4" font-weight="500">OWNED TRUST</text>
+      <text class="viz-series-sub outlined" x="840" y="80" text-anchor="end" font-family="'Playfair Display', serif" font-style="italic" font-size="14" fill="#1a1a1a">— compounds.</text>
     </svg>
     <div class="viz-caption">
       <span class="lead mono">FIG. 01 · TRUST INDEX · Owned vs Rented creator equity, 2015 — 2030</span>
@@ -964,29 +977,50 @@ document.querySelectorAll('h1 .word, h1 .period').forEach((el) => {
 });
 
 // ─── HERO CURVES REVEAL ───
+// Curves draw slowly (~5s each), then lock static. Inflection + NOW fade in
+// after both curves complete so the composition settles cleanly.
 window.addEventListener('load', () => {
   const rented = document.getElementById('rentedCurve');
-  const owned = document.getElementById('ownedCurve');
+  const owned  = document.getElementById('ownedCurve');
   const lenR = rented.getTotalLength();
   const lenO = owned.getTotalLength();
-  rented.style.strokeDasharray = lenR;
-  owned.style.strokeDasharray = lenO;
+
+  rented.style.strokeDasharray  = lenR;
+  owned.style.strokeDasharray   = lenO;
   rented.style.strokeDashoffset = lenR;
-  owned.style.strokeDashoffset = lenO;
-  rented.style.transition = 'stroke-dashoffset 2.2s cubic-bezier(0.2, 0.7, 0.2, 1) 2.4s';
-  owned.style.transition = 'stroke-dashoffset 2.8s cubic-bezier(0.2, 0.7, 0.2, 1) 2.6s';
+  owned.style.strokeDashoffset  = lenO;
+
+  // Slow, cinematic draw. Deliberate ease-out so they slow as they finish.
+  rented.style.transition = 'stroke-dashoffset 4.8s cubic-bezier(0.22, 1, 0.36, 1) 2.4s';
+  owned.style.transition  = 'stroke-dashoffset 5.4s cubic-bezier(0.22, 1, 0.36, 1) 2.6s';
+
   requestAnimationFrame(() => {
     rented.style.strokeDashoffset = 0;
-    owned.style.strokeDashoffset = 0;
+    owned.style.strokeDashoffset  = 0;
   });
+
+  // Lock the curves hard once drawn — no further transitions can re-trigger.
+  const LOCK_MS = 2600 + 5400 + 100; // owned's total time + buffer
   setTimeout(() => {
-    document.getElementById('inflection').style.transition = 'opacity 0.8s';
-    document.getElementById('inflection').style.opacity = '1';
-  }, 4700);
+    rented.style.transition = 'none';
+    owned.style.transition  = 'none';
+    rented.style.strokeDashoffset = 0;
+    owned.style.strokeDashoffset  = 0;
+  }, LOCK_MS);
+
+  // NOW marker reveals just before curves settle so the viewer reads the vertical first
   setTimeout(() => {
-    document.getElementById('nowMark').style.transition = 'opacity 0.8s';
-    document.getElementById('nowMark').style.opacity = '1';
-  }, 5200);
+    const n = document.getElementById('nowMark');
+    n.style.transition = 'opacity 1.1s cubic-bezier(0.22, 1, 0.36, 1)';
+    n.style.opacity = '1';
+  }, 7400);
+
+  // Inflection callout lands last — the payoff beat
+  setTimeout(() => {
+    const i = document.getElementById('inflection');
+    i.style.transition = 'opacity 1.2s cubic-bezier(0.22, 1, 0.36, 1)';
+    i.style.opacity = '1';
+  }, 8200);
 });
 
 // ─── SECTION REVEAL (SCROLL) ───
