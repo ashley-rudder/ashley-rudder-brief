@@ -193,6 +193,11 @@ h1 .period {
 h1 .period.in {
   animation: periodBloom 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
 }
+h1 .unit {
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 0.15em;
+}
 
 @keyframes wordRise {
   from { opacity: 0; transform: translateY(14px); }
@@ -587,8 +592,8 @@ footer .author { color: var(--accent); }
 
 /* ─── RESPONSIVE ─── */
 @media (max-width: 900px) {
-  .container { padding: 86px 22px 28px; }
-  .section-head, .section-body { grid-template-columns: 1fr; gap: 14px; }
+  .container { padding: 74px 24px 28px; max-width: 100%; }
+  .section-head, .section-body { grid-template-columns: 1fr; gap: 12px; }
   .section-body .spacer { display: none; }
   .triad { grid-template-columns: 1fr; }
   .receipts { grid-template-columns: 1fr; }
@@ -598,10 +603,94 @@ footer .author { color: var(--accent); }
   .hud-bl, .hud-br { display: none; }
   .hud-tl, .hud-tr { font-size: 8.5px; letter-spacing: 1.2px; }
 }
-@media (max-width: 560px) {
-  h1 { font-size: 42px; letter-spacing: -1px; }
-  .cta h2 { font-size: 24px; }
+
+/* Hand-held: hide HUD text, shrink frame, reflow eyebrow, boost SVG text */
+@media (max-width: 680px) {
+  .hud-tl, .hud-tr { display: none; }
+  .corner { width: 26px; height: 26px; }
+  .corner-tl { top: 12px; left: 12px; }
+  .corner-tr { top: 12px; right: 12px; }
+  .corner-bl { bottom: 12px; left: 12px; }
+  .corner-br { bottom: 12px; right: 12px; }
+
+  .container { padding: 44px 18px 24px; }
+
+  .eyebrow-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+    font-size: 9px;
+    letter-spacing: 2.4px;
+  }
+  .eyebrow-strip::after { display: none; }
+
+  h1 {
+    font-size: clamp(38px, 10.5vw, 58px);
+    letter-spacing: -0.8px;
+    line-height: 0.98;
+    margin-bottom: 18px;
+  }
+
+  .subtitle { font-size: 10px; letter-spacing: 2.4px; line-height: 1.55; }
+  .byline { font-size: 9px; letter-spacing: 2.4px; }
+
+  .viz-wrap { margin: 36px -6px 26px; }
+  .viz text.viz-title { font-size: 14px; letter-spacing: 1.4px; }
+  .viz text.viz-fig { font-size: 13px; letter-spacing: 1.4px; }
+  .viz text.viz-axis { font-size: 14px; letter-spacing: 0.8px; }
+  .viz text.viz-ylabel { display: none; }
+  .viz text.viz-series { font-size: 14px; letter-spacing: 1.2px; }
+  .viz text.viz-series-sub { font-size: 16px; }
+  .viz text.viz-inflection { font-size: 13px; letter-spacing: 1.2px; }
+  .viz text.viz-inflection-sub { font-size: 14px; }
+  .viz text.viz-now { font-size: 12px; letter-spacing: 1.4px; }
+  .viz-caption { flex-direction: column; gap: 4px; font-size: 9px; letter-spacing: 1.6px; }
+
+  .thesis-pull {
+    font-size: 18px;
+    padding: 6px 0 6px 16px;
+    margin: 28px 0 10px;
+  }
+
+  .section { margin-top: 44px; padding-top: 22px; }
+  .section-title { font-size: 24px; letter-spacing: -0.3px; }
+  .section-num { font-size: 9.5px; }
+
+  .triad-item strong { font-size: 21px; }
+  .triad-item span { font-size: 13px; }
+
+  .receipt { grid-template-columns: 36px 1fr; gap: 10px; }
+  .receipt .body { font-size: 13px; }
+
+  .list-item { font-size: 14px; }
+
+  .cta {
+    margin-top: 52px;
+    padding: 32px 22px 28px;
+  }
+  .cta-corner-tl { top: 12px; left: 12px; }
+  .cta-corner-br { bottom: 12px; right: 12px; }
+  .cta-eye { font-size: 9px; letter-spacing: 2.4px; margin-bottom: 16px; }
+  .cta h2 {
+    font-size: 23px;
+    letter-spacing: -0.3px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+  }
+  .cta-body { font-size: 13.5px; margin-bottom: 22px; }
+  .cta-contact a { font-size: 15px; }
+  .cta-contact { font-size: 9.5px; letter-spacing: 1.8px; line-height: 2.1; }
+  .cta-code { font-size: 8.5px; letter-spacing: 1.6px; }
+
+  footer { font-size: 8px; letter-spacing: 1.8px; }
+}
+
+@media (max-width: 400px) {
+  h1 { font-size: 36px; }
+  .cta h2 { font-size: 21px; }
   .thesis-pull { font-size: 17px; }
+  .section-title { font-size: 22px; }
 }
 
 /* ─── PRINT ─── */
@@ -634,9 +723,9 @@ footer .author { color: var(--accent); }
   <div class="eyebrow-strip mono">A Field Brief<span class="author">&nbsp;·&nbsp;Ashley Rudder</span><span>·&nbsp;2026.Q2</span></div>
 
   <h1 aria-label="Operate. Build. Compound.">
-    <span class="word" data-delay="0.35">Operate</span><span class="period" data-delay="0.55">.</span>
-    <span class="word" data-delay="0.85">Build</span><span class="period" data-delay="1.05">.</span>
-    <span class="word" data-delay="1.35">Compound</span><span class="period" data-delay="1.60">.</span>
+    <span class="unit"><span class="word" data-delay="0.35">Operate</span><span class="period" data-delay="0.55">.</span></span>
+    <span class="unit"><span class="word" data-delay="0.85">Build</span><span class="period" data-delay="1.05">.</span></span>
+    <span class="unit"><span class="word" data-delay="1.35">Compound</span><span class="period" data-delay="1.60">.</span></span>
   </h1>
 
   <div class="subtitle mono">Chief Creator Officer · Creator Economy Operator · Cannes Lion</div>
@@ -672,23 +761,23 @@ footer .author { color: var(--accent); }
 
       <!-- x-axis labels -->
       <g font-family="'JetBrains Mono', monospace" font-size="9" fill="#6a6a6a" letter-spacing="1.4">
-        <text x="80"  y="402" text-anchor="middle">2015</text>
-        <text x="304" y="402" text-anchor="middle">2019</text>
-        <text x="528" y="402" text-anchor="middle">2023</text>
-        <text x="752" y="402" text-anchor="middle">2027</text>
-        <text x="920" y="402" text-anchor="middle">2030</text>
+        <text class="viz-axis" x="80"  y="402" text-anchor="middle">2015</text>
+        <text class="viz-axis" x="304" y="402" text-anchor="middle">2019</text>
+        <text class="viz-axis" x="528" y="402" text-anchor="middle">2023</text>
+        <text class="viz-axis" x="752" y="402" text-anchor="middle">2027</text>
+        <text class="viz-axis" x="920" y="402" text-anchor="middle">2030</text>
       </g>
 
       <!-- y-axis labels (small) -->
       <g font-family="'JetBrains Mono', monospace" font-size="8" fill="#a0a0a0" letter-spacing="1.2">
-        <text x="70" y="64" text-anchor="end">HIGH</text>
-        <text x="70" y="224" text-anchor="end">MID</text>
-        <text x="70" y="384" text-anchor="end">LOW</text>
+        <text class="viz-ylabel" x="70" y="64" text-anchor="end">HIGH</text>
+        <text class="viz-ylabel" x="70" y="224" text-anchor="end">MID</text>
+        <text class="viz-ylabel" x="70" y="384" text-anchor="end">LOW</text>
       </g>
 
       <!-- chart title -->
-      <text x="80" y="40" font-family="'JetBrains Mono', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.4">TRUST INDEX · RENTED VS OWNED · 15-YEAR HORIZON</text>
-      <text x="920" y="40" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9" fill="#c2410c" letter-spacing="2">FIELD I · FIG. 01</text>
+      <text class="viz-title" x="80" y="40" font-family="'JetBrains Mono', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.4">TRUST INDEX · RENTED VS OWNED · 15-YEAR HORIZON</text>
+      <text class="viz-fig" x="920" y="40" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9" fill="#c2410c" letter-spacing="2">FIELD I · FIG. 01</text>
 
       <!-- rented trust curve (decays) -->
       <path id="rentedCurve"
@@ -707,23 +796,23 @@ footer .author { color: var(--accent); }
         <line x1="528" y1="60" x2="528" y2="380" stroke="#c2410c" stroke-width="0.6" stroke-dasharray="2 4" opacity="0.55"/>
         <circle cx="528" cy="198" r="5" fill="#c2410c"/>
         <circle cx="528" cy="198" r="10" fill="none" stroke="#c2410c" stroke-width="0.8" opacity="0.5"/>
-        <text x="536" y="194" font-family="'JetBrains Mono', monospace" font-size="9" fill="#c2410c" letter-spacing="2">INFLECTION · 2023</text>
-        <text x="536" y="206" font-family="'Playfair Display', serif" font-style="italic" font-size="11" fill="#1a1a1a">the curves cross</text>
+        <text class="viz-inflection" x="536" y="194" font-family="'JetBrains Mono', monospace" font-size="9" fill="#c2410c" letter-spacing="2">INFLECTION · 2023</text>
+        <text class="viz-inflection-sub" x="536" y="206" font-family="'Playfair Display', serif" font-style="italic" font-size="11" fill="#1a1a1a">the curves cross</text>
       </g>
 
       <!-- NOW marker -->
       <g id="nowMark" opacity="0">
         <line x1="696" y1="60" x2="696" y2="380" stroke="#1a1a1a" stroke-width="0.5" stroke-dasharray="1 3" opacity="0.7"/>
         <rect x="680" y="46" width="36" height="14" fill="#1a1a1a"/>
-        <text x="698" y="57" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#F9F9F9" letter-spacing="2">NOW</text>
+        <text class="viz-now" x="698" y="57" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#F9F9F9" letter-spacing="2">NOW</text>
       </g>
 
       <!-- labels -->
-      <text x="130" y="90"  font-family="'JetBrains Mono', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.2">RENTED TRUST</text>
-      <text x="130" y="104" font-family="'Playfair Display', serif" font-style="italic" font-size="12" fill="#6a6a6a">— decays.</text>
+      <text class="viz-series" x="130" y="90"  font-family="'JetBrains Mono', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.2">RENTED TRUST</text>
+      <text class="viz-series-sub" x="130" y="104" font-family="'Playfair Display', serif" font-style="italic" font-size="12" fill="#6a6a6a">— decays.</text>
 
-      <text x="870" y="70"  text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#c2410c" letter-spacing="2.2">OWNED TRUST</text>
-      <text x="870" y="84"  text-anchor="end" font-family="'Playfair Display', serif" font-style="italic" font-size="12" fill="#1a1a1a">— compounds.</text>
+      <text class="viz-series" x="870" y="70"  text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#c2410c" letter-spacing="2.2">OWNED TRUST</text>
+      <text class="viz-series-sub" x="870" y="84"  text-anchor="end" font-family="'Playfair Display', serif" font-style="italic" font-size="12" fill="#1a1a1a">— compounds.</text>
     </svg>
     <div class="viz-caption">
       <span class="lead mono">FIG. 01 · TRUST INDEX · Owned vs Rented creator equity, 2015 — 2030</span>
