@@ -48,10 +48,29 @@ Rulings the compressed handoff lost, now on the record:
 Architecture map from that session: golden_offer and judge already share sessions and cd_messages through one Chat page; Archetype is a separate scripted flow writing profiles.archetype once; weekly_sessions is a dormant table with no UI and no function.
 WARNING, second occurrence of the same trap: that session claimed live access to product data through the connector project ohgcayvyvwtybdoswpox and treated it as this app's database. Standing rule: the connector-visible Supabase is never the CDOS product (the product is wjhvuumhcibzlnfbayes); ohgcayvyvwtybdoswpox belongs to swarm-haus, whose own profiles tables make the confusion convincing. Any live-data claim sourced through the connector is invalid for this product.
 
+## The mini app (located 9/18 from the July build transcript Ashley imported)
+
+The on-camera Live tool exists and its source is the swarm-haus repo, deployed at swarm-haus.vercel.app/live (cdos-live.html; the loop handoff's "source location unknown" is now closed).
+What it does: profession plus a "known for" edge in, three mining questions, then two to four expertise recontextualizations, each resolving to a digital product with name, format, buyer, price, and hook.
+Hard rule baked into its prompt by Ashley's July ruling: the buyer is never inside the trade; a skill converts to its outcome and sells to the outside person who wants it, no practitioner-training ladders, no exceptions.
+It runs keyed (live model call) with an offline fallback library of 107 professions; the fallback hides the "known for" line it cannot use.
+Role in the money architecture: free forever, never gated. It is the show, and the driver on screen is the entry tier of the one ruled ladder.
+
+## The money architecture (advised 9/18, awaiting the price ruling)
+
+Every free asset is a door; all doors lead to one ladder; the ladder's first rung must be purchasable the same day.
+Doors: the mini app on Lives (creator audience), the EGC ROI Calculator (CMO audience, drives strategy calls and the services ladder, never the app), the Field Guide lead magnet.
+The ladder itself is conflict #3 on the index, now FOUR variants deep: the stale $9/$97/$297, the canon card $147/$297/$497, the swarmhaus live ladder, and the July advisory ladder ($29 discovery, $299-$997 expertise build, $2,500-$10,000 done-with-you, enterprise licensing).
+SECOND RAIL FOUND (Vercel history, verified 9/18): swarmhaus.com is the swarm-haus repo on Vercel, and its July 16-21 production deploys carry embedded Stripe Checkout with live keys, a hosted-checkout fallback "so a sale is never lost," STRIPE_PRICE_ID in the production env, and a merge titled "working $3 revenue path," plus the First Light landing (BE YOUR OWN NETWORK) and a PWA layer.
+That means two registers exist: the Stan/Zapier rail inside the CDOS app (untested end to end) and a Stripe rail on swarmhaus.com that already took a test dollar in July.
+Desk task once the price is ruled: verify the Stripe rail's current state, and rule which register is THE register. The fastest path to first revenue is likely the rail that already worked.
+Also verified: the EGC calculator is deployed as its own Vercel project (cdos-egc-calculator, seven READY production deploys, July 9); public URL and capture wiring still need one look.
+Rung-three concept worth keeping from the July record: Expertise Extraction, a 90-minute session that turns a career into an AI-powered business asset (expertise map, frameworks, story library, content pillars, product opportunities). People buy decisions, not tools.
+
 ## Next action
 
 Ashley rules the price. Then the desk runs the rail end to end: product in Stan, Zapier pointed with the secret, one real test purchase through webhook, claim, credits, onboarding, chat.
-New since 9/18: the loop branch waits on Ashley's deploy-path ruling.
+New since 9/18: the loop branch waits on Ashley's deploy-path ruling, and the mini app needs a currency pass (deploy verified, key funded, strict rule spot-checked, on-screen price updated) before her next Live.
 
 ## Rules
 

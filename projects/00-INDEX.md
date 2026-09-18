@@ -30,9 +30,9 @@ Ungrouped small threads → the ledger in ops-infrastructure.md: Wall connector 
 
 ## Standing conflicts (each dies only by Ashley's ruling)
 
-1. Cannes keynote count: the EGC calculator claims "2x Cannes Lions Keynote Speaker"; the canonical-page draft and the audit record carry the single 2025 keynote. Public credential; verify before either ships again.
+1. RESOLVED by Ashley 9/18: two Cannes Lions appearances, 2023 with Sir John Hegarty and the 2025 keynote. The calculator's "2x" stands; the canonical-page draft undersold and gets corrected. Visibility desk gathers both source URLs at ship time and confirms the 2023 session's subject before it enters the Creator Darwinism origin story (origin is currently dated 2024).
 2. CDOS module name: the live product says Pressure Test; the vaulted visibility copy says Stress Test.
-3. CDOS price ladder: the stale $9/$97/$297 checklist, the canon card's $147/$297/$497, and the swarmhaus live ladder all exist.
+3. CDOS price ladder, four variants now: the stale $9/$97/$297 checklist, the canon card's $147/$297/$497, the swarmhaus live ladder, and the July advisory ladder ($29 → $299-$997 → $2,500-$10,000 → enterprise).
 4. Banquet canonical folder: Banquet Master File versus Claude Code File Share.
 5. Competitor sheet: two copies; the later, larger one presumed canonical.
 6. Positioning doctrine: four vaulted versions; updated-2 presumed canonical.

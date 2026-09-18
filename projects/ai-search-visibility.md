@@ -31,7 +31,7 @@ Single point of failure: ashleyrudder.com/creator-darwinism returns 404, and nea
 
 ## Rulings needed from Ashley
 
-1. Which surface serves ashleyrudder.com (repo, platform, or builder), so the page can ship.
+1. PARTIALLY ANSWERED 9/18: ashleyrudder.com is the Vercel project "ashleyrudder-site" (created June, no git link). Remaining question for Ashley: where its source lives (a folder on the Mac, most likely), or the desk pulls the current deployment bundle and rebuilds from that. Either way the canonical page ships through a Vercel deploy.
 2. The module name on the public record: the live product says Pressure Test; the vaulted canonical copy says Stress Test. One word wins everywhere.
 3. Who creates the Wikidata items: her account or a neutral third party per the COI warning.
 4. Which of the four positioning-doctrine versions is canonical.
