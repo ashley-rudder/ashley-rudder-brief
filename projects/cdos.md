@@ -28,9 +28,20 @@ Onboarding, as the code actually runs it: Archetype Navigator chat. Name, three 
 6. creatordarwinism.ai serves a 403: Vercel deployment protection on the swarm-haus project, not a broken build. One setting flip when Ashley wants it public.
 7. The 17-item go-live checklist needs a fresh audit against today's code.
 
+## Inbound handoff: CDOS Loop & Live Launch (filed 9/18, from the "Data Mining on phone" thread)
+
+The four-bot flow (Archetype, Golden Offer, Pressure Test, Head Down) is being rebuilt as one continuous loop.
+Rulings that hold: Pressure Test is the loop's hub and return point; Golden Offer reopens only to reshape an offer, never as a parallel door; proof of ship gates every iteration; twenty-four hours after proof the system asks for real-world data; Ash stays lifeline-only and never generates reports or tasks; swarmhaus.com stays live-only with no public capture yet; market claims are in-session research or labeled judgment.
+Built and pushed on branch claude/data-mining-phone-v3vft1 (HEAD 8b29cb7): proof-of-ship intake, token-gated Golden Offer One Pager sharing, the Ash widget. Unbuilt: the loop-reopening primitive, cross-body price memory, the artifact handoff button, warmer report copy.
+Full handoff: docs/handoffs/2026-09-18-cdos-loop-and-live-launch.md on that branch.
+CORRECTION logged 9/18: the handoff names the live Supabase as ohgcayvyvwtybdoswpox, and that is wrong. The branch's own config.toml and client.ts still point at wjhvuumhcibzlnfbayes, verified in-session. The two new migrations run against wjhvuumhcibzlnfbayes only, through the Lovable login, never through the connector-visible project.
+Decisions waiting on Ashley: the deploy path (direct apply versus PR; Sable recommends the PR lane), bot_ash board and chat IDs in Admin Settings (Ash errors on tap until set), and migration verification before anything depends on share_token or the proof columns.
+Funnel receipts from the thread: first TikTok Live, "Digital Products 101," 44 minutes, 124 views, 11 comments, 2 gifters, 2 new followers, no swarmhaus takers, attributed to the 3:30 PM slot. swarmhaus.com/cdos-live.html runs outside this repo and its source location is unknown. The swarmhaus price ladder reads $49 MVP through $2,500 high-ticket, labeled inference from a marketing page.
+
 ## Next action
 
 Ashley rules the price. Then the desk runs the rail end to end: product in Stan, Zapier pointed with the secret, one real test purchase through webhook, claim, credits, onboarding, chat.
+New since 9/18: the loop branch waits on Ashley's deploy-path ruling.
 
 ## Rules
 

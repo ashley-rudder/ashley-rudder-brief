@@ -20,7 +20,8 @@ Open loop: authorize the three, then a desk verifies the swarm-haus deploy end t
 
 ## Small-threads ledger (park or finish)
 
-Wall connector supercharger quotes. Spotify artist discovery. Venue translation. iMac operating system upgrade. Data Mining on phone. Mobile audio editing tools (folds into the video system).
+Wall connector supercharger quotes. Spotify artist discovery. Venue translation. iMac operating system upgrade. Mobile audio editing tools (folds into the video system).
+Data Mining on phone: closed 9/18 by handoff; it was the CDOS loop build, filed in cdos.md.
 Each gets ten minutes and a verdict: finish, calendar, or close.
 
 ## Standing state
