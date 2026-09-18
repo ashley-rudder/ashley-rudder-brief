@@ -16,6 +16,8 @@ Rule: this index gains a line the moment a new thread opens, and loses it only w
 | Brand book with Coach Sandy | projects/brand-book-with-sandy.md | Drive BRAND BOOK folders, competitor sheet | Session-paced |
 | Brand, PR, revenue engine | projects/brand-pr-revenue.md | Notion Command Center | Weekly, Sunday ritual |
 | Legal and trademarks | projects/legal-trademarks.md | Gmail, Denney Law thread | Deadline-driven |
+| AI search visibility: Creator Darwinism | projects/ai-search-visibility.md | ashleyrudder.com, Wikidata, press, projects/ai-search/ | Monthly audit, 1st |
+| Rudder Ranch | projects/rudder-ranch.md | Captured; desk on Ashley's word | Awaiting the defining ruling |
 | Ops and infrastructure | projects/ops-infrastructure.md | Seven repos, connectors, devices | As needed |
 
 ## Thread map (claude.ai sidebar as Ashley reviewed it 9/17)
