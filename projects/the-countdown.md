@@ -35,11 +35,19 @@ Beloved is Magic Box's own event brand and incubator, launched January 2024 in N
 Why this matters [Certain on the deck contents; the read is Sable's]: section 16 of the memo gates every room on "a named local partner who can run one show a month," and Magic Box with Beloved is that operator archetype already standing in Brooklyn, which is room one.
 Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 session uploads; Ashley drops it into the Drive share folder so the desk holds its own copy.
 
+## Desk log
+
+9/18, first daily turn: dossier sweep done and logged (Fresh Finds Forward and the Partner Program expansion, both announced 9/17, both touching the Booth and the catalog lens).
+Delivered to Ashley in chat: the send-readiness gap list, the door inventory ranked warm to cold, and a proposed send date of Tuesday, October 13, 2026, gated not fixed.
+The AI Persona badge tense check is open: the memo says live mid-September, and live status was unverifiable in-session on 9/18.
+The memo on the branch trails the Doc by three sections by design; the Doc leads per the sync ruling, so memo currency work stages against the Doc, not the branch.
+Doc watch: movement at 20:01Z on 9/18, day one. Baseline diff read waits until the desk holds the day-one export; version history in the Doc remains canonical.
+
 ## Open decisions
 
 1. THE POSITIONING RULING, blocking the ask in section 06: outside proposal, or HAUS OF SÔS build with Spotify as distribution partner. Sable's read, held loosely: the build frame is stronger, because the first Chief Creator Officer pitching Spotify on becoming a creator organization is her own thesis applied at platform scale, and it produces a business relationship instead of a gifted idea. Ashley rules.
 2. The door: how this physically reaches the co-CEO offices. The desk owes a warm-paths inventory (her network, Cannes rooms, press relationships, LinkedIn) before any cold send.
-3. The send date. "Until it's sent" needs a date to push against; the desk proposes one for Ashley's word.
+3. The send date. Proposed 9/18: Tuesday, October 13, 2026, holding only if three gates clear first (the positioning ruling lands, the Doc locks, a named warm door exists). Ashley accepts or moves it.
 4. Whether the pitch names Magic Box as the standing Brooklyn operator or keeps section 16's operator gate generic. Naming proves an operator exists; naming also pre-commits a partner before any terms exist, and the ruling touches #1. Ashley rules.
 
 ## Cadence
