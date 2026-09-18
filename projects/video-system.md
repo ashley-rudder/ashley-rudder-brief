@@ -19,6 +19,14 @@ Brand-page receipts, 9/17: gel video at 45.6K views, install film at 7,159 views
 3. Mobile audio editing tools thread: fold its findings into the recipes doc or close it.
 4. Higgsfield credit and slot audit before the next render.
 
+## The render babysitting rule (set 9/18 after the Cut Desk permission loop)
+
+Ashley is never the approve button.
+A desk waiting on a render waits with mcp__Higgsfield__jobs_wait, or with the longest single wait the tool allows, never with a sleep-and-poll loop through sandbox_exec.
+If a tool must run repeatedly, the desk asks Ashley once for always-allow on that tool, then runs quietly.
+Waiting is visible, never silent: the desk posts a status line to the Cut Room board at render start, at meaningful progress, and on delivery.
+For scale: an edit turn is minutes, a render is tens of minutes, and a desk that needs a human tap every minute is misbuilt and gets rebuilt.
+
 ## Next action
 
 Desk opened 9/18. State-of-play and the three highest-leverage moves posted in chat. Waiting on Ashley's refocus ruling.
