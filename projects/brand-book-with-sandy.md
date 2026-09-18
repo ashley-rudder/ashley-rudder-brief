@@ -23,14 +23,32 @@ Later copy (modified 05:49, id 1qb2p324y2IknmVWiNyujoUhnOvbQNXTDJ7l9Edloa2Y) is 
 Inference: the later copy is canonical. Confirm with Ashley before deleting the other.
 Read Me confirms the charter's description: 70 channels, 35/23/12 tiers, column P runs Sandy's formula live, column Q carries vidIQ's breakout score.
 
+## Materials drop 9/18 (second desk session)
+
+Ashley answered the working-materials question with a direct drop, no text.
+Received and verified:
+- Personal Brand Blueprint (compiled 8/13): positioning, avatar, voice, five pillars. The foundation document. Extracted in full.
+- 10 Outlier Video Ideas (8/14, Month 1 Day 1 final deliverable): ten remixes of verified outliers, first-video ruling included.
+- A named palette sheet (teal/slate hexes) and three AI mood-board explorations, one carrying CDOS tone words and a competing green/orange palette.
+- Two files named as Sandy's Month 1 course videos ("VidIQ QAs" and "Finding Competitors/Creators"). Both are byte-identical, so only one video actually arrived. Re-send needed.
+
+Built from the drop: `projects/cdos-brand-book.md`, the working brand-book file.
+Positioning, avatar, voice, and pillars are locked from the Blueprint.
+Competitor sheet reads are wired into positioning in section 06.
+Visual direction is captured as two competing palette directions awaiting Ashley's ruling.
+Sources are committed under `projects/brand-book-sources/`.
+
 ## Open loops
 
-1. Capture the current exercise state: Sandy's latest assignment, its due date, and where the working materials live. Asked 9/18, awaiting Ashley.
-2. Connect the competitor sheet's reads to the brand book's positioning sections.
-3. Rule where the finished brand book lives; Drive master with a repo mirror is the standing pattern.
-4. Confirm which competitor sheet copy is canonical, then retire the duplicate.
+1. Sandy's current assignment and due date. Inference from the drop: the visual identity layer is active. Unconfirmed.
+2. Next session date with Sandy.
+3. Which surface holds Ashley's working notes. The drop's artifacts trace to claude.ai exports, so the answer may be "Claude sessions plus Drive." Unconfirmed.
+4. Palette ruling: teal/slate versus the CDOS green/orange row.
+5. Re-send one of the two course videos; the 9/18 uploads duplicated.
+6. Confirm which competitor sheet copy is canonical, then retire the duplicate.
+7. Rule where the finished brand book lives; Drive master with a repo mirror is the standing pattern.
 
 ## Next action
 
-Three questions are with Ashley: the latest Sandy assignment, the next session date, and which surface holds her working notes.
-When she answers, the desk builds the working brand-book file, wires the competitor sheet's reads into positioning, and mirrors state here after every coaching session.
+Ashley rules on the palette, confirms the assignment and session date, and re-sends the missing course video.
+The desk folds every future coaching session into `cdos-brand-book.md` and mirrors state here after each one.
