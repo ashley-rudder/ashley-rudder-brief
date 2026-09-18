@@ -29,7 +29,15 @@ Open loop: authorize the three, then a desk verifies the swarm-haus deploy end t
 
 The operator environment's network policy blocks direct reads of, at minimum: tiktok.com, hyperstudios.us, themarketingacademy.org, icloud.com, zuryhollywood.com, zuryhair.com, leadiq.com, swarm-haus.vercel.app, huggingface.co, openaipublic.azureedge.net.
 Server-side connectors (WebSearch, Gmail, Drive, Vercel, VidIQ, Higgsfield) are unaffected; the wall only stops in-container fetches.
-The one fix, Ashley's two minutes: claude.ai/code, Environments, the environment named Default (the only one, currently on the "trusted network access" tier), Network access, switch to all traffic (or add the domains above). New sessions and fresh containers inherit it; sessions already running keep the old wall until they restart. Docs: https://code.claude.com/docs/en/claude-code-on-the-web
+The fix, corrected 9/18 against the docs (there is no allow-all option; Custom allowlist is the ceiling):
+1. Go to claude.ai/code. The environment control is NOT in settings; it is the cloud button showing "Default" in the row above the message box.
+2. Open it, hover the Default environment row, click the settings gear that appears on the right.
+3. In the dialog, set Network access to Custom.
+4. Check "Also include default list of common package managers" so nothing that works today breaks.
+5. Paste into Allowed domains, one per line: tiktok.com, *.tiktok.com, hyperstudios.us, www.hyperstudios.us, themarketingacademy.org, icloud.com, *.icloud.com, huggingface.co, *.huggingface.co, openaipublic.azureedge.net, zuryhollywood.com, zuryhair.com, swarmhaus.com, ashleyrudder.com, creatordarwinism.ai, swarm-haus.vercel.app, substack.com, *.substack.com. Save.
+Changes reach sessions started after the save; running sessions keep the old wall until their containers recycle.
+Standing process: when a desk hits a new walled domain it logs the domain here, and Ashley adds it on her next pass through the dialog.
+Docs: https://code.claude.com/docs/en/cloud-environments
 Until then: TikTok links need the full @handle/video URL, and walled articles arrive by PDF or paste into Drive.
 Audio input is SOLVED as of 9/18: voice memos transcribe via the Higgsfield sandbox (faster-whisper preinstalled there; media_upload presigned PUT works from the container; S3 and CloudFront are reachable). Voice memos are an official input channel now.
 
