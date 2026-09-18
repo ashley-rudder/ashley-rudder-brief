@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beta Admin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #080808; --surface: #0E0E0E; --surface-2: #141414;
+      --border: #222; --amber: #D4940A; --amber-dim: #A37208;
+      --amber-glow: rgba(212,148,10,0.15); --amber-glow-strong: rgba(212,148,10,0.25);
+      --white: #F0EDE6; --text: #E0DCD4; --text-muted: #9A978F; --text-dim: #6B6860;
+      --ease: cubic-bezier(0.16,1,0.3,1);
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100dvh; padding: 2rem clamp(1rem,4vw,3rem); -webkit-font-smoothing: antialiased; }
+    a { color: var(--amber); text-decoration: none; }
+
+    /* Login */
+    .login { max-width: 360px; margin: 15vh auto; text-align: center; }
+    .login h1 { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.5rem; color: var(--white); margin-bottom: 0.5rem; }
+    .login p { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem; }
+    .login input { width: 100%; padding: 0.7rem 0.9rem; font-family: inherit; font-size: 0.9rem; color: var(--text); background: var(--surface-2); border: 1px solid var(--border); border-radius: 4px; outline: none; margin-bottom: 1rem; }
+    .login input:focus { border-color: var(--amber-dim); box-shadow: 0 0 0 3px var(--amber-glow); }
+    .login button { width: 100%; padding: 0.75rem; font-family: inherit; font-size: 0.9rem; font-weight: 600; color: var(--bg); background: var(--amber); border: none; border-radius: 4px; cursor: pointer; }
+    .login button:hover { background: #F5DCA0; }
+    .login .error { color: #d163a7; font-size: 0.8rem; margin-top: 0.5rem; display: none; }
+
+    /* Admin */
+    .admin { display: none; }
+    .admin-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem; }
+    .admin-header h1 { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.5rem; color: var(--white); }
+    .admin-actions { display: flex; gap: 0.75rem; }
+    .admin-btn { padding: 0.5rem 1rem; font-size: 0.75rem; font-weight: 500; color: var(--text); background: var(--surface-2); border: 1px solid var(--border); border-radius: 4px; cursor: pointer; }
+    .admin-btn:hover { border-color: var(--amber-dim); color: var(--amber); }
+
+    .stats { display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 1rem 1.25rem; min-width: 100px; }
+    .stat-num { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.5rem; color: var(--amber); }
+    .stat-label { font-size: 0.7rem; color: var(--text-dim); margin-top: 0.2rem; }
+
+    .filters { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .filter { padding: 0.4rem 1rem; font-size: 0.75rem; font-weight: 500; color: var(--text-muted); background: transparent; border: 1px solid var(--border); border-radius: 4px; cursor: pointer; }
+    .filter:hover { border-color: var(--amber-dim); color: var(--text); }
+    .filter.on { background: var(--amber-glow-strong); border-color: var(--amber); color: var(--amber); }
+
+    .cards { display: flex; flex-direction: column; gap: 1rem; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 1.25rem 1.5rem; }
+    .card:hover { border-color: #3A3A3A; }
+    .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem; }
+    .card-name { font-weight: 600; color: var(--white); }
+    .card-email { font-size: 0.75rem; color: var(--text-muted); }
+    .card-meta { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+    .card-date { font-size: 0.7rem; color: var(--text-dim); }
+    .badge { font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; padding: 0.2rem 0.6rem; border-radius: 3px; }
+    .b-new { background: var(--amber-glow); color: var(--amber); }
+    .b-accepted { background: rgba(67,122,34,0.2); color: #6daa45; }
+    .b-waitlisted { background: rgba(85,145,199,0.2); color: #5591c7; }
+    .b-declined { background: rgba(161,44,123,0.15); color: #d163a7; }
+    .field { display: flex; gap: 0.5rem; margin-bottom: 0.35rem; font-size: 0.85rem; }
+    .field-l { color: var(--text-dim); min-width: 90px; flex-shrink: 0; }
+    .field-v { color: var(--text); }
+    .card-acts { display: flex; gap: 0.5rem; flex-wrap: wrap; padding-top: 0.75rem; border-top: 1px solid var(--border); margin-top: 0.75rem; }
+    .act { padding: 0.3rem 0.8rem; font-size: 0.65rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); background: transparent; border: 1px solid var(--border); border-radius: 3px; cursor: pointer; }
+    .act:hover { border-color: var(--amber-dim); color: var(--amber); }
+    .act.on { background: var(--amber-glow); border-color: var(--amber); color: var(--amber); }
+    .empty { text-align: center; padding: 3rem; color: var(--text-dim); }
+  </style>
+</head>
+<body>
+
+  <div class="login" id="login">
+    <h1>Beta Admin</h1>
+    <p>Enter your password to view applications.</p>
+    <input type="password" id="pw" placeholder="Password" autofocus>
+    <button onclick="doLogin()">Enter</button>
+    <div class="error" id="err">Wrong password. Try again.</div>
+  </div>
+
+  <div class="admin" id="admin">
+    <div class="admin-header">
+      <h1>Beta Applications</h1>
+      <div class="admin-actions">
+        <button class="admin-btn" onclick="doExport()">Export CSV</button>
+        <button class="admin-btn" onclick="location.reload()">Refresh</button>
+      </div>
+    </div>
+    <div class="stats" id="stats"></div>
+    <div class="filters" id="filters">
+      <button class="filter on" data-f="all">All</button>
+      <button class="filter" data-f="new">New</button>
+      <button class="filter" data-f="accepted">Accepted</button>
+      <button class="filter" data-f="waitlisted">Waitlisted</button>
+      <button class="filter" data-f="declined">Declined</button>
+    </div>
+    <div class="cards" id="cards"></div>
+  </div>
+
+<script>
+// Point to the beta-apply backend
+const API = "port/8000".startsWith("__") ? "http://localhost:8000" : "port/8000";
+let pw = '';
+let apps = [];
+let fil = 'all';
+
+document.getElementById('pw').addEventListener('keydown', e => { if (e.key === 'Enter') doLogin(); });
+
+async function doLogin() {
+  pw = document.getElementById('pw').value;
+  try {
+    const r = await fetch(API + '/api/applications?password=' + encodeURIComponent(pw));
+    if (r.status === 401) { document.getElementById('err').style.display = 'block'; return; }
+    apps = await r.json();
+    document.getElementById('login').style.display = 'none';
+    document.getElementById('admin').style.display = 'block';
+    renderStats();
+    renderCards();
+    setupFilters();
+  } catch(e) { document.getElementById('err').style.display = 'block'; }
+}
+
+function renderStats() {
+  const s = { total: apps.length, new: 0, accepted: 0, waitlisted: 0 };
+  apps.forEach(a => { if (s[a.status] !== undefined) s[a.status]++; });
+  document.getElementById('stats').innerHTML =
+    `<div class="stat"><div class="stat-num">${s.total}</div><div class="stat-label">Total</div></div>` +
+    `<div class="stat"><div class="stat-num">${s.new}</div><div class="stat-label">New</div></div>` +
+    `<div class="stat"><div class="stat-num">${s.accepted}</div><div class="stat-label">Accepted</div></div>` +
+    `<div class="stat"><div class="stat-num">${s.waitlisted}</div><div class="stat-label">Waitlisted</div></div>`;
+}
+
+function setupFilters() {
+  document.querySelectorAll('.filter').forEach(b => {
+    b.addEventListener('click', function() {
+      document.querySelectorAll('.filter').forEach(x => x.classList.remove('on'));
+      this.classList.add('on');
+      fil = this.dataset.f;
+      renderCards();
+    });
+  });
+}
+
+function renderCards() {
+  const list = fil === 'all' ? apps : apps.filter(a => a.status === fil);
+  const el = document.getElementById('cards');
+  if (!list.length) { el.innerHTML = '<p class="empty">No applications yet.</p>'; return; }
+  el.innerHTML = list.map(a => `
+    <div class="card">
+      <div class="card-top">
+        <div><div class="card-name">${h(a.name)}</div><div class="card-email">${h(a.email)}</div></div>
+        <div class="card-meta"><span class="badge b-${a.status}">${a.status}</span><span class="card-date">${fd(a.created_at)}</span></div>
+      </div>
+      ${a.platform ? `<div class="field"><span class="field-l">Platform</span><span class="field-v">${h(a.platform)}</span></div>` : ''}
+      ${a.profile_url ? `<div class="field"><span class="field-l">Profile</span><span class="field-v"><a href="${h(a.profile_url)}" target="_blank">${h(a.profile_url)}</a></span></div>` : ''}
+      ${a.has_product ? `<div class="field"><span class="field-l">Has product</span><span class="field-v">${h(a.has_product)}${a.product_detail ? ' / '+h(a.product_detail) : ''}</span></div>` : ''}
+      ${a.known_for ? `<div class="field"><span class="field-l">Known for</span><span class="field-v">${h(a.known_for)}</span></div>` : ''}
+      ${a.wound ? `<div class="field"><span class="field-l">Wound</span><span class="field-v">${h(a.wound)}</span></div>` : ''}
+      ${a.why_now ? `<div class="field"><span class="field-l">Why now</span><span class="field-v">${h(a.why_now)}</span></div>` : ''}
+      <div class="card-acts">
+        <button class="act ${a.status==='accepted'?'on':''}" onclick="ss(${a.id},'accepted')">Accept</button>
+        <button class="act ${a.status==='waitlisted'?'on':''}" onclick="ss(${a.id},'waitlisted')">Waitlist</button>
+        <button class="act ${a.status==='declined'?'on':''}" onclick="ss(${a.id},'declined')">Decline</button>
+      </div>
+    </div>`).join('');
+}
+
+async function ss(id, st) {
+  await fetch(API+'/api/applications/'+id+'/status?password='+encodeURIComponent(pw)+'&new_status='+st, {method:'POST'});
+  const a = apps.find(x => x.id === id);
+  if (a) a.status = st;
+  renderStats(); renderCards();
+}
+
+function doExport() { window.open(API+'/api/export?password='+encodeURIComponent(pw), '_blank'); }
+function h(t) { if (!t) return ''; const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
+function fd(s) {
+  if (!s) return '';
+  const d = new Date(s+'Z');
+  const date = d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+  const time = d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',hour12:true});
+  return date + ' at ' + time;
+}
+</script>
+<script data-pplx-inline-edit>
+(function(){
+  if(window===window.top)return;
+  function inlineAll(orig,clone){
+    if(orig.nodeType!==1)return;
+    try{
+      var cs=getComputedStyle(orig);
+      var t='';
+      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
+      clone.style.cssText=t;
+    }catch(e){}
+    var oc=orig.children,cc=clone.children;
+    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
+  }
+  function stripExternal(clone){
+    var imgs=clone.querySelectorAll('img');
+    for(var i=0;i<imgs.length;i++){
+      var s=imgs[i].getAttribute('src');
+      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
+    }
+    var all=clone.querySelectorAll('*');
+    for(var i=0;i<all.length;i++){
+      var st=all[i].style.cssText;
+      if(st&&st.indexOf('url(')>=0){
+        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
+      }
+    }
+  }
+  window.addEventListener('message',function(e){
+    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
+    var scrollX=window.scrollX||window.pageXOffset||0;
+    var scrollY=window.scrollY||window.pageYOffset||0;
+    var w=window.innerWidth,h=window.innerHeight;
+    try{
+      var clone=document.documentElement.cloneNode(true);
+      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
+      for(var i=0;i<rm.length;i++){rm[i].remove();}
+      inlineAll(document.documentElement,clone);
+      stripExternal(clone);
+      var html=new XMLSerializer().serializeToString(clone);
+      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
+        +'<foreignObject width="100%" height="100%">'
+        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
+        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
+        +html+'</div></div></foreignObject></svg>';
+      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+      var img=new Image();
+      img.onload=function(){
+        var c=document.createElement('canvas');c.width=w;c.height=h;
+        c.getContext('2d').drawImage(img,0,0);
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.onerror=function(){
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.src=svgUrl;
+    }catch(err){
+      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+    }
+  });
+})();
+</script></body>
+</html>

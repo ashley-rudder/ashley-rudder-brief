@@ -67,6 +67,16 @@ Desk task once the price is ruled: verify the Stripe rail's current state, and r
 Also verified: the EGC calculator is deployed as its own Vercel project (cdos-egc-calculator, seven READY production deploys, July 9); public URL and capture wiring still need one look.
 Rung-three concept worth keeping from the July record: Expertise Extraction, a 90-minute session that turns a career into an AI-powered business asset (expertise map, frameworks, story library, content pillars, product opportunities). People buy decisions, not tools.
 
+## The beta cohort (recovered 9/18 from archive zips two and three)
+
+Fourteen people applied to the 7-day CDOS beta between March 31 and April 9, and every one was accepted.
+Sources vaulted at projects/cdos-beta-sources/ (application page, FastAPI server, admin view). The applications database itself carries names, emails, profiles, and their "wound" answers; it stays OUT of git by rule and lives in Ashley's archive and the operator scratchpad.
+Gmail verifies the acceptances went out personally, one by one, April 3 through 23: "You're in. I'm building this with a small group of people who are willing to be honest about what works and what doesn't."
+One tester hit a purchase screen instead of the app on April 6; Ashley corrected the door to creatordarwinism.ai/login.
+April 23: Lara (hello@ladigitalmx.com, LA Digital MX, the coach from the EGC arc) got CDOS access after a kickoff call, plus a CSV of additional beta signups from the TKC launch content, which Ashley noted she "hasn't been driving to."
+The fuse this lights: creatordarwinism.ai currently serves a 403 behind Vercel deployment protection. The beta cohort's own front door is walled. The 403 flip stopped being cosmetic the moment these fourteen names surfaced.
+The play once the price is ruled: a founding-member letter to the cohort that owns the quiet months, reopens the door, and honors their April yes at founding terms. They are the warmest list this product has.
+
 ## Next action
 
 Ashley rules the price. Then the desk runs the rail end to end: product in Stan, Zapier pointed with the secret, one real test purchase through webhook, claim, credits, onboarding, chat.

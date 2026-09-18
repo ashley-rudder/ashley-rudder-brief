@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | HAUS OF SOS</title>
+  <meta name="description" content="The full scope of creative, production, and strategic services offered by HAUS OF SOS under the Always Be Saucy brand.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@300;400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0a0a;
+      --surface: #111111;
+      --border: rgba(255,255,255,0.08);
+      --border-hover: rgba(255,255,255,0.15);
+      --gold: #C9A84C;
+      --gold-dim: rgba(201,168,76,0.3);
+      --text: #f5f0e8;
+      --text-muted: #a09888;
+      --text-dim: #6b6358;
+      --font-display: 'Space Grotesk', sans-serif;
+      --font-eyebrow: 'Barlow Condensed', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    ::selection { background: var(--gold-dim); color: var(--text); }
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { color: var(--text); }
+
+    /* Nav */
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem clamp(1.5rem, 5vw, 4rem);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-logo {
+      font-family: var(--font-eyebrow);
+      font-weight: 700;
+      font-size: 0.85rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text);
+    }
+
+    .nav-link {
+      font-family: var(--font-eyebrow);
+      font-weight: 600;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      transition: color 0.2s;
+    }
+
+    .nav-link:hover { color: var(--gold); }
+
+    /* Marquee Banner */
+    .marquee {
+      overflow: hidden;
+      white-space: nowrap;
+      border-bottom: 1px solid var(--border);
+      padding: 0.6rem 0;
+    }
+
+    .marquee-track {
+      display: inline-block;
+      animation: marquee 25s linear infinite;
+    }
+
+    .marquee-text {
+      font-family: var(--font-eyebrow);
+      font-weight: 600;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      padding: 0 2rem;
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* Hero */
+    .hero {
+      padding: clamp(4rem, 10vh, 8rem) clamp(1.5rem, 5vw, 4rem) clamp(3rem, 6vh, 5rem);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-eyebrow {
+      font-family: var(--font-eyebrow);
+      font-weight: 600;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      font-weight: 700;
+      line-height: 1.1;
+      color: var(--text);
+      max-width: 700px;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero p {
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      max-width: 560px;
+    }
+
+    /* Services Grid */
+    .services {
+      padding: clamp(3rem, 6vh, 5rem) clamp(1.5rem, 5vw, 4rem);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+
+    .service-category {
+      padding: clamp(2rem, 4vh, 3rem) clamp(1.5rem, 3vw, 2.5rem);
+      border-bottom: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+    }
+
+    .service-category:nth-child(even) {
+      border-right: none;
+    }
+
+    .service-category:nth-last-child(-n+2) {
+      border-bottom: none;
+    }
+
+    .service-category:last-child:nth-child(odd) {
+      border-right: none;
+      grid-column: 1 / -1;
+    }
+
+    .cat-header {
+      font-family: var(--font-eyebrow);
+      font-weight: 700;
+      font-size: 0.65rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .cat-number {
+      color: var(--text-dim);
+      margin-right: 0.5rem;
+    }
+
+    .service-list {
+      list-style: none;
+    }
+
+    .service-list li {
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      font-weight: 300;
+      color: var(--text-muted);
+      line-height: 1.5;
+      padding: 0.45rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+    }
+
+    .service-list li:last-child {
+      border-bottom: none;
+    }
+
+    /* CTA */
+    .cta {
+      padding: clamp(4rem, 8vh, 6rem) clamp(1.5rem, 5vw, 4rem);
+      text-align: center;
+      border-top: 1px solid var(--border);
+    }
+
+    .cta-eyebrow {
+      font-family: var(--font-eyebrow);
+      font-weight: 600;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+    }
+
+    .cta h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.5rem, 3vw, 2.5rem);
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 1rem;
+    }
+
+    .cta p {
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      max-width: 480px;
+      margin: 0 auto 2rem;
+      line-height: 1.6;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      font-family: var(--font-eyebrow);
+      font-weight: 700;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--bg);
+      background: var(--gold);
+      padding: 0.9rem 2.5rem;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .cta-btn:hover {
+      background: var(--text);
+      color: var(--bg);
+    }
+
+    /* Footer */
+    .footer {
+      padding: 2rem clamp(1.5rem, 5vw, 4rem);
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .footer-trademark {
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .footer-legal {
+      font-family: var(--font-body);
+      font-size: 0.65rem;
+      color: var(--text-dim);
+    }
+
+    .footer-contact {
+      font-family: var(--font-body);
+      font-size: 0.7rem;
+      color: var(--text-muted);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+      .service-category {
+        border-right: none !important;
+      }
+      .service-category:last-child {
+        grid-column: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <span class="nav-logo">HAUS OF SOS</span>
+    <a href="mailto:hello@hausofsos.com" class="nav-link">Contact</a>
+  </nav>
+
+  <!-- Marquee -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+      <span class="marquee-text">Always Be Saucy.&trade;</span>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <p class="hero-eyebrow">Our Services</p>
+    <h1>The Full Scope of What We Deliver.</h1>
+    <p>HAUS OF SOS is a boutique creative consultancy offering brand strategy, content production, event architecture, and creator-led media systems. Below is the complete range of services available to our clients.</p>
+  </section>
+
+  <!-- Services -->
+  <section class="services">
+    <div class="services-grid">
+
+      <div class="service-category">
+        <div class="cat-header"><span class="cat-number">01</span>Brand Strategy & Marketing</div>
+        <ul class="service-list">
+          <li>Brand concept and brand development for corporate and individual clients</li>
+          <li>Preparation of custom advertisements</li>
+          <li>Video advertising and promotional video production for internet, television, digital cable, and video-on-demand</li>
+          <li>Promoting the goods and services of others</li>
+          <li>Digital promotion via global computer network</li>
+          <li>Providing a website which features advertisements for the goods and services of others</li>
+          <li>Endorsement services, namely, promoting the goods and services of others</li>
+          <li>Shoppers' guide information</li>
+        </ul>
+      </div>
+
+      <div class="service-category">
+        <div class="cat-header"><span class="cat-number">02</span>Event Planning & Management</div>
+        <ul class="service-list">
+          <li>Event planning and management for marketing, branding, promoting or advertising the goods and services of others</li>
+          <li>Special event planning for commercial, promotional or advertising purposes</li>
+          <li>Special event planning for social entertainment purposes</li>
+        </ul>
+      </div>
+
+      <div class="service-category">
+        <div class="cat-header"><span class="cat-number">03</span>Film, Video & Content Production</div>
+        <ul class="service-list">
+          <li>Film directing of advertising films</li>
+          <li>Film directing, other than advertising films</li>
+          <li>Film and video production</li>
+          <li>Film and video production consulting services</li>
+          <li>Video production</li>
+          <li>Videography services</li>
+          <li>Television, video, and movie filming services</li>
+          <li>Media production services, namely, video and film production</li>
+          <li>Multimedia entertainment services in the nature of development, production, and post-production</li>
+          <li>Entertainment media production services for the internet</li>
+          <li>Music video production</li>
+        </ul>
+      </div>
+
+      <div class="service-category">
+        <div class="cat-header"><span class="cat-number">04</span>Post-Production & Editing</div>
+        <ul class="service-list">
+          <li>Post-production editing services for video and audio commercials</li>
+          <li>Post-production editing services in the field of music, videos, and film</li>
+          <li>Production of movie special effects</li>
+          <li>Special effects animation services for film and video</li>
+          <li>Animation production services</li>
+        </ul>
+      </div>
+
+      <div class="service-category">
+        <div class="cat-header"><span class="cat-number">05</span>Photography & Imaging</div>
+        <ul class="service-list">
+          <li>Photography services</li>
+          <li>Portrait photography services</li>
+          <li>Consulting services in the field of photography</li>
+          <li>Digital imaging services</li>
+        </ul>
+      </div>
+
+      <div class="service-category">
+        <div class="cat-header"><span class="cat-number">06</span>Audio & Recording</div>
+        <ul class="service-list">
+          <li>Audio and video recording services</li>
+        </ul>
+      </div>
+
+      <div class="service-category">
+        <div class="cat-header"><span class="cat-number">07</span>Entertainment & Digital Content</div>
+        <ul class="service-list">
+          <li>Entertainment services, namely, the provision of continuing program series featuring subjects of comedy, drama, documentaries, and reality television, delivered by global computer network</li>
+          <li>Entertainment services, namely, multimedia production services</li>
+          <li>Providing entertainment information via a website</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <p class="cta-eyebrow">The Final Word</p>
+    <h2>Define Your Next Chapter.</h2>
+    <p>Excellence is a choice. We invite you to discuss how our creative system can elevate your brand to its most potent form.</p>
+    <a href="mailto:hello@hausofsos.com" class="cta-btn">Initiate the Conversation</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span class="footer-trademark">Always Be Saucy.&trade; The creative ethos that powers HAUS OF SOS.</span>
+    <span class="footer-contact"><a href="mailto:hello@hausofsos.com">hello@hausofsos.com</a></span>
+    <span class="footer-legal">&copy; 2026 HAUS OF SOS. A Super Saucy LLC Company.</span>
+  </footer>
+
+<script data-pplx-inline-edit>
+(function(){
+  if(window===window.top)return;
+  function inlineAll(orig,clone){
+    if(orig.nodeType!==1)return;
+    try{
+      var cs=getComputedStyle(orig);
+      var t='';
+      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
+      clone.style.cssText=t;
+    }catch(e){}
+    var oc=orig.children,cc=clone.children;
+    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
+  }
+  function stripExternal(clone){
+    var imgs=clone.querySelectorAll('img');
+    for(var i=0;i<imgs.length;i++){
+      var s=imgs[i].getAttribute('src');
+      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
+    }
+    var all=clone.querySelectorAll('*');
+    for(var i=0;i<all.length;i++){
+      var st=all[i].style.cssText;
+      if(st&&st.indexOf('url(')>=0){
+        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
+      }
+    }
+  }
+  window.addEventListener('message',function(e){
+    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
+    var scrollX=window.scrollX||window.pageXOffset||0;
+    var scrollY=window.scrollY||window.pageYOffset||0;
+    var w=window.innerWidth,h=window.innerHeight;
+    try{
+      var clone=document.documentElement.cloneNode(true);
+      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
+      for(var i=0;i<rm.length;i++){rm[i].remove();}
+      inlineAll(document.documentElement,clone);
+      stripExternal(clone);
+      var html=new XMLSerializer().serializeToString(clone);
+      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
+        +'<foreignObject width="100%" height="100%">'
+        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
+        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
+        +html+'</div></div></foreignObject></svg>';
+      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+      var img=new Image();
+      img.onload=function(){
+        var c=document.createElement('canvas');c.width=w;c.height=h;
+        c.getContext('2d').drawImage(img,0,0);
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.onerror=function(){
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.src=svgUrl;
+    }catch(err){
+      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+    }
+  });
+})();
+</script></body>
+</html>
