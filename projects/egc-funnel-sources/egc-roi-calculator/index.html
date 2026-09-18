@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EGC ROI Calculator | Ashley Rudder</title>
+<meta name="description" content="Calculate the ROI of Employee-Generated Content vs. traditional influencer spend. Built by Ashley Rudder, First Chief Creator Officer in Advertising.">
+<meta property="og:title" content="EGC ROI Calculator | Ashley Rudder">
+<meta property="og:description" content="Your employees are your most undervalued creative asset. See the math.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="calculator-wrapper">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-inner">
+        <div class="brand">
+          <span class="brand-name">Ashley Rudder</span>
+          <span class="brand-sep">/</span>
+          <span class="brand-tool">EGC ROI Calculator</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <p class="hero-label">Employee-Generated Content</p>
+      <h1 class="hero-title">What if your team was your<br><span class="hero-title-big">highest-ROI content channel?</span></h1>
+      <p class="hero-sub">Most brands rent attention through influencers.<br>Your employees can help you own it. With the right system behind them.</p>
+      <p class="hero-sub hero-sub-2">Use this calculator to estimate how much content, efficiency, and savings your team could unlock with an EGC system.</p>
+    </section>
+
+    <!-- Calculator -->
+    <section class="calculator" id="calculator">
+      <div class="calc-grid">
+        <!-- Inputs -->
+        <div class="calc-inputs">
+          <h2 class="calc-section-title">Your Current Creator Spend</h2>
+
+          <div class="input-group">
+            <label for="influencer-spend">Annual influencer / creator spend</label>
+            <span class="input-hint">What you invest each year in external creators, influencers, and paid content partnerships.</span>
+            <div class="input-wrapper">
+              <span class="input-prefix">$</span>
+              <input type="text" id="influencer-spend" inputmode="numeric" value="500,000" aria-label="Annual influencer spend">
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="num-influencers">Number of influencers engaged</label>
+            <span class="input-hint">The number of creators your brand actively briefs and pays over a year.</span>
+            <div class="input-wrapper">
+              <input type="number" id="num-influencers" value="12" min="1" max="200" aria-label="Number of influencers">
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="content-pieces">Content pieces per influencer / year</label>
+            <span class="input-hint">The average number of posts, videos, or assets each creator delivers annually.</span>
+            <div class="input-wrapper">
+              <input type="number" id="content-pieces" value="8" min="1" max="100" aria-label="Content pieces per influencer">
+            </div>
+          </div>
+
+          <h2 class="calc-section-title" style="margin-top: var(--space-10);">Your Internal Content Engine</h2>
+
+          <div class="input-group">
+            <label for="num-employees">Employees activated as EGC creators</label>
+            <span class="input-hint">The number of employees you could realistically activate as content contributors.</span>
+            <div class="input-wrapper">
+              <input type="number" id="num-employees" value="10" min="1" max="500" aria-label="Number of employee creators">
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="posts-per-week">Posts per employee / week</label>
+            <span class="input-hint">The average weekly content output per participating employee.</span>
+            <div class="input-wrapper">
+              <input type="number" id="posts-per-week" value="2" min="1" max="7" aria-label="Posts per employee per week">
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="avg-engagement">Average engagement rate</label>
+            <div class="input-wrapper">
+              <input type="text" id="avg-engagement" value="3.5" inputmode="decimal" aria-label="Average engagement rate percentage">
+              <span class="input-suffix">%</span>
+            </div>
+            <span class="input-hint">Employee content often earns stronger engagement than brand-page content because it feels more human and more trusted.</span>
+          </div>
+        </div>
+
+        <!-- Results -->
+        <div class="calc-results" id="results">
+          <div class="results-header">
+            <h2 class="calc-section-title">Your EGC Model</h2>
+            <p class="results-header-sub">A side-by-side view of your projected EGC performance against your current influencer program.</p>
+          </div>
+
+          <div class="result-card result-card-hero">
+            <span class="result-label">Your EGC Content Multiplier</span>
+            <span class="result-value" id="content-multiplier">10.8x</span>
+            <span class="result-context result-vs" id="content-multiplier-context">vs. your current influencer content output</span>
+          </div>
+
+          <div class="results-grid">
+            <div class="result-card">
+              <span class="result-label">Current Influencer Content / Year</span>
+              <span class="result-value result-value-sm" id="influencer-content">96</span>
+              <span class="result-context result-vs">based on your current program inputs</span>
+            </div>
+            <div class="result-card">
+              <span class="result-label">Projected EGC Content / Year</span>
+              <span class="result-value result-value-sm result-value-accent" id="egc-content">1,040</span>
+              <span class="result-context result-vs">vs. your current influencer program</span>
+            </div>
+          </div>
+
+          <div class="result-card">
+            <span class="result-label">Projected Annual EGC Program Cost</span>
+            <span class="result-value result-value-md" id="egc-cost">$125,000</span>
+            <span class="result-context result-vs">vs. your current annual influencer spend of <span id="influencer-cost-compare">$500,000</span></span>
+          </div>
+
+          <div class="result-card result-card-savings">
+            <span class="result-label">Potential Annual Savings</span>
+            <span class="result-value result-value-md" id="savings">$375,000</span>
+            <span class="result-context result-vs" id="savings-context">vs. your current creator investment</span>
+          </div>
+
+          <div class="result-card">
+            <span class="result-label">Projected Cost Per EGC Content Piece</span>
+            <span class="result-value result-value-md result-value-accent" id="cost-per-egc">$120</span>
+            <span class="result-context result-vs">vs. your current cost per influencer content piece of <span id="cost-per-inf-bottom">$5,208</span></span>
+          </div>
+
+          <div class="result-card result-card-hero result-card-bottom">
+            <span class="result-label">Cost Efficiency Gain</span>
+            <span class="result-value" id="efficiency-multiplier">43x</span>
+            <span class="result-context result-vs">compared to your current influencer model</span>
+          </div>
+
+          <div class="result-footnote">
+            <p>EGC program cost estimates include training, content tools, and light management overhead. Actual costs will vary based on program scope, team readiness, and implementation model.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What This Means -->
+    <section class="what-this-means">
+      <div class="what-this-means-inner">
+        <h2 class="calc-section-title">What this means</h2>
+        <p class="what-this-means-text">You may be sitting on a more scalable and cost-efficient content engine than your current creator mix suggests. The opportunity is not just to reduce spend. It is to create more content, more consistently, from people who already know the brand.</p>
+      </div>
+    </section>
+
+    <!-- The Insight -->
+    <section class="insight">
+      <blockquote class="insight-quote">
+        "Your employees are your most undervalued creative asset.<br>They already know the product. They already have the audience.<br><span class="quote-big">They just need a system."</span>
+      </blockquote>
+      <cite class="insight-cite">Ashley Rudder, First Chief Creator Officer in Advertising<br>2x Cannes Lions Keynote Speaker</cite>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <h2 class="cta-title">Ready to build your EGC engine?</h2>
+      <p class="cta-sub">You don't need a massive rollout to get started. You need the right entry point.</p>
+      <div class="cta-tiers">
+        <div class="cta-tier">
+          <span class="cta-tier-name">Get Your Custom Business Case</span>
+          <span class="cta-tier-desc">A forwardable version of your EGC numbers built for leadership conversations.</span>
+        </div>
+        <div class="cta-tier cta-tier-featured">
+          <span class="cta-tier-name">Book an EGC Strategy Session</span>
+          <span class="cta-tier-desc">A focused working session to assess whether EGC is the right move for your brand.</span>
+        </div>
+        <div class="cta-tier">
+          <span class="cta-tier-name">Explore an EGC Pilot</span>
+          <span class="cta-tier-desc">Start with a small, testable version of EGC before building a full operating system.</span>
+        </div>
+      </div>
+      <div class="cta-action">
+        <a href="https://calendar.app.google/wZrShKZ7oFUNjdsA9" target="_blank" rel="noopener noreferrer" class="cta-button cta-button-primary">Book Your EGC Strategy Session</a>
+      </div>
+    </section>
+
+    <!-- Email Capture -->
+    <section class="email-capture" id="email-capture">
+      <div class="email-capture-inner">
+        <p class="email-capture-label">Not ready to book? No problem.</p>
+        <h2 class="email-capture-title">Get Your Custom Business Case</h2>
+        <p class="email-capture-sub">Drop your email and I'll send your EGC numbers in a format you can forward directly to your CMO, CFO, or leadership team.</p>
+        <div class="beacons-form-wrapper" id="beacons-form">
+          <div id="b00495fa-db91-4e15-9de0-5ca447c04311"></div>
+        </div>
+        <div class="email-capture-button">
+          <a href="#email-capture" class="cta-button cta-button-secondary">Send Me My Business Case</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-name">Ashley Rudder</span>
+          <span class="footer-title">First Chief Creator Officer in Advertising</span>
+        </div>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/ashleyrudder1/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:hello@ashleyrudder.com">Email</a>
+        </div>
+        <div class="footer-attr">
+          <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+  <script>
+    (function () {
+      var s=document.createElement("script");
+      var t=Math.floor(new Date().getTime()/120000);
+      s.type="module";
+      s.async=1;
+      s.src="https://beacons.ai/embeds/emailForm.js?v="+t+"&b=ashley_rudder&f=b00495fa-db91-4e15-9de0-5ca447c04311";
+      document.body.appendChild(s);
+    })();
+  </script>
+<script data-pplx-inline-edit>
+(function(){
+  if(window===window.top)return;
+  function inlineAll(orig,clone){
+    if(orig.nodeType!==1)return;
+    try{
+      var cs=getComputedStyle(orig);
+      var t='';
+      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
+      clone.style.cssText=t;
+    }catch(e){}
+    var oc=orig.children,cc=clone.children;
+    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
+  }
+  function stripExternal(clone){
+    var imgs=clone.querySelectorAll('img');
+    for(var i=0;i<imgs.length;i++){
+      var s=imgs[i].getAttribute('src');
+      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
+    }
+    var all=clone.querySelectorAll('*');
+    for(var i=0;i<all.length;i++){
+      var st=all[i].style.cssText;
+      if(st&&st.indexOf('url(')>=0){
+        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
+      }
+    }
+  }
+  window.addEventListener('message',function(e){
+    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
+    var scrollX=window.scrollX||window.pageXOffset||0;
+    var scrollY=window.scrollY||window.pageYOffset||0;
+    var w=window.innerWidth,h=window.innerHeight;
+    try{
+      var clone=document.documentElement.cloneNode(true);
+      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
+      for(var i=0;i<rm.length;i++){rm[i].remove();}
+      inlineAll(document.documentElement,clone);
+      stripExternal(clone);
+      var html=new XMLSerializer().serializeToString(clone);
+      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
+        +'<foreignObject width="100%" height="100%">'
+        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
+        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
+        +html+'</div></div></foreignObject></svg>';
+      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+      var img=new Image();
+      img.onload=function(){
+        var c=document.createElement('canvas');c.width=w;c.height=h;
+        c.getContext('2d').drawImage(img,0,0);
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.onerror=function(){
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.src=svgUrl;
+    }catch(err){
+      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+    }
+  });
+})();
+</script></body>
+</html>

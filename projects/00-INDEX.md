@@ -28,6 +28,15 @@ Rudder Ranch social strategy → closed by handoff 9/18; the strategy is preserv
 Data Mining on phone → revealed as the CDOS loop build; closed by handoff 9/18, filed in cdos.md.
 Ungrouped small threads → the ledger in ops-infrastructure.md: Wall connector supercharger quotes, Spotify artist discovery, Venue translation, iMac operating system upgrade.
 
+## Standing conflicts (each dies only by Ashley's ruling)
+
+1. Cannes keynote count: the EGC calculator claims "2x Cannes Lions Keynote Speaker"; the canonical-page draft and the audit record carry the single 2025 keynote. Public credential; verify before either ships again.
+2. CDOS module name: the live product says Pressure Test; the vaulted visibility copy says Stress Test.
+3. CDOS price ladder: the stale $9/$97/$297 checklist, the canon card's $147/$297/$497, and the swarmhaus live ladder all exist.
+4. Banquet canonical folder: Banquet Master File versus Claude Code File Share.
+5. Competitor sheet: two copies; the later, larger one presumed canonical.
+6. Positioning doctrine: four vaulted versions; updated-2 presumed canonical.
+
 ## The operating rule
 
 Live chat context does not sync between sessions.

@@ -12,6 +12,14 @@ Content Calendar: LEXICON, the creator-to-marketer field guide.
 Sunday Check-In Ritual exists as the weekly cadence surface.
 PR Asset Library: Brandweek Nov 9-11 Atlanta with the inquiry window open; Cannes 2026 noted.
 
+## The EGC funnel (imported 9/18 from Perplexity archives; era March-May 2026; live state unverified)
+
+A built B2B funnel exists for the EGC consulting lane, constructed in Perplexity Computer and imported as source.
+The EGC ROI Calculator (four files, vaulted at projects/egc-funnel-sources/egc-roi-calculator/): influencer-spend versus employee-content math, Creator Darwinism OS aesthetic, a "2x Cannes Lions Keynote Speaker" credential line, a Beacons email embed, a calendar booking path, and a two-CTA close (Book Your EGC Strategy Session / Send Me My Business Case).
+The thread record around it names: Beacons CRM capture, Google Calendar booking, a LinkedIn featured-section thumbnail, coach Lara's positioning directives (turn employees into revenue, talk Cannes constantly, post straight at CEOs, run three headline variants), a "Map Your Influence Gap" free-call offer with a Comment-INFLUENCE mechanic, and a weekly LinkedIn content engine with freshness rules.
+Unverified as of import, treated as unknown until checked: whether the calculator is deployed live anywhere, whether the Beacons embed still captures, whether the booking path works, and whether Map Your Influence Gap is still the offer.
+Era warning: all of it dates March through May 2026. Evidence, never current state.
+
 ## Open loops
 
 1. The two CRM pitches marked this-week: confirm sent, or send.
@@ -19,6 +27,9 @@ PR Asset Library: Brandweek Nov 9-11 Atlanta with the inquiry window open; Canne
 3. Rudder Ranch social strategy thread: unfinished; needs its ruling and a home.
 4. Brandweek: the speaking inquiry.
 5. Wire the Sunday ritual to these files so the weekly check-in reads and updates them.
+6. Verify the EGC funnel's live state end to end (deploy URL, Beacons capture, booking), then rule whether it relaunches as-is or refreshed.
+7. The Cannes-count conflict on the index blocks any reuse of the calculator's credential line until ruled.
+8. The Perplexity thread "Executive PR Strategy Setup" holds the PR strategy; it lands at the Visibility & Press desk on export or paste.
 
 ## Next action
 
