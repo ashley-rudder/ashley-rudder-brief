@@ -20,7 +20,7 @@ Doc: https://docs.google.com/document/d/15GnNLrMpTIjeH1oOVWy23G3nn6iVcegvnKqGhRm
 It carries the full structure: 19 sections, every table, every WHAT THIS ACTUALLY MEANS block with its "Say it like this" lines, plus a working-copy header telling Odalys to comment on any line or edit in suggesting mode.
 It sits in the Drive share folder (1cBP5VCR5PXns6kVoQi3h_YJSKU6gtKTl), owned by Ashley's account, shared to nobody.
 Ashley shares it to Odalys herself; nothing sends without her word.
-Sync order when a pass is agreed: Doc first, then the published artifact page, then the 816-line memo on the branch. One direction, no drift.
+Sync order RULED by Ashley 9/18: as the Doc updates, the Countdown updates. Doc first, then the published artifact page, then the 816-line memo on the branch. One direction, no drift.
 Adjacent asset, filed here so it stops floating: the Odalys sponsorship outline Doc (1TIA3j7bH1XJ8f9lQwXAJZFoTeOfw1_pBTV753Gqh148) is the Beloved partnership lane, not the Spotify deck. It is live work and needs its own home once Ashley rules where it lives.
 
 ## Magic Box (35-page deck read in full 9/18)
@@ -42,7 +42,10 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Cadence
 
-Daily, until presented: memo currency, the presentation asset, the door strategy, rehearsal material.
+Daily, until presented, in this order:
+1. The Dossier sweep (projects/countdown-dossier.md): capture anything Spotify put out in the last day, verify it, log it with its memo implications. Ruled by Ashley 9/18.
+2. The Doc watch: check the Working Copy Doc's modifiedTime via Drive metadata. A change means a pass is in motion; read the delta and stage the Countdown updates for Ashley's word.
+3. Then memo currency, the presentation asset, the door strategy, rehearsal material.
 
 ## Rules
 
