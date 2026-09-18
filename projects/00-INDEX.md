@@ -29,3 +29,10 @@ Ungrouped small threads → the ledger in ops-infrastructure.md: Wall connector 
 Live chat context does not sync between sessions.
 These files are what syncs.
 End of any working session: update the project file, commit, push.
+
+## The end state (ruled by Ashley 2026-09-18)
+
+Conversations happen on clean desks: one session per lane, reading its project file on open, writing it on close.
+Old threads get the closing handoff (projects/handoff-protocol.md), then archive; the sidebar holds desks, not history.
+This folder is the central source of truth, and every other surface points here.
+Once the thread sweep completes, Sable runs the consolidation pass: every handoff merged into these files, duplicates killed, then the reckoning table with four verdicts. Kill. Delegate. Calendar. Do.
