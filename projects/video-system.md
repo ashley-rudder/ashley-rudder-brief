@@ -25,7 +25,8 @@ The pipeline in the video: an AI assistant connected to the DaVinci Resolve MCP,
 One chat brief runs the whole edit: cut the pauses, fix and normalize audio, light music bed, captions in his font matched to voice cadence, color correct against the references, b-roll images placed to match captions, images fetched by the agent's own browser access.
 Verified 9/18: DaVinci Resolve 21.1 shipped September 8, 2026 with a NATIVE MCP server (Studio edition), File > Setup AI Assistants, 88 tools across edit, color, Fairlight, media pool and render queue, and the named supported assistants include Claude and Claude Code.
 Two lanes to the same smoothness:
-1. Mac lane, the literal demo: Resolve Studio 21.1 on Ashley's Mac, Setup AI Assistants, a local Claude Code desk driving it, video-grade-recipes.md plus four reference cuts as the style law. Studio license is the prerequisite to confirm.
+1. Mac lane, the literal demo: Resolve Studio 21.1 on Ashley's Mac, Setup AI Assistants, a local Claude Code desk driving it, video-grade-recipes.md plus four reference cuts as the style law.
+Mac lane order of operations, set 9/18: first the macOS upgrade (the parked iMac thread in ops is now a prerequisite; check Resolve 21.1's minimum macOS before buying), then Studio $295 one-time (Blackmagic direct ships a physical activation card; resellers like B&H or ProCam email keys same day; avoid the Mac App Store build until its MCP support is confirmed; the free edition has no MCP server), then activate, update to 21.1, File then Setup AI Assistants, then the local desk.
 2. Cloud lane, proven tonight: the Higgsfield sandbox carries ffmpeg, sox, faster-whisper and caption fonts, enough for a brief-in cut-out pipeline (pause-cut from word timestamps, loudness normalize, styled captions, music bed, LUT) without her Mac in the loop.
 Both lanes obey the babysitting rule below.
 

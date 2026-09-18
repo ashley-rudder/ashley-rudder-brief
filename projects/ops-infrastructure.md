@@ -29,7 +29,7 @@ Open loop: authorize the three, then a desk verifies the swarm-haus deploy end t
 
 The operator environment's network policy blocks direct reads of, at minimum: tiktok.com, hyperstudios.us, themarketingacademy.org, icloud.com, zuryhollywood.com, zuryhair.com, leadiq.com, swarm-haus.vercel.app, huggingface.co, openaipublic.azureedge.net.
 Server-side connectors (WebSearch, Gmail, Drive, Vercel, VidIQ, Higgsfield) are unaffected; the wall only stops in-container fetches.
-The one fix, Ashley's two minutes: claude.ai/code, this environment's settings, network access, allow all traffic (or add the domains above). That single change unblocks article reads, TikTok link resolution, iCloud notes, and local Whisper model downloads.
+The one fix, Ashley's two minutes: claude.ai/code, Environments, the environment named Default (the only one, currently on the "trusted network access" tier), Network access, switch to all traffic (or add the domains above). New sessions and fresh containers inherit it; sessions already running keep the old wall until they restart. Docs: https://code.claude.com/docs/en/claude-code-on-the-web
 Until then: TikTok links need the full @handle/video URL, and walled articles arrive by PDF or paste into Drive.
 Audio input is SOLVED as of 9/18: voice memos transcribe via the Higgsfield sandbox (faster-whisper preinstalled there; media_upload presigned PUT works from the container; S3 and CloudFront are reachable). Voice memos are an official input channel now.
 
