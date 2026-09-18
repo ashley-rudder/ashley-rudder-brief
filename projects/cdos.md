@@ -77,6 +77,15 @@ April 23: Lara (hello@ladigitalmx.com, LA Digital MX, the coach from the EGC arc
 The fuse this lights: creatordarwinism.ai currently serves a 403 behind Vercel deployment protection. The beta cohort's own front door is walled. The 403 flip stopped being cosmetic the moment these fourteen names surfaced.
 The play once the price is ruled: a founding-member letter to the cohort that owns the quiet months, reopens the door, and honors their April yes at founding terms. They are the warmest list this product has.
 
+Founding-tester feedback recovered in full (May 11 email; name in the Gmail record, kept out of this file until this repo goes private):
+What she praised: Head Down Mode's accountability without overthinking, the deployment blocks and CTA analysis structure, and the reframe of a comment as a signal instead of a minor interaction.
+What she asked for, mapped to current doctrine:
+1. Deeper creator discovery before strategy, with her exact intake questions: what makes your perspective different, what authority you're building, what a visitor should take away, and whether you're building community, education, consulting, products, thought leadership, or influence. This is the revisitable-Archetype ruling, specced by a user.
+2. Archetype transparency: she never understood why the system chose her personality; show the profile types and the why.
+3. Voice personalization: the generated hook "didn't feel like something I would say to my audience"; she softened the tone after the 48-hour window, added visuals, and it performed better, which independently validates the 24-hour real-data prompt ruling.
+4. Kill the letter grades: a C after shipping discouraged her. Her replacement spec: Resonance, Momentum, Clarity, Audience Connection, Conversion Potential. This IS the loop handoff's unbuilt "warmer report copy," written by a real user in May.
+She holds Creator access free for life, granted 7/19 ("You built this with me"), the template precedent for the founding-member letter.
+
 ## Next action
 
 Ashley rules the price. Then the desk runs the rail end to end: product in Stan, Zapier pointed with the secret, one real test purchase through webhook, claim, credits, onboarding, chat.
