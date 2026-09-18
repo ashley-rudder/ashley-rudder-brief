@@ -37,6 +37,17 @@ Ungrouped small threads → the ledger in ops-infrastructure.md: Wall connector 
 5. Competitor sheet: two copies; the later, larger one presumed canonical.
 6. Positioning doctrine: four vaulted versions; updated-2 presumed canonical.
 
+## Portfolio ruling (PROPOSED by Sable 9/18, awaiting Ashley's word)
+
+Four estates exist: CDOS, HAUS OF SÔS, The Banquet, Swarm Haus. One operator exists.
+Proposed sequence, one register at a time:
+1. CDOS is the register this quarter: price ruled, rail tested, doors flooded. The only estate with a full funnel already built.
+2. HAUS OF SÔS runs its existing clocks (Modern Maiden auction, ShopMy rails) and takes no new builds; it is the deal-flow lane.
+3. The Banquet stays deliberately pre-revenue on its daily cadence; feedback before monetization was Ashley's own ruling, and premature selling damages the register that matters there, trust.
+4. Swarm Haus serves as CDOS's front of house (it already hosts the landing, the Live tool, and the Stripe rail); its separate-product ambition parks until the gate.
+The gate: a second estate gets its own monetization push only after CDOS holds $2,000 MRR for two consecutive months.
+IP note: leverage requires ownership; the four-brand trademark filing sits unanswered at Denney Law, and The Banquet is not yet in any filing.
+
 ## The operating rule
 
 Live chat context does not sync between sessions.
