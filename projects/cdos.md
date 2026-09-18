@@ -38,6 +38,16 @@ CORRECTION logged 9/18: the handoff names the live Supabase as ohgcayvyvwtybdosw
 Decisions waiting on Ashley: the deploy path (direct apply versus PR; Sable recommends the PR lane), bot_ash board and chat IDs in Admin Settings (Ash errors on tap until set), and migration verification before anything depends on share_token or the proof columns.
 Funnel receipts from the thread: first TikTok Live, "Digital Products 101," 44 minutes, 124 views, 11 comments, 2 gifters, 2 new followers, no swarmhaus takers, attributed to the 3:30 PM slot. swarmhaus.com/cdos-live.html runs outside this repo and its source location is unknown. The swarmhaus price ladder reads $49 MVP through $2,500 high-ticket, labeled inference from a marketing page.
 
+Raw-thread supplement, filed 9/18 after Ashley pasted the full Data Mining on phone transcript. The loop doctrine in full:
+Users experience one relationship that shifts modes, never four doors. The loop: Identity → Build → Verdict → Ship → Signal → Refine, looping back to Build.
+Rulings the compressed handoff lost, now on the record:
+- Pressure Test forks into two explicit, user-chosen modes. Gut Check: no numbers required, directional verdict, framed provisional. Signal Check: real numbers required, decisive and citable. The seed exists in code: PressureTestIntake's optional numeric fields and the backend confidence level.
+- Lock In becomes a snapshot action, never a termination. Today it writes the report, marks the session complete, and routes the user away; the report should pin to the living thread instead.
+- Archetype Navigator is the product's strongest moment (94 percent completion per Ashley's memo) and becomes revisitable, quarterly or whenever real numbers stop matching the self-description. call-poppy-api already injects profiles.archetype into every prompt, so updates propagate with no wiring.
+- Onboarding's one job is setting the loop expectation in one sentence after Archetype completes: build your offer, get a verdict, ship it, come back with what happened, and it gets sharper each time.
+Architecture map from that session: golden_offer and judge already share sessions and cd_messages through one Chat page; Archetype is a separate scripted flow writing profiles.archetype once; weekly_sessions is a dormant table with no UI and no function.
+WARNING, second occurrence of the same trap: that session claimed live access to product data through the connector project ohgcayvyvwtybdoswpox and treated it as this app's database. Standing rule: the connector-visible Supabase is never the CDOS product (the product is wjhvuumhcibzlnfbayes); ohgcayvyvwtybdoswpox belongs to swarm-haus, whose own profiles tables make the confusion convincing. Any live-data claim sourced through the connector is invalid for this product.
+
 ## Next action
 
 Ashley rules the price. Then the desk runs the rail end to end: product in Stan, Zapier pointed with the secret, one real test purchase through webhook, claim, credits, onboarding, chat.
