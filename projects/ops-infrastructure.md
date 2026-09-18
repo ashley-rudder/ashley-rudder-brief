@@ -31,6 +31,13 @@ Wall connector supercharger quotes. Spotify artist discovery. Venue translation.
 Data Mining on phone: closed 9/18 by handoff; it was the CDOS loop build, filed in cdos.md.
 Each gets ten minutes and a verdict: finish, calendar, or close.
 
+## Clocks running (dated commitments every desk plans around)
+
+Marketing Academy scholarship, founder category: final interview completed 9/18, went the distance.
+Decision lands within five to seven working days of 9/18, so roughly 9/25 to 9/29.
+A yes ramps immediately: cohort reveal party in Manhattan, then straight into a four-day boot camp; roughly eight residential days across a seven-month program, plus six to eight coaching hours and eight mentor sessions.
+The program's own rule is all-in attendance, so a yes bends every daily desk's calendar around boot-camp weeks; the one-register discipline holds through it.
+
 ## Standing state
 
 The clock hook stamps every operator turn in chatwise-thought-hub.
