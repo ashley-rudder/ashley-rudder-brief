@@ -42,20 +42,38 @@ Cultural Jetstream and the creator-to-boardroom glossary are real but unlocked. 
 
 ## 05 · Visual direction (in exploration, not locked)
 
-Two competing palette directions are on the table.
+Ashley's word 9/18: Sandy's workflow produced the scattered first-round boards, so she took the exercise to Flora. Flora results are incoming.
+Her word on the reference images: they record what she is attracted to as she lands the CDOS look and feel. They are taste signals, not candidates to vote between.
 
-Direction A, from the palette sheet (`palette-teal-slate.png`):
-Pure White #F4F4F4. Glass Teal #4A6C6D. Ice Teal #DCE8E8. Steel Silver #B0B1B3. Fog Grey #DCDCDC. Deep Slate #2E3A3A.
-Cool, muted, editorial.
+### What the taste says, read across everything sent
 
-Direction B, from the CDOS board exploration (`moodboard-cdos-board.jpg`):
-Cream ground, black condensed display type, and a swatch row of green, slate blue, tan, signal orange, black.
-Materials named on the board: matte concrete, raw paper, brushed metal, woven linen, charcoal fabric.
-Tone words on the board: rigorous, productized, category-defining, expert, operator.
+Every reference shares five threads.
+1. Print-spec editorial language. Spec sheets, annotation blocks, swatch grids, thin rules. The Nike poster and the brand-book layouts both treat the page like a technical document. That is the "operator file" made visual.
+2. Cream and off-white grounds with one deep anchor. Aubergine, raisin black, deep slate, merlot, navy. Never bright-on-bright.
+3. Muted, material color. Every palette she picked is desaturated and tactile: earth, teal, powder blue, gold-taupe. The Flora magenta is the one saturated outlier, and even it sits on a near-black ground.
+4. Condensed black authority type at oversized scale. Jil Sander, the CDOS wordmark, the Flora boards. The name is the design.
+5. Objects as brand carriers. Brass wax seal, fountain pen nib, glass prism, brass coin. Physical, quiet, expensive. Instruments of signing and sealing. That is inference, and it rhymes with Sable: precision and signature work.
 
-The mood boards are AI-generated explorations. The type on them is garbled and the board misspells the name as "Ashley Ruidder." They rule for feeling only, never for copy.
-The editorial-cream board (`moodboard-editorial-cream.jpg`) and the light/dark template pair (`moodboard-template-light-dark.jpg`) both argue for a print-editorial layout language: thin rules, swatch grids, black and white portrait photography.
-Inference: the shared thread across all three boards is cream or off-white ground, black authority type, and one restrained accent. The open ruling is teal versus the green/orange CDOS row. Ashley calls it.
+Round 1, from Sandy's workflow (feeling only; type garbled, one board misspells the name):
+- `moodboard-cdos-board.jpg`: cream ground, black condensed type, green/slate/tan/orange/black row, tone words rigorous, productized, category-defining, expert, operator.
+- `moodboard-editorial-cream.jpg`, `moodboard-template-light-dark.jpg`: print-editorial layout language, thin rules, swatch grids, black and white portraiture.
+- `palette-teal-slate.png`: Pure White #F4F4F4, Glass Teal #4A6C6D, Ice Teal #DCE8E8, Steel Silver #B0B1B3, Fog Grey #DCDCDC, Deep Slate #2E3A3A.
+
+Round 2, refined boards and gathered references:
+- `board-cdos-refined-earth.webp`: the most resolved board so far. Palette White Chocolate #F0EBD8, Morning Blue #B2C2BF, Shadow #7A6E58, Raisin Black #2A242B. CREATOR DARWINISM wordmark in black condensed caps on cream. Object: brass wax seal on sage linen. Application: "FOUR MONTHS TO YES." poster over a silhouette portrait.
+- A fuller earth palette spec sheet arrived in chat with print values: White Chocolate #EBE5DC, Morning Blue #919C9D, Shadow #868365, Raisin Black #24221E, plus Moss #31331F, Sand #E8E2DA, Wood #D6C9B4, Navy #455763, Oat #D5CDBC, Olive #645D3B. The same four names carry different hexes on the board versus the spec sheet. One ruling needed.
+- `board-teal-materiality.webp`: glass/white/teal world. Materiality and precision, product and system, environment, brand essence.
+- `ref-powder-blue-merlot.jpg`: powder blue and merlot reference (Pantone Ice Melt 13-4306, Merlot 19-1534; #E3DFCE, #94B1C8, #4C050C, #1A0905).
+- `ref-jil-sander-backdrop.jpg`: Jil Sander campaign backdrop, editorial reference.
+- `ref-palette-92-gold.webp`: gold/tan/taupe/slate/off-white palette reference (#EFCC6E, #CFBEAE, #968A79, dark, #F6F5F_).
+- A Nike Air Max '97 spec-sheet poster arrived in chat: dense annotation layout, oversized wordmark, details block. Layout reference for the "operator file" language.
+- Two Cosmos motion references arrived as video: a Jil Sander campaign film (83s, motion-blur editorial with lowercase captions) and an abstract striped-form loop on navy (26s).
+
+Round 3, Flora explorations (in chat, files pending):
+One board system in three colorways: magenta on aubergine, blue on powder, teal on black.
+Constant elements across all three: quarter-circle geometric checker pattern, ASHLEY RUDDER in condensed caps, fountain pen nib object, silhouette portrait card with the line "Turn knowledge into profit."
+That tagline is the positioning sentence compressed. Worth keeping whatever palette wins.
+No ruling until Ashley shows the Flora results she called out.
 
 ## 06 · What the competitor data says about positioning
 
@@ -86,10 +104,10 @@ Video 2: the M·A·C pitch teardown. Trust-builder, filmed second because story 
 
 ## 09 · Open items
 
-1. Palette ruling: teal/slate versus the CDOS green/orange row.
-2. Next session date with Sandy.
-3. Sandy's current assignment and due date. Inference from the drop: the visual identity layer is the active work, following the Blueprint's own "run the Brand Kit next" instruction. Unconfirmed.
-4. Which surface holds Ashley's working notes.
-5. Re-send one of the two course videos; the uploads duplicated.
-6. Confirm the canonical competitor sheet copy, retire the duplicate.
-7. Rule where the finished brand book lives. Drive master with a repo mirror is the standing pattern.
+1. Flora results: Ashley shows them, then the look gets landed from taste plus Flora output.
+2. Earth palette hex ruling: board values (#F0EBD8 family) versus spec-sheet print values (#EBE5DC family). Same four names, different numbers.
+3. Next session date with Sandy, and the current assignment's due date.
+4. The Finding Competitors/Creators course video still has not arrived. Both 9/18 uploads carry identical bytes to the VidIQ walkthrough (checksum c0b48b6f). The export source keeps grabbing the same file.
+5. Confirm the canonical competitor sheet copy, retire the duplicate.
+6. Rule where the finished brand book lives. Drive master with a repo mirror is the standing pattern.
+7. Video transcription stays blocked in this environment: the egress policy denies huggingface.co, so no speech model can be fetched. Allowing huggingface.co in the environment's network policy on claude.ai/code unlocks full course-video transcripts. Frames and visual reads work today.
