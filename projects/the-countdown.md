@@ -18,8 +18,10 @@ Status in the memo's own words: concept, pressure-tested and independently verif
 Concept and copy is what Ashley and Odalys are working right now, and it happens in a Google Doc built from the published artifact.
 Doc: https://docs.google.com/document/d/15GnNLrMpTIjeH1oOVWy23G3nn6iVcegvnKqGhRmJsG8/edit
 It carries the full structure: 19 sections, every table, every WHAT THIS ACTUALLY MEANS block with its "Say it like this" lines, plus a working-copy header telling Odalys to comment on any line or edit in suggesting mode.
-It sits in the Drive share folder (1cBP5VCR5PXns6kVoQi3h_YJSKU6gtKTl), owned by Ashley's account, shared to nobody.
-Ashley shares it to Odalys herself; nothing sends without her word.
+It sits in the Drive share folder (1cBP5VCR5PXns6kVoQi3h_YJSKU6gtKTl), owned by Ashley's account.
+Ashley shared it to Odalys 9/18, her word in chat, so the collaboration is live.
+Sable holds the day-one export as the diff baseline, and the Doc's own version history is the canonical record.
+The watch catches direct edits and accepted suggestions through content diffs; pending suggestions and comments live only in the Doc UI, so those eyes are Ashley's until accepted text lands.
 Sync order RULED by Ashley 9/18: as the Doc updates, the Countdown updates. Doc first, then the published artifact page, then the 816-line memo on the branch. One direction, no drift.
 Adjacent asset, filed here so it stops floating: the Odalys sponsorship outline Doc (1TIA3j7bH1XJ8f9lQwXAJZFoTeOfw1_pBTV753Gqh148) is the Beloved partnership lane, not the Spotify deck. It is live work and needs its own home once Ashley rules where it lives.
 

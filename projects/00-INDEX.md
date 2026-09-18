@@ -20,6 +20,7 @@ Rule: this index gains a line the moment a new thread opens, and loses it only w
 | Rudder Ranch | projects/rudder-ranch.md | Captured; desk on Ashley's word | Awaiting the defining ruling |
 | The Countdown (Spotify pitch) | projects/the-countdown.md | Pitch desk, Working Copy Doc (Ashley × Odalys), chatwise branch claude/spotify-artist-discovery-concept-1rziam | Daily until presented |
 | Ops and infrastructure | projects/ops-infrastructure.md | Seven repos, connectors, devices | As needed |
+| Interview prep, feedback, implementation | projects/interview-prep.md | Interview desk, transcripts by upload/Fireflies/Grain | Before and after every high-stakes conversation |
 
 ## Thread map (claude.ai sidebar as Ashley reviewed it 9/17)
 
