@@ -9,6 +9,8 @@ The 8:45 AM verification sweep runs in the operator session.
 Weekly ShopMy receipts pull: Thursdays 6:30 PM CT; the table lives in the canonical doc.
 Baseline receipts: 42 clicks, 27 to YWIGS products, $0 captured, week one.
 
+9/18: the September 11 build thread closed by handoff; its live assets (landing page, negotiation card, aesthetic kit, waitlist form, Amazon link) are recovered and logged in the canonical doc.
+
 ## Open loops
 
 1. Today: add the literal SKU (Zury Sis Hollywood Feather Crochet, Ocean 18, color 2, stocked at Walmart and Ebonyline) to ShopMy and the buying guide. Attribution starts without a single negotiation.

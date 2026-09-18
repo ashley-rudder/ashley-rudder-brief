@@ -21,7 +21,8 @@ Rule: this index gains a line the moment a new thread opens, and loses it only w
 ## Thread map (claude.ai sidebar as Ashley reviewed it 9/17)
 
 Pinned: CDOS Buildout → cdos.md. BIG Brain + Phone Connection → ops-infrastructure.md. Sable portable brief → this repo.
-Ungrouped: Mobile audio editing tools → video-system.md. Rudder Ranch social strategy → brand-pr-revenue.md.
+Ungrouped: Mobile audio editing tools → video-system.md.
+Rudder Ranch social strategy → closed by handoff 9/18; the strategy is preserved in projects/rudder-ranch.md, now its own project.
 Data Mining on phone → revealed as the CDOS loop build; closed by handoff 9/18, filed in cdos.md.
 Ungrouped small threads → the ledger in ops-infrastructure.md: Wall connector supercharger quotes, Spotify artist discovery, Venue translation, iMac operating system upgrade.
 
