@@ -48,6 +48,33 @@ Decision lands within five to seven working days of 9/18, so roughly 9/25 to 9/2
 A yes ramps immediately: cohort reveal party in Manhattan, then straight into a four-day boot camp; roughly eight residential days across a seven-month program, plus six to eight coaching hours and eight mentor sessions.
 The program's own rule is all-in attendance, so a yes bends every daily desk's calendar around boot-camp weeks; the one-register discipline holds through it.
 
+## The stack ledger (quarterly cost map, opened 9/18; correct any line and this updates)
+
+Verified in-session 9/18:
+Supabase, HAUS OF SÔS org: Pro plan, $25/mo, $75/quarter.
+Vercel: Hobby, $0.
+Higgsfield: Pro plan active, 413.82 credits on hand; plan price unverified, standard Pro runs $29 to $49/mo, call it $87 to $147/quarter until Ashley confirms.
+VidIQ: paid credit plan active (150 renewable monthly, resets 10/14); tier price unconfirmed, $57 to $147/quarter band.
+DaVinci Resolve Studio: $295 one-time this quarter, zero recurring, updates included.
+
+Known subscriptions, price needs Ashley's one-word confirm:
+Claude: the dominant line and the machine itself; Max 5x is $100/mo, Max 20x is $200/mo, so $300 or $600/quarter.
+Lovable (CDOS builder): about $25/mo presumed, $75/quarter.
+Perplexity Pro: $20/mo presumed, $60/quarter.
+Google Workspace (hello@ashleyrudder.com): about $8/mo presumed, $25/quarter.
+Microsoft 365 (OneDrive second brain): about $10/mo presumed, $30/quarter.
+Second Supabase org (the CDOS product project behind the Lovable login): free or Pro, $0 to $75/quarter, only her dashboard can say.
+Domains (creatordarwinism.ai about $90/yr, two .coms about $15/yr each): about $30/quarter amortized; actual hits depend on renewal dates.
+Presumed free tiers pending audit: Notion, Airtable, Canva, Miro, Slack, Fireflies, Grain, ShopMy, iCloud small.
+
+Register stack, turns on when CDOS opens:
+Stan Store: $29/mo basic or $99/mo Pro, so $87 to $297/quarter; required for the Stan rail.
+Zapier: free tier covers roughly 100 purchases a month, $0 now, about $20/mo at scale.
+Stripe: no fixed fee, 2.9% plus 30 cents per transaction.
+
+The quarter, honestly banded: roughly $850 to $1,300 recurring depending mostly on the Claude tier, plus $295 one-time for Resolve, plus $87 to $297 register stack once live. Call the whole machine $1,150 to $1,900 for the quarter.
+The register math that matters: at the recommended $147 founding price, eight to thirteen members pay for the entire quarter including the license, and fourteen founding names are already waiting behind the 403.
+
 ## Standing state
 
 The clock hook stamps every operator turn in chatwise-thought-hub.
