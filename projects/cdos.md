@@ -25,7 +25,7 @@ Onboarding, as the code actually runs it: Archetype Navigator chat. Name, three 
 3. Supabase MCP in this session reaches project ohgcayvyvwtybdoswpox only, not wjhvuumhcibzlnfbayes. Live checks of tier URLs, webhook secret existence, and paid_users rows need dashboard eyes or a connector scoped to the Lovable project.
 4. Onboarding: Ashley-led copy and flow edit. Shortlist delivered 9/18: voice-ban violations in onboardingData.ts (15 em-dash occurrences, several "isn't X. It's Y." derivatives), one-shot save means drop-off loses everything (onboarding-diagnostics exists because of this), profile save fires only on bot choice so closing at the reveal loses the profile, offer-angle card computes from placeholder inputs before Block 2 answers exist.
 5. Pricing: rule the program ladder. The old $9 / $97 / $297 checklist ladder is stale and carries no ruling. The repo canon card card-02-2 carries $147 / $297 / $497 for solo creators. The Notion IP Library services ladder (Operator $500 through EGC Intensive $52,500/mo) is a separate decision.
-6. creatordarwinism.ai serves a 403: Vercel deployment protection on the swarm-haus project, not a broken build. One setting flip when Ashley wants it public.
+6. RESOLVED 9/18 by live check: creatordarwinism.ai returns 200 and the VIP comp link returns 200. The earlier 403 observation no longer holds; the front door is open.
 7. The 17-item go-live checklist needs a fresh audit against today's code.
 
 ## Inbound handoff: CDOS Loop & Live Launch (filed 9/18, from the "Data Mining on phone" thread)
@@ -108,6 +108,34 @@ What she asked for, mapped to current doctrine:
 3. Voice personalization: the generated hook "didn't feel like something I would say to my audience"; she softened the tone after the 48-hour window, added visuals, and it performed better, which independently validates the 24-hour real-data prompt ruling.
 4. Kill the letter grades: a C after shipping discouraged her. Her replacement spec: Resonance, Momentum, Clarity, Audience Connection, Conversion Potential. This IS the loop handoff's unbuilt "warmer report copy," written by a real user in May.
 She holds Creator access free for life, granted 7/19 ("You built this with me"), the template precedent for the founding-member letter.
+
+## PLATFORM DATA, read from the admin dashboard 9/18 (the real product picture)
+
+Aggregate: 25 total users, 18 active, 105 sessions, 1,063.63 credits consumed.
+Tier split: 12 monthly, 10 free, 2 single, 1 ultra. Fifteen accounts sitting on paid tiers contradicts "no live monetization yet" and needs Ashley's answer before anything else in the money lane: comped, manually assigned, or did money actually move?
+Bot usage: Golden Offer 58, Pressure Test 46, IP Vault 1. The Vault is effectively unused despite being the ingest step the marketplace vision depends on.
+
+THE FINDING THAT OUTRANKS EVERYTHING ELSE: zero reports generated this month and zero last month, across a charted window holding real session activity, against 105 lifetime sessions. The loop has never closed for anyone in that window. Users engage heavily and never reach the artifact.
+Corroborating signal: per-user average session durations are wildly inconsistent, several in the multi-day to multi-week range, which reads as sessions that open and never complete rather than as long engagement. One account shows a sane 46-minute average, so completion is possible and rare.
+This is the same disease the single free-tier record showed at the door, now visible across every tier.
+
+GROWTH IS AT ZERO: zero new signups this month against two last month, one active user, one session started.
+DOOR STATUS CORRECTED 9/18 by live check: creatordarwinism.ai returns 200, and the VIP comp link at /vip/<slug> returns 200. The earlier 403 note in this file is STALE and the front door is open today. So zero signups is not a locked door; it is zero traffic being sent to an open one, which puts the growth problem squarely in the content and distribution lane rather than the product lane.
+
+THE ENGAGEMENT IS MOSTLY SELF-GENERATED: three of the top four accounts by message volume are Ashley's own addresses. The genuine external signal is roughly five people, one of them the founding tester whose written May feedback already specifies the report fix (kill letter grades; score on Resonance, Momentum, Clarity, Audience Connection, Conversion Potential).
+
+Implications, in order:
+1. Seating testers into a loop that never closes produces more open sessions and still zero artifacts. Completion gets fixed before invitations go out.
+2. The 403 flip costs one setting and reopens the only front door.
+3. The loop rebuild on branch claude/data-mining-phone-v3vft1 already targets this; its "Lock In becomes a snapshot, never a termination" ruling is aimed straight at the report problem, and the warmer report copy it leaves unbuilt is the founding tester's May spec.
+
+## THE COMP RAIL, read directly from the admin console 9/18 (no longer theoretical)
+
+Admin > VIP shows the rail live and configured: Active toggle on, a daily slug set, no daily code set, and Grants tier set to tier_single. The console's own copy states the contract plainly: anyone who visits the slug URL or enters the code gets ONE Golden Offer Interview, then is prompted for a testimonial. The field help confirms the default is tier_single, one interview.
+So the comp rail hands a tester exactly one session, the same wall the free tier does. Confirmed, not inferred.
+THE FIX IS ONE TEXT FIELD, no deploy, no code: change Grants tier from tier_single to a tier with a real allotment (tier_monthly is the obvious candidate given the tier split), save, and confirm what that tier actually grants before inviting anyone.
+One more problem the console exposes:
+The rail's post-session ask is a TESTIMONIAL, which is a marketing asset. Ashley's stated need is FEEDBACK, which is a product input. The mechanism she built collects praise from people who finished; the thing she needs is critique from people who did not. That mismatch is a plausible reason the feedback has not arrived, and changing the ask costs a copy edit.
 
 ## THE CREDITS WALL, confirmed in live admin data 9/18 (blocks seating testers)
 
