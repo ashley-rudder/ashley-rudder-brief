@@ -26,7 +26,11 @@ One chat brief runs the whole edit: cut the pauses, fix and normalize audio, lig
 Verified 9/18: DaVinci Resolve 21.1 shipped September 8, 2026 with a NATIVE MCP server (Studio edition), File > Setup AI Assistants, 88 tools across edit, color, Fairlight, media pool and render queue, and the named supported assistants include Claude and Claude Code.
 Two lanes to the same smoothness:
 1. Mac lane, the literal demo: Resolve Studio 21.1 on Ashley's Mac, Setup AI Assistants, a local Claude Code desk driving it, video-grade-recipes.md plus four reference cuts as the style law.
-Mac lane order of operations, set 9/18: first the macOS upgrade (the parked iMac thread in ops is now a prerequisite; check Resolve 21.1's minimum macOS before buying), then Studio $295 one-time (Blackmagic direct ships a physical activation card; resellers like B&H or ProCam email keys same day; avoid the Mac App Store build until its MCP support is confirmed; the free edition has no MCP server), then activate, update to 21.1, File then Setup AI Assistants, then the local desk.
+Mac lane hardware gate, verified 9/18 evening and it supersedes the earlier order: Resolve 21.1 on Mac requires macOS 15 Sequoia AND Apple Silicon; Intel Macs are outside the 21.1 baseline entirely.
+The iMac in the ops ledger is an OCLP machine, meaning Intel, so it cannot run Resolve 21.1 even after the 3-hour OS jump; the OCLP upgrade buys that machine nothing for this lane.
+The gate check is Apple menu, About This Mac: a chip line reading Apple M-anything is a green light; a line reading Intel kills the local lane on that machine.
+Green light order: buy Studio $295 one-time from a key-emailing reseller (B&H, ProCam; Blackmagic direct ships a physical card; avoid the Mac App Store build until its MCP support is confirmed; the free edition has no MCP server), install, activate, File then Setup AI Assistants, then the local Claude Code desk with the recipes doc and four reference cuts.
+Intel-only outcome: no license purchase; the cloud lane below is the edit machine, and the local lane waits for Apple Silicon hardware.
 2. Cloud lane, proven tonight: the Higgsfield sandbox carries ffmpeg, sox, faster-whisper and caption fonts, enough for a brief-in cut-out pipeline (pause-cut from word timestamps, loudness normalize, styled captions, music bed, LUT) without her Mac in the loop.
 Both lanes obey the babysitting rule below.
 
