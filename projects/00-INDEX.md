@@ -34,7 +34,7 @@ Ungrouped small threads → the ledger in ops-infrastructure.md: Wall connector 
 
 1. RESOLVED by Ashley 9/18: two Cannes Lions appearances, 2023 with Sir John Hegarty and the 2025 keynote. The calculator's "2x" stands; the canonical-page draft undersold and gets corrected. Visibility desk gathers both source URLs at ship time and confirms the 2023 session's subject before it enters the Creator Darwinism origin story (origin is currently dated 2024).
 2. CDOS module name: the live product says Pressure Test; the vaulted visibility copy says Stress Test.
-3. CDOS price ladder, four variants now: the stale $9/$97/$297 checklist, the canon card's $147/$297/$497, the swarmhaus live ladder, and the July advisory ladder ($29 → $299-$997 → $2,500-$10,000 → enterprise).
+3. CDOS price ladder, five variants now: the stale $9/$97/$297 checklist, the canon card's $147/$297/$497, the swarmhaus live ladder, the July advisory ladder ($29 → $299-$997 → $2,500-$10,000 → enterprise), and the August GTM ladder ($27 self-serve → Creator's Table brand tier → full CCO), plus the $500 Creator's Table Session as a standalone service offer.
 4. Banquet canonical folder: Banquet Master File versus Claude Code File Share.
 5. Competitor sheet: two copies; the later, larger one presumed canonical.
 6. Positioning doctrine: four vaulted versions; updated-2 presumed canonical.

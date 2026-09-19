@@ -1,6 +1,8 @@
 # The Banquet
 
-The devotional ecosystem: 30-day journeys, premium collectible journals, physical tools, devotional content, merch, YouTube, faceless TikTok.
+The devotional ecosystem: nine 30-day devotional journeys, one per Fruit of the Spirit, sold as premium collectible journals plus physical tools, devotional content, merch, YouTube, faceless TikTok.
+First in production: "The Journey of Love: Roots Phase."
+The Banquet voice, law for every writing session: calm authority, poetic simplicity, grounded spiritual language, subtle biblical references, never heavy church tone, and never Sable's business register.
 Founder content sits on ashleyrudder.com; jointhebanquet.com is reserved for the product surface.
 Record source: the Banquet thread work Ashley pasted into the operator session 9/17.
 
@@ -17,6 +19,20 @@ Rulings captured 9/18 from the portable-brief thread, now on the record:
 4. The design north star, in the thread's own words: the Banquet feels like Bibliotheca, never a coloring book.
 
 Print gate, absolute: every scripture quotation in the product is verified word-for-word against Crossway's official ESV text before anything prints or sells. The current quotes across Day 1, Day 11, Day 12 and the honor-command spine (Exodus 20:12, Psalm 27:10, Matthew 7:11, Psalm 139:4, James 1:17, Jeremiah 2:13, John 4:14) are unverified renderings until that pass runs.
+Song licensing rule, same class: a referenced song gets its name plus one short attributed line at most; full lyrics never print without a license.
+
+From the 9/18 closing handoff of the portable-brief thread, reconciled against this desk's record:
+Day 12's theological spine: the Fifth Commandment's "honor" is Hebrew kabed, give weight, never worship; the commandment itself takes parents off the throne while seating them at the table. Two funerals in one day: The Burial grieves the fantasy parent, The Eulogy honors the real good (James 1:17), then compassion ("they were thirsty too"), Psalm 139:4, and the closing movement "What You Had Is Leaving."
+Day 11 carries TWO titles and needs one word from Ashley: "Receiving Love Again: Stop Drinking From Dry Wells" (Section Revisions Doc) versus Ashley's own 9/17 phrasing "Love Sourcing and Love Hydration." The line that survives either title, kept verbatim: "You were never too much. You were just drinking from cisterns that could not hold water." Sequence logic: Day 11 redirects the thirst, Day 12 grieves the dry well, Day 13 breaks the generational cycle.
+Day 23/24 mechanics: 22 identity, 23 Biblical Teflon (rebuke), 24 Power Pose (embody); the source PDF has 24 before 23 and the master doc still needs the swap.
+Correction logged: the handoff (knowledge date 9/17) says the feedback mechanism is unbuilt; stale by one day. This desk built the Responses Sheet and the Beta Feedback Kit on 9/18, and the kit's invite text is canonical.
+
+Asset ledger (Drive, owner hello@ashleyrudder.com):
+Source master PDF "Banquet_ THE JOURNEY OF LOVE_ ROOTS PHASE.pdf": 1BMQxtnberoKDHg-B2H03Mjj4j6wd6tyk (full Day 1, Days 2-30 outline with margin notes, Appendices A and B).
+Section Revisions (Working) Doc: 1OxcNAw6-63e08a_W-oRyAAajbHvmikO3kQAqTrnaYII
+"The Banquet.pdf": 1ABxoYD-7fQFhMzigNGzJzxAr7w3RZYHC · "The Banquet Blueprint.pdf": 15rRgRrfAHbtWnbXMowKKYUQgptJhw_c7
+Publisher outreach: PDF 1dROA2hoiERuqteKFxT2lDf9EOAD2-2B8, Doc 1x8iProE5YxwjFRdGp5fe4P6TNcmW5jmxO6CrUvdpoQA
+The portable-brief closing handoff Doc, all three bodies: 1lcj4SqTdPMbb-zD6AMC9gGXnlqsyLVXrXxEmOML4ooU (Drive root).
 The feedback beta is ruled: share now, not at day 30. A Google Doc with comment access goes to a circle of five to eight, with the three-mark ask (where it hit, where it confused, what you'd change), and testers chosen so hard-parent and wonderful-parent readers both weigh in.
 The collector is standing except for the Form shell: the Responses Sheet is built with matching columns, and the Beta Feedback Kit Doc beside Day 12 carries the paste-ready Form questions, build steps, send-ready invite, and circle roster slots (both filed 9/18 in the Drive folder). The desk has Drive access but no Forms API, so the Form shell is a five-minute assembly in Ashley's browser per the kit.
 Note on the Drive folder: the id in play (1xbGmslWO25b4y5iCFwhO3IhDxHCIrEFJ) is titled "Claude Code File Share" and holds non-Banquet material too. A separate shared folder "Banquet Master File" (1UegaYvuhqLf9yw1NCyz2YTVXlrZJcy7L, owned by info.ashleyrudder@gmail.com) exists; Ashley has not ruled which is canonical.
