@@ -13,6 +13,9 @@ So the moment the cap is reached, the button is unmounted from the page, and the
 Both tier_single and tier_monthly seed messages_per_session at 50 (migration 20260221213217, lines 155-156), so any thorough interview reaches this state.
 A user who hits the cap cannot generate a report from that session by any means. This is the single highest-value fix in the product.
 
+SCOPE CORRECTION, 9/18, after Ashley produced a real report: this bug does NOT make reports impossible. It makes them impossible for anyone who talks past the message cap. A user who locks in before the cap gets the button and the full artifact, and the artifact is excellent. The earlier framing of this file, that the bug "explains zero reports," overstated the claim; the honest version is that the admin dashboard read zero for the charted month while a working report path exists.
+That raises a separate question the desk must answer: whether report_generated events are actually counted by the dashboard metric. If reports exist and the dashboard reads zero, the analytics are lying to Ashley about her own product and every read off that panel is suspect.
+
 Compounding it:
 1. Label mismatch. The Golden Offer prompt tells users to "run the report" (call-poppy-api/index.ts:493). The on-screen label is "Lock In My Golden Offer" in 11px, third in a row after Attach and Talk. The Judge prompt, by contrast, names its button explicitly: "Name the button: Get My Verdict" (index.ts:546).
 2. No in-transcript call to action for Golden Offer. ChatMessage.tsx:138-159 renders a bordered CTA box, but only for assistant messages matching the STANDING VERDICT pattern, which only the Judge produces (index.ts:538). The Judge gets a button inside the conversation; the Golden Offer gets nothing.
