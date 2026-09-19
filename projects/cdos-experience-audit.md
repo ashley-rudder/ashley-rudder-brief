@@ -43,6 +43,13 @@ Why this is revenue-critical rather than cosmetic: the founder is the most motiv
 
 Also confirmed in this evidence: live bot output contains both banned constructions, an em-dash and a "that's not X, it's Y" in the same sentence, despite stripDashes and stripContrast existing in the deployed function. The filters leak in production and the mechanism is unexplained.
 
+## A PROMISE PUBLISHED IN FOUR PLACES AND BUILT IN NONE
+
+"Voice onboarding powered by ElevenLabs" appears as a named, imminent feature on four public surfaces: src/pages/Login.tsx line 242, public/goldenoffer/index.html line 1460, public/goldenoffer/start/index.html line 1242, and public/os/index.html line 946.
+It appears zero times in any source file. There is no ElevenLabs integration, no text-to-speech, no voice output of any kind anywhere in the codebase. The dictation feature is speech input in the chat box, a different thing.
+The exposure is not that the feature is missing. It is how the line is used. In all four places it justifies a price lock: the rate steps up with every heavy update, the next update is already named, commit now and your rate never moves. That is urgency copy resting on a feature that does not exist and has no build behind it.
+Two honest ways out: build it, or cut the sentence and keep the founder's-rate offer without naming an unbuilt feature. Until one of those happens, every founder's-rate sale carries a promise the product cannot keep.
+
 ## Other cliffs, ranked by damage
 
 1. ONBOARDING HAS NO PERSISTENCE. All ten answers live in React state and refs; saveOnboardingData() runs in exactly one place, handleBotSelect (OnboardingChat.tsx:769), at the very end. A refresh, tab close, phone lock or back-navigation at minute nine of a ten-minute interview loses everything and returns the user to "Hey. I'm the Archetype Navigator." No resume, no draft, no guard.
