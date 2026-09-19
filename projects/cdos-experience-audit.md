@@ -22,6 +22,27 @@ Compounding it:
 3. The confirm dialog is written for deferral. Chat.tsx:81-88 opens with "Your session will close," which reads to a single-session buyer as spending their purchase, and the decline button is labeled "Not Yet," the frictionless postpone.
 4. Contradictory instructions. The toast says "End the session to get your report" (Chat.tsx:462) while the banner says "Click the button below" (Chat.tsx:935).
 
+## THE TONE FINDING, and it may outrank the button
+
+Evidence: Ashley ran her own offer through the Pressure Test on 7/25 with honest numbers (100 saw it, 10 engaged, 0 bought, no testimonials yet). The verdict came back Kill, scored 28 out of 100. Her own words on 9/18, reading it again: it "made me depressed because I truly hated the result."
+
+The analysis was correct. Ten percent engagement and zero sales with no third-party proof is a trust problem, and the two paths it offered (run a small paid live session, collect testimonials, relaunch higher; or trade free short audits for written testimonials) are sound advice she could act on tomorrow.
+CORRECTION on first reading: the verdict DOES name strengths. A "Wins Logged" block exists and it is well written ("You built a 50-page toolkit that speaks fluent advertising strategy language and solves a real problem... The asset exists, the problem is real, and the solution is structured. That is a foundation."). The earlier claim that nothing positive is named was wrong.
+
+The frame is what did the damage, and four specific choices do it:
+1. THE PERMANENT SCORE. Verdicts carry a number out of 100 and a one-word ruling, and both persist in the right-hand sidebar on every screen forever. Two sit there now reading Kill 28/100 and Kill 22/100. The number carries almost no actionable information (nothing tells the user what separates 22 from 28) while carrying maximum emotional weight, and unlike the verdict itself it never goes away. This is precisely the letter-grade pattern the founding tester asked to have removed in May after a C discouraged her from shipping; her replacement spec is already on the record: Resonance, Momentum, Clarity, Audience Connection, Conversion Potential.
+2. PATTERNS FLAGGED JUDGES THE PERSON, NOT THE OFFER. Live copy: "This is the second time you have built an offer without validation... You are building in the dark and calling it shipping. The pattern to break: assuming your own expertise proves the offer will sell." Cross-session memory is working as designed, and the effect is that the product accumulates a case against the user across sessions. Offer critique is a service. Character critique is a verdict on the founder.
+3. THE WINS ARE STRUCTURALLY OUTWEIGHED. Wins Logged runs roughly a third the length of Patterns Flagged, sits after it, and closes on another demand ("Now go prove someone will pay for it"), so even the credit terminates in deficit.
+4. THE CTA IS RENDERED IN ALARM RED. "Start The Work Toward Pursue" is the encouraging next step and it is styled the color of an error.
+
+The unheld tension: the product promises to find the offer only you can sell, then rules that the founder's own expertise does not count as proof. Both halves are true. The copy delivers the second half and never reconciles it with the first.
+
+What is genuinely good and should be protected in any rewrite: the analysis is correct, the prescribed tests are specific and cheap (post on LinkedIn, twenty free downloads in exchange for a one-line willingness-to-pay testimonial, price at $97 if five or more say yes), the sprint scheduler puts dated blocks on a real calendar, and the pre-verdict dialog already tries to reframe a kill as useful ("Every verdict gives you the shortest route to something that can pass, a kill most of all").
+
+Why this is revenue-critical rather than cosmetic: the founder is the most motivated user this product will ever have. If the output flattens her, it flattens strangers faster. The platform data shows sessions that open and are never returned to, which is exactly the behavior a discouraging verdict produces. The "warmer report copy" left unbuilt on the loop branch is not polish. It is the retention fix.
+
+Also confirmed in this evidence: live bot output contains both banned constructions, an em-dash and a "that's not X, it's Y" in the same sentence, despite stripDashes and stripContrast existing in the deployed function. The filters leak in production and the mechanism is unexplained.
+
 ## Other cliffs, ranked by damage
 
 1. ONBOARDING HAS NO PERSISTENCE. All ten answers live in React state and refs; saveOnboardingData() runs in exactly one place, handleBotSelect (OnboardingChat.tsx:769), at the very end. A refresh, tab close, phone lock or back-navigation at minute nine of a ten-minute interview loses everything and returns the user to "Hey. I'm the Archetype Navigator." No resume, no draft, no guard.
