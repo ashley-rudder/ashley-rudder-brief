@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+9/19, day two: the sweep found the Investor Day gap. Reserved by Spotify has been live since June (held tickets for superfans, Live Nation multi-year deal, Ticketmaster rails, no Spotify fees) and Bloomberg reported June talks to license concert and festival video, and the memo names neither. Both strengthen the Stage argument and both would read as stale homework if a co-CEO finds them missing. Dossier carries the entries; docs/pitches/countdown-desk-notes.md on the pitch branch carries three staged Doc edits and the new CFO frame (zero invented numbers, the payback formula the CFO runs with internal inputs, published kill criteria). Doc watch: no movement since 20:01Z on 9/18. Waits on Ashley: the positioning ruling, the October 13 date, her word to carry the staged edits into the Doc. Next in order: the door target list with in-session-verified names.
+
 9/18, first daily turn: dossier sweep done and logged (Fresh Finds Forward and the Partner Program expansion, both announced 9/17, both touching the Booth and the catalog lens).
 Delivered to Ashley in chat: the send-readiness gap list, the door inventory ranked warm to cold, and a proposed send date of Tuesday, October 13, 2026, gated not fixed.
 The AI Persona badge tense check is open: the memo says live mid-September, and live status was unverifiable in-session on 9/18.

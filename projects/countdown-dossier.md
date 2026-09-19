@@ -12,6 +12,31 @@ Screenshots from Ashley's feed get transcribed here, never committed as images, 
 
 ---
 
+## 2026-06-18 · Reserved by Spotify is live · logged 9/19, corroborated
+
+The desk found a four-month-old launch the memo never names, and it is the sharpest currency gap on file.
+Announced at Investor Day on May 21, 2026 and live since June: Reserved by Spotify identifies an artist's most dedicated listeners by streaming behavior and holds up to two tour tickets per fan before general sale.
+Multi-year deal with Live Nation as launch partner, sales running through Ticketmaster, Premium subscribers 18+, Spotify collecting no transaction fees.
+Role Model was the first artist partner, with fan notifications starting June 23.
+Eligibility runs on listening frequency, follow duration, and organic-versus-bot signals.
+Sources: TechCrunch 6/18, MBW, Live Nation newsroom, Hollywood Reporter, Gizmodo. Titles and summaries corroborated across independent outlets; bodies egress-blocked from this network.
+
+What it touches in the memo:
+1. Section 7's ticketing history stops at the December 2023 layoffs. A CEO reader who knows Reserved exists reads "the effort has never recovered" as stale homework. The section needs the Reserved paragraph.
+2. The pattern-claim gets stronger, so this is upside, not damage. Reserved is exactly the posture the memo prescribes: Spotify distributes over Live Nation and Ticketmaster rails, operates nothing, collects no fees. The Stage argument gains its 2026 proof: they already re-entered live this summer, in precisely the distribution shape the memo says is the only shape that works.
+3. Section 10's upsell line offers "first claim on Stage tickets" as superfan packaging. Reserved just shipped that mechanic platform-wide for arena tours. The upsell line needs rewriting around what now exists: Reserved covers Live Nation headliners, and the Stage extends the same held-ticket mechanic to the artists Reserved will never touch.
+4. The superfan sources row ("Music Pro reported, delayed") needs a fresh read against Reserved before send.
+
+## 2026-06-08 · Spotify in talks to license live concert and festival video · logged 9/19, reported
+
+Bloomberg reported June 8 that Spotify is negotiating with concert promoters for licensing rights to festival and concert video, with pre-recorded Dua Lipa Mexico City footage already added, framed inside the year's media-platform push and a Q1 2026 ad-supported revenue decline of 5% year on year.
+Sources: Bloomberg newsletter 6/8 via Digital Music News, Yahoo Tech, TechRadar, iMusician. Reported, summary-level corroboration only; label stays "reported" until a body is readable.
+
+What it touches in the memo:
+1. The Stage's tape economics stop being speculative. Spotify is already shopping for concert tape. The Stage manufactures owned tape of rising artists nightly, against renting finished footage of stars at market rates.
+2. The objection it arms: "we already carry concert video, see Dua Lipa." The answer, same spine as the FOMO answer: renting the biggest tape in the world versus owning the machine that makes tomorrow's. Top-down rents the moment. The room owns the machine.
+3. Investor Day (May 21, NYC) also introduced Memberships, a direct creator-monetization subscription tool, and named Christian Luiga as CFO presenting. Logged at summary level for the door file and the CFO frame.
+
 ## 2026-09-17 · Spotify launches Fresh Finds Forward · logged 9/18, corroborated
 
 Spotify announced Fresh Finds Forward on September 17: roughly 10,000 emerging independent artists a year get 12 months of benefits.
