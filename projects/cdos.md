@@ -109,10 +109,14 @@ What she asked for, mapped to current doctrine:
 4. Kill the letter grades: a C after shipping discouraged her. Her replacement spec: Resonance, Momentum, Clarity, Audience Connection, Conversion Potential. This IS the loop handoff's unbuilt "warmer report copy," written by a real user in May.
 She holds Creator access free for life, granted 7/19 ("You built this with me"), the template precedent for the founding-member letter.
 
-## Next action
+## Next action (re-prioritized by Ashley 9/18 evening: functional app and feedback first, payments second)
 
-Ashley rules the price. Then the desk runs the rail end to end: product in Stan, Zapier pointed with the secret, one real test purchase through webhook, claim, credits, onboarding, chat.
-New since 9/18: the loop branch waits on Ashley's deploy-path ruling, and the mini app needs a currency pass (deploy verified, key funded, strict rule spot-checked, on-screen price updated) before her next Live.
+The goal is a working app onboarding users, free included, and collecting feedback, ahead of monetization. Two unlocks already sit in the codebase:
+1. Free onboarding needs no payment wiring. The /vip comp rail (claim-vip) seeds a paid_users row granting full access, so testers get in without Stan, Zapier, or a price ruling. This separates "get feedback" from "get paid," which Ashley had been treating as one gate.
+2. App independence. The bots can run on Ashley's own Anthropic edge function (call-anthropic-api, already on a branch) instead of the third-party vendor, so the product runs on infrastructure Ashley owns and controls, and the unresolved vendor fee dispute stops gating the product.
+GATE before any irreversible infrastructure change: get written clarity or counsel on the vendor contract and the asset-handover terms first, and secure Ashley's own accounts as standard security hygiene. Not legal advice. Nothing deploys without Ashley's word, and Lovable auto-deploys functions on push.
+Sequence once the contract question clears: deploy the Anthropic function so bots run on Ashley's key, flip free access via the comp rail, seat five to eight of the fourteen warm beta names with a short feedback form, film the mini app as content. The price ruling returns as the monetization step, no longer the blocker to onboarding.
+Standing context, neutral: the vendor relationship (Cam, Athena, a strategist) is an open fee dispute; a call intended to align ended in an additional fee, so nothing is settled. The product strategy above is designed to make the app self-standing regardless of how that dispute resolves.
 
 ## Rules
 
