@@ -125,6 +125,25 @@ GATE before any irreversible infrastructure change: get written clarity or couns
 Sequence once the contract question clears: deploy the Anthropic function so bots run on Ashley's key, flip free access via the comp rail, seat five to eight of the fourteen warm beta names with a short feedback form, film the mini app as content. The price ruling returns as the monetization step, no longer the blocker to onboarding.
 Standing context, neutral: the vendor relationship (Cam, Athena, a strategist) is an open fee dispute; a call intended to align ended in an additional fee, so nothing is settled. The product strategy above is designed to make the app self-standing regardless of how that dispute resolves.
 
+## Session log: 9/19 payments desk, second pass (re-prioritized orders executed, nothing pushed to the product repo)
+
+Both no-deploy deliverables posted in the session: the free onboarding runbook and the app independence readiness note.
+Verified against the code at main e01b505 and branch claude/anthropic-migration 259909e.
+
+Comp rail, the hard finding: the rail as built delivers exactly one session per tester, then locks the app.
+Mechanism, certain in code: claim-vip seeds paid_users and syncs profiles.tier but never touches user_credits; onboarding completion inserts the credits row as tier free with sessions_limit 1; BotCardGrid keys bots_available off the CREDITS tier, and tier_free has no config, so availableBots is empty and every dashboard bot locks behind "Upgrade your plan."
+The tester's single working session is the one launched from the onboarding bot picker, which bypasses the grid.
+Admin User Detail resets sessions_used but cannot change tier or limit, so a reset alone does not reopen the app.
+Sustained tester access requires a per-tester user_credits update (tier and sessions_limit) in the Supabase dashboard, or a small admin-console feature later.
+Caveat, labeled: a signup trigger creating credits rows earlier would change this; triggers are invisible from the repo and the connector cannot reach wjhvuumhcibzlnfbayes, so Ashley confirms in her dashboard.
+
+App independence branch, verified: claude/anthropic-migration is one commit (259909e, July 16), base 025b1fe, and main has moved 163 commits since.
+The wiring still fits: main's Chat.tsx sends bot_type, user_message, session_id, is_report, context_payload and parses text-delta plus usage SSE events, exactly the contract the branch function speaks; the three hardcoded call sites the branch patches still exist on main in the same shape.
+The drift that matters is doctrine: call-poppy-api on main gained months of prompt upgrades since July (track-record injection from reports, judge and golden-offer doctrine blocks, evidence ceilings, report contract language). Deploying the July function flips the bots onto a July brain.
+Pre-deploy work, in order: rebase the branch onto main, port the current poppy prompt stack into call-anthropic-api, re-apply the three-line call-site edits. Model and history limits are runtime-configurable via app_settings (anthropic_api.default_model), so model choice needs no code change.
+Key path confirmed: ANTHROPIC_API_KEY as a Supabase secret, fallback app_settings.anthropic_api_key. VITE_AI_PROVIDER is a build-time flag set in the Lovable build env; rollback is unsetting it and rebuilding, which re-routes to the vendor function with the Anthropic function left deployed but idle.
+Gates held: nothing deployed, nothing merged, no product-repo push at all this session.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
