@@ -109,6 +109,15 @@ What she asked for, mapped to current doctrine:
 4. Kill the letter grades: a C after shipping discouraged her. Her replacement spec: Resonance, Momentum, Clarity, Audience Connection, Conversion Potential. This IS the loop handoff's unbuilt "warmer report copy," written by a real user in May.
 She holds Creator access free for life, granted 7/19 ("You built this with me"), the template precedent for the founding-member letter.
 
+## THE CREDITS WALL, confirmed in live admin data 9/18 (blocks seating testers)
+
+An admin user record reviewed 9/18 proves the credits seam is real, not theoretical. The record: a free-tier user who joined 8/1/2026, completed onboarding, received a full archetype profile, started a Golden Offer session, and shows Sessions 1 of 1 with Messages 0, the session still marked active seven weeks later, billing period ended 8/31.
+Reading it straight: the free tier grants one session, the user consumed it at the door, produced zero messages, and has been stuck ever since. The record also shows no handling of an expired period.
+Consequence for the plan: seating five to eight comped testers into this exact configuration produces five to eight identical dead ends and zero feedback. The comp rail must grant a usable allotment before anyone is invited, and the expired-period behavior must be known.
+An admin "Reset Credits" control exists, which is a manual rescue and not a mechanism.
+This is now the first thing the free-onboarding runbook solves, ahead of everything else in it.
+Also visible and worth Ashley's judgment rather than a rule: the archetype output quality is high, which matches her 94 percent completion note; the Golden Offer stage is where users stall.
+
 ## APP CONFIRMED FUNCTIONAL, 9/18 evening
 
 Ashley ran a live bot session and pasted real output: the Golden Offer flow returned a scored ledger (BUYER, TRANSFORMATION, PROOF, FORMAT, SHIPPED), correctly refused to count unrelated background material as evidence for a new lane, and asked a sharp qualifying question in the product's own register.
