@@ -24,6 +24,11 @@ Brand-page receipts, 9/17: gel video at 45.6K views, install film at 7,159 views
 The pipeline in the video: an AI assistant connected to the DaVinci Resolve MCP, given the footage location plus four reference videos to learn the creator's style frame by frame.
 One chat brief runs the whole edit: cut the pauses, fix and normalize audio, light music bed, captions in his font matched to voice cadence, color correct against the references, b-roll images placed to match captions, images fetched by the agent's own browser access.
 Verified 9/18: DaVinci Resolve 21.1 shipped September 8, 2026 with a NATIVE MCP server (Studio edition), File > Setup AI Assistants, 88 tools across edit, color, Fairlight, media pool and render queue, and the named supported assistants include Claude and Claude Code.
+MAC LANE IS LIVE as of 9/18 evening: Ashley confirmed Resolve Studio 21.1 installed with File > Setup AI Assistants present, and she completed the assistant connection. The hardware gate is therefore satisfied (Sequoia plus Apple Silicon).
+
+THE DIVISION OF LABOR, and it is a hard architectural fact: the Resolve MCP server runs locally on Ashley's Mac and is reachable only by a Claude session running on that same Mac. No cloud desk can drive Resolve, ever. So the Cut Desk in the cloud does planning, shot plans, asset prep, grade recipes, burn copy and board state; the LOCAL Mac session executes the edit inside Resolve. Any charter instruction that implies a cloud session touching Resolve is wrong by construction.
+The local session's style law on open: docs/content/video-grade-recipes.md in chatwise-thought-hub, plus four of Ashley's own finished cuts as frame-by-frame references, which is exactly the method the inspiration video describes.
+
 Two lanes to the same smoothness:
 1. Mac lane, the literal demo: Resolve Studio 21.1 on Ashley's Mac, Setup AI Assistants, a local Claude Code desk driving it, video-grade-recipes.md plus four reference cuts as the style law.
 Mac lane hardware gate, verified 9/18 evening and it supersedes the earlier order: Resolve 21.1 on Mac requires macOS 15 Sequoia AND Apple Silicon; Intel Macs are outside the 21.1 baseline entirely.
