@@ -109,6 +109,13 @@ What she asked for, mapped to current doctrine:
 4. Kill the letter grades: a C after shipping discouraged her. Her replacement spec: Resonance, Momentum, Clarity, Audience Connection, Conversion Potential. This IS the loop handoff's unbuilt "warmer report copy," written by a real user in May.
 She holds Creator access free for life, granted 7/19 ("You built this with me"), the template precedent for the founding-member letter.
 
+## APP CONFIRMED FUNCTIONAL, 9/18 evening
+
+Ashley ran a live bot session and pasted real output: the Golden Offer flow returned a scored ledger (BUYER, TRANSFORMATION, PROOF, FORMAT, SHIPPED), correctly refused to count unrelated background material as evidence for a new lane, and asked a sharp qualifying question in the product's own register.
+What this proves: the bot pipe answers today, so the current vendor path is live and the product works right now.
+What this unblocks: free onboarding does not wait on app independence, does not wait on the contract question, and does not wait on the price ruling. Testers can be seated as soon as the comp-rail runbook lands.
+App independence stays on the roadmap as insurance and ownership, no longer as a prerequisite to feedback.
+
 ## Next action (re-prioritized by Ashley 9/18 evening: functional app and feedback first, payments second)
 
 The goal is a working app onboarding users, free included, and collecting feedback, ahead of monetization. Two unlocks already sit in the codebase:
