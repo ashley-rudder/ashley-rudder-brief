@@ -10,7 +10,8 @@ Record source: the Banquet thread work Ashley pasted into the operator session 9
 
 "The Journey of Love," the first 30-day devotional, is mid-draft.
 Day 12, "A Funeral for the Fantasy," is finished in ESV and lives as a Google Doc in the Drive Banquet folder: https://docs.google.com/document/d/1YA2XXn9e0i2UgVwY-j8J6ZWA5rMAoks9XL9DNj4jiJ4/edit
-Day 11 needs the same clean-and-file treatment.
+Day 11, "Love Sourcing and Love Hydration," is drafted in full under the ruled title and filed 9/19 beside Day 12: https://docs.google.com/document/d/1elq4MbNzUcXClYftlwXIjFARGwgJ7M1SVRwztSV2UKI/edit
+It carries the full Day 12 structure (Tune In through Sacred Practice), the kept verbatim line, scripture John 4:13-14, Jeremiah 2:13, Isaiah 55:1-2, Psalm 107:9, and awaits Ashley's read.
 
 Rulings captured 9/18 from the portable-brief thread, now on the record:
 1. ESV is the translation for the whole devotional. Locked by Ashley.
@@ -43,17 +44,19 @@ The jointhebanquet.com app is Path 2: a real build on fresh infrastructure, neve
 
 1. Ashley assembles the Form shell from the kit (five minutes) and links it to the Responses Sheet. All questions, settings, and steps are in the kit Doc.
 2. Ashley names the tester circle (five to eight, hard-parent and wonderful-parent both represented) and gives the word; the invite in the kit is send-ready.
-3. Day 11, "Receiving Love Again: Stop Drinking From Dry Wells," to full draft. Direction, scripture (John 4:13-14, Jeremiah 2:13), and reflection core are settled in the Section Revisions Doc with no [NEEDS ASHLEY] flag. It needs the full Day 12 structure build in ESV: Tune In, Scripture, Reflection, Prompt, Exercises, The Turn, Nervous System Reset, Prayer/Affirmation, Action Step, Check-In, Gratitude, Sacred Practice. Sable drafts next working day unless Ashley redirects.
+3. Ashley reads the Day 11 draft and marks it up in the Doc. Drafted 9/19 under her ruled title; the Section Revisions direction is folded in and superseded where they differ.
 4. Ashley's word still owed from the Section Revisions Doc: the Day 22 song confirmation (Hillsong "Who You Say I Am" proposed as mom's favorite) and the Day 23/24 reorder applied to the master document.
 5. Remaining days on the daily writing cadence after Day 11.
 6. Ashley's word: does Sacred Practice become the journal-wide standard for every day's closing slot, with Day 1 retrofitted out of its draw-and-doodle box? The Day 12 precedent says yes; the ruling is hers.
-7. The ESV verification pass against Crossway's official text, run once across the full scripture list before print. The allowlist now covers the open web for fresh sessions, so the desk can run it directly.
+7. The ESV verification pass against Crossway's official text, run once across the full scripture list before print. Correction 9/19: this desk's egress proxy blocks esv.org, biblegateway.com, biblia.com, ebible.com, and biblehub.com, so the word-for-word pass cannot run from here. Day 11's quotes were cross-checked through search-result renderings only. The pass needs either those domains allowlisted or fifteen minutes of Ashley's browser against esv.org. Verse list now: Exodus 20:12, Psalm 27:10, Matthew 7:11, Psalm 139:4, James 1:17, 1 Thessalonians 5:18, Jeremiah 2:13, John 4:13-14, Isaiah 55:1-2, Psalm 107:9, plus Day 1's quotes.
 
 As of 9/18 the Banquet has one writing surface: this desk. The portable-brief thread's Banquet work is captured above and that thread closes.
 
 ## Daily log
 
 2026-09-18. Desk stood up. Drive verified, folder inventoried. Built the Responses Sheet and the Beta Feedback Kit (Form spec, send-ready invite, roster slots) beside the Day 12 Doc. Nothing shared. Found the Day 11 core already settled in the Section Revisions Doc.
+
+2026-09-19. Day 11 written in full under the ruled title "Love Sourcing and Love Hydration" and filed to Drive beside Day 12. Banquet voice, ESV, full Day 12 structure, Sacred Practice closing slot (The First Drink), the kept line verbatim. Drive folder checked: no overnight changes, so the Form shell and circle still wait on Ashley. Logged the egress correction on the ESV verification pass. Nothing shared.
 
 ## Cadence
 
