@@ -216,6 +216,16 @@ Register facts: dedicated Stripe account "Creator Darwinism OS" created under th
 Tier mapping ruled by the desk to fit the app's four slots: Discovery Session maps to tier_single, Creator Membership to tier_monthly, Operator Membership to tier_power, and tier_ultra goes hidden (visible off in Admin Console Tiers) until a fourth rung exists.
 Remaining to first sandbox dollar: sandbox keys into Supabase secrets, Ashley's deploy word, webhook endpoint plus signing secret, price IDs into the Tiers tab, 4242 test through checkout, onboarding, chat.
 
+## Session log: 9/20 payments desk, sixth pass. A buried Stripe rail found deployed in the CDOS backend.
+
+Ashley's Lovable Cloud screenshot showed stripe-checkout and stripe-webhook ACTIVE in the live backend, dated March 22. Neither exists in today's repo. Git history explains it, verified in-session:
+- Feb 21 (commit b8d65a2): a full in-app Stripe rail was built: stripe-checkout, stripe-webhook, check-downgrades. Same architecture the desk rebuilt this week, down to the secret names (STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET) and stripe_price_id in the tier config.
+- Mar 23 (commit 7125f65, "Add paid_users table and gating"): the Stripe functions were deleted from the repo in the same commit that introduced the Stan/paid_users architecture. The product was moved off Stripe onto Stan in March. Neutral record, relevant context for the vendor timeline.
+- Supabase never undeploys removed functions, so the February copies still sit Active, invoked by nothing.
+Why the stale pair is a hazard: the February webhook predates paid_users entirely. It writes profiles.tier and user_credits only, so under today's AuthGuard it would take a buyer's money without unlocking the app. It must never be pointed at.
+Deploy plan adjusted: the desk's stripe-webhook shares the stale one's name, so deploying REPLACES it (correct outcome). The stale stripe-checkout and check-downgrades should be deleted from the backend; nothing calls them and a half-broken money path should not stay live. Secrets caution: STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET may already exist from February pointing at an unknown Stripe account; Ashley replaces their values with the new Creator Darwinism OS sandbox keys rather than assuming the vault is empty.
+Also confirmed from the same screenshot: 25 signups in the backend, and the desk's secret names line up with the February convention, so no renaming anywhere.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
