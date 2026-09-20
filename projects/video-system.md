@@ -47,6 +47,16 @@ If a tool must run repeatedly, the desk asks Ashley once for always-allow on tha
 Waiting is visible, never silent: the desk posts a status line to the Cut Room board at render start, at meaningful progress, and on delivery.
 For scale: an edit turn is minutes, a render is tens of minutes, and a desk that needs a human tap every minute is misbuilt and gets rebuilt.
 
+## Miss Moth 2026 (opened 9/20 on the Cut Desk)
+
+The build spec is docs/content/miss-moth-2026-timeline.md on branch claude/bill-cds-mobile-viewing-qb6o05 of chatwise-thought-hub.
+The Resolve build sheet is docs/content/miss-moth-build-sheet.md on branch claude/video-desk, redlined and pushed 9/20.
+Ashley's redlines, 9/20, they govern: 45 seconds not 40; no makeup application footage anywhere, IMG_4391 and IMG_4392 out entirely; cards are the board stills plus Coco final-look video only; captions in her big yellow Didone style, one word at a time, Bodoni Moda matched by eye against Editing example 2.
+The model is named Coco. The wings file IMG_0022 is Coco in the final look.
+All sources verified in Drive folder Miss Moth 2021 except Ashley Talking Head.mov and the two Editing example files, which sit only in ~/Downloads/Miss Moth 2021 on the mini.
+The feather extension edit from 9/18 stands by: source measured (12:44, 4K60 portrait, silent, luma 124.7 sat 10.2, contact sheet in Higgsfield media 44659c5a), waiting behind Miss Moth.
+
 ## Next action
 
-Desk opened 9/18. State-of-play and the three highest-leverage moves posted in chat. Waiting on Ashley's refocus ruling.
+The mini's local desk opens Resolve, reads the build sheet, stages the plan on the Cut Room board, and holds for Ashley's run order.
+The cloud Cut Desk holds planning, board state, and Drive-side asset prep, per the division of labor above.
