@@ -12,6 +12,24 @@ Screenshots from Ashley's feed get transcribed here, never committed as images, 
 
 ---
 
+## 2026-01-28 · The Hellman letter · logged 9/20, corroborated
+
+Charlie Hellman, SVP and Global Head of Music since late October 2025, published a letter on the Spotify for Artists blog on January 28 naming the 2026 focuses: more video on the service, fighting deepfakes and streaming fraud, producing more live shows, and leaning into human editorial more than ever.
+His line, as carried by the coverage: "As AI makes all kinds of content more abundant, human connection has become more valuable, not less."
+On live, the letter says fan connection should not live only online, and that showing up in person is among the strongest forms of fandom and one of the most important income streams for artists.
+Sources: Spotify for Artists blog (title verified, body egress-blocked), Billboard, Music Ally 1/28, MBW. Corroborated at summary level across independent outlets.
+
+What it touches in the memo:
+1. The alignment spine. The Head of Music's own stated 2026 agenda is video, live shows, human editorial, and fraud-fighting. The three rungs land on all four: the Booth is video, the Stage is live shows, the audited Countdown is human-legible ranking with published fraud actions. The pitch can open on his letter and read as an execution plan for it.
+2. The human-connection quote is the memo's thesis in Spotify's own voice. Candidate epigraph or section 9 evidence, staged for the Doc pass.
+3. The door: Hellman's letter makes him the landing zone, not just an org-chart name. See the door file on the pitch branch.
+
+## 2026-09-20 · Watch notes · logged 9/20
+
+A co-CEO presented at the Goldman Sachs Communacopia + Technology Conference this month per a September 2 Business Wire release; which co-CEO, the date, and what was said are unverified, businesswire is egress-blocked. Observed, unverified.
+Advertising leadership is unresolved: one summary names Brian Berner co-lead Global Head of Advertising as of March 2026, older coverage names Lee Brown. Unverified either way; the ad seat is the sponsorship door and gets a clean verification before any use.
+Doc watch: no movement since 20:01Z on 9/18.
+
 ## 2026-06-18 · Reserved by Spotify is live · logged 9/19, corroborated
 
 The desk found a four-month-old launch the memo never names, and it is the sharpest currency gap on file.
