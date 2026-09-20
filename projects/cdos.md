@@ -181,6 +181,21 @@ Pre-deploy work, in order: rebase the branch onto main, port the current poppy p
 Key path confirmed: ANTHROPIC_API_KEY as a Supabase secret, fallback app_settings.anthropic_api_key. VITE_AI_PROVIDER is a build-time flag set in the Lovable build env; rollback is unsetting it and rebuilding, which re-routes to the vendor function with the Anthropic function left deployed but idle.
 Gates held: nothing deployed, nothing merged, no product-repo push at all this session.
 
+## Session log: 9/20 payments desk, third pass. Ashley ruled the register and the rail is built.
+
+RULING, Ashley 9/20: Stan Store retires as the checkout. The register is integrated Stripe checkout inside the app. This closes the "rule which register" task in the money architecture section.
+Design rule she stress-tested and approved: checkout only exists behind login. The session is stamped server side with the buyer's user_id and login email, the webhook activates the account by that identity, and payment email versus login email mismatch becomes structurally impossible for new purchases. No passwords exist anywhere in the flow, so no password resets. The one standing guard: never add a logged-out buy button.
+
+Built and pushed on claude/payments-desk (2bb5a03), type-checked and production-built, zero supabase/ paths touched:
+1. Two edge functions PARKED under stripe-rail/functions (create-checkout-session, stripe-webhook). Moving them into supabase/functions IS the deploy and waits on Ashley's word. stripe-rail/README.md carries her dashboard checklist, the deploy step, and the rollback.
+2. /checkout/:tierKey page: embedded checkout in the app, no external redirect, then polls activation and routes into onboarding or dashboard.
+3. Buy buttons on Index, Login, the dashboard grid, and the upgrade prompt route to in-app checkout when the tier carries a stripe_price_id, and fall back to the Stan link when it does not. Per tier, reversible from Admin Console alone. A signed-out buyer who picks a plan lands in checkout right after sign-in via a pending-tier handoff.
+4. Admin Console Tiers gains the Checkout price ID field; Stan URL demoted to legacy fallback. The public settings view already passes new tier fields through, so no migration needed.
+5. The webhook writes paid_users, profiles.tier, AND user_credits (tier plus limits from tier config) in one place, closing the credits seam from the 9/19 log at the money moment. Subscription cancellation flips active false and the AuthGuard already enforces it.
+
+Waits on Ashley: prices ruled and created in Stripe (test mode first), three secrets in the Supabase dashboard (STRIPE_SECRET_KEY, STRIPE_PUBLISHABLE_KEY, STRIPE_WEBHOOK_SECRET), the webhook endpoint added in Stripe, and the word to deploy the two functions.
+Noted for later, labeled: the Capacitor iOS shell selling digital goods through non-Apple checkout has App Store review implications; a web-first launch carries no such issue. Needs a ruling only before the iOS build ships with checkout visible.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
