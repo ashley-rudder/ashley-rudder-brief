@@ -265,6 +265,15 @@ Verified by screenshot: the live Product catalog holds the ruled ladder, Golden 
 PARKED AT THE GATE, deliberately: live keys are NOT in the Lovable vault, the live webhook endpoint is NOT created, live price IDs are NOT in the Tiers tab. The app still runs on sandbox values, harmless and unable to take real money. The Lovable access review (vendor access observed 9/20) is the gate, and it is Ashley's ruling alone.
 When the gate clears, the fifteen-minute go-live: create the live webhook endpoint (same URL, same two events), swap the three vault values for live ones, paste the three live price IDs into Admin Console Tiers, run one real-card test and refund it. Then the founding-member letter has a door to point at.
 
+## Session log: 9/20 payments desk, eleventh pass. Parked one switch from live, by design.
+
+State at close of 9/20, each piece verified:
+- Live Tiers config: all three price IDs are LIVE-account values (verified by config read, matched account signature). Live publishable key is in the vault.
+- Still sandbox in the vault, deliberately: CDOS_STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET. Consequence, known and accepted: checkout is dark overnight (sandbox key cannot see live prices, buyers get a clean error, nothing half-works). Existing users unaffected.
+- Ashley closed the live secret-key creation flow unfinished on advice: a secret key reveals once, and it gets created tomorrow in one motion straight into the vault.
+Context: Ashley speaks with Lance 9/21 and the working roster may change after. Ruling advised and accepted: the Lovable access list gets decided AFTER that conversation, access-follows-role framing, and the vendor's access stays untouched until then because only sandbox keys are exposed. Removing anyone the night before the talk was ruled premature.
+Tomorrow's two-step go-live, for whichever session runs it: (1) create the live secret key ("Building your own integration" type), paste into CDOS_STRIPE_SECRET_KEY; (2) register the live webhook endpoint (same URL, events checkout.session.completed and customer.subscription.deleted), paste its signing secret into STRIPE_WEBHOOK_SECRET. Then one real $27 card test, refund from the Stripe dashboard, doors open. Founding-member letter next.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
