@@ -12,6 +12,9 @@ Record source: the Banquet thread work Ashley pasted into the operator session 9
 Day 12, "A Funeral for the Fantasy," is finished in ESV and lives as a Google Doc in the Drive Banquet folder: https://docs.google.com/document/d/1YA2XXn9e0i2UgVwY-j8J6ZWA5rMAoks9XL9DNj4jiJ4/edit
 Day 11, "Love Sourcing and Love Hydration," is drafted in full under the ruled title and filed 9/19 beside Day 12: https://docs.google.com/document/d/1elq4MbNzUcXClYftlwXIjFARGwgJ7M1SVRwztSV2UKI/edit
 It carries the full Day 12 structure (Tune In through Sacred Practice), the kept verbatim line, scripture John 4:13-14, Jeremiah 2:13, Isaiah 55:1-2, Psalm 107:9, and awaits Ashley's read.
+Day 1, "Loved in the Landfill," is cleaned from the source master PDF and filed 9/20: https://docs.google.com/document/d/1WolhTBL-iAv5MMxMTeeeHbbOtDEFMeHdoAEygJbleOQ/edit
+Content faithful to Ashley's text, scripture converted NIV to ESV (Romans 5:8, Luke 15:20, Isaiah 1:18, 1 Thessalonians 5:18), closing slot presented both ways (source Creative Space vs proposed Sacred Practice "The Walk Out") for her to strike one. The source PDF cuts off mid Creative Space; if she keeps Version A she supplies the tail.
+The ruled beta reading set, Day 1 plus Day 12, is now complete in Drive.
 
 Rulings captured 9/18 from the portable-brief thread, now on the record:
 1. ESV is the translation for the whole devotional. Locked by Ashley.
@@ -47,8 +50,8 @@ The jointhebanquet.com app is Path 2: a real build on fresh infrastructure, neve
 3. Ashley reads the Day 11 draft and marks it up in the Doc. Drafted 9/19 under her ruled title; the Section Revisions direction is folded in and superseded where they differ.
 4. Ashley's word still owed from the Section Revisions Doc: the Day 22 song confirmation (Hillsong "Who You Say I Am" proposed as mom's favorite) and the Day 23/24 reorder applied to the master document.
 5. Remaining days on the daily writing cadence after Day 11.
-6. Ashley's word: does Sacred Practice become the journal-wide standard for every day's closing slot, with Day 1 retrofitted out of its draw-and-doodle box? The Day 12 precedent says yes; the ruling is hers.
-7. The ESV verification pass against Crossway's official text, run once across the full scripture list before print. Correction 9/19: this desk's egress proxy blocks esv.org, biblegateway.com, biblia.com, ebible.com, and biblehub.com, so the word-for-word pass cannot run from here. Day 11's quotes were cross-checked through search-result renderings only. The pass needs either those domains allowlisted or fifteen minutes of Ashley's browser against esv.org. Verse list now: Exodus 20:12, Psalm 27:10, Matthew 7:11, Psalm 139:4, James 1:17, 1 Thessalonians 5:18, Jeremiah 2:13, John 4:13-14, Isaiah 55:1-2, Psalm 107:9, plus Day 1's quotes.
+6. Ashley's word: does Sacred Practice become the journal-wide standard for every day's closing slot? The Day 1 Doc now stages the decision on the page: source Creative Space and a proposed Sacred Practice sit side by side and she strikes one. If she keeps Creative Space she supplies its tail, which the source PDF truncates.
+7. The ESV verification pass against Crossway's official text, run once across the full scripture list before print. Correction 9/19: this desk's egress proxy blocks esv.org, biblegateway.com, biblia.com, ebible.com, and biblehub.com, so the word-for-word pass cannot run from here. Day 11's quotes were cross-checked through search-result renderings only. The pass needs either those domains allowlisted or fifteen minutes of Ashley's browser against esv.org. Verse list now: Exodus 20:12, Psalm 27:10, Matthew 7:11, Psalm 139:4, James 1:17, 1 Thessalonians 5:18, Jeremiah 2:13, John 4:13-14, Isaiah 55:1-2, Psalm 107:9, Romans 5:8, Luke 15:20, Isaiah 1:18.
 
 As of 9/18 the Banquet has one writing surface: this desk. The portable-brief thread's Banquet work is captured above and that thread closes.
 
@@ -57,6 +60,8 @@ As of 9/18 the Banquet has one writing surface: this desk. The portable-brief th
 2026-09-18. Desk stood up. Drive verified, folder inventoried. Built the Responses Sheet and the Beta Feedback Kit (Form spec, send-ready invite, roster slots) beside the Day 12 Doc. Nothing shared. Found the Day 11 core already settled in the Section Revisions Doc.
 
 2026-09-19. Day 11 written in full under the ruled title "Love Sourcing and Love Hydration" and filed to Drive beside Day 12. Banquet voice, ESV, full Day 12 structure, Sacred Practice closing slot (The First Drink), the kept line verbatim. Drive folder checked: no overnight changes, so the Form shell and circle still wait on Ashley. Logged the egress correction on the ESV verification pass. Nothing shared.
+
+2026-09-20. Day 1 cleaned from the source master PDF and filed to Drive: Ashley's text kept faithful, scripture converted to ESV with wording cross-checked against ESV.org and BibleHub search renderings, closing slot staged both ways for her ruling. The beta reading set (Day 1 + Day 12) is complete. Drive checked: no comments on Day 11 or Day 12, no Form yet, so all beta sends still wait on her. Nothing shared.
 
 ## Cadence
 
