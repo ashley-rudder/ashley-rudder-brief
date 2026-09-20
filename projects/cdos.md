@@ -196,6 +196,15 @@ Built and pushed on claude/payments-desk (2bb5a03), type-checked and production-
 Waits on Ashley: prices ruled and created in Stripe (test mode first), three secrets in the Supabase dashboard (STRIPE_SECRET_KEY, STRIPE_PUBLISHABLE_KEY, STRIPE_WEBHOOK_SECRET), the webhook endpoint added in Stripe, and the word to deploy the two functions.
 Noted for later, labeled: the Capacitor iOS shell selling digital goods through non-Apple checkout has App Store review implications; a web-first launch carries no such issue. Needs a ruling only before the iOS build ships with checkout visible.
 
+## Session log: 9/20 payments desk, fourth pass. App Store strategy verified and the native gate built.
+
+VERIFIED against Apple's live App Review Guidelines this session: guideline 3.1.3(f), Free Stand-alone Apps, permits exactly Ashley's model. A free app that is a stand-alone companion to a paid web tool needs no in-app purchase, provided the app contains no purchasing and no calls to action for purchase outside the app. Guideline 3.1.1 bans embedded non-Apple checkout in every storefront; the US-only carve-out covers link-outs, which the model does not need.
+VERIFIED live on Ashley's phone 9/20: the Head Down push pipeline works end to end. Screenshot received: "4 sprints waiting. Head down." delivered to her lock screen. That closes the open question on the APNs secrets; the .p8 key is set and pg_cron is firing. The pipeline in code: @capacitor/push-notifications, head-down-reminders (APNs direct for iOS, FCM for Android, tokens in device_push_tokens), push-status diagnostics.
+Push strategy confirmed: native app required for push; TestFlight delivers push to the beta cohort without a public App Store launch; web push exists but is second-class and unneeded.
+
+Built and pushed on claude/payments-desk (second commit after 2bb5a03): the native purchase gate. showPurchaseUi(), false in the Capacitor shell, hides the pricing sections on Index and Login, the upgrade prompt's tier cards, the nudge banner's upgrade button, the verify page's pricing link, and the /checkout route. Purchase-nudge toasts neutralized in native. Linking an existing purchase stays everywhere as account management. Web unchanged. Type-checked, production build passing, zero supabase paths touched.
+The iOS flag from the 9/20 third-pass log is now CLOSED: the app can go to TestFlight or the App Store without a purchase-rule violation.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
