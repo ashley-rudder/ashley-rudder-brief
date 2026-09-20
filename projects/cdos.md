@@ -245,6 +245,18 @@ Vault finished: CDOS_STRIPE_SECRET_KEY, STRIPE_PUBLISHABLE_KEY, STRIPE_WEBHOOK_S
 SECURITY FLAG, raised to Ashley 9/20: the Lovable project chat's last human instruction is the vendor's (Athena, July 31), proving standing vendor access to the app's control room including the Cloud panel. Ruling requested: review Lovable Settings, People, before any live key enters the vault. Sandbox keys are the only exposure today.
 Remaining to the receipt: price IDs pasted into Admin Console Tiers (display prices are in; the price_ IDs are the unconfirmed piece), then the 4242 purchase through checkout, onboarding, chat.
 
+## Session log: 9/20 payments desk, ninth pass. THE FIRST DOLLAR RAN.
+
+Ashley ran the 4242 through the full rail 9/20 and it passed: in-app checkout rendered, inline Google sign-in held, payment cleared, the webhook activated the account, and the buyer landed in onboarding. Her word: success running the card.
+The open loop #1 from 9/18 (claim flow never run end to end) closes in sandbox. The credits seam (#2) closes with it: the new webhook writes paid_users, profiles.tier, and user_credits in one handler, and activation was observed.
+Snags cleared on the way, for the record: two sandboxes had been created and the catalog, keys, and webhook were split between them; consolidated onto one (all three visible tiers verified sharing one account fingerprint by live config read). A Stripe Payment Link briefly pasted into the legacy fallback field was removed by ruling: payment links are logged-out checkout and never enter this app. Signed-out tier clicks were redesigned to inline sign-in on the checkout page after Ashley called the bounce wrong.
+Between sandbox and LIVE, in order:
+1. The standing gate: Lovable access review (vendor access observed 9/20) resolves before any live key enters the vault. Ashley's ruling.
+2. Stripe live side: activate the Creator Darwinism OS account (business verification, bank, statement descriptor), recreate the three products and the webhook endpoint on live, swap the three vault secrets for live values, paste live price IDs into Tiers.
+3. Delete the stale February functions (stripe-checkout, check-downgrades) from the backend.
+4. One live test with a real card for a dollar-real receipt, refund it, then the door opens.
+The desk's founding sequence stands ready behind it: founding-member letter to the fourteen, TestFlight push for Head Down, the mini app on Lives as the free door.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
