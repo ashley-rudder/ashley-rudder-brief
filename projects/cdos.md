@@ -226,6 +226,14 @@ Why the stale pair is a hazard: the February webhook predates paid_users entirel
 Deploy plan adjusted: the desk's stripe-webhook shares the stale one's name, so deploying REPLACES it (correct outcome). The stale stripe-checkout and check-downgrades should be deleted from the backend; nothing calls them and a half-broken money path should not stay live. Secrets caution: STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET may already exist from February pointing at an unknown Stripe account; Ashley replaces their values with the new Creator Darwinism OS sandbox keys rather than assuming the vault is empty.
 Also confirmed from the same screenshot: 25 signups in the backend, and the desk's secret names line up with the February convention, so no renaming anywhere.
 
+## Session log: 9/20 payments desk, seventh pass. DEPLOYED.
+
+Ashley's word given 9/20 after the sandbox keys landed in the Lovable Secrets vault.
+Executed: the two checkout functions moved from stripe-rail into supabase/functions on claude/payments-desk, stripe-webhook registered in config.toml with verify_jwt off, and main fast-forwarded from e01b505 to 557d5e3. That push is the deploy; Lovable ships the functions and rebuilds the frontend with the whole desk branch: checkout rail, native purchase gate, admin manual update.
+The new stripe-webhook replaces February's stale one by name. Still Ashley's to do in the backend dashboard: delete the stale stripe-checkout and check-downgrades functions.
+Remaining to first sandbox dollar, all Ashley-side: register the webhook endpoint in the Stripe sandbox (checkout.session.completed and customer.subscription.deleted) and put its signing secret in as STRIPE_WEBHOOK_SECRET; paste the three price IDs into Admin Console Tiers with display names and prices (27, 197, 497) and hide tier_ultra; then the 4242 test through checkout, onboarding, chat.
+Note for the record: main now carries the desk's work; the branch continues for future desk changes from the new base.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
