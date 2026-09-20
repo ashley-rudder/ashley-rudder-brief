@@ -274,6 +274,12 @@ State at close of 9/20, each piece verified:
 Context: Ashley speaks with Lance 9/21 and the working roster may change after. Ruling advised and accepted: the Lovable access list gets decided AFTER that conversation, access-follows-role framing, and the vendor's access stays untouched until then because only sandbox keys are exposed. Removing anyone the night before the talk was ruled premature.
 Tomorrow's two-step go-live, for whichever session runs it: (1) create the live secret key ("Building your own integration" type), paste into CDOS_STRIPE_SECRET_KEY; (2) register the live webhook endpoint (same URL, events checkout.session.completed and customer.subscription.deleted), paste its signing secret into STRIPE_WEBHOOK_SECRET. Then one real $27 card test, refund from the Stripe dashboard, doors open. Founding-member letter next.
 
+## Session log: 9/20 payments desk, twelfth pass. Call prep closed out.
+
+Dry run held for the 9/21 vendor call (2:57 PM CDT). Ashley rehearsed the access ask, the resequencing pitch, and the verification objection, and held the line on all three; her fork question and the blanket-statement line came out of her own mouth, which is where they needed to live.
+Two private documents filed in the Drive record by rule, out of this public repo: the admissions index and the one-page call sheet. The public record notes only: the goal is the signature by Wednesday EOD, access of every kind follows it, escalation levers stay holstered and sequenced behind it, and the parked go-live plus the founding letter are the Thursday path if the date slips.
+Go-live remains parked at the access gate, one switch from live, per the eleventh-pass log.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
