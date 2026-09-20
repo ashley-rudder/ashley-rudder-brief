@@ -234,6 +234,17 @@ The new stripe-webhook replaces February's stale one by name. Still Ashley's to 
 Remaining to first sandbox dollar, all Ashley-side: register the webhook endpoint in the Stripe sandbox (checkout.session.completed and customer.subscription.deleted) and put its signing secret in as STRIPE_WEBHOOK_SECRET; paste the three price IDs into Admin Console Tiers with display names and prices (27, 197, 497) and hide tier_ultra; then the 4242 test through checkout, onboarding, chat.
 Note for the record: main now carries the desk's work; the branch continues for future desk changes from the new base.
 
+## Session log: 9/20 payments desk, eighth pass. The rail is live in sandbox, verified end to end from outside.
+
+Deploy sequence as it actually ran: the GitHub push synced into Lovable but shipped nothing; Ashley's Publish shipped the frontend only; the function deploys required a direct instruction to Lovable's agent, which then deployed both. Pipeline lesson for the rules: push, publish, and function deploy are three separate acts in Lovable.
+Verified by probe after deploy, all [Certain]:
+- Live bundle carries the checkout code (pending_checkout_tier present).
+- create-checkout-session answers 401 not_authenticated unauthenticated: live, current build, auth gate working.
+- stripe-webhook answers 400 invalid_signature to an unsigned post: that exact string is the NEW code (February's version says "Missing signature"), so the stale webhook is confirmed replaced. The response also proves CDOS_STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET are loaded, since missing secrets return 500 not_configured.
+Vault finished: CDOS_STRIPE_SECRET_KEY, STRIPE_PUBLISHABLE_KEY, STRIPE_WEBHOOK_SECRET, all dated 9/20. The Lovable-managed February STRIPE_SECRET_KEY is undeletable and now unread by anything; the rail was renamed around it. Webhook endpoint cdos-app-webhook registered in the Creator Darwinism OS sandbox on the two events.
+SECURITY FLAG, raised to Ashley 9/20: the Lovable project chat's last human instruction is the vendor's (Athena, July 31), proving standing vendor access to the app's control room including the Cloud panel. Ruling requested: review Lovable Settings, People, before any live key enters the vault. Sandbox keys are the only exposure today.
+Remaining to the receipt: price IDs pasted into Admin Console Tiers (display prices are in; the price_ IDs are the unconfirmed piece), then the 4242 purchase through checkout, onboarding, chat.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
