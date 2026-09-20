@@ -257,6 +257,14 @@ Between sandbox and LIVE, in order:
 4. One live test with a real card for a dollar-real receipt, refund it, then the door opens.
 The desk's founding sequence stands ready behind it: founding-member letter to the fourteen, TestFlight push for Head Down, the mini app on Lives as the free door.
 
+## Session log: 9/20 payments desk, tenth pass. The live account exists and the ladder stands in it.
+
+Ashley activated the Creator Darwinism OS live account 9/20, walked the activation upsells with rulings held (Radar Lite included tier, tax collection skipped for the accountant pass, and the pre-filled tax category noted as wrong: the product is software as a service, never downloadable software).
+Sandbox-to-live copy done right: products only. The stray sandbox payment link was explicitly NOT copied, by the standing rule that a sign-in-free checkout door never exists for this product.
+Verified by screenshot: the live Product catalog holds the ruled ladder, Golden Offer Discovery Session $27 one time, Creator Membership $197 per month, Operator Membership $497 per month, all Active.
+PARKED AT THE GATE, deliberately: live keys are NOT in the Lovable vault, the live webhook endpoint is NOT created, live price IDs are NOT in the Tiers tab. The app still runs on sandbox values, harmless and unable to take real money. The Lovable access review (vendor access observed 9/20) is the gate, and it is Ashley's ruling alone.
+When the gate clears, the fifteen-minute go-live: create the live webhook endpoint (same URL, same two events), swap the three vault values for live ones, paste the three live price IDs into Admin Console Tiers, run one real-card test and refund it. Then the founding-member letter has a door to point at.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
