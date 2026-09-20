@@ -280,6 +280,14 @@ Dry run held for the 9/21 vendor call (2:57 PM CDT). Ashley rehearsed the access
 Two private documents filed in the Drive record by rule, out of this public repo: the admissions index and the one-page call sheet. The public record notes only: the goal is the signature by Wednesday EOD, access of every kind follows it, escalation levers stay holstered and sequenced behind it, and the parked go-live plus the founding letter are the Thursday path if the date slips.
 Go-live remains parked at the access gate, one switch from live, per the eleventh-pass log.
 
+## Session log: 9/21 payments desk, thirteenth pass. App Store lane opened and the credits seam closed everywhere.
+
+App Store audit done against the repo's own July submission log: a build sat ONE CLICK from review since July 19 (build 5, staged listing, screenshots, categories all reusable). Two real blockers named in docs/store/APP-STORE-RELAUNCH.md on the branch: build 5 predates the purchase gate and still shows external purchase links (must never ship; build 7 from today's main replaces it), and the July review notes promise a free account today's paywall does not offer (fixed via VIP code in the revised notes, drafted in the sheet).
+Verified green for submission: privacy policy live, account deletion UI present, push proven, native purchase gate on main, listing staged.
+On Ashley's "clean things up" word, both credits patches shipped to main (49c8b78): claim-vip now writes user_credits from the tier config exactly as stripe-webhook does, and onboarding's first-time credits insert fires only when no row exists, so paid and comped accounts keep their real limits through onboarding. This closes the 9/19 comp-rail finding for App Review and the beta cohort in one change.
+To make it live: Lovable publish (frontend) plus the agent instruction to deploy claim-vip. Xcode walkthrough delivered for the build 7 archive.
+Still parked: live Stripe keys behind the access gate pending the 9/21 Poppy call; stale backend functions (stripe-checkout, check-downgrades) and tier_ultra's stale price ID await Ashley's dashboard deletes.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
