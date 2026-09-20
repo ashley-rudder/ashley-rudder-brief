@@ -205,6 +205,17 @@ Push strategy confirmed: native app required for push; TestFlight delivers push 
 Built and pushed on claude/payments-desk (second commit after 2bb5a03): the native purchase gate. showPurchaseUi(), false in the Capacitor shell, hides the pricing sections on Index and Login, the upgrade prompt's tier cards, the nudge banner's upgrade button, the verify page's pricing link, and the /checkout route. Purchase-nudge toasts neutralized in native. Linking an existing purchase stays everywhere as account management. Web unchanged. Type-checked, production build passing, zero supabase paths touched.
 The iOS flag from the 9/20 third-pass log is now CLOSED: the app can go to TestFlight or the App Store without a purchase-rule violation.
 
+## Session log: 9/20 payments desk, fifth pass. THE PRICE IS RULED.
+
+Ashley typed the ladder into the Creator Darwinism OS sandbox catalog 9/20, verified by screenshot:
+- Golden Offer Discovery Session: $27, one time.
+- Creator Membership: $197 per month.
+- Operator Membership: $497 per month.
+Three rungs, not four. Conflict #3 on the index (the five-variant price ladder) closes by ruling. The stale $9/$97/$297, the canon $147/$297/$497, the swarmhaus live ladder, and the August ladder are dead; the July advisory shape (cheap discovery door into membership) survived in spirit at $27/$197/$497.
+Register facts: dedicated Stripe account "Creator Darwinism OS" created under the Swarm Haus organization, sandbox mode, Managed Payments declined (3.5 percent upsell), Invoicing and Stripe Tax declined at setup, revisit tax with the accountant at revenue.
+Tier mapping ruled by the desk to fit the app's four slots: Discovery Session maps to tier_single, Creator Membership to tier_monthly, Operator Membership to tier_power, and tier_ultra goes hidden (visible off in Admin Console Tiers) until a fourth rung exists.
+Remaining to first sandbox dollar: sandbox keys into Supabase secrets, Ashley's deploy word, webhook endpoint plus signing secret, price IDs into the Tiers tab, 4242 test through checkout, onboarding, chat.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
