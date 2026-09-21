@@ -314,6 +314,14 @@ Remaining before the blue button, all Ashley clicks: iPad frames, newest build c
 Filed during the endgame: the iPad OAuth return gap (sign-in completes in the browser sheet instead of bouncing to the app; email sign-in unaffected) and the iPad chat session rail rendering narrow. Both post-approval.
 One morning chore remains outside App Store Connect: a Lovable Publish so the website picks up the editorial refit the app already ships.
 
+### The receipt, from Apple's own page
+
+Status: Waiting for Review. Submission ID 9ddfb158-1151-4448-986f-aeabf09eddcc. Date Submitted per App Store Connect: Sep 20, 2026 at 11:22 PM. Submitted by HAUS OF SÔS. Item: iOS App 1.0, build 1.0 (11), and the CD. monogram sits on the listing where the old icon used to be.
+
+This closes the arc that opened with the six-count rejection letter of 8/4. Every count went back answered: 2.1 performance (native CORS wall demolished, first full native run verified on Ashley's phone), 2.1a demo credentials (email sign-in shipped, appreview@hausofsos.com live in the review fields), 2.3.3 screenshots (ten real captures, six iPhone at 1284x2778, four iPad shot on her own hardware), 4.0 sign-in flow (no email demanded after Sign in with Apple, linking screen rebuilt), 1.5 support URL (public /support page live), 3.1.3(f) on record in the notes. Seven builds signed, archived, and uploaded by Ashley solo over one weekend, from a standing start with a signing pipeline Apple's tooling refused to explain.
+
+Holding pattern until the verdict: VIP config ACTIVE with APPLEREVIEW granting tier_ultra, demo account un-onboarded, no pushes to main that touch supabase/functions. Verdict arrives by email, quoted at up to 48 hours.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
