@@ -24,6 +24,30 @@ What it touches in the memo:
 2. The human-connection quote is the memo's thesis in Spotify's own voice. Candidate epigraph or section 9 evidence, staged for the Doc pass.
 3. The door: Hellman's letter makes him the landing zone, not just an org-chart name. See the door file on the pitch branch.
 
+## 2026-05-26 · The 2030 targets: 1 billion users, 20% operating margin · logged 9/21, corroborated
+
+Fortune reported May 26, off Investor Day: Spotify is aiming for 1 billion users and 20% operating margins by 2030, framed by CFO Christian Luiga.
+Sources: Fortune 5/26 (title and summary verified, body egress-blocked), Investor Day recap title on Spotify newsroom.
+
+What it touches in the memo:
+1. The CFO frame gets its anchor. A billion users by 2030 means roughly 223 million net adds from the 777M base, and the retention argument stops being defensive: daily-appointment mechanics are user-growth and engagement machinery aimed at their own stated target.
+2. The margin line updates: the memo argues to a 33.4% gross margin discipline; the 2030 frame adds a published operating-margin ambition that any new surface must serve. Sponsorship inventory and churn defense both feed it.
+
+## 2026-05-21 · UMG and Spotify license fan-made covers and remixes · logged 9/21, observed at title level
+
+Spotify newsroom carries a May 21 Investor Day release: "Spotify and Universal Music Group Announce Landmark Licensing Agreements for Fan-Made Covers and Remixes."
+Body unread, egress-blocked; logged at title level only until corroborated.
+
+What it would touch if the body holds:
+1. Section 3.3, the rights lens: the largest rights holder is signing new-format licenses with Spotify in 2026, which extends the "door the majors already opened" argument from the January 2025 deals to a live May 2026 precedent.
+2. The superfan-tier read: fan-made content licensing is exactly the category the stalled tier reportedly needed.
+
+## 2026-09-21 · Watch notes · logged 9/21
+
+Communacopia resolved: Söderström presented September 9, 3:45 PM PDT, per the Business Wire release carried by Yahoo Finance. What he said there is still unread; transcript hunt is optional, low priority.
+Advertising seat resolved at summary level: Brian Berner, Head of Global Advertising Sales and Partnerships, also styled Co-Lead Global Head of Advertising (Crunchbase, RocketReach styling, eMarketer interview). Good enough for the door file with this label.
+Doc watch: no movement since 20:01Z on 9/18, three days. Pending suggestions and comments would be invisible to metadata; accepted text would not be.
+
 ## 2026-09-20 · Watch notes · logged 9/20
 
 A co-CEO presented at the Goldman Sachs Communacopia + Technology Conference this month per a September 2 Business Wire release; which co-CEO, the date, and what was said are unverified, businesswire is egress-blocked. Observed, unverified.
