@@ -288,6 +288,26 @@ On Ashley's "clean things up" word, both credits patches shipped to main (49c8b7
 To make it live: Lovable publish (frontend) plus the agent instruction to deploy claim-vip. Xcode walkthrough delivered for the build 7 archive.
 Still parked: live Stripe keys behind the access gate pending the 9/21 Poppy call; stale backend functions (stripe-checkout, check-downgrades) and tier_ultra's stale price ID await Ashley's dashboard deletes.
 
+## Session log: 9/21 payments desk, fourteenth pass. The rejection answered, the phantom killed, the resubmission staged.
+
+The July submission was never one click short: it was submitted and REJECTED 8/4 on six counts, found by reading the App Review letter in App Store Connect. All six answered in one overnight:
+- Guideline 4 (Sign in with Apple): onboarding skips the name question when auth metadata carries one; membership linking no longer forces email entry (optional link path, access-code path, sign-out escape).
+- 3.1.1: every Stan mention scrubbed from native copy; written defense is 3.1.3(f), free stand-alone companion to a paid web tool, drafted into the review reply.
+- 2.3.8: the CD. brand mark is the app icon from build 8 on; encryption-exempt flag set so the compliance question never returns.
+- 1.5: /support page shipped and live; ASC Support URL points at it.
+- 2.1(a): email+password sign-in added (sign-in only, admin-provisioned); a demo review account exists seated at tier_ultra with unlimited credits, verified end to end by API; credentials live in the ASC review notes and the password manager, nowhere else.
+- 2.3.3: six store screenshots shot from the real app on Ashley's phone, delivered at Apple's exact 1290x2796, replacing the rejected marketing frames.
+
+The signing wall fell twice: the unaccepted developer agreement, then the zero-devices trap, routed around with the existing July distribution certificate and the App Store provisioning profile from the portal. Builds 7 through 10-plus archived and uploaded by Ashley solo by night's end.
+
+The night's biggest find came from Ashley refusing to accept "works on my end": six edge functions ran an origin allowlist that never included the native shells, so every native request died as "Load failed" while the web sailed. Chat, the lock-in report, IP Vault, and account deletion had never worked in the app, and the reviewer would have hit the same wall for an automatic 2.1 repeat. Fix pushed (32d176b), deployed through the Lovable agent with claim-vip riding along, verified from outside with the shell's own origin. First full native run followed on her phone: Golden Offer interview, report, Pressure Test, an 82 PURSUE verdict, sprints to calendar, tasks seeded.
+
+Product rulings executed the same night: per-tier VIP codes all live at once (claim function plus Admin VIP tab); the session picker has one door, Golden Offer, with the other stages dimmed behind it; Head Down Mode card opens the real sprint panel instead of claiming coming soon.
+
+The editorial refit landed across the whole app: Playfair display voice and JetBrains Mono kickers inside the product to match the landing, no orphans anywhere by stylesheet rule, no sideways scroll structurally possible, safe areas respected, pinch and input-focus zoom locked in the shell, PDFs read workerless natively, chat single-column on phones. Verified at iPhone and 13-inch iPad dimensions with a real browser audit, signed in, every screen.
+
+Remaining before the blue button, all Ashley clicks: iPad frames, newest build confirmed on the version, one Sign in with Apple tap, Resubmit to App Review with the drafted reply. Filed for later: tier-sync migration ready in the repo (profiles.tier trigger silently blocks service-role writes, message limits never enforce), send-retry hardening, the work locker, voice notes, Word attachments.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
