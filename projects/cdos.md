@@ -308,6 +308,12 @@ The editorial refit landed across the whole app: Playfair display voice and JetB
 
 Remaining before the blue button, all Ashley clicks: iPad frames, newest build confirmed on the version, one Sign in with Apple tap, Resubmit to App Review with the drafted reply. Filed for later: tier-sync migration ready in the repo (profiles.tier trigger silently blocks service-role writes, message limits never enforce), send-retry hardening, the work locker, voice notes, Word attachments.
 
+## Session log: 9/21 payments desk, fifteenth pass. Submitted.
+
+1.0 (11) went back to App Review at 12:40 AM CDT: ten real screenshots (six iPhone, four iPad shot on Ashley's own devices), demo credentials in the sign-in fields, the six-point response riding in the notes, the 3.1.3(f) defense on record. Apple quotes up to 48 hours. The VIP config stays active and the demo account stays un-onboarded until the verdict.
+Filed during the endgame: the iPad OAuth return gap (sign-in completes in the browser sheet instead of bouncing to the app; email sign-in unaffected) and the iPad chat session rail rendering narrow. Both post-approval.
+One morning chore remains outside App Store Connect: a Lovable Publish so the website picks up the editorial refit the app already ships.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
