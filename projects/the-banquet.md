@@ -17,7 +17,9 @@ Content faithful to Ashley's text, scripture converted NIV to ESV (Romans 5:8, L
 The ruled beta reading set, Day 1 plus Day 12, is now complete in Drive.
 Day 2, "God Is Love," is cleaned from Day_2_God_Is_Love_DRAFT.txt and filed 9/21: https://docs.google.com/document/d/1ofKKCiIXsNOtZb1O_vVS33xd_gQbAKrQ6OUMqKhEsjo/edit
 ESV conversion carries one content consequence flagged in the Doc header: NIV Exodus 34:6 "compassionate and gracious" is ESV "merciful and gracious," so the Reflection beat "The first word out of God's mouth? Compassionate." now reads "Merciful." Ashley's word if she wants it reworked. Closing slot staged both ways (source Creative Space vs proposed Sacred Practice "The Re-Introduction").
-Days filed clean in Drive: 1, 2, 11, 12. Next unwritten in order: Day 3, "Loved Before You Were Born," title and premise only in the source outline.
+Day 3, "Loved Before You Were Born," is composed from the outline premise and filed 9/22: https://docs.google.com/document/d/1GpwcanyNwXrmcDOGVIleFykm2lsDhu71yx9IyZwMPZ0/edit
+Scripture Psalm 139:13-16, Jeremiah 1:5, Ephesians 1:4-5, verified via ESV.org and BibleHub search renderings. Sacred Practice closing per the composed-day precedent (The Inscription, written on the journal's inside cover). It carries the unplanned-pregnancy pastoral beat ("unprepared parents, a prepared God"), which deserves Ashley's read for sensitivity.
+Days filed clean in Drive: 1, 2, 3, 11, 12. Next unwritten in order: Day 4, "The Cross — Love's Ultimate Proof."
 
 Rulings captured 9/18 from the portable-brief thread, now on the record:
 1. ESV is the translation for the whole devotional. Locked by Ashley.
@@ -54,7 +56,7 @@ The jointhebanquet.com app is Path 2: a real build on fresh infrastructure, neve
 4. Ashley's word still owed from the Section Revisions Doc: the Day 22 song confirmation (Hillsong "Who You Say I Am" proposed as mom's favorite) and the Day 23/24 reorder applied to the master document.
 5. Remaining days on the daily writing cadence after Day 11.
 6. Ashley's word: does Sacred Practice become the journal-wide standard for every day's closing slot? The Day 1 Doc now stages the decision on the page: source Creative Space and a proposed Sacred Practice sit side by side and she strikes one. If she keeps Creative Space she supplies its tail, which the source PDF truncates.
-7. The ESV verification pass against Crossway's official text, run once across the full scripture list before print. Correction 9/19: this desk's egress proxy blocks esv.org, biblegateway.com, biblia.com, ebible.com, and biblehub.com, so the word-for-word pass cannot run from here. Day 11's quotes were cross-checked through search-result renderings only. The pass needs either those domains allowlisted or fifteen minutes of Ashley's browser against esv.org. Verse list now: Exodus 20:12, Psalm 27:10, Matthew 7:11, Psalm 139:4, James 1:17, 1 Thessalonians 5:18, Jeremiah 2:13, John 4:13-14, Isaiah 55:1-2, Psalm 107:9, Romans 5:8, Luke 15:20, Isaiah 1:18, 1 John 4:7-8, 1 John 4:16, 1 John 4:18-19, Exodus 34:6-7.
+7. The ESV verification pass against Crossway's official text, run once across the full scripture list before print. Correction 9/19: this desk's egress proxy blocks esv.org, biblegateway.com, biblia.com, ebible.com, and biblehub.com, so the word-for-word pass cannot run from here. Day 11's quotes were cross-checked through search-result renderings only. The pass needs either those domains allowlisted or fifteen minutes of Ashley's browser against esv.org. Verse list now: Exodus 20:12, Psalm 27:10, Matthew 7:11, Psalm 139:4, James 1:17, 1 Thessalonians 5:18, Jeremiah 2:13, John 4:13-14, Isaiah 55:1-2, Psalm 107:9, Romans 5:8, Luke 15:20, Isaiah 1:18, 1 John 4:7-8, 1 John 4:16, 1 John 4:18-19, Exodus 34:6-7, Psalm 139:13-16, Jeremiah 1:5, Ephesians 1:4-5.
 
 As of 9/18 the Banquet has one writing surface: this desk. The portable-brief thread's Banquet work is captured above and that thread closes.
 
@@ -67,6 +69,8 @@ As of 9/18 the Banquet has one writing surface: this desk. The portable-brief th
 2026-09-20. Day 1 cleaned from the source master PDF and filed to Drive: Ashley's text kept faithful, scripture converted to ESV with wording cross-checked against ESV.org and BibleHub search renderings, closing slot staged both ways for her ruling. The beta reading set (Day 1 + Day 12) is complete. Drive checked: no comments on Day 11 or Day 12, no Form yet, so all beta sends still wait on her. Nothing shared.
 
 2026-09-21. Day 2 cleaned from the draft txt and filed to Drive, ESV converted and cross-checked, the merciful-vs-compassionate consequence flagged in the Doc for Ashley, closing slot staged both ways. Drive checked: still no comments, no Form, nothing back from Ashley since the desk opened. Nothing shared. Four days now stand clean: 1, 2, 11, 12.
+
+2026-09-22. Day 3 composed from the outline premise and filed to Drive: audition-versus-chosen spine, two-timelines and record-correction exercises, Sacred Practice The Inscription. Scripture verified as far as the egress allows. The unplanned-pregnancy beat flagged for Ashley's sensitivity read. Drive checked: no comments, no Form, nothing back. Nothing shared. Five days stand: 1, 2, 3, 11, 12.
 
 ## Cadence
 
