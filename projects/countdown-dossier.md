@@ -33,14 +33,17 @@ What it touches in the memo:
 1. The CFO frame gets its anchor. A billion users by 2030 means roughly 223 million net adds from the 777M base, and the retention argument stops being defensive: daily-appointment mechanics are user-growth and engagement machinery aimed at their own stated target.
 2. The margin line updates: the memo argues to a 33.4% gross margin discipline; the 2030 frame adds a published operating-margin ambition that any new surface must serve. Sponsorship inventory and churn defense both feed it.
 
-## 2026-05-21 · UMG and Spotify license fan-made covers and remixes · logged 9/21, observed at title level
+## 2026-05-21 · UMG and Spotify license fan-made AI covers and remixes · upgraded 9/22, corroborated
 
-Spotify newsroom carries a May 21 Investor Day release: "Spotify and Universal Music Group Announce Landmark Licensing Agreements for Fan-Made Covers and Remixes."
-Body unread, egress-blocked; logged at title level only until corroborated.
+Announced at Investor Day, May 21: landmark recorded-music and publishing agreements letting fans create AI-powered covers and remixes of participating artists' songs, launching as a paid Premium add-on with a revenue share to participating artists and songwriters.
+Norström and Lucian Grainge framed it on consent, credit and compensation, and coverage calls it the first structured AI-experience deal between a streamer and a major with explicit artist consent.
+Spotify shares rose 13% in the session.
+Sources: PR Newswire release, Variety, MBW, TechCrunch, all 5/21. Corroborated at summary level across independent outlets including the wire release.
 
-What it would touch if the body holds:
-1. Section 3.3, the rights lens: the largest rights holder is signing new-format licenses with Spotify in 2026, which extends the "door the majors already opened" argument from the January 2025 deals to a live May 2026 precedent.
-2. The superfan-tier read: fan-made content licensing is exactly the category the stalled tier reportedly needed.
+What it touches in the memo:
+1. Section 3.3, the rights lens: the "door the majors already opened" argument now runs January 2025 to May 2026, and the May precedent is an AI-format license, the hardest category there is.
+2. Section 10's upsell line reads "a package that asks far less of the majors than an AI remix tool does." The AI remix tool got its UMG license in May. The line flips from hypothetical to a fortiori and must be rewritten: the majors already granted the hard thing, so front-row access and Stage ticket claims are trivial by comparison. Staged in desk notes.
+3. The consent-credit-compensation framing from Norström's own mouth is language the Booth can borrow verbatim.
 
 ## 2026-09-21 · Watch notes · logged 9/21
 
