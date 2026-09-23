@@ -45,6 +45,13 @@ What it touches in the memo:
 2. Section 10's upsell line reads "a package that asks far less of the majors than an AI remix tool does." The AI remix tool got its UMG license in May. The line flips from hypothetical to a fortiori and must be rewritten: the majors already granted the hard thing, so front-row access and Stage ticket claims are trivial by comparison. Staged in desk notes.
 3. The consent-credit-compensation framing from Norström's own mouth is language the Booth can borrow verbatim.
 
+## 2026-09-23 · Watch notes · logged 9/23
+
+No product news. Market context only: SPOT closed 9/22 at $499.91, down 3.26%, with analyst estimate trims in the air.
+A syndicated line reports $3.03 EPS against $3.16 consensus for "the latest quarter"; that is a restatement of the already-reported quarter in USD, not a new release, since Q3 does not report in September. Labeled inference from earnings cadence.
+Reading for the pitch: scrutiny on costs rises into the Q3 print, which strengthens the kill-criteria framing and the capped-exposure shape of the ask.
+Doc watch: frozen since 9/18, five days.
+
 ## 2026-09-21 · Watch notes · logged 9/21
 
 Communacopia resolved: Söderström presented September 9, 3:45 PM PDT, per the Business Wire release carried by Yahoo Finance. What he said there is still unread; transcript hunt is optional, low priority.
