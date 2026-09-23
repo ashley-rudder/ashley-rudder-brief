@@ -322,6 +322,18 @@ This closes the arc that opened with the six-count rejection letter of 8/4. Ever
 
 Holding pattern until the verdict: VIP config ACTIVE with APPLEREVIEW granting tier_ultra, demo account un-onboarded, no pushes to main that touch supabase/functions. Verdict arrives by email, quoted at up to 48 hours.
 
+## Session log: 9/23 payments desk, sixteenth pass. Rejected on 3.1.1, answered with In-App Purchase.
+
+Apple rejected 1.0 (11) at 7:30 AM under 3.1.1: the app accesses subscriptions purchased outside without offering them through In-App Purchase. The 3.1.3(f) free-companion defense held on its own terms (no purchase UI was found in the build) but the reviewer classified CDOS as a multiplatform subscription service under 3.1.3(b), which demands IAP parity. Hiding pricing defends against steering; nothing defends against the absence of IAP for an app that is itself the product. Ashley ruled: comply.
+
+The rail went in the same day. Commits fc99357, a9813ad, 97aab4e on main (mirrored to claude/payments-desk): RevenueCat via @revenuecat/purchases-capacitor 13.6.0, purchase identity glued to the Supabase user id, a native paywall at /upgrade in the app's own editorial system (three monthly tiers, live App Store pricing, Restore Purchases, auto-renew disclosure, terms and privacy links), every native upgrade surface routed to it, and an iap-sync edge function that provisions from RevenueCat as source of truth on two paths: client sync after purchase for the instant unlock, webhook for renewals, product changes, and expirations. Gateway JWT off for iap-sync in config.toml; the function authenticates both paths itself. Web pricing and Stripe checkout stay hidden natively, so no steering violation rides along.
+
+The business model on the record: web purchases keep full access and Apple takes nothing on them; the in-app tiers price above web ($99.99, $299.99, $499.99 against $97, $297, $497) to carry Apple's cut; steering to web pricing happens on owned channels only, never inside the app. Small Business Program enrollment (15% cut) queued for when the Paid Apps Agreement clears.
+
+Ashley's paperwork day: Paid Apps Agreement signed and Processing, banking (Super Saucy LLC) Processing, DSA trader compliance flagged with the ruling to trim the EU from availability for launch rather than publish a residential address. RevenueCat project live: App Store app added (bundle ai.creatordarwinism.app), public SDK key wired into the build (97aab4e), cdos_tier_monthly created with the other two products in flight.
+
+Remaining to resubmission: the other two RevenueCat products plus the default offering, sk_ key and webhook auth into Supabase secrets, webhook registered, Lovable deploy of iap-sync, the three auto-renewable subscriptions in App Store Connect, build 12 (pull, sync, In-App Purchase capability in Xcode, archive, upload), subscriptions attached to the version, updated review notes, and the gate nobody controls: the agreement flipping from Processing to Active.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
