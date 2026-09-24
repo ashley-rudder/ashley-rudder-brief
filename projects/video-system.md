@@ -47,16 +47,86 @@ If a tool must run repeatedly, the desk asks Ashley once for always-allow on tha
 Waiting is visible, never silent: the desk posts a status line to the Cut Room board at render start, at meaningful progress, and on delivery.
 For scale: an edit turn is minutes, a render is tens of minutes, and a desk that needs a human tap every minute is misbuilt and gets rebuilt.
 
-## Miss Moth 2026 (opened 9/20 on the Cut Desk)
+## The card layer law (corrected 9/20 on the mini, it supersedes the recipes doc)
 
-The build spec is docs/content/miss-moth-2026-timeline.md on branch claude/bill-cds-mobile-viewing-qb6o05 of chatwise-thought-hub.
-The Resolve build sheet is docs/content/miss-moth-build-sheet.md on branch claude/video-desk, redlined and pushed 9/20.
-Ashley's redlines, 9/20, they govern: 45 seconds not 40; no makeup application footage anywhere, IMG_4391 and IMG_4392 out entirely; cards are the board stills plus Coco final-look video only; captions in her big yellow Didone style, one word at a time, Bodoni Moda matched by eye against Editing example 2.
-The model is named Coco. The wings file IMG_0022 is Coco in the final look.
-All sources verified in Drive folder Miss Moth 2021 except Ashley Talking Head.mov and the two Editing example files, which sit only in ~/Downloads/Miss Moth 2021 on the mini.
-The feather extension edit from 9/18 stands by: source measured (12:44, 4K60 portrait, silent, luma 124.7 sat 10.2, contact sheet in Higgsfield media 44659c5a), waiting behind Miss Moth.
+Ashley's ruling, watching her own reference: it is fine to cover her, she does not have to be seen every second.
+Measured off Editing example 2, frame by frame, and this is the geometry that ships:
+Cards run about 92 percent of frame width, centred, sitting in a fixed vertical band.
+They cover her face completely. She reads as a strip of hair above and a strip of top below. Several go full bleed.
+No white border. The card is a bare photograph, not a print laid on the picture.
+Captions hold one fixed position and ride ON TOP of the card. They never move out of its way.
+
+The line in video-grade-recipes.md that says "none of the reference reels ever fully cover the speaker", and the 45 to 60 percent width figure beside it, are WRONG. They are struck.
+That doc had already corrected itself once in the wrong direction. Do not let it correct back.
+
+Cut rhythm, measured off the same reference: clean for 2.08 seconds, then events every 0.63 to 1.13 seconds out to 10.58, then holds of 1.5 to 3.5 seconds.
+Coverage past 20 percent is fine. The reference runs higher.
+
+The useful consequence: if cards cover the speaker, a tight crop stops mattering for the card layer.
+
+## Reference use (Ashley's ruling, 9/20, standing)
+
+All references are used as REPORTAGE.
+Identifiable women are OUT of the exclusion list. That entry is deleted, not narrowed.
+No session limits reference use again. Do not re-raise it, do not re-impose it, do not quietly drop a card on those grounds.
+What still gets cropped is app chrome, because chrome is sloppy, not because the image is restricted.
+
+## Miss Moth 2026 (rebuilt 9/19 to 9/20 on the mini, in Resolve)
+
+The old Resolve project "Miss Moth 2026" is DELETED on Ashley's word. Both its timelines were in breach.
+MISS MOTH 45 ran IMG_4391 and IMG_4392, the redlined makeup footage, as its spine.
+MISS MOTH TALK 45 ran a silent Coco spine under thirteen board cards, which was the 2021 post with its moodboard moved into corner cards. No new argument. Ashley binned it.
+
+MISS_MOTH_2026_v1 is the live project. 1080x1920 at 30. Pool is her take and the wings, nothing else.
+
+THE SCRIPT CHANGED and the new one governs. Ashley delivered it to camera in one take, every line, in order.
+It runs 149 words and 61.0 seconds of speech with the pauses already cut.
+The 45-second redline was set against the old 95-word script and no longer fits. Runtime is an open call.
+Three rules carry the piece: steal from an archive not a costume aisle, do the damage yourself, then build the face.
+The close is "nobody at the party will know what she is, two people will ask, those are the two you came for."
+
+The spine is ASHLEY, confirmed 9/19. Ashley Talking Head.mov is 3840x2160 LANDSCAPE, shot tight, 71.5s, measured luma 130.8 saturation 8.4.
+It fails the loose-frame spec and no reframe fixes it. Fill crop leaves no room. A blur plate fills the card zone with her own blurred jaw. Both were built and both were rejected on sight.
+A vertical reshoot is still wanted for the room and the seated frame. It is no longer blocking, because the cards cover her.
+Ashley's position 9/20: this is a scratch draft to judge everything else, she refilms if she likes the rest.
+
+Scratch delivered: MISS_MOTH_2026_v1_SCRATCH.mp4 in ~/Downloads/Miss Moth 2021, 69.3 seconds, 18 cards, 30 percent coverage.
+Structure: her placard line rides over the wings, then six on-camera cuts with pauses out, then the wings close.
+Grade landed: spine 117 luma 14.5 saturation against 115 and 16 targets. Wings carry their own gamma so they do not run hot.
+Cards are the board stills, cropped of chrome.
+
+## The pipeline, now built and reusable
+
+Resolve project and timeline setup, 1080x1920 at 30.
+Transcription: MediaPoolItem.TranscribeAudio gives word-level timecodes. Timeline.CreateSubtitlesFromAudio with charsPerLine 1 gives one caption per word.
+Subtitle TEXT IS READ-ONLY through the API. SetName returns False. Mis-hears get fixed in the burn layer, not in Resolve.
+THE MINI'S FFMPEG HAS NO LIBASS AND NO DRAWTEXT. Burned subtitles and drawtext both fail.
+Captions and cards render instead as a per-frame RGBA PNG layer from Pillow in a venv, then composite in one overlay pass. 2078 frames in about 20 seconds.
+Grade runs after the Resolve picture render, tuned by measuring with signalstats and iterating to the target numbers.
+Bodoni 72 Bold is at /System/Library/Fonts/Supplemental/Bodoni 72.ttc, face index 2. Bodoni Moda is not installed. Didot is.
+
+With footage shot to spec, a piece like this is about fifteen minutes of desk time and most of that is the render.
+
+## Open calls on Miss Moth
+
+1. Runtime. 61 seconds of speech against a 45-second redline that predates the script.
+2. Caption style. Ashley's redline says big yellow Didone. Editing example 2 actually shows SMALL WHITE LOWERCASE SANS set low. The build sheet claims the reference shows yellow Didone and it does not. Built to her redline pending her call.
+3. The card pool. Pinterest board cannot ship. Replacement sourcing is under way.
+
+## Archival sourcing for Miss Moth (9/20 to 9/23)
+
+Ashley wants the three rules carried by real archival material, and supplied three references herself, all 474px search thumbnails.
+Chased to source and held in the session scratch under archival/:
+The wedding dress packed in an archival box is an EXACT match at 1500x799. It is the Gaylord Archival preservation box product shot.
+The gold moth was not matched. A sharper flat-lay specimen at 2940x1960 stands in. Angle differs, Ashley's call.
+The textile moth is MISTER FINCH, Leeds, who builds moths from vintage velvet curtains, old aprons and wedding dresses.
+Her exact piece is unreachable. Pinterest blocks hotlinking and mister-finch.com is a dead domain.
+What was found is better: two Finch moths on a stack of antique books, 800x1203 from Colossal, one spine reading The Art of Needle Craft. The archive and the thing that eats it in one frame.
+Also held: a 3072x3072 clothes moth with larvae and frass on the fabric it fed on, plus V&A costume-audit frames at 610px. LACMA's conservation shots are served at 400px and are too small to use.
+Still missing and worth shooting rather than sourcing: hands folding a dress into tissue. Rule two is do the damage yourself.
 
 ## Next action
 
-The mini's local desk opens Resolve, reads the build sheet, stages the plan on the Cut Room board, and holds for Ashley's run order.
-The cloud Cut Desk holds planning, board state, and Drive-side asset prep, per the division of labor above.
+Place the three archival finds on their beats, taking the cut to 21 cards, and re-encode.
+Then Ashley's calls on runtime, caption style, and whether the reshoot happens.
+The Cut Room board is one publish behind and carries the pre-cards state.
