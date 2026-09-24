@@ -378,7 +378,11 @@ The build-out timeline stands as ruled: Week 0 is the engine swap and KB evacuat
 
 Holding pattern unchanged: demo account untouched, VIP config ACTIVE, no pushes touching supabase/functions on main until Apple's verdict.
 
-## Rules
+### The activity baseline, measured 9/24
+
+Ashley ran the 30-day activity query against the live database. Twenty-nine accounts total. Four sent a message in the last 30 days, and two of those are internal (uitest and hello at hausofsos). Real external activity: one habitual user on an Apple private-relay address at 12 messages across 3 sessions in the month (weekly cadence, the product's retention existence proof, and the heavy user whose feedback Ashley holds), plus Athena Villard's personal gmail with a single message on 9/20, three days before the refund. Charan's account idle since 8/1. Several accounts show zero messages ever, meaning they signed up and never reached a first conversation.
+
+The reading, ruled into the plan: two distinct leaks, not one. An activation leak (accounts that never got to message one; the onboarding-to-first-chat funnel drops people) and the missing return layer (first-touch users who never came back; the standing-strip and next-move dashboard work). The founding letter is therefore a first-activation letter for most of the fourteen, not a comeback letter. Baseline to beat, on the record: one weekly-active real user in September 2026. Standing instrumentation to ship: the per-user activity table into admin Stats, on its own branch off main, never on claude/payments-desk, which carries the undeployed engine swap.
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
 Product repo work rides claude/payments-desk, never main.
