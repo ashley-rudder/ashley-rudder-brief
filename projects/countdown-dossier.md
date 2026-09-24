@@ -45,6 +45,15 @@ What it touches in the memo:
 2. Section 10's upsell line reads "a package that asks far less of the majors than an AI remix tool does." The AI remix tool got its UMG license in May. The line flips from hypothetical to a fortiori and must be rewritten: the majors already granted the hard thing, so front-row access and Stage ticket claims are trivial by comparison. Staged in desk notes.
 3. The consent-credit-compensation framing from Norström's own mouth is language the Booth can borrow verbatim.
 
+## 2026-09-24 · Q3 earnings dated: October 22 · logged 9/24, corroborated
+
+Spotify announced it reports Q3 2026 on Thursday, October 22, before market open, with an 8:00 AM ET Q&A via Slido.
+Sources: Business Wire release 9/24 carried by Yahoo Finance and FinancialContent. Corroborated at summary level across carriers of the wire.
+
+What it touches:
+1. The send date. October 13 now sits nine days inside the pre-earnings tunnel, and the memo's headline numbers (777M MAU, Q2 margin) go stale nine days after sending. The desk stages a two-option ruling for Ashley: hold October 13, or move to Tuesday, October 27, five days after the print, with every figure refreshed same-day to Q3. Desk recommendation: October 27, because a document about currency should not open with a number its reader replaced the week before, and the window still clears the Wrapped crunch. The counter-case for holding the 13th: the note asks for twenty minutes, not a meeting that week, and landing before the print positions the pitch as arriving ahead of the story. Ashley rules.
+2. The desk's calendar: October 22 becomes a mandatory same-day sweep and full figure refresh regardless of which date she picks.
+
 ## 2026-09-23 · Watch notes · logged 9/23
 
 No product news. Market context only: SPOT closed 9/22 at $499.91, down 3.26%, with analyst estimate trims in the air.
