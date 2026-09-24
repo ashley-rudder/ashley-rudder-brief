@@ -27,7 +27,7 @@ Pitch Jeanine first (she's the one with the authority to greenlight). CC Brian i
 
 Hi Jeanine,
 
-I'm Ashley Rudder — the first Chief Creator Officer in advertising, currently at DNY where I also launched SOCI Studio. I keynoted Creator Darwinism on the Cannes Lions main stage in June 2025, and I'd like to pitch Ad Age a bylined op-ed that lands the framework in front of your CMO audience before the term gets defined by someone else.
+I'm Ashley Rudder, the first Chief Creator Officer in advertising (Whalar, then DNY, where I launched SOCI Studio) and founder of Creator Darwinism OS, an AI operating system for creators that launches on the App Store this month. I keynoted Creator Darwinism on the Cannes Lions main stage in June 2025, and I'd like to pitch Ad Age a bylined op-ed that lands the framework in front of your CMO audience before the term gets defined by someone else.
 
 **The angle:** The next decade of marketing does not belong to bigger influencer budgets. It belongs to Creator Organizations — companies whose entire operating model produces content the way a creator does, using the trust their own employees have already earned. Owned trust compounds. Rented trust decays.
 
@@ -47,8 +47,8 @@ Happy to send a two-paragraph outline or hop on 15 minutes if that's easier.
 
 Best,
 Ashley Rudder
-Chief Creator Officer, DNY
 Founder, Creator Darwinism OS
+First Chief Creator Officer in advertising (Whalar, DNY)
 [ashleyrudder.com/creator-darwinism](https://ashleyrudder.com/creator-darwinism) · [LinkedIn](https://www.linkedin.com/in/ashleyrudder1)
 
 ---

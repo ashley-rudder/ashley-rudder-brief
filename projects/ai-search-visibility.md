@@ -36,6 +36,15 @@ Single point of failure: ashleyrudder.com/creator-darwinism returns 404, and nea
 3. Who creates the Wikidata items: her account or a neutral third party per the COI warning.
 4. Which of the four positioning-doctrine versions is canonical.
 
-## Next action
+## Restart, ruled 9/24: visibility is the diligence layer of the fractional play
 
-Ashley names the site surface; Sable ships the canonical page the same day, voice-passed, with the ruled module name.
+Ashley's call: fractional buyers research you before they reply, and the public record has been quiet for a year. The restart runs parallel to the fractional outreach (projects/fractional-cco.md). The ten warm emails do not wait for it; those people already know her. Everyone else meets the restarted record.
+
+Sequence:
+1. NOW: LinkedIn About swap. The vaulted rewrite (linkedin-about-rewrite.md) is paste-ready. Headline tweak included. Five minutes of Ashley's hands.
+2. TUESDAY 9/29, 8:30-9:30 AM CT: the flag post (linkedin-flag-post-1.md, the 2027 EGC Wave) goes up verbatim, link in first comment. This is the return shot, dated and on the record.
+3. THEN, three posts a week: the founder build-in-public line is the content goldmine. Shipped a native App Store build solo. Built an IAP rail in one day. The method receipts (M·A·C, Clé de Peau) rotated per the bio rules, never stacked. Every post is diligence bait for a fractional buyer.
+4. CANONICAL PAGE, blocked on two rulings (module name, doctrine version) plus site source. The Vercel connector can pull the ashleyrudder-site deployment bundle so the rebuild path no longer waits on finding the Mac folder. Page must be live before any editor pitch: the pitch links ashleyrudder.com/creator-darwinism and an editor clicking a 404 is a dead pitch.
+5. EDITOR PITCHES, within two weeks: Ad Age first per the vaulted priority (Poggi, then Larkin, opinion@ last), emails verified at send time. Pitch refreshed 9/24 to founder framing: the "currently at DNY" line and DNY signature were a year stale and are corrected in ad-age-byline-pitch.md. Digiday, Adweek, Marketing Brew follow the cadence if Ad Age passes.
+
+Standing rulings still owed from the list above: module name (Pressure Test vs Stress Test), which doctrine version is canonical, who creates the Wikidata items.
