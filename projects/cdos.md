@@ -364,6 +364,20 @@ Builds 12 through 14 in one evening (12 pre-See-Plans, 13 archived before the pu
 
 Holding pattern until the verdict: demo account appreview@hausofsos.com untouched (password Darwin-Review-2026!, no trailing period, as clarified), VIP config ACTIVE, no function pushes. The paywalltest sandbox subscription self-expires within a day and will exercise the expiration path organically. Poppy front unchanged tonight: Qazi email and Chelsea email sent; awaiting entity details, Qazi's signature, and Mo's draft.
 
+## Session log: 9/24 payments desk, eighteenth pass. Poppy ends with a full refund, and the app gets its own engine.
+
+The Poppy dispute closed at 1:06 AM on Qazi's own email: the $10,000 refunded in full, and in writing, "the app and everything built for it is yours." No negotiation left to run. The BATNA became the outcome: money back, IP kept, self-host. The one loss on the ledger is the free Power User year, reframed on the record as one Ultra subscriber's revenue and as R&D tuition that turned Ashley into someone who ships native App Store builds solo. Follow-up owed to Qazi: written confirmation of the IP assignment and a no-use covenant, access staying live through the paid term for orderly migration, and the refund reference number.
+
+The refund converts Poppy from vendor to dependency, and dependencies get removed. Two workstreams opened the same night.
+
+First, the evacuation. tools/poppy-rescue (commit bc4aa3c) is a Playwright recorder that runs on Ashley's Mac with her own login: she walks every board including the archive node while it captures every JSON payload Poppy's app loads, plus HTML snapshots and full-page screenshots, into a gitignored rescue-output folder. The knowledge base is IP and never touches the repo. Ashley runs it while access is warm; the zip comes back to the desk and gets parsed into the knowledge corpus.
+
+Second, the engine. call-poppy-api carries the app's last Poppy dependency: every bot conversation and report relays through api.getpoppy.ai, which means a Poppy outage while build 14 sits in review reads as a broken app (2.1 territory). Commit 743b1f2 on claude/payments-desk gives the function a second engine behind a switch: when the app_settings row anthropic_api has enabled true, the function calls the Anthropic API directly with the same assembled prompt, streams the same text-delta SSE the client already parses, and returns the same report JSON shape. The knowledge base feeds in from kb_global and kb_per-bot settings rows instead of a Poppy board, board and chat IDs stop being required on that engine, and the same raw_api audit trail persists. Switch absent or off, the Poppy path is byte-for-byte untouched, so nothing changes for the build in review. Deliberately NOT on main: merging deploys it through Lovable, and that waits for Ashley's word plus the ANTHROPIC_API_KEY secret seated in Lovable Cloud.
+
+The build-out timeline stands as ruled: Week 0 is the engine swap and KB evacuation (this pass), Weeks 1 through 4 carry Head Down Mode depth, social tracking, calendar auto-updates, the Kill Report PDF, the work locker, the content engine, the founding-member letter to the fourteen beta testers, and the filed iPad fixes. Live Stripe go-live unblocks now that the Poppy relationship is settled.
+
+Holding pattern unchanged: demo account untouched, VIP config ACTIVE, no pushes touching supabase/functions on main until Apple's verdict.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
