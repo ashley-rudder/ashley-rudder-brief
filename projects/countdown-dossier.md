@@ -45,6 +45,11 @@ What it touches in the memo:
 2. Section 10's upsell line reads "a package that asks far less of the majors than an AI remix tool does." The AI remix tool got its UMG license in May. The line flips from hypothetical to a fortiori and must be rewritten: the majors already granted the hard thing, so front-row access and Stage ticket claims are trivial by comparison. Staged in desk notes.
 3. The consent-credit-compensation framing from Norström's own mouth is language the Booth can borrow verbatim.
 
+## 2026-09-25 · Watch notes · logged 9/25
+
+AI Persona badges: still no confirmation of badges visible on profiles; all coverage carries the August 11 "rollout beginning mid-September" language. The memo's "live mid-September" is not provable and Edit E stages the correction to the announcement phrasing, which holds either way.
+No other product news. Doc frozen since 9/18, a full week. The Marketing Academy decision window is open as of today per the interview desk's clock.
+
 ## 2026-09-24 · Q3 earnings dated: October 22 · logged 9/24, corroborated
 
 Spotify announced it reports Q3 2026 on Thursday, October 22, before market open, with an 8:00 AM ET Q&A via Slido.
