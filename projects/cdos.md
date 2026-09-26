@@ -384,6 +384,16 @@ Ashley ran the 30-day activity query against the live database. Twenty-nine acco
 
 The reading, ruled into the plan: two distinct leaks, not one. An activation leak (accounts that never got to message one; the onboarding-to-first-chat funnel drops people) and the missing return layer (first-touch users who never came back; the standing-strip and next-move dashboard work). The founding letter is therefore a first-activation letter for most of the fourteen, not a comeback letter. Baseline to beat, on the record: one weekly-active real user in September 2026. Standing instrumentation to ship: the per-user activity table into admin Stats, on its own branch off main, never on claude/payments-desk, which carries the undeployed engine swap.
 
+## Session log: 9/26 payments desk. Apple's first word on the five-item submission, and a watch that should have existed sooner.
+
+Apple messaged the submission at 3:03 AM on 9/24: an automated checkpoint, not a rejection. Two items. One, guideline 3.1.2 metadata: the App Store product page lacked a functional Terms of Use (EULA) link; remedied with the standard Apple EULA link appended to the App Description. Two, price verification: Apple asked for confirmation that Monthly $99.99, Power User $299.99, and Ultra $499.99 are the intended prices; the routine high-price anti-fraud check. Ashley replied 9/26 at 2:13 PM confirming the prices intended and the EULA link added, lean, two answers to two questions. Remaining click at this writing: the Resubmit to App Review button, which is what restarts the review clock; the reply alone does not.
+
+The accountability entry, on the record because the record is how we get better: the notice sat unread for two days in an inbox the desk can read. Apple mails hausofsos@icloud.com, which Ashley forwarded to hello@ashleyrudder.com on 9/22. No session was running and no standing watch existed, so nobody looked. Fixed permanently the same hour: a Routine (trig_01FRjiqVvqqL7hBnx4nymRP9) checks the inbox for Apple mail every two hours, ignores TestFlight noise, and pushes to Ashley's phone the moment App Review speaks, with the next action attached. The watch retires when the verdict lands.
+
+Read of the tea leaves, labeled inference: an automated metadata check plus a price confirmation means the submission is moving through the pipeline, and the 3.1.1 substance the last rejection was built on raised no flag in this message.
+
+## Rules
+
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
 Product repo work rides claude/payments-desk, never main.
 Secrets live in the Supabase dashboard only: never in chat, never in the repo.
