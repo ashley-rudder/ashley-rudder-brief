@@ -45,6 +45,12 @@ What it touches in the memo:
 2. Section 10's upsell line reads "a package that asks far less of the majors than an AI remix tool does." The AI remix tool got its UMG license in May. The line flips from hypothetical to a fortiori and must be rewritten: the majors already granted the hard thing, so front-row access and Stage ticket claims are trivial by comparison. Staged in desk notes.
 3. The consent-credit-compensation framing from Norström's own mouth is language the Booth can borrow verbatim.
 
+## 2026-09-26 · Watch notes · logged 9/26
+
+Taylor Swift set 2026 single-day streaming records Friday with Patient Zero and the Life Of A Showgirl: The Encore tracks (Yahoo News UK, summary level).
+Reading for the pitch: the third rentable-moment data point in the dossier after FOMO and the Dua Lipa footage. The biggest artists manufacture event moments on Spotify at will; the platform manufactures none for anyone below that tier. The pattern line for the room: A-list drops prove the appetite for appointment moments, and the Countdown is the machine that makes them for the other 200 million tracks.
+Doc frozen since 9/18, eight days. No word from Ashley in nine desk days.
+
 ## 2026-09-25 · Watch notes · logged 9/25
 
 AI Persona badges: still no confirmation of badges visible on profiles; all coverage carries the August 11 "rollout beginning mid-September" language. The memo's "live mid-September" is not provable and Edit E stages the correction to the announcement phrasing, which holds either way.
