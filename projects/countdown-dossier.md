@@ -45,6 +45,20 @@ What it touches in the memo:
 2. Section 10's upsell line reads "a package that asks far less of the majors than an AI remix tool does." The AI remix tool got its UMG license in May. The line flips from hypothetical to a fortiori and must be rewritten: the majors already granted the hard thing, so front-row access and Stage ticket claims are trivial by comparison. Staged in desk notes.
 3. The consent-credit-compensation framing from Norström's own mouth is language the Booth can borrow verbatim.
 
+## 2026-09-25 · Spotify partners with Paramount on the VMAs, brings the MTV archive on-platform · logged 9/27, corroborated
+
+Announced September 25: Spotify is the official music and video partner of the 2026 MTV VMAs, airing tonight, September 27, on CBS, MTV and Paramount+.
+A dedicated on-platform VMAs destination launched Friday with a curated archive spanning 40 years of VMA performances (Madonna 1984, Nirvana 1992, Cardi B 2017), nominee content, and select 2026 performances rolling out after the broadcast.
+First time VMA video has lived on Spotify. Available across mobile, desktop, web and TV, with editorial commentary and personalized discovery on mobile.
+Sources: Spotify newsroom 9/25 (title verified, body egress-blocked), Billboard, Digital Music News, TheFutonCritic carrying the CBS release. Corroborated at summary level across independent outlets.
+
+What it touches in the memo:
+1. The close. "MTV stopped being where the moment happened, and the moment left without it" is now literal on Spotify's own platform: they licensed 40 years of MTV's moments the week this desk holds the pitch. The close gains a second beat, staged as Edit F: Spotify just bought the archive of the last moment machine. The archive is the proof the machine mattered, and buying it is not building one.
+2. The fourth and strongest rentable-moment data point, after FOMO, the Dua Lipa footage, and Swift's record day. The pattern now has a name the room cannot dodge: four times in one year, Spotify paid for proximity to a moment someone else manufactured.
+3. The objection it arms: "we do moments now, see the VMAs." Drill card staged: the VMAs are one night a year, made by MTV, rented by Spotify. The Countdown is the nightly moment Spotify would own, in ten thousand cities MTV never visited.
+4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
+5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
+
 ## 2026-09-26 · Watch notes · logged 9/26
 
 Taylor Swift set 2026 single-day streaming records Friday with Patient Zero and the Life Of A Showgirl: The Encore tracks (Yahoo News UK, summary level).
