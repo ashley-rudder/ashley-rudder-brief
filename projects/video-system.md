@@ -125,8 +125,18 @@ What was found is better: two Finch moths on a stack of antique books, 800x1203 
 Also held: a 3072x3072 clothes moth with larvae and frass on the fabric it fed on, plus V&A costume-audit frames at 610px. LACMA's conservation shots are served at 400px and are too small to use.
 Still missing and worth shooting rather than sourcing: hands folding a dress into tissue. Rule two is do the damage yourself.
 
+## Quiet on the Creek (opened 9/28)
+
+Episode one of the QOC series for YouTube. The Rudder Ranch family lane.
+Story: the car ride to Bass Pro Shops, the start of the bass fishing journey. They shop, feed the fish, get gear and snacks.
+The footage lives in Resolve on the mini, project QOC_Bass_Pro, pre-loaded by Ashley.
+First job, per Ashley 9/28: a cleanup stringout. Cut the dead space so she can see what was captured. No grade, no captions, no ship cut yet.
+Stringout method for the mini desk: duplicate into QOC_E01_STRINGOUT, keep chronology, TranscribeAudio word timecodes to find dead air, cut silence with no action, keep every usable moment with one-second handles, originals untouched in the pool.
+Deliverable back to Ashley: before and after runtime, and a keeper log with timecodes per beat (car, shop, fish feeding, gear, snacks).
+This is long-form YouTube, the first in the system. Rhythm rules from the vertical reels do not transfer; a family episode breathes.
+
 ## Next action
 
-Place the three archival finds on their beats, taking the cut to 21 cards, and re-encode.
-Then Ashley's calls on runtime, caption style, and whether the reshoot happens.
-The Cut Room board is one publish behind and carries the pre-cards state.
+Miss Moth: place the three archival finds on their beats, taking the cut to 21 cards, and re-encode. Then Ashley's calls on runtime, caption style, and the reshoot.
+QOC: the mini desk opens QOC_Bass_Pro and builds the E01 stringout per the section above.
+The Cut Room board is one publish behind and carries the pre-cards Miss Moth state.
