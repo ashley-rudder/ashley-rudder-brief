@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Banquet | Reader Feedback</title>
+<meta name="description" content="Early reader feedback for The Journey of Love, the first devotional from The Banquet by HAUS OF SÔS.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="The Banquet | Reader Feedback">
+<meta property="og:description" content="Three marks and one number. Five minutes, and you make this book better.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-inner">
+        <div class="brand">
+          <span class="brand-name">The Banquet</span>
+          <span class="brand-sep">/</span>
+          <span class="brand-tool">Reader Feedback</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <p class="hero-label">The Journey of Love · Early Reader Circle</p>
+      <h1 class="hero-title">You read it first.<br><span class="hero-title-big">Now leave your marks.</span></h1>
+      <p class="hero-sub">Three marks and one number. Five minutes, and you make this book better than I could alone.</p>
+      <p class="hero-sub hero-sub-2">Tap the microphone on any question to speak your answer instead of typing.</p>
+    </section>
+
+    <!-- Form -->
+    <section class="feedback" id="feedback">
+      <form id="feedback-form" autocomplete="off" novalidate>
+
+        <!-- Name -->
+        <div class="card">
+          <label class="q-label" for="reader-name">Your name</label>
+          <p class="q-hint">So I know whose heart these marks came from.</p>
+          <div class="input-wrapper">
+            <input type="text" id="reader-name" maxlength="120" placeholder="First name is plenty" aria-label="Your name" required>
+          </div>
+        </div>
+
+        <!-- Day read -->
+        <div class="card">
+          <span class="q-label">Which day did you read?</span>
+          <p class="q-hint">One submission per day is perfect. Come back for each day you read.</p>
+          <div class="chip-grid" id="day-chips" role="radiogroup" aria-label="Which day did you read">
+            <button type="button" class="chip" data-day="Day 1">Day 1</button>
+            <button type="button" class="chip" data-day="Day 2">Day 2</button>
+            <button type="button" class="chip" data-day="Day 3">Day 3</button>
+            <button type="button" class="chip" data-day="Day 4">Day 4</button>
+            <button type="button" class="chip" data-day="Day 5">Day 5</button>
+            <button type="button" class="chip" data-day="Day 6">Day 6</button>
+            <button type="button" class="chip" data-day="Day 7">Day 7</button>
+            <button type="button" class="chip" data-day="Day 8">Day 8</button>
+            <button type="button" class="chip" data-day="Day 11">Day 11</button>
+            <button type="button" class="chip" data-day="Day 12">Day 12</button>
+            <button type="button" class="chip chip-other" data-day="other">Something else</button>
+          </div>
+          <div class="input-wrapper other-day-wrapper" id="other-day-wrapper" hidden>
+            <input type="text" id="other-day" maxlength="80" placeholder="Which one?" aria-label="Which other day">
+          </div>
+        </div>
+
+        <!-- Mark 1 -->
+        <div class="card">
+          <div class="q-row">
+            <label class="q-label" for="hit-hardest">Mark one · Where did it hit hardest?</label>
+            <button type="button" class="mic-btn" data-target="hit-hardest" aria-label="Dictate this answer" aria-pressed="false">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3Z" stroke="currentColor" stroke-width="1.6"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              <span class="mic-label">Dictate</span>
+            </button>
+          </div>
+          <p class="q-hint">Quote the line, or describe the moment. Where did your chest tighten, or your eyes sting?</p>
+          <textarea id="hit-hardest" rows="4" maxlength="4000" placeholder="The line that got me was..." required></textarea>
+          <p class="dictation-status" data-status-for="hit-hardest" aria-live="polite"></p>
+        </div>
+
+        <!-- Mark 2 -->
+        <div class="card">
+          <div class="q-row">
+            <label class="q-label" for="confused">Mark two · Where did you get confused, or pulled out of it?</label>
+            <button type="button" class="mic-btn" data-target="confused" aria-label="Dictate this answer" aria-pressed="false">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3Z" stroke="currentColor" stroke-width="1.6"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              <span class="mic-label">Dictate</span>
+            </button>
+          </div>
+          <p class="q-hint">The sentence you read twice. The moment it stopped feeling like it was written for you. Honesty is the gift here.</p>
+          <textarea id="confused" rows="4" maxlength="4000" placeholder="I got lost when..."></textarea>
+          <p class="dictation-status" data-status-for="confused" aria-live="polite"></p>
+        </div>
+
+        <!-- Mark 3 -->
+        <div class="card">
+          <div class="q-row">
+            <label class="q-label" for="one-change">Mark three · One word or line you'd change</label>
+            <button type="button" class="mic-btn" data-target="one-change" aria-label="Dictate this answer" aria-pressed="false">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3Z" stroke="currentColor" stroke-width="1.6"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              <span class="mic-label">Dictate</span>
+            </button>
+          </div>
+          <p class="q-hint">Just one. If you had the pen for a single edit, where would it land?</p>
+          <textarea id="one-change" rows="3" maxlength="2000" placeholder="I'd change..."></textarea>
+          <p class="dictation-status" data-status-for="one-change" aria-live="polite"></p>
+        </div>
+
+        <!-- Feeling -->
+        <div class="card">
+          <span class="q-label">How did it leave you feeling?</span>
+          <p class="q-hint">First instinct. Don't overthink it.</p>
+          <div class="feeling-scale" id="feeling-scale" role="radiogroup" aria-label="How did it leave you feeling, one to five">
+            <button type="button" class="feeling-tile" data-feeling="1"><span class="feeling-num">1</span><span class="feeling-word">Flat</span></button>
+            <button type="button" class="feeling-tile" data-feeling="2"><span class="feeling-num">2</span></button>
+            <button type="button" class="feeling-tile" data-feeling="3"><span class="feeling-num">3</span></button>
+            <button type="button" class="feeling-tile" data-feeling="4"><span class="feeling-num">4</span></button>
+            <button type="button" class="feeling-tile" data-feeling="5"><span class="feeling-num">5</span><span class="feeling-word">Moved</span></button>
+          </div>
+        </div>
+
+        <!-- Honeypot -->
+        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" class="hp-field" aria-hidden="true">
+
+        <!-- Submit -->
+        <div class="submit-row">
+          <p class="form-error" id="form-error" aria-live="assertive"></p>
+          <button type="submit" class="cta-button cta-button-primary" id="submit-btn">Leave My Marks</button>
+          <p class="submit-note">Your answers go straight to Ashley. Nobody else reads them.</p>
+        </div>
+      </form>
+
+      <!-- Success -->
+      <div class="success" id="success" hidden>
+        <p class="success-label">Received</p>
+        <h2 class="success-title">Your marks are on the table.</h2>
+        <p class="success-sub">Thank you for reading with your guard down. This book will be better because you did.</p>
+        <button type="button" class="cta-button cta-button-secondary" id="again-btn">Leave marks for another day</button>
+      </div>
+    </section>
+
+    <!-- Quote -->
+    <section class="insight">
+      <blockquote class="insight-quote">
+        "Come, everyone who thirsts,<br><span class="quote-big">come to the waters."</span>
+      </blockquote>
+      <cite class="insight-cite">Isaiah 55:1 · The Journey of Love, Roots Phase</cite>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-name">The Banquet</span>
+          <span class="footer-title">by HAUS OF SÔS · Ashley Rudder</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -56,15 +56,18 @@ Section Revisions (Working) Doc: 1OxcNAw6-63e08a_W-oRyAAajbHvmikO3kQAqTrnaYII
 Publisher outreach: PDF 1dROA2hoiERuqteKFxT2lDf9EOAD2-2B8, Doc 1x8iProE5YxwjFRdGp5fe4P6TNcmW5jmxO6CrUvdpoQA
 The portable-brief closing handoff Doc, all three bodies: 1lcj4SqTdPMbb-zD6AMC9gGXnlqsyLVXrXxEmOML4ooU (Drive root).
 The feedback beta is ruled: share now, not at day 30. A Google Doc with comment access goes to a circle of five to eight, with the three-mark ask (where it hit, where it confused, what you'd change), and testers chosen so hard-parent and wonderful-parent readers both weigh in.
-The collector is standing except for the Form shell: the Responses Sheet is built with matching columns, and the Beta Feedback Kit Doc beside Day 12 carries the paste-ready Form questions, build steps, send-ready invite, and circle roster slots (both filed 9/18 in the Drive folder). The desk has Drive access but no Forms API, so the Form shell is a five-minute assembly in Ashley's browser per the kit.
+The collector is LIVE, rebuilt 9/28 on Ashley's word in chat as a web app in the coco-calculator design language: https://banquet-reader-feedback.vercel.app
+Tap-to-select day chips and a 1-to-5 feeling scale, three writing sections each with Web Speech dictation (Chrome, Edge, Safari; the mic hides on unsupported browsers), honeypot spam guard, unlisted and noindexed. Submissions insert into Supabase table banquet_feedback in the SWARM HAUS project (ohgcayvyvwtybdoswpox), RLS insert-only for the public key so readers can never read responses back. Insert path smoke-tested through the anon role 9/28, test row removed. Vercel project banquet-reader-feedback (prj_xSAu8hqv9bXd0zA7AOeSbEOnXezT), production deployment READY. Sources in this repo: projects/banquet-sources/beta-feedback/.
+The Google Form plan is retired by that same ruling; the 9/18 kit is superseded by the Beta Feedback Kit v2 Doc (10WDoXVJPuD3uxeukigEaqJL2BJHcowet_PaZyMdKjak), which carries the app link, the updated send-ready invite, roster slots, and the pre-send checklist. The Responses Sheet stays as an archive surface for snapshots. The desk reports new responses in the daily brief.
+Note: the reference URL Ashley gave (coco-calculator-five.vercel.app) is egress-blocked from this desk; the design was matched from the calculator's sources in this repo (projects/egc-funnel-sources/egc-roi-calculator/), same tokens, same idiom.
 Note on the Drive folder: the id in play (1xbGmslWO25b4y5iCFwhO3IhDxHCIrEFJ) is titled "Claude Code File Share" and holds non-Banquet material too. A separate shared folder "Banquet Master File" (1UegaYvuhqLf9yw1NCyz2YTVXlrZJcy7L, owned by info.ashleyrudder@gmail.com) exists; Ashley has not ruled which is canonical.
 Substack is shelved by ruling: it is the launch engine later, never the feedback step now.
 The jointhebanquet.com app is Path 2: a real build on fresh infrastructure, never tangled with the CDOS app.
 
 ## Open loops
 
-1. Ashley assembles the Form shell from the kit (five minutes) and links it to the Responses Sheet. All questions, settings, and steps are in the kit Doc.
-2. Ashley names the tester circle (five to eight, hard-parent and wonderful-parent both represented) and gives the word; the invite in the kit is send-ready.
+1. Ashley opens the live feedback app once on her phone and blesses it or marks it up: https://banquet-reader-feedback.vercel.app (the Form assembly item is retired; the app replaced it).
+2. Ashley names the tester circle (five to eight, hard-parent and wonderful-parent both represented) and gives the word; the invite in Kit v2 is send-ready with the app link already in it.
 3. Ashley reads the Day 11 draft and marks it up in the Doc. Drafted 9/19 under her ruled title; the Section Revisions direction is folded in and superseded where they differ.
 4. Ashley's word still owed from the Section Revisions Doc: the Day 22 song confirmation (Hillsong "Who You Say I Am" proposed as mom's favorite) and the Day 23/24 reorder applied to the master document.
 5. Remaining days on the daily writing cadence after Day 11.
@@ -96,6 +99,8 @@ As of 9/18 the Banquet has one writing surface: this desk. The portable-brief th
 2026-09-26. Day 7 composed and filed: the Roots Review in review-day format, closing Week 1 and setting the table for Week 2. Psalm 46:10 and Psalm 103:2 verified via search renderings. Week 1 complete end to end. Drive checked: no comments, no Form, nothing back. Nothing shared. Nine days stand: 1 through 7, 11, 12.
 
 2026-09-27. Day 8 composed and filed, opening Week 2: naming the wounds actual size, the God who enters rather than explains, The Bottle Kept as a deliberate holding practice. Psalm 34:18, Psalm 56:8, Isaiah 53:3 verified via search renderings. Forgiveness explicitly deferred to Day 9 per the sequence logic. Drive checked: no comments, no Form, nothing back. Nothing shared. Ten days stand: 1 through 8, 11, 12.
+
+2026-09-28. Ashley's word in chat: the feedback kit becomes a web app like the coco-calculator dashboard, with selections, writing sections, and dictation. Built and shipped same day: Supabase table with insert-only RLS, static app in the calculator's design system, deployed to Vercel production, smoke-tested. Kit v2 filed to Drive with the app link and updated invite. Day 9 composition deferred one day for the build; it resumes next wake. Nothing sent to any reader.
 
 ## Cadence
 
