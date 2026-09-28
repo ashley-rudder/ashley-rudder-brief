@@ -169,8 +169,21 @@ The rebuild spec for the mini, from Source_cut_list.json against the original 4K
 
 Captions and zooms are baked in the package clips, so every cut the pass touches rebuilds from 4K source timecodes in Source_cut_list.json. The mini owns the rebuild in Resolve; this desk owns the grammar spec and folds in measured numbers when the analyses complete.
 
+## QOC E01: Druski v1 delivered (9/28, 2:57 PM, the mini)
+
+QOC_E01_DRUSKI_v1.mp4 is in ~/Downloads/quiet on the creek/Bass Pro/. 6:01.8, 1920x1080 at 30, rebuilt from the 4K originals.
+Her kill-keep-funnier list was never found on the mini. Every call in v1 is Sable's pass, listed on the Cut Room board for her to overrule.
+The numbers: 101 segments, 3.6s average cut, 32 snap punches, 3 replays, 2 freezes (Hunter, Stella), 27 captions, 35 in-house SFX cues, 19 beats killed for 68s.
+Cold open moved from "ultra cute" to perfume and deodorant. New beats Cut 01 skipped: the Rodrigo funeral mix-up, the picture-perfect freeze, Stella and Sheila, the bass count, the 40-pound gar.
+Two running gags live in the footage: conceptually versus actually, and the snack count.
+Build kit sits beside the cut in QOC_E01_DRUSKI_v1_kit: EDL, engine, word-level transcripts of all 15 clips. v2 is a re-run of edl_v1.py plus build.py, not a rebuild.
+Engine lesson: on the 8GB mini, never split a 4K stream inside one filter graph. Concat buffers every post-punch frame in RAM, swap fills the disk, the render dies. Decode each crop state on its own pass.
+IMG_5923 and IMG_5924 are vertical 2160x3840. They run as 2160-wide 16:9 centre-cuts, native at 1080p.
+Still open: her pass on v1, the Rodrigo call (family lane, one bleep), the Druski analysis 22992ac5 still queued so all grammar numbers are guesses, and the grade (sources measure 103 to 118 luma, v1 ships ungraded).
+Ep 1 footage waits in the Ep 1 folder until E01 lands.
+
 ## Next action
 
 Miss Moth: place the three archival finds on their beats, taking the cut to 21 cards, and re-encode. Then Ashley's calls on runtime, caption style, and the reshoot.
-QOC: the mini desk opens QOC_Bass_Pro and builds the E01 stringout per the section above.
+QOC: E01 Druski v1 is with Ashley. Her kill-keep-funnier notes drive v2 as a re-run from the kit.
 The Cut Room board is one publish behind and carries the pre-cards Miss Moth state.
