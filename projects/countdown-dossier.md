@@ -59,6 +59,11 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-09-28 · Watch notes · logged 9/28
+
+VMA follow-through confirmed: 2026 performance videos joined the on-platform archive after the broadcast (Music Ally 9/28), completing the shape the 9/25 entry described. The show itself gave the archive its headline content: Madonna's first performance in 23 years, in a medley with Sabrina Carpenter and Charli XCX. No memo change beyond what Edit F already stages.
+Doc frozen since 9/18, ten days.
+
 ## 2026-09-26 · Watch notes · logged 9/26
 
 Taylor Swift set 2026 single-day streaming records Friday with Patient Zero and the Life Of A Showgirl: The Encore tracks (Yahoo News UK, summary level).
