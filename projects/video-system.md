@@ -130,10 +130,13 @@ Still missing and worth shooting rather than sourcing: hands folding a dress int
 Episode one of the QOC series for YouTube. The Rudder Ranch family lane.
 Story: the car ride to Bass Pro Shops, the start of the bass fishing journey. They shop, feed the fish, get gear and snacks.
 The footage lives in Resolve on the mini, project QOC_Bass_Pro, pre-loaded by Ashley.
-First job, per Ashley 9/28: a cleanup stringout. Cut the dead space so she can see what was captured. No grade, no captions, no ship cut yet.
-Stringout method for the mini desk: duplicate into QOC_E01_STRINGOUT, keep chronology, TranscribeAudio word timecodes to find dead air, cut silence with no action, keep every usable moment with one-second handles, originals untouched in the pool.
-Deliverable back to Ashley: before and after runtime, and a keeper log with timecodes per beat (car, shop, fish feeding, gear, snacks).
-This is long-form YouTube, the first in the system. Rhythm rules from the vertical reels do not transfer; a family episode breathes.
+The edit direction, Ashley 9/28: funny, personality-driven, conversation-led. A viral Druski-type comedy edit, built from what they found, learned, and experienced.
+That direction changes the stringout law: an awkward pause with a look on someone's face is a KEEPER, not dead air. Only true nothing gets cut: walking with no talk, pocket footage, resets, fumbling with the camera.
+First job, per Ashley 9/28: the cleanup stringout so she can see what was captured. No grade, no captions, no ship cut yet.
+Stringout method for the mini desk: duplicate into QOC_E01_STRINGOUT, keep chronology, TranscribeAudio word timecodes to find true dead air, keep every moment with speech, reaction, or a face worth holding, one-second handles, originals untouched in the pool.
+The keeper log is a COMEDY log: timecodes per beat (car, shop, fish feeding, gear, snacks), each keeper tagged with what it is (one-liner, reaction, fail, bit, banter) and ranked by funny. That log becomes the shot plan for the comedy cut.
+The comedy edit grammar gets MEASURED off reference before the ship cut, per the house method: Ashley supplies two to four links of the exact edits she means, and the desk reads cut lengths, zoom punches, freezes, replay beats, caption and SFX placement frame by frame. Nobody invents the grammar from memory.
+This is long-form YouTube, the first in the system. Vertical reel card rules do not transfer.
 
 ## Next action
 
