@@ -150,6 +150,25 @@ The delivered cut matches the reference pacing, not the Druski ask. The governin
 Scene-by-scene analyses of both references queued at Higgsfield 9/28 (ids 6721d436, c691d080), results pending.
 Bass Pro Drive folder exists (info.ashleyrudder account) but its contents are not visible to the hello account connector yet.
 
+
+## QOC E01: the Druski pass (Ashley's ruling, 9/28 evening)
+
+The ruling: more toward Druski. The vlog-paced Personality Cut 01 becomes the source map, not the ship cut.
+Reference set for the grammar, queued for scene analysis: Druski's own "Get em outta here" (1:00, 18.9M views, analysis id 22992ac5) for the punch grammar; Coulda Been Records Memphis Auditions (53:34, 15.7M) noted as the long-form structural reference.
+Ashley's two vlog links stay as the WARMTH reference, not the pacing reference.
+
+The rebuild spec for the mini, from Source_cut_list.json against the original 4K, marked [Guessing] on grammar details until the analysis lands, then corrected to measured numbers:
+1. Cold open: the single funniest exchange in the footage runs BEFORE the title card, first five seconds. The current opener holds only if her kill-keep pass ranks it top.
+2. Cut length: trim inside cuts toward 3 to 5 second averages in banter runs; hold long only when the awkward beat is the joke. Target runtime 5:30 to 6:30 from 8:26.
+3. Punch-ins: snap zoom, not eased, 1.2x to 1.5x, on the reacting face at the beat. Every real reaction gets one. Current cut has two; the pass adds them wholesale.
+4. Replays: the two or three hardest lines replay instantly, tighter punch the second time.
+5. Freezes: one or two character-intro freezes with a name card, Hunter's rig moment is the natural first.
+6. Captions: meme register on reactions and absurd claims, timed to the word, roughly double the current 13, never wall-to-wall.
+7. SFX layer in Fairlight: whoosh on snap zooms, bass hit on freezes, silence dropouts for awkward holds. Royalty-free sources only, logged.
+8. Ashley's kill-keep-funnier pass on the review MP4 gates the rebuild. No pass, no rebuild.
+
+Captions and zooms are baked in the package clips, so every cut the pass touches rebuilds from 4K source timecodes in Source_cut_list.json. The mini owns the rebuild in Resolve; this desk owns the grammar spec and folds in measured numbers when the analyses complete.
+
 ## Next action
 
 Miss Moth: place the three archival finds on their beats, taking the cut to 21 cards, and re-encode. Then Ashley's calls on runtime, caption style, and the reshoot.
