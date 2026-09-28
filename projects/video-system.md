@@ -138,6 +138,18 @@ The keeper log is a COMEDY log: timecodes per beat (car, shop, fish feeding, gea
 The comedy edit grammar gets MEASURED off reference before the ship cut, per the house method: Ashley supplies two to four links of the exact edits she means, and the desk reads cut lengths, zoom punches, freezes, replay beats, caption and SFX placement frame by frame. Nobody invents the grammar from memory.
 This is long-form YouTube, the first in the system. Vertical reel card rules do not transfer.
 
+
+## QOC E01 state, 9/28 evening
+
+Personality Cut 01 exists and is unpacked on the mini in Downloads: XML package, Media folder, cut list, index, review MP4.
+The numbers: 8:26 runtime, 56 cuts across 11 source files plus title cards, average cut 9.05 seconds, 13 punchline captions, two restrained zooms at 1.12x and 1.35x.
+Structure: car banter open, tackle advice, fish-feeding detour, shopping, snacks, fitting-room payoff, callback close, NEXT UP card.
+Captions and punch-ins are BAKED into the package clips; recutting those layers means rebuilding from 4K source via Source_cut_list.json.
+Ashley's reference links decoded 9/28: matsolastudio art vlog (6:25, 26K views) and Nina Simone perfect-week vlog (15:13, 75K views). Both are warm personality vlogs, not comedy-sketch grammar.
+The delivered cut matches the reference pacing, not the Druski ask. The governing grammar is Ashley's open call.
+Scene-by-scene analyses of both references queued at Higgsfield 9/28 (ids 6721d436, c691d080), results pending.
+Bass Pro Drive folder exists (info.ashleyrudder account) but its contents are not visible to the hello account connector yet.
+
 ## Next action
 
 Miss Moth: place the three archival finds on their beats, taking the cut to 21 cards, and re-encode. Then Ashley's calls on runtime, caption style, and the reshoot.
