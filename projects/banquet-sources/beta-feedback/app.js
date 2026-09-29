@@ -1,4 +1,5 @@
-/* The Banquet — Reader Feedback
+/* The Banquet — The Journey of Love, Early Reader Circle
+   Reading library + three-marks collector.
    Submissions insert into Supabase (RLS: anon may insert, never read). */
 
 (function () {
@@ -7,12 +8,155 @@
   var SUPABASE_URL = 'https://ohgcayvyvwtybdoswpox.supabase.co';
   var SUPABASE_KEY = 'sb_publishable_2J7DCt3UuTJHAsQ-aw0pDg_nd81qu-v';
 
+  var DAYS = [];
   var state = { day: null, feeling: null };
+
+  var sections = {
+    library: document.getElementById('library'),
+    reader: document.getElementById('reader'),
+    feedback: document.getElementById('feedback')
+  };
+  var navRead = document.getElementById('nav-read');
+  var navMarks = document.getElementById('nav-marks');
+
+  function show(which) {
+    sections.library.hidden = which !== 'library';
+    sections.reader.hidden = which !== 'reader';
+    sections.feedback.hidden = which !== 'feedback';
+    navRead.classList.toggle('active', which === 'library' || which === 'reader');
+    navMarks.classList.toggle('active', which === 'feedback');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  navRead.addEventListener('click', function () { show('library'); });
+  navMarks.addEventListener('click', function () { show('feedback'); });
+
+  /* ---------- Library (days served from the kitchen) ---------- */
+  var listEl = document.getElementById('day-list');
+
+  function renderLibrary() {
+    listEl.innerHTML = '';
+    DAYS.forEach(function (d) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'day-card';
+      var num = document.createElement('span');
+      num.className = 'day-num';
+      num.innerHTML = '<small>Day</small>' + d.n;
+      var info = document.createElement('span');
+      info.className = 'day-info';
+      var t = document.createElement('span');
+      t.className = 'day-title';
+      t.textContent = d.title;
+      var tease = document.createElement('span');
+      tease.className = 'day-tease';
+      tease.textContent = d.tease;
+      info.appendChild(t);
+      info.appendChild(tease);
+      var arrow = document.createElement('span');
+      arrow.className = 'day-arrow';
+      arrow.innerHTML = '&rarr;';
+      btn.appendChild(num);
+      btn.appendChild(info);
+      btn.appendChild(arrow);
+      btn.addEventListener('click', function () { openDay(d); });
+      listEl.appendChild(btn);
+    });
+  }
+
+  function loadDays() {
+    listEl.innerHTML = '<p class="library-intro">Setting the table...</p>';
+    fetch(SUPABASE_URL + '/rest/v1/banquet_days?select=day_number,title,tease,body&order=day_number', {
+      headers: { 'apikey': SUPABASE_KEY, 'Authorization': 'Bearer ' + SUPABASE_KEY }
+    })
+      .then(function (res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
+      .then(function (rows) {
+        DAYS = rows.map(function (r) {
+          return { n: r.day_number, title: r.title, tease: r.tease, body: r.body };
+        });
+        renderLibrary();
+      })
+      .catch(function () {
+        listEl.innerHTML = '<p class="library-intro">The table wouldn\'t load. Check your connection and refresh, or go straight to Leave Your Marks above.</p>';
+      });
+  }
+
+  loadDays();
+
+  /* ---------- Reader ---------- */
+  var readerLabel = document.getElementById('reader-day-label');
+  var readerTitle = document.getElementById('reader-title');
+  var readerBody = document.getElementById('reader-body');
+  var currentDay = null;
+
+  function escapeHtml(s) {
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function renderBody(text) {
+    var html = '';
+    var lines = escapeHtml(text).split('\n');
+    var para = [];
+    var inList = false;
+
+    function flushPara() {
+      if (para.length) { html += '<p>' + para.join(' ') + '</p>'; para = []; }
+    }
+    function closeList() {
+      if (inList) { html += '</ul>'; inList = false; }
+    }
+
+    lines.forEach(function (raw) {
+      var line = raw.trim();
+      if (!line) { flushPara(); closeList(); return; }
+      if (line.indexOf('## ') === 0) {
+        flushPara(); closeList();
+        html += '<h3>' + line.slice(3) + '</h3>';
+      } else if (line.indexOf('- ') === 0) {
+        flushPara();
+        if (!inList) { html += '<ul>'; inList = true; }
+        html += '<li>' + line.slice(2) + '</li>';
+      } else {
+        closeList();
+        para.push(line);
+      }
+    });
+    flushPara(); closeList();
+    return html;
+  }
+
+  function openDay(d) {
+    currentDay = d;
+    readerLabel.textContent = 'Day ' + d.n + ' of 30';
+    readerTitle.textContent = d.title;
+    readerBody.innerHTML = renderBody(d.body);
+    show('reader');
+  }
+
+  document.getElementById('back-btn').addEventListener('click', function () { show('library'); });
+
+  document.getElementById('reader-marks-btn').addEventListener('click', function () {
+    if (currentDay) selectDayChip('Day ' + currentDay.n);
+    show('feedback');
+  });
 
   /* ---------- Day chips ---------- */
   var dayChips = document.querySelectorAll('#day-chips .chip');
   var otherWrapper = document.getElementById('other-day-wrapper');
   var otherInput = document.getElementById('other-day');
+
+  function selectDayChip(dayValue) {
+    state.day = null;
+    dayChips.forEach(function (c) {
+      var match = c.dataset.day === dayValue;
+      c.classList.toggle('selected', match);
+      if (match) state.day = dayValue;
+    });
+    otherWrapper.hidden = true;
+  }
 
   dayChips.forEach(function (chip) {
     chip.addEventListener('click', function () {
@@ -176,7 +320,7 @@
       });
   });
 
-  /* ---------- Submit another day ---------- */
+  /* ---------- Read another day ---------- */
   document.getElementById('again-btn').addEventListener('click', function () {
     ['hit-hardest', 'confused', 'one-change', 'other-day'].forEach(function (id) {
       document.getElementById(id).value = '';
@@ -190,6 +334,9 @@
     form.hidden = false;
     submitBtn.disabled = false;
     submitBtn.textContent = 'Leave My Marks';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    show('library');
   });
+
+  /* ---------- Start ---------- */
+  show('library');
 })();
