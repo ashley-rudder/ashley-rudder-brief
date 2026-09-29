@@ -78,6 +78,7 @@
           return { n: r.day_number, title: r.title, tease: r.tease, body: r.body };
         });
         renderLibrary();
+        buildDayChips();
       })
       .catch(function () {
         listEl.innerHTML = '<p class="library-intro">The table wouldn\'t load. Check your connection and refresh, or go straight to Leave Your Marks above.</p>';
@@ -92,47 +93,188 @@
   var readerBody = document.getElementById('reader-body');
   var currentDay = null;
 
-  function escapeHtml(s) {
-    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  /* Journal persistence: entries live on the reader's device only. */
+  function storeGet(key) {
+    try { return localStorage.getItem(key); } catch (e) { return null; }
+  }
+  function storeSet(key, value) {
+    try { localStorage.setItem(key, value); } catch (e) {}
   }
 
-  function renderBody(text) {
-    var html = '';
-    var lines = escapeHtml(text).split('\n');
+  function bindText(el, key) {
+    var saved = storeGet(key);
+    if (saved) el.value = saved;
+    el.addEventListener('input', function () { storeSet(key, el.value); });
+  }
+
+  var BLANK = '______';
+
+  function makeInline(key) {
+    var input = document.createElement('input');
+    input.type = 'text';
+    input.className = 'fill-inline';
+    input.setAttribute('aria-label', 'Your answer');
+    bindText(input, key);
+    return input;
+  }
+
+  function makeBox(key) {
+    var box = document.createElement('textarea');
+    box.className = 'fill-box';
+    box.rows = 3;
+    box.placeholder = 'Write it here...';
+    box.setAttribute('aria-label', 'Your answer');
+    bindText(box, key);
+    return box;
+  }
+
+  function pWithBlanks(text, keyBase, counter) {
+    var p = document.createElement('p');
+    var parts = text.split(BLANK);
+    parts.forEach(function (part, i) {
+      if (part) p.appendChild(document.createTextNode(part));
+      if (i < parts.length - 1) {
+        p.appendChild(makeInline(keyBase + '_i' + counter.next()));
+      }
+    });
+    return p;
+  }
+
+  function makeChips(opts, keyBase, counter) {
+    var groupKey = keyBase + '_c' + counter.next();
+    var wrap = document.createElement('div');
+    wrap.className = 'opt-chips';
+    var saved = [];
+    try { saved = JSON.parse(storeGet(groupKey) || '[]'); } catch (e) { saved = []; }
+
+    function persist() {
+      var picked = [];
+      wrap.querySelectorAll('.opt-chip.selected').forEach(function (c) { picked.push(c.dataset.opt); });
+      storeSet(groupKey, JSON.stringify(picked));
+    }
+
+    opts.forEach(function (optRaw) {
+      var opt = optRaw.trim();
+      if (!opt) return;
+      var hasBlank = opt.indexOf(BLANK) > -1;
+      var label = hasBlank ? opt.split(':')[0].trim() : opt;
+      var chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'opt-chip';
+      chip.dataset.opt = label;
+      chip.textContent = label;
+      if (saved.indexOf(label) > -1) chip.classList.add('selected');
+      chip.addEventListener('click', function () {
+        chip.classList.toggle('selected');
+        persist();
+      });
+      wrap.appendChild(chip);
+      if (hasBlank) {
+        wrap.appendChild(makeInline(keyBase + '_i' + counter.next()));
+      }
+    });
+    return wrap;
+  }
+
+  function renderPara(text, keyBase, counter) {
+    var frag = document.createDocumentFragment();
+
+    // Option runs: "...: A / B / C" or "...? A / B / C"
+    var slashIdx = text.indexOf(' / ');
+    if (slashIdx > -1) {
+      var lead = Math.max(text.lastIndexOf(':', slashIdx), text.lastIndexOf('?', slashIdx));
+      if (lead > -1) {
+        var leadText = text.slice(0, lead + 1);
+        var optsText = text.slice(lead + 1).trim();
+        if (leadText) frag.appendChild(pWithBlanks(leadText, keyBase, counter));
+        frag.appendChild(makeChips(optsText.split(' / '), keyBase, counter));
+        return frag;
+      }
+    }
+
+    // A paragraph that ends in a single blank gets a writing box.
+    if (text === BLANK) {
+      frag.appendChild(makeBox(keyBase + '_i' + counter.next()));
+      return frag;
+    }
+    var trailing = text.slice(-BLANK.length) === BLANK && text.indexOf(BLANK) === text.length - BLANK.length;
+    if (trailing) {
+      var leadPart = text.slice(0, -BLANK.length).replace(/[\s]+$/, '');
+      var p = document.createElement('p');
+      p.appendChild(document.createTextNode(leadPart));
+      frag.appendChild(p);
+      frag.appendChild(makeBox(keyBase + '_i' + counter.next()));
+      return frag;
+    }
+
+    frag.appendChild(pWithBlanks(text, keyBase, counter));
+    return frag;
+  }
+
+  function renderBody(container, d) {
+    container.innerHTML = '';
+    var keyBase = 'bq_d' + d.n;
+    var n = 0;
+    var counter = { next: function () { n += 1; return n; } };
+    var lines = d.body.split('\n');
     var para = [];
-    var inList = false;
+    var listEl = null;
+    var liCount = 0;
 
     function flushPara() {
-      if (para.length) { html += '<p>' + para.join(' ') + '</p>'; para = []; }
+      if (!para.length) return;
+      container.appendChild(renderPara(para.join(' '), keyBase, counter));
+      para = [];
     }
-    function closeList() {
-      if (inList) { html += '</ul>'; inList = false; }
-    }
+    function closeList() { listEl = null; }
 
     lines.forEach(function (raw) {
       var line = raw.trim();
       if (!line) { flushPara(); closeList(); return; }
       if (line.indexOf('## ') === 0) {
         flushPara(); closeList();
-        html += '<h3>' + line.slice(3) + '</h3>';
+        var h = document.createElement('h3');
+        h.textContent = line.slice(3);
+        container.appendChild(h);
       } else if (line.indexOf('- ') === 0) {
         flushPara();
-        if (!inList) { html += '<ul>'; inList = true; }
-        html += '<li>' + line.slice(2) + '</li>';
+        if (!listEl) {
+          listEl = document.createElement('ul');
+          container.appendChild(listEl);
+        }
+        var li = document.createElement('li');
+        li.className = 'choice';
+        var itemText = line.slice(2);
+        var liKey = keyBase + '_l' + (liCount += 1);
+        if (itemText.indexOf(BLANK) > -1) {
+          var parts = itemText.split(BLANK);
+          parts.forEach(function (part, i) {
+            if (part) li.appendChild(document.createTextNode(part));
+            if (i < parts.length - 1) li.appendChild(makeInline(keyBase + '_i' + counter.next()));
+          });
+        } else {
+          li.textContent = itemText;
+        }
+        if (storeGet(liKey) === '1') li.classList.add('selected');
+        li.addEventListener('click', function (ev) {
+          if (ev.target && ev.target.tagName === 'INPUT') return;
+          li.classList.toggle('selected');
+          storeSet(liKey, li.classList.contains('selected') ? '1' : '0');
+        });
+        listEl.appendChild(li);
       } else {
         closeList();
         para.push(line);
       }
     });
     flushPara(); closeList();
-    return html;
   }
 
   function openDay(d) {
     currentDay = d;
     readerLabel.textContent = 'Day ' + d.n + ' of 30';
     readerTitle.textContent = d.title;
-    readerBody.innerHTML = renderBody(d.body);
+    renderBody(readerBody, d);
     show('reader');
   }
 
@@ -143,31 +285,51 @@
     show('feedback');
   });
 
-  /* ---------- Day chips ---------- */
-  var dayChips = document.querySelectorAll('#day-chips .chip');
+  /* ---------- Day chips (generated from the live day list) ---------- */
+  var chipGrid = document.getElementById('day-chips');
   var otherWrapper = document.getElementById('other-day-wrapper');
   var otherInput = document.getElementById('other-day');
 
+  function allChips() {
+    return chipGrid.querySelectorAll('.chip');
+  }
+
+  function onChipClick(chip) {
+    allChips().forEach(function (c) { c.classList.remove('selected'); });
+    chip.classList.add('selected');
+    state.day = chip.dataset.day;
+    var isOther = state.day === 'other';
+    otherWrapper.hidden = !isOther;
+    if (isOther) otherInput.focus();
+  }
+
+  function buildDayChips() {
+    var otherChip = chipGrid.querySelector('.chip-other');
+    chipGrid.querySelectorAll('.chip:not(.chip-other)').forEach(function (c) { c.remove(); });
+    DAYS.forEach(function (d) {
+      var chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'chip';
+      chip.dataset.day = 'Day ' + d.n;
+      chip.textContent = 'Day ' + d.n;
+      chip.addEventListener('click', function () { onChipClick(chip); });
+      chipGrid.insertBefore(chip, otherChip);
+    });
+  }
+
+  chipGrid.querySelector('.chip-other').addEventListener('click', function () {
+    onChipClick(chipGrid.querySelector('.chip-other'));
+  });
+
   function selectDayChip(dayValue) {
     state.day = null;
-    dayChips.forEach(function (c) {
+    allChips().forEach(function (c) {
       var match = c.dataset.day === dayValue;
       c.classList.toggle('selected', match);
       if (match) state.day = dayValue;
     });
     otherWrapper.hidden = true;
   }
-
-  dayChips.forEach(function (chip) {
-    chip.addEventListener('click', function () {
-      dayChips.forEach(function (c) { c.classList.remove('selected'); });
-      chip.classList.add('selected');
-      state.day = chip.dataset.day;
-      var isOther = state.day === 'other';
-      otherWrapper.hidden = !isOther;
-      if (isOther) otherInput.focus();
-    });
-  });
 
   /* ---------- Feeling tiles ---------- */
   var tiles = document.querySelectorAll('.feeling-tile');
@@ -325,7 +487,7 @@
     ['hit-hardest', 'confused', 'one-change', 'other-day'].forEach(function (id) {
       document.getElementById(id).value = '';
     });
-    dayChips.forEach(function (c) { c.classList.remove('selected'); });
+    allChips().forEach(function (c) { c.classList.remove('selected'); });
     tiles.forEach(function (t) { t.classList.remove('selected'); });
     otherWrapper.hidden = true;
     state.day = null;
