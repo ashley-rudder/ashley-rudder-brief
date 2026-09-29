@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+9/29, day twelve: watch day, nothing memo-material (a morning service outage, logged as trivia). The Marketing Academy window closed today, and its outcome feeds the door's rank four only Ashley can report. Twelve days of silence; the inventory holds. If the 13th is still her date, the gates need her word this week or the date defaults to the 27th by its own rules.
+
 9/28, day eleven: watch day. The VMA loop closed as predicted, 2026 performances joined the on-platform archive after the broadcast, which confirms Edit F's framing and adds nothing new to stage. Doc frozen ten days, silence at eleven. The desk's full inventory stands ready on the branch: letter, fork, drills, staged edits A through F, CFO frame, door file. October 22 is twenty-four days out.
 
 9/27, day ten: the sweep's biggest single find since Reserved. Spotify became the VMAs' official music and video partner on 9/25 and put 40 years of MTV's archival performances on-platform for the first time, with the show airing tonight. The memo's closing line about MTV is now literal on Spotify's own surface, and Edit F stages the second beat for the close: buying the archive is not building the machine. The rentable-moment pattern reaches four data points and the drill set gains the VMA card. Doc frozen nine days. The urgency reading is plain: Spotify is now licensing moment-adjacent video weekly, and every week of silence spends a little of the pitch's originality.

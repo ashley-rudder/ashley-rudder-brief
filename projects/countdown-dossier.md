@@ -59,6 +59,11 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-09-29 · Watch notes · logged 9/29
+
+A service outage this morning (reports spiking after 9:30 AM ET, confirmed by Spotify on X, per Tom's Guide and TechRadar live coverage). Operational trivia, not memo material.
+No product news. Doc frozen since 9/18, eleven days. Today closes the Marketing Academy decision window the interview desk clocked at 9/25 to 9/29; whatever landed, only Ashley knows.
+
 ## 2026-09-28 · Watch notes · logged 9/28
 
 VMA follow-through confirmed: 2026 performance videos joined the on-platform archive after the broadcast (Music Ally 9/28), completing the shape the 9/25 entry described. The show itself gave the archive its headline content: Madonna's first performance in 23 years, in a medley with Sabrina Carpenter and Charli XCX. No memo change beyond what Edit F already stages.
