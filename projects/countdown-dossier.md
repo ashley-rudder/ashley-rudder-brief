@@ -59,6 +59,12 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-09-30 · Watch notes · logged 9/30
+
+Yesterday's outage resolved within hours (peak near 20,000 US reports on Downdetector; Spotify confirmed recovery same afternoon). Trivia, closed.
+No product news. Doc frozen since 9/18, twelve days.
+Month-end state of the decision stack, so it reads in one place: (1) positioning, A or B, two paragraphs on the branch; (2) send date, October 13 or 27, the 13th now needs everything else to land within days; (3) the Hellman and Hadley scans; (4) the Doc, and whether Odalys has pending suggestions only Ashley can see; (5) the Marketing Academy outcome, which sets the door's rank four.
+
 ## 2026-09-29 · Watch notes · logged 9/29
 
 A service outage this morning (reports spiking after 9:30 AM ET, confirmed by Spotify on X, per Tom's Guide and TechRadar live coverage). Operational trivia, not memo material.

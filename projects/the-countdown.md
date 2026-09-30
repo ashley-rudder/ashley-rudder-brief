@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+9/30, day thirteen: month-end watch. The outage resolved; no product news. The dossier carries the five-item decision stack in one block for Ashley's sitting. Reality check on the calendar: holding October 13 now requires the ruling, the Doc lock, and a named door inside roughly a week, so the desk treats October 27 as the working date unless her word says otherwise, per the gate rules she has not yet confirmed. Nothing sends either way without that word.
+
 9/29, day twelve: watch day, nothing memo-material (a morning service outage, logged as trivia). The Marketing Academy window closed today, and its outcome feeds the door's rank four only Ashley can report. Twelve days of silence; the inventory holds. If the 13th is still her date, the gates need her word this week or the date defaults to the 27th by its own rules.
 
 9/28, day eleven: watch day. The VMA loop closed as predicted, 2026 performances joined the on-platform archive after the broadcast, which confirms Edit F's framing and adds nothing new to stage. Doc frozen ten days, silence at eleven. The desk's full inventory stands ready on the branch: letter, fork, drills, staged edits A through F, CFO frame, door file. October 22 is twenty-four days out.
