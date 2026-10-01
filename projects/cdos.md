@@ -392,6 +392,12 @@ The accountability entry, on the record because the record is how we get better:
 
 Read of the tea leaves, labeled inference: an automated metadata check plus a price confirmation means the submission is moving through the pipeline, and the 3.1.1 substance the last rejection was built on raised no flag in this message.
 
+## Session log: 10/1. Expedited review requested and granted.
+
+Five days after the 9/26 resubmission the status still read Waiting for Review, confirmed by screenshot on 9/30: queue time, not scrutiny time, nobody had opened it. The desk had drawn a Thursday line in advance. Thursday morning Ashley filed Apple's expedited review request (App Store Connect, Contact Us, time-sensitive event; case: first release, founding cohort staged, same-day response to the 9/24 metadata checkpoint, in queue since 9/26) and Apple granted it the same day: "We'll expedite review for Creator Darwinism OS."
+
+What the grant carries: the submission jumps the standard queue, with pickup typically inside one to two business days. And the clause that matters most, straight from Apple's confirmation page: if this review rejects, the resubmission returns to the expedited queue automatically, no second request needed. A bounce now costs a day, not a week. Standing instruction while expedited: touch nothing on the submission, no metadata edits, no cancel. The two-hour inbox watch (trig_01FRjiqVvqqL7hBnx4nymRP9) stays on and retires when the verdict lands.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
