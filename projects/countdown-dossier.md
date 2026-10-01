@@ -59,6 +59,16 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-01 · Memberships ships October 20 · logged 10/1, corroborated
+
+Podcast Subscriptions becomes Memberships on October 20, with new consumer terms effective that day: a Patreon-style layer where eligible creators sell fans exclusive content and experiences, see and export their subscriber data as CSV, and own the audience relationship across platforms.
+Sources: Spotify support page (consumer terms, title and summary verified), Android Authority, Yahoo via CA News. Corroborated at summary level.
+
+What it touches in the memo:
+1. The Booth's contradiction gains a third leg. The Partner Program pays podcasters for video; Memberships now hands podcasters the direct fan relationship and recurring fan revenue; musicians have neither. The memo's section on what artists actually want lists direct fan access second, and Spotify just shipped exactly that, for the other content type.
+2. Section 3.5's asymmetry line sharpens: Spotify keeps building presence infrastructure for podcasters on a release-shaped surface for musicians.
+3. Calendar: Memberships lands October 20, earnings October 22. An October 27 send cites both as week-old news, which is the currency argument for the 27th in one sentence.
+
 ## 2026-09-30 · Watch notes · logged 9/30
 
 Yesterday's outage resolved within hours (peak near 20,000 US reports on Downdetector; Spotify confirmed recovery same afternoon). Trivia, closed.
