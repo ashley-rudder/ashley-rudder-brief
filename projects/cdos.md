@@ -398,6 +398,8 @@ Five days after the 9/26 resubmission the status still read Waiting for Review, 
 
 What the grant carries: the submission jumps the standard queue, with pickup typically inside one to two business days. And the clause that matters most, straight from Apple's confirmation page: if this review rejects, the resubmission returns to the expedited queue automatically, no second request needed. A bounce now costs a day, not a week. Standing instruction while expedited: touch nothing on the submission, no metadata edits, no cancel. The two-hour inbox watch (trig_01FRjiqVvqqL7hBnx4nymRP9) stays on and retires when the verdict lands.
 
+Module-name ruling, same day: Stress Test, everywhere. The binary under review bundles its web assets and says Pressure Test in roughly a hundred places (UI, admin, bot canon cards, App Store screenshots), so the rename rides version 1.0.1 after approval, on its own branch off main, never mid-review. Launch copy describes the module by its verb until 1.0.1 is live.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.

@@ -32,7 +32,7 @@ Single point of failure: ashleyrudder.com/creator-darwinism returns 404, and nea
 ## Rulings needed from Ashley
 
 1. PARTIALLY ANSWERED 9/18: ashleyrudder.com is the Vercel project "ashleyrudder-site" (created June, no git link). Remaining question for Ashley: where its source lives (a folder on the Mac, most likely), or the desk pulls the current deployment bundle and rebuilds from that. Either way the canonical page ships through a Vercel deploy.
-2. The module name on the public record: the live product says Pressure Test; the vaulted canonical copy says Stress Test. One word wins everywhere.
+2. ANSWERED 10/1: Stress Test wins. The vaulted canonical copy and LinkedIn About already say it; the product renames in 1.0.1 after App Store approval.
 3. Who creates the Wikidata items: her account or a neutral third party per the COI warning.
 4. Which of the four positioning-doctrine versions is canonical.
 
@@ -47,4 +47,4 @@ Sequence:
 4. CANONICAL PAGE, blocked on two rulings (module name, doctrine version) plus site source. The Vercel connector can pull the ashleyrudder-site deployment bundle so the rebuild path no longer waits on finding the Mac folder. Page must be live before any editor pitch: the pitch links ashleyrudder.com/creator-darwinism and an editor clicking a 404 is a dead pitch.
 5. EDITOR PITCHES, within two weeks: Ad Age first per the vaulted priority (Poggi, then Larkin, opinion@ last), emails verified at send time. Pitch refreshed 9/24 to founder framing: the "currently at DNY" line and DNY signature were a year stale and are corrected in ad-age-byline-pitch.md. Digiday, Adweek, Marketing Brew follow the cadence if Ad Age passes.
 
-Standing rulings still owed from the list above: module name (Pressure Test vs Stress Test), which doctrine version is canonical, who creates the Wikidata items.
+Standing rulings still owed from the list above: which doctrine version is canonical, who creates the Wikidata items. Module name ruled 10/1: Stress Test.

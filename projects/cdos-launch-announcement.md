@@ -41,7 +41,7 @@ So I turned the system into software.
 Three modules do the heavy lifting.
 Archetype Navigator diagnoses who you are and where the leaks are.
 Golden Offer Experience surfaces the offer you already own.
-Pressure Test breaks your positioning and pricing before the market does.
+And the third stress-tests your positioning and pricing before the market does.
 
 I built this one solo.
 Native iOS. Payments. App Review, twice.
@@ -112,7 +112,7 @@ Founder, Creator Darwinism OS
 
 ## Guardrails before anything fires
 
-- **Module name.** The posts say Pressure Test because that is what the live product says. If the ruling lands on Stress Test, change it here and in the app copy at the same time. Never ship both names in public.
+- **Module name, ruled 10/1: Stress Test.** The binary under review still says Pressure Test (web assets are bundled into the native build, and the App Store screenshots say it too), so the rename ships in version 1.0.1 right after approval, never mid-review. Until 1.0.1 is live, launch copy describes the module with the verb ("stress-tests your positioning and pricing") instead of naming it, so no public post contradicts the app a buyer just opened. After 1.0.1, every surface says Stress Test.
 - **No pricing in the announcement.** Prices live on the App Store page. Leading with $99.99 invites the price conversation before the value conversation.
 - **No "approved" screenshot of App Store Connect.** The proof is the live product page, never the back office.
 - **Fractional pack follow-on.** Script A in fractional-cco.md says the app "hits the App Store this month." On launch day that line becomes "is live on the App Store," and the live link becomes the strongest diligence asset in every outreach email.
