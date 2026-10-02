@@ -59,6 +59,18 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-08-26 · DIA/LOG: Spotify's live event series with Drumsheds, debut October 17 · logged 10/2, corroborated
+
+Spotify and London venue Drumsheds launched a live event series called DIA/LOG (announced late August per dancewax.net), debuting Saturday October 17 with Skream and Benga plus D Double E, Plastician, Jammer, MJ Cole, Special Request, SHY FX.
+Each edition is co-curated by Spotify and Drumsheds around "music as an ongoing conversation across genres and generations," with a Listening Lounge talk on the history of UK bass and dubstep.
+Ticketed, 13:00 doors, at the Drumsheds building in north London.
+Sources: drumshedslondon.com event page, dancewax.net 8/26, EDM.com, multiple UK listings. Corroborated at summary level including the venue's own page.
+
+What it touches in the memo:
+1. The Stage's posture is now live in music, not just ticketing. A venue partner operates the building, Spotify curates and brands the night. That is the exact shape section 7 prescribes, running in London this month. The memo gains proof and loses novelty on the same fact.
+2. The strongest "we already do this" instance yet, drill card staged: DIA/LOG is editors pointing backward at a scene's history, a celebration with no ladder. Nobody earned the Drumsheds slot by winning a city, no fan's action put anyone on that stage, and the night feeds no loop back into the app. The Stage is the consequence of a public race. DIA/LOG is a tribute. Both can be true and only one manufactures new artists.
+3. The urgency curve steepens again. Day ten's warning was that an archive purchase could become a room. A co-curated live series is a room without a ladder. The remaining distance to the Countdown is one mechanic, and it is the mechanic this pitch holds.
+
 ## 2026-10-01 · Memberships ships October 20 · logged 10/1, corroborated
 
 Podcast Subscriptions becomes Memberships on October 20, with new consumer terms effective that day: a Patreon-style layer where eligible creators sell fans exclusive content and experiences, see and export their subscriber data as CSV, and own the audience relationship across platforms.

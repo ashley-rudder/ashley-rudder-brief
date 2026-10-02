@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/2, day fifteen: the originality window narrowed visibly. Spotify and Drumsheds debut DIA/LOG on October 17, a co-curated live series: a venue partner operating the building with Spotify curating the night, which is the Stage's exact posture running without the ladder. Edit H stages the section 7 addition and the drill set gains the card. The distance between Spotify's current state and the Countdown is now one mechanic, the public race, and that mechanic is the pitch. Doc frozen fourteen days. The case for sending stopped being about readiness days ago; it is now about arriving before their own momentum does.
+
 10/1, day fourteen: Memberships got its ship date, October 20, and it gives the Booth a third leg: Spotify now hands podcasters the money, the video pipe, and as of this month the owned fan relationship, while musicians hold none of the three. Edit G stages the Booth addition. The calendar argument for October 27 wrote itself: Memberships lands the 20th, earnings the 22nd, and a send on the 27th cites both as week-old news. Doc frozen thirteen days.
 
 9/30, day thirteen: month-end watch. The outage resolved; no product news. The dossier carries the five-item decision stack in one block for Ashley's sitting. Reality check on the calendar: holding October 13 now requires the ruling, the Doc lock, and a named door inside roughly a week, so the desk treats October 27 as the working date unless her word says otherwise, per the gate rules she has not yet confirmed. Nothing sends either way without that word.
