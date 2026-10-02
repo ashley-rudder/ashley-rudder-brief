@@ -400,6 +400,8 @@ What the grant carries: the submission jumps the standard queue, with pickup typ
 
 Module-name ruling, same day: Stress Test, everywhere. The binary under review bundles its web assets and says Pressure Test in roughly a hundred places (UI, admin, bot canon cards, App Store screenshots), so the rename rides version 1.0.1 after approval, on its own branch off main, never mid-review. Launch copy describes the module by its verb until 1.0.1 is live.
 
+Expedited review landed 10/2 at 21:43 UTC (4:43 PM CDT): App Review flagged an issue on the app version (1.0 for iOS) only; the four subscription items were not named. The email carries no detail; the specifics live on the App Review page in App Store Connect. Pushed to Ashley the same tick. Next: read the issue in ASC, answer or fix, resubmit. Per Apple's expedite grant, the resubmission returns to the expedited queue automatically.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
