@@ -410,7 +410,7 @@ Diagnosis, verified this session: the demo account signs in server-side and rout
 
 Fix on branch claude/ipad-oauth-return (6d5f574, off main, no supabase/functions touched): native sign-ins carry an n_ state prefix; the web /oauth-callback page sees the prefix and forwards the tokens to creatordarwinism://oauth-callback, a URL scheme the app now registers in Info.plist; the existing listener completes the session. Web sign-in unchanged. Typecheck and production build clean; handoff round-trip unit-tested.
 
-To ship, in order, all on Ashley's word: merge the branch to main, Lovable Publish (the callback page lives on the website), archive build 15 in Xcode, then on her own iPad test Google, Apple, and email sign-in before Resubmit. Sign in with Apple has never been confirmed on a device; it is the one path this session could not verify. Expedited status carries over automatically on resubmission.
+Merged to main on Ashley's word 10/3 (fast-forward to 6d5f574; no supabase/functions touched, so no edge deploy). Remaining, in order: Lovable Publish (the callback page lives on the website), archive build 15 in Xcode, then on her own iPad test Google, Apple, and email sign-in before Resubmit. Sign in with Apple has never been confirmed on a device; it is the one path this session could not verify. Expedited status carries over automatically on resubmission.
 
 ## Rules
 
