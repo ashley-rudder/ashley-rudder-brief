@@ -402,6 +402,16 @@ Module-name ruling, same day: Stress Test, everywhere. The binary under review b
 
 Expedited review landed 10/2 at 21:43 UTC (4:43 PM CDT): App Review flagged an issue on the app version (1.0 for iOS) only; the four subscription items were not named. The email carries no detail; the specifics live on the App Review page in App Store Connect. Pushed to Ashley the same tick. Next: read the issue in ASC, answer or fix, resubmit. Per Apple's expedite grant, the resubmission returns to the expedited queue automatically.
 
+## Session log: 10/3. The 10/2 issue read: guideline 2.1(a), the iPad sign-in gap we had parked.
+
+Apple's finding, from Ashley's screenshot of the App Review page: on an iPad Air 11-inch (M4), iPadOS 27.0, build 1.0 (14), "the app stayed on the login page after we attempted to log in." It is the iPad OAuth return gap filed 9/21 as post-approval. That deferral was the miss: the reviewer tests on iPad, so anything filed as iPad-only is in scope for review.
+
+Diagnosis, verified this session: the demo account signs in server-side and routes clean (active tier_ultra row, onboarding complete, no admin role), so email sign-in was never the fault. Google sign-in in the native shell runs in the system browser sheet and relies on a Universal Link to return. iOS will not fire a Universal Link when the broker's final redirect stays on creatordarwinism.ai, so the sign-in finished inside the sheet, the web callback could not match the app's state, and the app never heard back.
+
+Fix on branch claude/ipad-oauth-return (6d5f574, off main, no supabase/functions touched): native sign-ins carry an n_ state prefix; the web /oauth-callback page sees the prefix and forwards the tokens to creatordarwinism://oauth-callback, a URL scheme the app now registers in Info.plist; the existing listener completes the session. Web sign-in unchanged. Typecheck and production build clean; handoff round-trip unit-tested.
+
+To ship, in order, all on Ashley's word: merge the branch to main, Lovable Publish (the callback page lives on the website), archive build 15 in Xcode, then on her own iPad test Google, Apple, and email sign-in before Resubmit. Sign in with Apple has never been confirmed on a device; it is the one path this session could not verify. Expedited status carries over automatically on resubmission.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
