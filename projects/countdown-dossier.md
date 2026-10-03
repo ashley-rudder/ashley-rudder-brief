@@ -59,6 +59,11 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-03 · Watch notes · logged 10/3
+
+Quiet. Market context only: SPOT fell 3.77% on October 2 on valuation and royalty-litigation concerns per aggregated coverage, which keeps the cost-discipline reading current into the Q3 print. A "Holidays on Spotify" seasonal programming push is rolling out, which is the Wrapped-season crunch beginning to show, the same crunch the send window is built to beat.
+Doc frozen since 9/18, fifteen days.
+
 ## 2026-08-26 · DIA/LOG: Spotify's live event series with Drumsheds, debut October 17 · logged 10/2, corroborated
 
 Spotify and London venue Drumsheds launched a live event series called DIA/LOG (announced late August per dancewax.net), debuting Saturday October 17 with Skream and Benga plus D Double E, Plastician, Jammer, MJ Cole, Special Request, SHY FX.
