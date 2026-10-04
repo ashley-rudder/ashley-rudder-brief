@@ -412,7 +412,7 @@ Fix on branch claude/ipad-oauth-return (6d5f574, off main, no supabase/functions
 
 Merged to main on Ashley's word 10/3 (fast-forward to 6d5f574; no supabase/functions touched, so no edge deploy). Remaining, in order: Lovable Publish (the callback page lives on the website), archive build 15 in Xcode, then on her own iPad test Google, Apple, and email sign-in before Resubmit. Sign in with Apple has never been confirmed on a device; it is the one path this session could not verify. Expedited status carries over automatically on resubmission.
 
-Shipped 10/3 evening: Lovable Publish confirmed live (the fix verified in the production bundle from outside), build 1.0 (16) archived from ~/chatwise-thought-hub after the pull and uploaded 7:21 PM CDT. Build 15 (7:03 PM) predates the pull and lacks the fix: never attach it. Ashley confirmed sign-in on her iPad. Next: attach build 16 to the version, paste the 2.1(a) reply, Resubmit (returns to the expedited queue automatically).
+Shipped 10/3 evening: Lovable Publish confirmed live (the fix verified in the production bundle from outside), build 1.0 (16) archived from ~/chatwise-thought-hub after the pull and uploaded 7:21 PM CDT. Build 15 (7:03 PM) predates the pull and lacks the fix: never attach it. Ashley confirmed sign-in on her iPad. Resubmitted Oct 3, 7:40 PM CDT: build 1.0 (16) attached, 2.1(a) reply posted 7:39 PM, all five items Waiting for Review, same submission ID 0d2ba5c4. Expedited status rides along per Apple's grant. The inbox watch stands.
 
 ## Rules
 
