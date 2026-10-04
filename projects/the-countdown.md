@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/4, day seventeen: quiet Sunday watch, nothing to stage. Nine days to the October 13 option, which is now effectively gone without a same-week ruling; eighteen days to the Q3 print and the mandatory figure refresh; twenty-three days to the October 27 working date. The inventory holds current.
+
 10/3, day sixteen: quiet weekend watch. Market softness and the first holiday-programming rollout logged; the second confirms the seasonal crunch the October window is built to beat. Nothing new to stage. The stack stands at sixteen days and every asset holds current.
 
 10/2, day fifteen: the originality window narrowed visibly. Spotify and Drumsheds debut DIA/LOG on October 17, a co-curated live series: a venue partner operating the building with Spotify curating the night, which is the Stage's exact posture running without the ladder. Edit H stages the section 7 addition and the drill set gains the card. The distance between Spotify's current state and the Countdown is now one mechanic, the public race, and that mechanic is the pitch. Doc frozen fourteen days. The case for sending stopped being about readiness days ago; it is now about arriving before their own momentum does.
