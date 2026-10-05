@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/5, day eighteen: watch day with one holster line logged: Spotify's new "You're Among Fans" ad campaign sells fandom as the advertiser audience, which is the Countdown sponsorship argument in their own voice. The October 13 option expires without a ruling in the next two days; the desk then works solely to the 27th. Everything else holds.
+
 10/4, day seventeen: quiet Sunday watch, nothing to stage. Nine days to the October 13 option, which is now effectively gone without a same-week ruling; eighteen days to the Q3 print and the mandatory figure refresh; twenty-three days to the October 27 working date. The inventory holds current.
 
 10/3, day sixteen: quiet weekend watch. Market softness and the first holiday-programming rollout logged; the second confirms the seasonal crunch the October window is built to beat. Nothing new to stage. The stack stands at sixteen days and every asset holds current.
