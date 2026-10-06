@@ -59,6 +59,12 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-06 · Watch notes · logged 10/6
+
+The October 13 option expired today by its own gate: the Doc did not lock (frozen since 9/18, eighteen days) and the ruling has not landed. The desk works solely to October 27.
+Market context: UBS cut its Spotify price target on cost pressures while keeping a buy, with the stock down roughly 30% year over year per Digital Music News. Cost scrutiny into the print keeps favoring the kill-criteria frame.
+No product news.
+
 ## 2026-10-05 · Watch notes · logged 10/5
 
 One small signal: Spotify launched a "You're Among Fans" ad campaign in Australia (Lizzo, Jay Shetty, BBDO New York per aggregated coverage), selling fandom itself as the advertiser audience. That is the sponsorship leg's market argument in Spotify's own ad copy: brands buy proximity to fans, and the Countdown manufactures the densest fan moment on the platform. One line for the money section's holster, not a staged edit.

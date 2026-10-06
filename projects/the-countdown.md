@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/6, day nineteen: the October 13 option expired by its own gates, no ruling and no Doc lock, so the desk works solely to October 27 and the charter's open decision is updated to say so. UBS cut its price target on cost pressures with the stock down roughly 30% on the year, which keeps the kill-criteria frame the right opening posture for Norström's side. Nineteen days of silence. The 27th needs the same three gates, and two of them are one sitting of Ashley's.
+
 10/5, day eighteen: watch day with one holster line logged: Spotify's new "You're Among Fans" ad campaign sells fandom as the advertiser audience, which is the Countdown sponsorship argument in their own voice. The October 13 option expires without a ruling in the next two days; the desk then works solely to the 27th. Everything else holds.
 
 10/4, day seventeen: quiet Sunday watch, nothing to stage. Nine days to the October 13 option, which is now effectively gone without a same-week ruling; eighteen days to the Q3 print and the mandatory figure refresh; twenty-three days to the October 27 working date. The inventory holds current.
@@ -81,7 +83,7 @@ Doc watch: movement at 20:01Z on 9/18, day one. Baseline diff read waits until t
 
 1. THE POSITIONING RULING, blocking the ask in section 06: outside proposal, or HAUS OF SÔS build with Spotify as distribution partner. Sable's read, held loosely: the build frame is stronger, because the first Chief Creator Officer pitching Spotify on becoming a creator organization is her own thesis applied at platform scale, and it produces a business relationship instead of a gifted idea. Ashley rules.
 2. The door: how this physically reaches the co-CEO offices. The desk owes a warm-paths inventory (her network, Cannes rooms, press relationships, LinkedIn) before any cold send.
-3. The send date, re-staged 9/24 now that Spotify dated its Q3 print for October 22: hold October 13 and land ahead of the story, or move to Tuesday, October 27 with every figure refreshed to Q3 five days after the print. Desk recommends October 27. The original three gates still apply to either date. Ashley rules.
+3. The send date: October 13 expired 10/6 by its own gates (no ruling, no Doc lock). The working date is Tuesday, October 27, figures refreshed to Q3 on the 22nd. The 27th still needs the same gates cleared: the positioning ruling, the Doc lock, a named door. Nothing sends without Ashley's word on any date.
 4. Whether the pitch names Magic Box as the standing Brooklyn operator or keeps section 16's operator gate generic. Naming proves an operator exists; naming also pre-commits a partner before any terms exist, and the ruling touches #1. Ashley rules.
 
 ## Cadence
