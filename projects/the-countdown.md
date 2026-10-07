@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/7, day twenty: quiet watch, one observed-unverified terms-update item logged as likely Memberships paperwork. The calendar to the 27th: figure refresh on the 22nd, which leaves the 23rd and 26th as the only working days to fold Q3 numbers into the Doc, the letter and the memo before a Tuesday send. That compression is manageable if the ruling and the Doc lock exist before the print, and not if they land after it.
+
 10/6, day nineteen: the October 13 option expired by its own gates, no ruling and no Doc lock, so the desk works solely to October 27 and the charter's open decision is updated to say so. UBS cut its price target on cost pressures with the stock down roughly 30% on the year, which keeps the kill-criteria frame the right opening posture for Norström's side. Nineteen days of silence. The 27th needs the same three gates, and two of them are one sitting of Ashley's.
 
 10/5, day eighteen: watch day with one holster line logged: Spotify's new "You're Among Fans" ad campaign sells fandom as the advertiser audience, which is the Countdown sponsorship argument in their own voice. The October 13 option expires without a ruling in the next two days; the desk then works solely to the 27th. Everything else holds.

@@ -59,6 +59,11 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-07 · Watch notes · logged 10/7
+
+Quiet. One observed-unverified item: a Spotify Terms of Use update effective October 15, seen only in a newsletter aggregator; likely the consumer-terms side of the Memberships transition already logged, inference until a primary source confirms. Nothing else.
+Doc frozen since 9/18, nineteen days.
+
 ## 2026-10-06 · Watch notes · logged 10/6
 
 The October 13 option expired today by its own gate: the Doc did not lock (frozen since 9/18, eighteen days) and the ruling has not landed. The desk works solely to October 27.
