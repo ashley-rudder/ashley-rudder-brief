@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/8, day twenty-one: yesterday's stranded commit pushed clean after GitHub's server errors resolved overnight; nothing was lost. The sweep logged the audiobooks-global expansion (22 to 180+ markets, announced at Frankfurt, stock up about 5%), which hands the rollout argument Spotify's own playbook in motion and shows the market paying for new-surface stories into the print. Doc frozen twenty days. Fourteen days of silence remain before the 27th needs its gates cleared.
+
 10/7, day twenty: quiet watch, one observed-unverified terms-update item logged as likely Memberships paperwork. The calendar to the 27th: figure refresh on the 22nd, which leaves the 23rd and 26th as the only working days to fold Q3 numbers into the Doc, the letter and the memo before a Tuesday send. That compression is manageable if the ruling and the Doc lock exist before the print, and not if they land after it.
 
 10/6, day nineteen: the October 13 option expired by its own gates, no ruling and no Doc lock, so the desk works solely to October 27 and the charter's open decision is updated to say so. UBS cut its price target on cost pressures with the stock down roughly 30% on the year, which keeps the kill-criteria frame the right opening posture for Norström's side. Nineteen days of silence. The 27th needs the same three gates, and two of them are one sitting of Ashley's.

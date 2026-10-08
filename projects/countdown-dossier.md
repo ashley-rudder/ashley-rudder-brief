@@ -59,6 +59,16 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-08 · Audiobooks go global · logged 10/8, corroborated at summary level
+
+Announced at the Frankfurt Book Fair: audiobook access expands from 22 markets to more than 180 by end of 2026, 350,000+ titles toward roughly 750 million people, with a Legimi partnership in Poland this month and an India launch slated November 12. The stock rallied about 5% on the news.
+Sources: Digital Trends, Investing.com, aggregated coverage. Summary level.
+
+What it touches in the memo:
+1. Section 13's audiobook context refreshes, and the strategic read sharpens: Spotify keeps scaling every content type globally except the one this pitch serves. Audiobooks reach 180 markets while music discovery still has no room anywhere.
+2. The 2030 anchor gains a data point: global expansion is the active growth playbook, which is the Countdown's rollout logic (many rooms, every market) in their own current motion.
+3. The rally shows the market pays for new-surface stories into this print. A holster line, not a staged edit.
+
 ## 2026-10-07 · Watch notes · logged 10/7
 
 Quiet. One observed-unverified item: a Spotify Terms of Use update effective October 15, seen only in a newsletter aggregator; likely the consumer-terms side of the Memberships transition already logged, inference until a primary source confirms. Nothing else.
