@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/9, day twenty-two: two holster lines logged, the Rogan renewal (Spotify pays to keep stars present; the Booth is that logic one tier down) and Piper Sandler's initiation saying Spotify needs a catalyst, which is the pitch's cue in a banker's voice. The weekend is the last natural sitting before the print window compresses the calendar. The inventory holds.
+
 10/8, day twenty-one: yesterday's stranded commit pushed clean after GitHub's server errors resolved overnight; nothing was lost. The sweep logged the audiobooks-global expansion (22 to 180+ markets, announced at Frankfurt, stock up about 5%), which hands the rollout argument Spotify's own playbook in motion and shows the market paying for new-surface stories into the print. Doc frozen twenty days. Fourteen days of silence remain before the 27th needs its gates cleared.
 
 10/7, day twenty: quiet watch, one observed-unverified terms-update item logged as likely Memberships paperwork. The calendar to the 27th: figure refresh on the 22nd, which leaves the 23rd and 26th as the only working days to fold Q3 numbers into the Doc, the letter and the memo before a Tuesday send. That compression is manageable if the ruling and the Doc lock exist before the print, and not if they land after it.

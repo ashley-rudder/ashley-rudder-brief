@@ -59,6 +59,13 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-09 · Watch notes · logged 10/9
+
+Two holster lines, neither a staged edit:
+1. Joe Rogan renewed with Spotify (Bloomberg 10/8, "podcasting's star problem" framing). Spotify keeps writing checks to keep creators present on-platform; the Booth asks for the same logic one tier down and one content type over.
+2. Piper Sandler initiated coverage at Neutral, $540 target, saying the company "needs a catalyst for a more positive view" (Seeking Alpha 10/8). The Street asking for a catalyst is the money section's cue line in a banker's voice.
+Doc frozen since 9/18, twenty-one days.
+
 ## 2026-10-08 · Audiobooks go global · logged 10/8, corroborated at summary level
 
 Announced at the Frankfurt Book Fair: audiobook access expands from 22 markets to more than 180 by end of 2026, 350,000+ titles toward roughly 750 million people, with a Legimi partnership in Poland this month and an India launch slated November 12. The stock rallied about 5% on the news.
