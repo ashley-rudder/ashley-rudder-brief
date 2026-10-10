@@ -59,6 +59,15 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-10 · The Rogan number lands: a reported $250 million · logged 10/10, corroborated at summary level
+
+The renewal got its figure: a new multiyear licensing deal for The Joe Rogan Experience worth an estimated $250 million over its length, per the Wall Street Journal as carried by the Washington Times.
+Sources: WSJ via Washington Times 10/9, Bloomberg 10/8 on the renewal itself. Summary level.
+
+What it touches in the memo:
+1. The Booth's sharpest comparative yet, staged as a drill-card upgrade rather than a memo edit: Spotify pays a reported quarter billion dollars for one creator's presence between episodes, and pays musicians nothing for the same behavior on the same platform. One license fee the size of the entire Loud & Clear top tier, pointed at one podcaster.
+2. Context lines from the same sweep: technology.spotify.com launched as an enterprise tools storefront (new-revenue hunting continues), and holiday streaming is running 36 million plays a day already, the Wrapped-season tide rising on schedule.
+
 ## 2026-10-09 · Watch notes · logged 10/9
 
 Two holster lines, neither a staged edit:

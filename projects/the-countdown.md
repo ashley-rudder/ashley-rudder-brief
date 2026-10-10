@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/10, day twenty-three: the Rogan renewal got its reported number, $250 million per WSJ, which upgrades yesterday's holster line into the Booth's sharpest comparative: a quarter billion for one creator's presence, zero for every musician's. Logged at summary level with the drill-card upgrade staged. Holiday streaming is already at 36 million plays a day, the seasonal tide arriving on schedule. Doc frozen twenty-two days; the stack stands.
+
 10/9, day twenty-two: two holster lines logged, the Rogan renewal (Spotify pays to keep stars present; the Booth is that logic one tier down) and Piper Sandler's initiation saying Spotify needs a catalyst, which is the pitch's cue in a banker's voice. The weekend is the last natural sitting before the print window compresses the calendar. The inventory holds.
 
 10/8, day twenty-one: yesterday's stranded commit pushed clean after GitHub's server errors resolved overnight; nothing was lost. The sweep logged the audiobooks-global expansion (22 to 180+ markets, announced at Frankfurt, stock up about 5%), which hands the rollout argument Spotify's own playbook in motion and shows the market paying for new-surface stories into the print. Doc frozen twenty days. Fourteen days of silence remain before the 27th needs its gates cleared.
