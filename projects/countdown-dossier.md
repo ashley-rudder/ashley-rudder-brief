@@ -59,6 +59,12 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-11 · Watch notes · logged 10/11
+
+Quiet Sunday. One observed-unverified item worth chasing tomorrow: a report that Spotify disavowed streams behind a number-one song as not from genuine listeners, with suspicious betting activity on the prediction market Kalshi attached. Undated, single mention in an aggregator.
+If it corroborates, it is a gift to section 5 and the proof spec: chart-position fraud now has a betting market attached, which makes the published-rule-plus-auditor argument urgent in a way no hypothetical could. Chase with a dated source before it goes anywhere near the memo.
+Doc frozen since 9/18, twenty-three days.
+
 ## 2026-10-10 · The Rogan number lands: a reported $250 million · logged 10/10, corroborated at summary level
 
 The renewal got its figure: a new multiyear licensing deal for The Joe Rogan Experience worth an estimated $250 million over its length, per the Wall Street Journal as carried by the Washington Times.

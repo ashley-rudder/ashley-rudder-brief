@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/11, day twenty-four: quiet Sunday with one lead staged for tomorrow's chase: an unverified report that Spotify disavowed a number-one song's streams as fake amid betting activity on Kalshi. If real, chart fraud now has a prediction market attached and the audited-Countdown argument stops being hypothetical. Verification first; it touches nothing until dated and corroborated. Eleven days to the print.
+
 10/10, day twenty-three: the Rogan renewal got its reported number, $250 million per WSJ, which upgrades yesterday's holster line into the Booth's sharpest comparative: a quarter billion for one creator's presence, zero for every musician's. Logged at summary level with the drill-card upgrade staged. Holiday streaming is already at 36 million plays a day, the seasonal tide arriving on schedule. Doc frozen twenty-two days; the stack stands.
 
 10/9, day twenty-two: two holster lines logged, the Rogan renewal (Spotify pays to keep stars present; the Booth is that logic one tier down) and Piper Sandler's initiation saying Spotify needs a catalyst, which is the pitch's cue in a banker's voice. The weekend is the last natural sitting before the print window compresses the calendar. The inventory holds.
