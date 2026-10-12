@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/12, day twenty-five: the Kalshi lead verified and it is the memo's missing scandal. In July, 500,000 fake streams bought the number-one slot, prediction markets paid out on the fraudulent position, and the catch came from a bettor rather than from Spotify. Edit I stages the section 9 paragraph, the drill set gains the "our charts are clean" card, and the dossier holds the specifics with the artist named only there. The proof spec now answers a live public incident instead of a hypothetical. Ten days to the print, fifteen to the working send date, and the stack still waits on one sitting.
+
 10/11, day twenty-four: quiet Sunday with one lead staged for tomorrow's chase: an unverified report that Spotify disavowed a number-one song's streams as fake amid betting activity on Kalshi. If real, chart fraud now has a prediction market attached and the audited-Countdown argument stops being hypothetical. Verification first; it touches nothing until dated and corroborated. Eleven days to the print.
 
 10/10, day twenty-three: the Rogan renewal got its reported number, $250 million per WSJ, which upgrades yesterday's holster line into the Booth's sharpest comparative: a quarter billion for one creator's presence, zero for every musician's. Logged at summary level with the drill-card upgrade staged. Holiday streaming is already at 36 million plays a day, the seasonal tide arriving on schedule. Doc frozen twenty-two days; the stack stands.

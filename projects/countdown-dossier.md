@@ -59,6 +59,20 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-07-03 · The Kalshi chart-fraud event · verified 10/12, corroborated
+
+Early July: Spotify removed more than 500,000 artificial streams from Malcolm Todd's "Earrings" after concluding they did not come from genuine listeners, dropping the track from number one back to number four.
+A Kalshi trader, Caleb Davies, flagged the manipulation after the track jumped 70% overnight; prediction-market contracts on the chart position had already paid out before the correction.
+Spotify's response: "all streaming services face ever-changing stream manipulation," a request that Kalshi and Polymarket remove Spotify logos, and a promise of added checks before charts publish.
+Nobody has established who ran the bots, and no suggestion attaches to the artist.
+Sources: CBS News, Hollywood Reporter, Vice, MBW, Bloomberg-origin reporting, all early July. Corroborated at summary level across major outlets.
+
+What it touches in the memo:
+1. Section 5's cheating argument graduates from design principle to case study: 500,000 fake streams bought number one on the real chart, and gambling markets settled on the fraudulent position before anyone caught it. In a Countdown room, the memo's own line holds: anomalies inside a small pool are visible in a way they never are inside a national chart.
+2. Section 9's proof spec stops being optional hygiene. Spotify now has a public incident where its unaudited chart moved money on a prediction market. The six public things, the rule, the gates, the auditor, the integrity report, are the answer a regulator or a journalist will eventually demand; the pitch offers them as product.
+3. Drill card staged: "our charts are fine" dies on one name, Earrings. Say it first, the way the memo says Spotify Live first.
+4. Staged as Edit I for the Doc pass: one paragraph in section 9 citing the July event, the memo's strongest 2026 proof that an audited, intent-weighted, capped room is infrastructure, not idealism.
+
 ## 2026-10-11 · Watch notes · logged 10/11
 
 Quiet Sunday. One observed-unverified item worth chasing tomorrow: a report that Spotify disavowed streams behind a number-one song as not from genuine listeners, with suspicious betting activity on the prediction market Kalshi attached. Undated, single mention in an aggregator.
