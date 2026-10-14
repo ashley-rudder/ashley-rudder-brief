@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/14, day twenty-seven: quiet watch. The week ahead carries three Spotify events the desk tracks without her: DIA/LOG debuts Saturday the 17th, Memberships ships Tuesday the 20th, and the Q3 print lands Thursday the 22nd with the mandatory same-day figure refresh. Each one is already staged in the memo's edits; the refresh is the only scheduled desk work left before the 27th.
+
 10/13, day twenty-six: the original send date passed unused today. Quiet sweep; one context line on the enterprise-tools branding logged. Nine days to the print, fourteen to the working date, and the inventory is as complete as it can be made from this side: nine staged edits, fifteen drill cards, the letter, the fork, the CFO frame, the door file. The remaining work is Ashley's sitting, and after the 27th the next clean window is January.
 
 10/12, day twenty-five: the Kalshi lead verified and it is the memo's missing scandal. In July, 500,000 fake streams bought the number-one slot, prediction markets paid out on the fraudulent position, and the catch came from a bettor rather than from Spotify. Edit I stages the section 9 paragraph, the drill set gains the "our charts are clean" card, and the dossier holds the specifics with the artist named only there. The proof spec now answers a live public incident instead of a hypothetical. Ten days to the print, fifteen to the working send date, and the stack still waits on one sitting.
