@@ -59,6 +59,12 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-15 · Watch notes · logged 10/15
+
+Quiet. One Rogan-deal detail worth holding: the renewal keeps the podcast available on other platforms, which sharpens the Booth comparative further. Spotify pays a reported quarter billion without exclusivity, purely for presence and association.
+Memberships consumer terms take effect today per the earlier logged item; the product itself ships the 20th.
+Doc frozen since 9/18, twenty-seven days.
+
 ## 2026-10-14 · Watch notes · logged 10/14
 
 Quiet. A second service outage in two weeks reported yesterday (app crashes, HTTP 406 errors, US reports on Downdetector; single outlet, unconfirmed as nationwide). Operational trivia unless a pattern forms.
