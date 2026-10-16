@@ -59,6 +59,13 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-16 · Watch notes · logged 10/16
+
+Two watch lines:
+1. Spotify for Artists opened its Wrapped 2026 portal with new artist tools (per the 10/15 aggregator newsletter, summary level). The Wrapped machine is now running on the artist side, which starts the seasonal attention drain the send window was built to beat.
+2. StoneX cut Spotify to Hold citing softening margin outlook and rising label payments, trimming its Q3 revenue estimate to EUR 4.98B. The royalty-cost pressure the memo's section 2 describes is now the stated reason for a downgrade; the money section's sponsorship-inventory leg answers exactly this.
+DIA/LOG debuts at Drumsheds tomorrow. Doc frozen since 9/18, twenty-eight days.
+
 ## 2026-10-15 · Watch notes · logged 10/15
 
 Quiet. One Rogan-deal detail worth holding: the renewal keeps the podcast available on other platforms, which sharpens the Booth comparative further. Spotify pays a reported quarter billion without exclusivity, purely for presence and association.

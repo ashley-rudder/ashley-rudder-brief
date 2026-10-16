@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/16, day twenty-nine: two watch lines logged. Wrapped 2026's artist portal opened, starting the seasonal clock in earnest, and StoneX downgraded Spotify on rising label payments, which is the memo's section 2 cost argument showing up as a Street thesis. DIA/LOG debuts tomorrow; the desk sweeps its coverage Sunday for anything the Stage edits should absorb. Eleven days to the 27th.
+
 10/15, day twenty-eight: quiet watch with one sharpening detail, the Rogan renewal is non-exclusive, so the quarter billion buys presence rather than a lock, which is precisely the behavior the Booth prices for musicians. The event week begins Saturday: DIA/LOG the 17th, Memberships the 20th, the print and figure refresh the 22nd. Twelve days to the working send date.
 
 10/14, day twenty-seven: quiet watch. The week ahead carries three Spotify events the desk tracks without her: DIA/LOG debuts Saturday the 17th, Memberships ships Tuesday the 20th, and the Q3 print lands Thursday the 22nd with the mandatory same-day figure refresh. Each one is already staged in the memo's edits; the refresh is the only scheduled desk work left before the 27th.
