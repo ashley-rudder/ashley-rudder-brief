@@ -59,6 +59,13 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-17 · Watch notes · logged 10/17
+
+Two headline-level items, both needing corroboration before touching the memo:
+1. Sylvan Esso reportedly returned to Spotify after pulling their catalog a year earlier (DMN headline). Honesty note: if confirmed, the catalog-removals paragraph softens slightly, one of the pullers came back, and the memo's "trend line is the argument" framing must absorb that or trim.
+2. Coverage describes a Spotify badge "identifying human artists as AI music floods in," which reads like the Verified and AI Persona rollout being treated as live. If a dated source confirms badges visible, Edit E's tense can firm up from "rollout beginning" to "live."
+DIA/LOG debuts tonight at Drumsheds; coverage sweep tomorrow. Doc frozen since 9/18, twenty-nine days.
+
 ## 2026-10-16 · Watch notes · logged 10/16
 
 Two watch lines:

@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/17, day thirty: thirty days of desk operation. Two headline-level leads staged for corroboration: a Sylvan Esso catalog return, which would soften the removals paragraph and honesty demands the memo absorb it, and badge coverage suggesting the AI Persona rollout is visibly live, which would firm Edit E's tense. DIA/LOG debuts tonight; its coverage and both leads get tomorrow's sweep. Ten days to the 27th.
+
 10/16, day twenty-nine: two watch lines logged. Wrapped 2026's artist portal opened, starting the seasonal clock in earnest, and StoneX downgraded Spotify on rising label payments, which is the memo's section 2 cost argument showing up as a Street thesis. DIA/LOG debuts tomorrow; the desk sweeps its coverage Sunday for anything the Stage edits should absorb. Eleven days to the 27th.
 
 10/15, day twenty-eight: quiet watch with one sharpening detail, the Rogan renewal is non-exclusive, so the quarter billion buys presence rather than a lock, which is precisely the behavior the Booth prices for musicians. The event week begins Saturday: DIA/LOG the 17th, Memberships the 20th, the print and figure refresh the 22nd. Twelve days to the working send date.
