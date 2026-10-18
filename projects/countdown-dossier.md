@@ -59,6 +59,20 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-09-18 · Sylvan Esso returns after a year-long boycott · verified 10/18, corroborated
+
+The band's catalog came back September 18, a week after their fifth album shipped on their own label. Amelia Meath framed the return as financial necessity: the team could not stay employed off the platform, and the band's objections (Ek's investment in the defense firm Helsing) stand unchanged. Fans were still pointed at Bandcamp, Qobuz, Subvert and record stores.
+Sources: Consequence 9/26, NPR 9/21, NME, The Line of Best Fit. Corroborated across independent outlets.
+
+What it touches in the memo:
+1. The catalog-removals paragraph gains an honest coda rather than a cut. The return proves both things at once: leaving does not work, which demonstrates the platform's leverage, and an artist standing on the platform while publicly resenting it is the exact artist-relations wound the Countdown closes with payment and an auditable chart. Staged as Edit J.
+2. The quote "I don't fucking like it, and I'm really frustrated by this reality" is the sound of the artist relationship the memo's sections 3.7 and 8 describe. Dossier holds it; the memo paraphrases.
+
+## 2026-10-18 · DIA/LOG debut, attribution corrected · logged 10/18
+
+Pre-event coverage confirms the debut ran Saturday with 26 acts across three rooms, curated by Skream and Benga themselves, with Spotify and Drumsheds co-curating the series. The desk's Edit H had attributed the lineup to editors; corrected to artist curation. The argument holds unchanged: a legends-curated tribute has no ladder, no fan agency, and no loop into the app. Post-show reviews not yet indexed; one more look tomorrow.
+Sources: Clash, London x London, Music Week, dancewax. Summary level.
+
 ## 2026-10-17 · Watch notes · logged 10/17
 
 Two headline-level items, both needing corroboration before touching the memo:
