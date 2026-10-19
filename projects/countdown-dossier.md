@@ -59,6 +59,12 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-19 · Watch notes · logged 10/19
+
+No post-show DIA/LOG reviews indexed yet; the staged Edit H stands on pre-event facts (26 acts, three rooms, artist-curated), which are confirmed. The desk stops chasing reviews; a notable one surfaces or it does not.
+No other product news. Memberships ships tomorrow, the print lands Thursday with the full figure refresh.
+Doc frozen since 9/18, thirty-one days.
+
 ## 2026-09-18 · Sylvan Esso returns after a year-long boycott · verified 10/18, corroborated
 
 The band's catalog came back September 18, a week after their fifth album shipped on their own label. Amelia Meath framed the return as financial necessity: the team could not stay employed off the platform, and the band's objections (Ek's investment in the defense firm Helsing) stand unchanged. Fans were still pointed at Bandcamp, Qobuz, Subvert and record stores.
