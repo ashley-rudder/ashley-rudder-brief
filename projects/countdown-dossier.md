@@ -59,6 +59,16 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-20 · Memberships launched · logged 10/20, corroborated
+
+Shipped on schedule: paid podcast Memberships in 34 markets including the US. Creators keep 90% of revenue. Eligibility is published and mechanical: at least three episodes, 100 consumption hours and 100 listeners on Spotify in the prior 30 days, hosted on Spotify for Creators or Megaphone. Purchases on the web, outside app stores. Launch shows include Making Sense and the Shawn Ryan Show.
+Sources: TechCrunch 10/20, How-To Geek, androidpure, multiple aggregators. Corroborated same-day across independent outlets.
+
+What it touches in the memo:
+1. The Booth's third leg lands on schedule and gains two numbers: a 90/10 split in the creator's favor, and published eligibility gates. Edit G gets both.
+2. The section 6 a fortiori: Spotify now publishes mechanical eligibility thresholds for creator monetization as routine practice. The Countdown's two gates ask for nothing Spotify does not already do for podcasters, down to the trailing-30-day listener counts.
+3. The drill card holster: "musicians can use Memberships too" dies on the eligibility rail, hosting on Spotify for Creators or Megaphone, which is podcast infrastructure. The lane is still closed to the artist with a catalog and no show.
+
 ## 2026-10-19 · Watch notes · logged 10/19
 
 No post-show DIA/LOG reviews indexed yet; the staged Edit H stands on pre-event facts (26 acts, three rooms, artist-curated), which are confirmed. The desk stops chasing reviews; a notable one surfaces or it does not.

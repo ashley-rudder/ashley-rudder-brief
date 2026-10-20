@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/20, day thirty-three: Memberships launched on schedule and improved two arguments at once. Creators keep 90%, which prices the Booth's split conversation before it starts, and the eligibility gates are published and mechanical, which makes section 6's gates standard Spotify practice rather than a novel ask. Edit G upgraded with both; dossier carries the detail including the podcast-infrastructure rail that keeps musicians out. The print and figure refresh land in two days. Doc frozen thirty-two days.
+
 10/19, day thirty-two: quiet Monday. No DIA/LOG reviews indexed; Edit H stands on confirmed pre-event facts and the desk stops chasing. The decisive stretch is this week: Memberships tomorrow, the Q3 print and full figure refresh Thursday, and the working send date next Tuesday. Every asset is current and staged; the week runs on the desk's calendar with or without word.
 
 10/18, day thirty-one: both leads resolved. Sylvan Esso returned September 18 after a year-long boycott, calling it financially unsustainable with objections unchanged; Edit J stages the honest coda that strengthens the leverage argument and names the artist-relations wound the product closes. DIA/LOG ran Saturday with 26 acts across three rooms curated by Skream and Benga themselves, and the desk corrected its own Edit H, which had misattributed the lineup to editors. The verification discipline cuts the desk's copy the same as anyone's. Four days to the print, nine to the 27th.
