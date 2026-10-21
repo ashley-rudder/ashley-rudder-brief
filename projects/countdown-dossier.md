@@ -59,6 +59,15 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-21 · Watch notes · logged 10/21
+
+Pre-print day. Three lines:
+1. German-outlet reporting dated today says Spotify has removed 50 million AI-generated songs from recommendations since January 2026. Observed at single-outlet level; if it surfaces in tomorrow's earnings materials or English coverage, it upgrades the trust-roadmap row: they are spending real enforcement on keeping the surface human, which is the audited Countdown's budget line.
+2. Family-plan QR verification rolled out (household checks, downgrade penalties). Monetization-tightening context only.
+3. Street pre-print: shares up about 2.3% ahead of tomorrow; Jefferies target to $620, Rosenblatt Neutral at $527. The catalyst appetite remains.
+Tomorrow: the print lands before open. The desk refreshes every figure in the memo, the letter, and the CFO frame the same day, with implications logged.
+Doc frozen since 9/18, thirty-three days.
+
 ## 2026-10-20 · Memberships launched · logged 10/20, corroborated
 
 Shipped on schedule: paid podcast Memberships in 34 markets including the US. Creators keep 90% of revenue. Eligibility is published and mechanical: at least three episodes, 100 consumption hours and 100 listeners on Spotify in the prior 30 days, hosted on Spotify for Creators or Megaphone. Purchases on the web, outside app stores. Launch shows include Making Sense and the Shawn Ryan Show.

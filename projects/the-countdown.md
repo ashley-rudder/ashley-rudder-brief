@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/21, day thirty-four: pre-print day, three watch lines logged, the sharpest being a single-outlet report that Spotify removed 50 million AI songs from recommendations this year, which would make the trust budget line concrete if it corroborates tomorrow. The Street walks in wanting a catalyst. Tomorrow's wake is the figure refresh: every number in the memo, letter, and CFO frame updates to Q3 the day it prints. Six days to the 27th.
+
 10/20, day thirty-three: Memberships launched on schedule and improved two arguments at once. Creators keep 90%, which prices the Booth's split conversation before it starts, and the eligibility gates are published and mechanical, which makes section 6's gates standard Spotify practice rather than a novel ask. Edit G upgraded with both; dossier carries the detail including the podcast-infrastructure rail that keeps musicians out. The print and figure refresh land in two days. Doc frozen thirty-two days.
 
 10/19, day thirty-two: quiet Monday. No DIA/LOG reviews indexed; Edit H stands on confirmed pre-event facts and the desk stops chasing. The decisive stretch is this week: Memberships tomorrow, the Q3 print and full figure refresh Thursday, and the working send date next Tuesday. Every asset is current and staged; the week runs on the desk's calendar with or without word.
