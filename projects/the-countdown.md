@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/22, day thirty-five: print day executed. Q3 landed before open (788M MAU, 306M subscribers, 33.0% margin, EUR 5.0B revenue, Q4 guided to 818M users and 33.8%), corroborated across four outlets with the EPS miss noted honestly. The executive letter is refreshed directly to the new numbers per its own design, and Edit K stages the full find-and-replace table for the Doc pass and the memo. The pitch's best new line came from Spotify's own guidance: they print their own road to a billion users each quarter, and the Countdown is growth machinery on that road. Five days to the 27th. The document is the most current it will ever be; what it cannot refresh is the silence.
+
 10/21, day thirty-four: pre-print day, three watch lines logged, the sharpest being a single-outlet report that Spotify removed 50 million AI songs from recommendations this year, which would make the trust budget line concrete if it corroborates tomorrow. The Street walks in wanting a catalyst. Tomorrow's wake is the figure refresh: every number in the memo, letter, and CFO frame updates to Q3 the day it prints. Six days to the 27th.
 
 10/20, day thirty-three: Memberships launched on schedule and improved two arguments at once. Creators keep 90%, which prices the Booth's split conversation before it starts, and the eligibility gates are published and mechanical, which makes section 6's gates standard Spotify practice rather than a novel ask. Edit G upgraded with both; dossier carries the detail including the podcast-infrastructure rail that keeps musicians out. The print and figure refresh land in two days. Doc frozen thirty-two days.

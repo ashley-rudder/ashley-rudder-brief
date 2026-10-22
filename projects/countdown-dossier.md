@@ -59,6 +59,19 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-22 · Q3 2026 prints · logged same day, corroborated
+
+Reported before open, October 22. The figures, consistent across four independent outlets (Investing.com slides and transcript coverage, Hypebot, FourWeekMBA, Benzinga transcript; the SEC 6-K exhibit exists but is unreachable from this network):
+MAU 788 million, up 11% year over year. Premium subscribers 306 million, 1 million ahead of guidance, 6 million net adds.
+Revenue roughly EUR 5.0 billion (4,969M), up 16% reported. Ad-supported revenue 482M, up 10%.
+Gross margin 33.0%, a third-quarter record, slightly above guidance; premium gross margin 34.5%. Operating income 672M, above guidance. Net income 518M, down from 899M a year ago, and one outlet reports EPS of $2.48 against a $2.84 consensus, so the beat is operational and the miss is below the operating line. Shares jumped on the margin story per Investing.com's headline.
+Q4 guidance: EUR 5.2B revenue, 33.8% gross margin, 818M MAU, 316M subscribers, 820M operating income.
+
+What it touches:
+1. The full figure refresh is staged as Edit K on the branch: 777M becomes 788M everywhere including the thesis line, 300M becomes 306M, the margin passage updates to Q3's record with Q4 guided higher, revenue updates to EUR 5.0B. The executive letter is refreshed directly today per its own design.
+2. The guidance hands the pitch a new line: Spotify itself guides to 818 million users next quarter, marching on the published road to a billion. The 2030 anchor's arithmetic updates to roughly 212 million net adds remaining.
+3. The margin story strengthening into Q4 keeps the money section's framing intact: margin discipline is the house religion, and the pitch's inventory-and-retention frame is written for exactly that reader.
+
 ## 2026-10-21 · Watch notes · logged 10/21
 
 Pre-print day. Three lines:
