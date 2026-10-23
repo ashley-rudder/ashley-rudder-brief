@@ -59,6 +59,15 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-23 · The call quotes, held at transcript level · logged 10/23
+
+Two Söderström lines from the Q3 call, each seen in one aggregator summary and unverified against a full transcript (fool.com, gurufocus and seekingalpha all egress-blocked):
+1. On superfans: "some fans want to go deeper and are willing to spend more, and now they can do that right on Spotify."
+2. On AI agents: Spotify as "an agent you can not only click on in our app, but talk to," with the catalog and user data kept in-house.
+If the first line verifies, it is the product co-CEO publicly committing to paid fan depth in the quarter the pitch lands, which belongs beside the Hellman letter in the alignment spine. Held out of everything until a full transcript or second independent carry confirms wording. Ashley can verify in one minute by opening the Motley Fool transcript on her side.
+Memberships was touted on the call as the creator-monetization story. Ad revenue growth accelerating to 9% was Norström's highlight.
+Doc frozen since 9/18, thirty-five days.
+
 ## 2026-10-22 · Q3 2026 prints · logged same day, corroborated
 
 Reported before open, October 22. The figures, consistent across four independent outlets (Investing.com slides and transcript coverage, Hypebot, FourWeekMBA, Benzinga transcript; the SEC 6-K exhibit exists but is unreachable from this network):
