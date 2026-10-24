@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/24, day thirty-seven: the AI-cleanup lead corroborated to a second carry, 75 million spam tracks removed in a year plus 50 million AI tracks excluded from recommendations, which makes the trust budget line concrete for the proof section. A reported Believe deal extends the AI-remix licensing pattern to the indie distributor. Weekend before the working send date. The gates close Monday or the 27th follows the 13th.
+
 10/23, day thirty-six: post-print sweep. Two Söderström call lines staged at transcript level, the sharper being "some fans want to go deeper and are willing to spend more, and now they can do that right on Spotify," which, if verified, puts the product co-CEO on record for paid fan depth in the very quarter of the send. Full transcripts are egress-blocked from the desk; Ashley can confirm the wording in one minute from her side, and it enters the alignment spine the moment she does. Everything else holds. Four days to the 27th; the gates still need her word Monday.
 
 10/22, day thirty-five: print day executed. Q3 landed before open (788M MAU, 306M subscribers, 33.0% margin, EUR 5.0B revenue, Q4 guided to 818M users and 33.8%), corroborated across four outlets with the EPS miss noted honestly. The executive letter is refreshed directly to the new numbers per its own design, and Edit K stages the full find-and-replace table for the Doc pass and the memo. The pitch's best new line came from Spotify's own guidance: they print their own road to a billion users each quarter, and the Countdown is growth machinery on that road. Five days to the 27th. The document is the most current it will ever be; what it cannot refresh is the silence.

@@ -59,6 +59,11 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-24 · Watch notes · logged 10/24
+
+The trust-enforcement picture firmed: German-outlet reporting (10/24) says Spotify removed 75 million spam tracks in the year to September 2025 and is beta-testing artist AI-use disclosure, and the 50-million-AI-slop exclusion figure recurs in a 10/22 newsletter tied to earnings coverage. The 10/21 single-outlet lead now has a second independent carry at summary level; the trust-roadmap row upgrade is justified: Spotify is spending at scale to keep its surface human, which is the audited Countdown's budget line. Also noted: a reported Believe Music licensing deal for the AI remix tool, extending the UMG pattern to the independents' distributor.
+Doc frozen since 9/18, thirty-six days.
+
 ## 2026-10-23 · The call quotes, held at transcript level · logged 10/23
 
 Two Söderström lines from the Q3 call, each seen in one aggregator summary and unverified against a full transcript (fool.com, gurufocus and seekingalpha all egress-blocked):
