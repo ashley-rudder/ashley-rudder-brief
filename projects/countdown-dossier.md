@@ -59,6 +59,21 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-25 · Watch notes, and a 10/6 catch: SFX, the Superfans Experience · logged 10/25, corroborated
+
+No Spotify product or leadership news dated 10/24 or 10/25 surfaced in the sweep.
+The sweep did surface an announcement the desk missed on the day: SFX, the Spotify Superfans Experience, announced October 6, the same day this desk fought the GitHub outage.
+Spotify's first global ticketed fandom event: two days, January 23 and 24, 2027, at Anhembi in São Paulo, 18,000 tickets, produced with Omelete Company. First lineup names: Ludmilla, Pabllo Vittar, Luísa Sonza, Matuê, Marina Sena, Pedro Sampaio. Exclusive presale for Premium "Superfans" opened October 8 ahead of the October 13 general sale.
+Sources: Spotify newsroom 10/6 (title verified, body egress-blocked), Omelete 10/6, La República 10/7, Routenote, marcaspelomundo. Corroborated at summary level across independent outlets.
+
+What it touches in the memo:
+1. The moments pattern gains a fifth beat, and the shape changed: after four rented moments (FOMO, the Dua Lipa footage, Swift's record day, the VMA archive), Spotify is now manufacturing one. Still top-down. The lineup was picked in an office, and no artist on the platform has a way to climb into it. A room without a ladder, at festival scale: DIA/LOG's shape, eighteen thousand tickets bigger.
+2. The operating posture confirms the Stage's rule: Spotify produced it with a partner, Omelete Company, not alone. The pitch's never-operate line now has a second Spotify-made precedent after Reserved.
+3. The Premium Superfans presale extends the Reserved rails and confirms paid fan depth as live strategy, which backs the superfan drill card and waits on the Söderström call quote for the spine.
+4. Urgency: experiential fandom infrastructure is now shipping quarterly (Reserved in June, DIA/LOG and the VMA archive in September and October, Memberships 10/20, SFX in January). Each one narrows the originality window; each one also proves the appetite the Countdown feeds.
+5. Rehearsal: new drill card added to the "we already do this" family on the pitch branch.
+Doc frozen since 9/18, thirty-seven days. Gate day is tomorrow: ruling, Doc lock, named door, or the 27th follows the 13th.
+
 ## 2026-10-24 · Watch notes · logged 10/24
 
 The trust-enforcement picture firmed: German-outlet reporting (10/24) says Spotify removed 75 million spam tracks in the year to September 2025 and is beta-testing artist AI-use disclosure, and the 50-million-AI-slop exclusion figure recurs in a 10/22 newsletter tied to earnings coverage. The 10/21 single-outlet lead now has a second independent carry at summary level; the trust-roadmap row upgrade is justified: Spotify is spending at scale to keep its surface human, which is the audited Countdown's budget line. Also noted: a reported Believe Music licensing deal for the AI remix tool, extending the UMG pattern to the independents' distributor.
