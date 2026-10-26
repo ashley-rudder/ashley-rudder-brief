@@ -438,6 +438,22 @@ Correction to the 10/26 iOS note: dictation in the native shell is switched off 
 Install note: bun.lock points at Lovable's private registry, which returns 403 from this environment. npm ci against package-lock.json works.
 Ship path: merge to main on Ashley's word, Lovable Publish for web, then archive a new iOS build and submit.
 
+## Session log: 10/26 all three ride on claude/week-plan
+
+Ashley: "all of them ride." Three commits on claude/week-plan off main, pushed, no PR, nothing deployed.
+1. This Week panel (957ad73).
+2. Archetype Navigator v2: ten questions in three blocks per Card 06.1 v2, every answer saved as given with onboarding_step, placement from reach, direct access, money source and focus, the reveal carrying the capacity sentence, access read and first route. Copy v2.1. New module src/data/navigatorV2.ts; OnboardingChat and ProfileRevealSequence rewritten; generated types extended; migration 20261026120000_navigator_v2_profile_columns.sql adds ten profile columns (additive, RLS unchanged).
+3. Native dictation: the Capacitor community speech-recognition plugin 7.0.1 in the iOS shell, browser engine on web, usage strings in Info.plist, Package.swift regenerated (it also now lists RevenueCat, which package.json already carried).
+Checks: tsc clean, eslint clean on every changed file, vite build passes, placement logic run against Navigator test cases 11 to 13 plus two edge cases with sane output. Not seen in a browser: onboarding and dashboard need a signed-in account.
+
+Ship order, each on Ashley's word:
+a. Apply the migration to the live database through the Lovable login before anything else. Without it the per-answer saves and the final save fail on unknown columns and nobody completes onboarding.
+b. Merge claude/week-plan to main, Lovable Publish for web.
+c. On the Mac: pull, bun install (bun.lock could not be updated from this environment; its registry returns 403), npx cap sync ios, archive, test dictation and the Navigator on device, submit.
+d. Separately, the engine prompt on claude/payments-desk should read the new profile columns; until then the bots see the old seven fields. Profile and admin user pages still display the legacy fields and skip the new ones; a small follow-up.
+
+Known gaps: the old identity and tenure questions are gone, so the Profile page's modifier recomputation shows nothing for new users (the stored archetype is correct); Card 06.1 v2 Q1 is the content tile plus the known-for sentence, so the flow is eleven taps and three free-text answers, still under five minutes.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
