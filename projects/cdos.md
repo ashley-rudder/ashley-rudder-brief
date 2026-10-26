@@ -518,6 +518,10 @@ Finding on the capture: text-node bodies live in the page (Liveblocks), not Fire
 Security: the Camryn sales-call transcript with the card details is still a node on the Poppy board (textNode-morning-darkness-ma3s8). Redacted in the repo only. Ashley should delete that node on the board before the plan closes.
 iOS: npm install resolved the six plugins including @capgo/capacitor-speech-recognition; build and cap sync clean on the Mac; Xcode archive is the next step. Charter correction: the Poppy contact is Camryn, not Cameron, in the September entries above.
 
+## 10/26: exposed card replaced
+
+Ashley confirmed the business partner's card from the July transcript has been replaced. The exposure is closed at the source. The node on the Poppy board and the copies in main's git history are now housekeeping, not risk: the history scrub stays on the list as cleanup, no longer urgent, and still needs her word because it rewrites main.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
