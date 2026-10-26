@@ -563,6 +563,12 @@ Full loop on the phone for the first time: Golden Offer, lock-in, report ("The H
 
 Ashley's word at about 5:30 PM CDT. Merged into main and pushed: claude/voice-lock-v2 (4e0954e) and claude/stale-profile-fields, type-check clean. The voice-lock merge touches supabase/functions/call-poppy-api, so the Golden Offer prompt fixes (Talk offer once, one frame then keep moving, no numbered lists aloud, never open on their numbers, contrast scrub) are live on the Lovable deploy from this push. The four frontend fixes (stale profile fields, Navigator light mode, no early archetype, This Week masthead and count) reach the web on her Publish, and iOS in build 18. Lovable synced at 888fea6 with no code change on its side; Ashley published about 5:35 PM CDT. Live on the web now: everything through 888fea6, including the misses cap, the Invisible rule, the hidden legacy card, the Capgo dictation plugin, the voice-lock engine fixes, and the four device-test fixes. iOS 1.1 (17) in review carries the code as of 532da2e; build 18 will carry the rest.
 
+## 10/26 late: judge fixes ready; Sydney question withdrawn
+
+Ashley's "proceed" on the evening plate. The five judge findings from the phone run are fixed on claude/judge-fixes (one commit, call-poppy-api only): the PRIOR SESSION report fills BUYER, TRANSFORMATION, FORMAT and PROOF on arrival so the ledger never reads 1 of 5 against an attached report; commitments route through the profile's channels, never an assumed platform; one price per report; the knowledge base's own tiers are never a price reference and the product's name never appears in a report field, in chat or in the report, for both bots. Merges on her word and deploys on merge, since it touches supabase/functions.
+Sydney renewal question: drafted, then withdrawn on Ashley's second thought ("just see what happens"). Sable's read: asking has a cost (it flags the renewal in a support thread hours after the make-good ask) and the answer is readable elsewhere: an October 18 charge of $3,997 on the card statement, or none, and the credits panel on November 1. October usage before tonight's test was 0 of 16,050, so even the 2,000 floor covers current traffic until the engine switch. Draft deleted.
+Still hers tonight: Promotional Text on 1.1, the board paste.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
