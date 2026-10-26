@@ -462,6 +462,12 @@ Ashley: "I want to make sure it's taken care of and buttoned." Both done, two mo
 Checks: tsc clean, build passes, edge function syntax-checked with esbuild on both branches (Deno is not installed here). The lint hits in Profile.tsx and UserDetail.tsx are the pre-existing any types on main, none on changed lines.
 Ship order unchanged: migration first through Lovable, then merge and Publish (this merge deploys the function change), then the Mac steps and submit.
 
+## Session log: 10/26 ship, step 2 done
+
+Ashley: "let's go in order so it's live." Merged claude/week-plan to main on that word (fast-forward to 1dc8592, five commits, pushed). The push carries supabase/functions/call-poppy-api, so Lovable deploys the narrative change; it is backward compatible and reads the new columns only when they exist. The web app is not live until Publish.
+Step 1, the migration, can only run through the Lovable login (the CDOS database is Lovable Cloud, project wjhvuumhcibzlnfbayes, unreachable from the connector). Ashley runs supabase/migrations/20261026120000_navigator_v2_profile_columns.sql in the Lovable Cloud SQL editor, then confirms. Publish waits for that confirmation; without the columns, onboarding saves fail for new users.
+Then the Mac: pull main, bun install, npx cap sync ios, archive, device test (Navigator, dictation, This Week panel), submit.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
