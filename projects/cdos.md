@@ -454,6 +454,14 @@ d. Separately, the engine prompt on claude/payments-desk should read the new pro
 
 Known gaps: the old identity and tenure questions are gone, so the Profile page's modifier recomputation shows nothing for new users (the stored archetype is correct); Card 06.1 v2 Q1 is the content tile plus the known-for sentence, so the flow is eleven taps and three free-text answers, still under five minutes.
 
+## Session log: 10/26 the two follow-ups closed on claude/week-plan
+
+Ashley: "I want to make sure it's taken care of and buttoned." Both done, two more commits on claude/week-plan (profile pages 1dc8592^, edge function 1dc8592), and the edge-function commit cherry-picked onto claude/payments-desk so the engine branch carries the same narrative and the later merge has no conflict.
+1. The bots now read the Navigator v2 answers. call-poppy-api builds the profile narrative every bot receives; it now adds a buyer-access paragraph when the v2 columns exist, in English (coded values spelled out), ending with the four rules from Card 01.9. Legacy profiles read exactly as before. Because the file lives in supabase/functions, it deploys when claude/week-plan merges to main, on Ashley's word, together with the screens that write the columns. No separate deploy, no separate word.
+2. The Profile page and the admin user page read the modifier from the stored archetype when identity and tenure are absent, show a Buyer Access card (access read, reach, who would answer, money, capacity, willingness, what shipped, the obstacle), fall back to the v2 Block 2 insight by money source, and admin shows the step an unfinished onboarding stopped at.
+Checks: tsc clean, build passes, edge function syntax-checked with esbuild on both branches (Deno is not installed here). The lint hits in Profile.tsx and UserDetail.tsx are the pre-existing any types on main, none on changed lines.
+Ship order unchanged: migration first through Lovable, then merge and Publish (this merge deploys the function change), then the Mac steps and submit.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
