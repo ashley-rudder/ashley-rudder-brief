@@ -484,6 +484,12 @@ Ashley's screenshot of the live dashboard showed tasks reading "105 misses": the
 Ashley ran the Navigator on a fresh test account (Dana, the bookkeeper case). Reveal matched the expected output line for line: Invisible Expert, capacity sentence, direct-access read, warm-outreach route. Her ruling on the mid-flow first read, which had said Aspiring: "If they are low reach they are invisible." Placement now reads Invisible for anyone at 0 or under 500 monthly reach with no other condition; executive focus still outranks it. On main at d0a2f7b, needs Publish. Card 06.1 v2 updated on claude/buyer-access-standard and marked as shipped.
 Open: the Profile page Buyer Access card check on the test account; the Mac build.
 
+## Session log: 10/26 web release verified end to end
+
+Ashley's screenshot of /profile on the Dana test account: Buyer Access card present, green Direct access badge, all eight rows correct. With the dashboard panel and the Navigator already verified, the whole web release is confirmed live.
+Seen on that screen and fixed: the legacy Monetization card showed under Buyer Access for a v2 member, repeating the money answer in old copy with an em dash. Hidden for v2 members on both profile pages, main at 7224e3b, needs one more Publish (carries the Invisible rule and the misses cap too).
+Remaining: the Mac build and App Store submission for native dictation.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
