@@ -479,6 +479,11 @@ Remaining checks on the web: run the Navigator with a test account, and the Buye
 
 Ashley's screenshot of the live dashboard showed tasks reading "105 misses": the reminder job increments strikes daily past the three-strike rule. On her word ("yes ship the misses fix") the Task Tracker row now caps the label at "3 misses" (claude/misses-cap, fast-forwarded to main at 08d0c60). Stored counts and the Head Down banner unchanged. Web-only; needs Publish. The two lint hits in TaskTracker (prefer-const) predate the change.
 
+## Session log: 10/26 Navigator verified live; Invisible rule corrected
+
+Ashley ran the Navigator on a fresh test account (Dana, the bookkeeper case). Reveal matched the expected output line for line: Invisible Expert, capacity sentence, direct-access read, warm-outreach route. Her ruling on the mid-flow first read, which had said Aspiring: "If they are low reach they are invisible." Placement now reads Invisible for anyone at 0 or under 500 monthly reach with no other condition; executive focus still outranks it. On main at d0a2f7b, needs Publish. Card 06.1 v2 updated on claude/buyer-access-standard and marked as shipped.
+Open: the Profile page Buyer Access card check on the test account; the Mac build.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
