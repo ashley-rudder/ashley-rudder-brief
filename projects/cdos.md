@@ -414,6 +414,19 @@ Merged to main on Ashley's word 10/3 (fast-forward to 6d5f574; no supabase/funct
 
 Shipped 10/3 evening: Lovable Publish confirmed live (the fix verified in the production bundle from outside), build 1.0 (16) archived from ~/chatwise-thought-hub after the pull and uploaded 7:21 PM CDT. Build 15 (7:03 PM) predates the pull and lacks the fix: never attach it. Ashley confirmed sign-in on her iPad. Resubmitted Oct 3, 7:40 PM CDT: build 1.0 (16) attached, 2.1(a) reply posted 7:39 PM, all five items Waiting for Review, same submission ID 0d2ba5c4. Expedited status rides along per Apple's grant. The inbox watch stands.
 
+## Session log: 10/26 voice rebuild and product rulings
+
+Rulings from Ashley, 10/25 and 10/26:
+The bot speaks in her public register, not room talk ("It shouldn't be casual jazzy talk"). Voice v2.1 on claude/buyer-access-standard is built from the TikTok for Business, Next in Media, Black Enterprise and One Club recordings; Next in Media is the personality sample; the Champagne piece in Muse by Clio is the polish sample and is still unread because the press hosts are denied by the environment network policy.
+The Camryn call is the model of a session: Camryn is the bot, Ashley is the user, and her intention for the bot is in her own turns. Card 01.10 holds it. Weighted primary for method; Voice v2.1 keeps the register.
+The plan on the page is confirmed, as two layers: a daily execution list (head-down mode, the reason to open the app daily) and the week plan the user re-roots in when the tasks get hard. The plan holds until the decision date.
+Dictation (speech in) rides the same iOS release as the plan page, with the missing microphone and speech-recognition usage strings added to Info.plist.
+Voice out (the bot speaking in Ashley's cloned voice) is deprioritized until at least 100 users are in and the kinks are out. Her words. Nothing is to be built toward it before then.
+
+iOS fact for planning: the app bundles the web build (Capacitor, no live-update plugin), so every screen change is a TestFlight build and a review. Knowledge bank and voice changes are server side and need no release.
+
+Open on Ashley: blind test marks, press hosts allowed or pasted, framework-naming ruling, card replacement, history scrub, private Fireflies deletions, merge of claude/buyer-access-standard, and the word to open the plan-page branch off main.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
