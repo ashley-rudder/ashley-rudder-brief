@@ -522,6 +522,12 @@ iOS: npm install resolved the six plugins including @capgo/capacitor-speech-reco
 
 Ashley confirmed the business partner's card from the July transcript has been replaced. The exposure is closed at the source. The node on the Poppy board and the copies in main's git history are now housekeeping, not risk: the history scrub stays on the list as cleanup, no longer urgent, and still needs her word because it rewrites main.
 
+## 10/26: second Poppy walk parsed, corpus delivered
+
+Second rescue archive (boards only, 25.7 MB, 5,187 files, clean) covered twenty more boards. Database records now total 2,640 across both walks: 2,192 node records, 319 chat records, 10 board graphs. Page snapshots parsed into a per-board markdown corpus (18 boards with content, 1.4 MB), zipped and handed to Ashley in chat for Drive; it never enters the repo. Three boards rendered empty in their snapshot (Rudder Ranch, Short Form Content Board, ASHLEY'S API SUPPORT BOT); their node records exist but their card text does not. Low value, not worth a third walk unless time allows.
+Boards that matter for the knowledge corpus and the voice canon: Ashley knowledge (the Brand Box, the Clio Creative Summit input, podcast and interview source list), Ashley Content Writer's Room (voice training protocol, a strongest written voice sample from her LinkedIn, Expert Brain), CDOS Writer's Room (writer's room craft rules, receipt handling), Eleven Labs (the voice-agent persona prompt, the voice-out design, parked until 100 users), website copy, The Banquet. Caution recorded: the "VOICE SAMPLE, How I Actually Talk" card on the Writer's Room board is model-drafted (em dashes, the contrast shape) and is not a receipt.
+Still open: the Poppy close date; Xcode.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
