@@ -427,6 +427,17 @@ iOS fact for planning: the app bundles the web build (Capacitor, no live-update 
 
 Open on Ashley: blind test marks, press hosts allowed or pasted, framework-naming ruling, card replacement, history scrub, private Fireflies deletions, merge of claude/buyer-access-standard, and the word to open the plan-page branch off main.
 
+## Session log: 10/26 This Week panel built on claude/week-plan
+
+Ashley said "let's get going." Branch claude/week-plan off main, commit 957ad73, pushed, no PR, nothing deployed.
+What was already there, verified in code: the daily execution list (Task Tracker, Head Down panel, Book Sprint, Break It Down, three-strike scale-down, calendar export). Head-down mode exists.
+What was missing: the week's plan on the page. The locked-in Golden Offer lived only in a modal behind the Golden Offers list.
+Built: ThisWeekPlan under the greeting on the dashboard. Offer name, who it is for, the one-liner, before and after, price, week dates and days left (seven days from lock-in), progress on the deliverables from that report, Open the full plan (the report modal, which prints to PDF), and a Pressure Test handoff seeded with the plan when the week is up or everything shipped. Reads reports and user_tasks only. No migration, no supabase/functions.
+Checks: tsc clean, eslint clean on the new file, vite build passes. Not seen in a browser: the dashboard needs a signed-in account and this session has none. Ashley or a tester should look at it once before it ships.
+Correction to the 10/26 iOS note: dictation in the native shell is switched off on purpose in ChatInput (the webview advertises the speech API but the engine does not run); the keyboard's own mic covers voice there. No microphone permission is used, so no Info.plist change is needed. Native in-app dictation would need the community speech-recognition plugin and a native build; parked.
+Install note: bun.lock points at Lovable's private registry, which returns 403 from this environment. npm ci against package-lock.json works.
+Ship path: merge to main on Ashley's word, Lovable Publish for web, then archive a new iOS build and submit.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
