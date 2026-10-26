@@ -475,6 +475,10 @@ Ashley pressed Publish from the HP laptop. Verified live by her screenshot of cr
 Noted on that screen: the one-liner the bot wrote in July carries an em dash. Report copy comes from the engine prompt, not from app copy; it is the voice-canon work on claude/buyer-access-standard, not a bug in the panel.
 Remaining checks on the web: run the Navigator with a test account, and the Buyer Access card on Profile. Then the Mac build for native dictation.
 
+## Session log: 10/26 misses cap shipped to main
+
+Ashley's screenshot of the live dashboard showed tasks reading "105 misses": the reminder job increments strikes daily past the three-strike rule. On her word ("yes ship the misses fix") the Task Tracker row now caps the label at "3 misses" (claude/misses-cap, fast-forwarded to main at 08d0c60). Stored counts and the Head Down banner unchanged. Web-only; needs Publish. The two lint hits in TaskTracker (prefer-const) predate the change.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
