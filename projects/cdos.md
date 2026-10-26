@@ -504,6 +504,13 @@ Fix, three layers:
 2. Knowledge base, Ashley's hands: docs/canon/poppy-paste-2026-10.md on claude/buyer-access-standard holds Voice v2.1, Bans v2 and Card 01.10 in one paste for the Poppy boards, replacing the old voice and identity cards. No deploy involved.
 3. The sovereign engine on claude/payments-desk with kb_global, after the blind test, as its own day.
 
+## Session log: 10/26 late. Poppy deadline surfaced
+
+Ashley: her Poppy membership closes "in a few days." Every live bot relays to Poppy (call-poppy-api and call-ip-vault-api); the direct engine is unmerged, unkeyed, with empty knowledge rows. If the plan lapses, the bots stop. No production fallback exists.
+Tomorrow morning, in order: dump every Poppy board with docs/canon/tools/poppy-board-dump.js (docs branch), screen-record every chat's settings and the account page, read the exact close date off the account page.
+Bridge decision for Ashley: renew Poppy one month (Sable's recommendation; buys the engine merge its own day) or run the engine reconcile under the deadline. Inside a week, renewal is the only safe move.
+Ready and waiting on her word: claude/voice-lock-v2 (engine prompt fixes, deploys on merge) and docs/canon/poppy-paste-2026-10.md (board paste). Both still worth doing even if the engine switch follows within weeks, since the board paste becomes the kb_global row.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
