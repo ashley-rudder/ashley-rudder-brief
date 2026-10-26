@@ -468,6 +468,13 @@ Ashley: "let's go in order so it's live." Merged claude/week-plan to main on tha
 Step 1, the migration, can only run through the Lovable login (the CDOS database is Lovable Cloud, project wjhvuumhcibzlnfbayes, unreachable from the connector). Ashley runs supabase/migrations/20261026120000_navigator_v2_profile_columns.sql in the Lovable Cloud SQL editor, then confirms. Publish waits for that confirmation; without the columns, onboarding saves fail for new users.
 Then the Mac: pull main, bun install, npx cap sync ios, archive, device test (Navigator, dictation, This Week panel), submit.
 
+## Session log: 10/26 live on the web
+
+Migration applied by Lovable on Ashley's approval (Lovable pushed three commits to main: the same SQL through its drizzle tool, regenerated types with the ten columns, its own preview-auth refactor, bun.lock updated and now carrying the speech plugin). Main rebuilt clean at 110bd4b; package-lock synced at 82b6473.
+Ashley pressed Publish from the HP laptop. Verified live by her screenshot of creatordarwinism.ai/dashboard: the This Week panel renders on her account with the July 12 Golden Offer, "The week is up," 1 of 3 deliverables, Open the full plan and Pressure test this week. The bots and the website now carry all five changes for every user, including current iOS users.
+Noted on that screen: the one-liner the bot wrote in July carries an em dash. Report copy comes from the engine prompt, not from app copy; it is the voice-canon work on claude/buyer-access-standard, not a bug in the panel.
+Remaining checks on the web: run the Navigator with a test account, and the Buyer Access card on Profile. Then the Mac build for native dictation.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
