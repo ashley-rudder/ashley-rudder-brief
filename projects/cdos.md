@@ -570,6 +570,12 @@ Sydney renewal question: drafted, then withdrawn on Ashley's second thought ("ju
 Ashley asked whether the process is still a seven-day sprint loop. Answer: yes, with one leak. The This Week panel counts seven days from the lock-in and offers the next Pressure Test when the week ends or every commitment ships; that verdict writes the next week. The leak: the judge wrote its own due dates with no cap ("by end of next week" on tonight's run). Fixed on claude/judge-fixes (2a87f38): every commitment is due inside seven days of the verdict, larger work is its first sitting. Branch now holds two commits.
 Still hers tonight: Promotional Text on 1.1, the board paste.
 
+## 10/26 late: RULING on missed commitments
+
+Ashley: "If they don't finish their commitments then they get simplified and they still will need to get done, not just be deleted." And a user may say "I hated my to do list and I want another way to move the mark toward my goals," after which the old ones are retired. On whether a replaced commitment counts against them in the bots' track record: "no it shouldn't count against them. As long as they're shipping at least even a crumb it's progress."
+Where the code stands: Ship smaller exists (three misses, a seeded session, the verdict writes the smaller version) and nothing retires the old one; it stays in the tracker at three misses next to its replacement. No change-the-route move exists.
+The build, agreed in principle, not started: (1) the system never deletes a commitment; it ends shipped, scaled down, or re-routed. (2) A verdict that replaces commitments marks them replaced, with the reason; they leave the daily list and the misses count and stay in history. (3) "Change the route" beside Ship smaller opens the Pressure Test with the open commitments attached and a seeded line asking for a different route to the same offer. (4) The judge reads retired commitments as a pattern and says so without punishment. (5) Track record: replaced never counts against them; only untouched misses do, and a crumb shipped is progress. Cost: one column on user_tasks (Lovable migration), the accept flow passing which commitments a verdict replaces, tracker and panel hiding replaced ones, the button, the judge prompt. About half a day. Scheduled after the judge-fixes merge and its baseline.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
