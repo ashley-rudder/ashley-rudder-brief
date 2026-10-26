@@ -551,6 +551,13 @@ Build 17 (version 1.1: This Week plan, Navigator v2, native dictation, misses ca
 Order given: release 1.0 now (approved build 14 goes live), then add version 1.1 in Distribution, attach build 17, paste What's New, submit. What's New copy is in the chat log 10/26.
 Done the same evening, about 4:30 PM CDT. 1.0 released (Ready for Distribution). Availability had been off ("removed from sale"); set to all 175 countries, Processing to Available, live within 24 hours. 1.1 created, build 17 attached, What's New pasted, submitted: Waiting for Review, Apple quotes 48 hours. Promotional Text on 1.1 is blank (1.0 carried "Members get the full engine..."); editable any time without a resubmission. Apple silicon Mac and Apple Vision Pro availability were both ticked; Ashley unticked both and saved. iPhone and iPad only until tested elsewhere.
 
+## 10/26 evening: TestFlight 1.1 (17) device test and two rulings
+
+Navigator v2 on the phone: passes end to end; placement correct by the rules for the test answers (Aspiring Expert, direct access, warm outreach). Golden Offer on the phone: judgment sound, two defects. (1) The bot opened on "women in their 30s" and "hairstyle" against a profile that says Science: the relay narrative still speaks origin_story and audience_text from the old flow in the first person, v2 never asks them, so a re-run kept the old answers. Fixed on claude/stale-profile-fields (eddcfda): v2 save nulls both. Only accounts that re-run onboarding are affected. (2) The contrast shape "isn't another tutorial. It's the consultation" appeared verbatim; the scrub on claude/voice-lock-v2 is still unmerged.
+RULING, Ashley: light-mode readability of the Navigator is "very low." Cause: the chat page was a hard-coded near-black background with a 60 percent card over it, grey on grey in light mode. Fixed on the same branch (theme background, opaque card; reveal cards switched from black fills to theme colors).
+RULING, Ashley: no preliminary archetype before the end, "it's too distracting"; all answers count. The block-two "first read" card is removed. STEP.TEASER keeps its number for stored onboarding_step values.
+Branch claude/stale-profile-fields now carries three fixes; type-check and lint clean; merges on her word, then Publish; iOS picks them up in build 18. Talk button and This Week panel on the phone still untested.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
