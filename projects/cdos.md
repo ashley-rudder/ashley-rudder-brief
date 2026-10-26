@@ -490,6 +490,11 @@ Ashley's screenshot of /profile on the Dana test account: Buyer Access card pres
 Seen on that screen and fixed: the legacy Monetization card showed under Buyer Access for a v2 member, repeating the money answer in old copy with an em dash. Hidden for v2 members on both profile pages, main at 7224e3b, needs one more Publish (carries the Invisible rule and the misses cap too).
 Remaining: the Mac build and App Store submission for native dictation.
 
+## Session log: 10/26 speech plugin swapped before the Mac build
+
+Lovable's sandbox sync (pasted by Ashley) warned that the community speech plugin has no Package.swift. Verified: cap update had left it out of the SPM manifest, so the native Talk button would have stayed hidden on device while everything else passed. Swapped to @capgo/capacitor-speech-recognition 8.4.5, which ships a Swift package for Capacitor 8 with the same method and event names. The manifest now lists CapgoCapacitorSpeechRecognition. tsc clean, build passes. Main at the new head; a web Publish is harmless but unnecessary (web dictation path unchanged).
+Mac workflow stands: git pull, bun install (regenerates bun.lock), npm run build, npx cap sync ios, open ios/App in Xcode, archive, device test, submit. The apple-sign-in "built for Capacitor 7" warning is the same plugin the approved build already uses.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
