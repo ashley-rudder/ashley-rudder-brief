@@ -495,6 +495,15 @@ Remaining: the Mac build and App Store submission for native dictation.
 Lovable's sandbox sync (pasted by Ashley) warned that the community speech plugin has no Package.swift. Verified: cap update had left it out of the SPM manifest, so the native Talk button would have stayed hidden on device while everything else passed. Swapped to @capgo/capacitor-speech-recognition 8.4.5, which ships a Swift package for Capacitor 8 with the same method and event names. The manifest now lists CapgoCapacitorSpeechRecognition. tsc clean, build passes. Main at the new head; a web Publish is harmless but unnecessary (web dictation path unchanged).
 Mac workflow stands: git pull, bun install (regenerates bun.lock), npm run build, npx cap sync ios, open ios/App in Xcode, archive, device test, submit. The apple-sign-in "built for Capacitor 7" warning is the same plugin the approved build already uses.
 
+## Session log: 10/26 baseline run on the live Golden Offer bot, and the fix prepared
+
+Ashley ran two scenarios on the live bot (maxed-out coach; UX graduate on the Dana account, which contaminated it because the bot correctly read Dana's profile, proof the narrative change is live). Five replies scored: judgment right 5/5, held under pushback 5/5, contrast-shape ban failed 2/5, same paragraphs repeated 3/5, Talk offer repeated, one numbered list, user's numbers read back as the opener. Logged in docs/canon/tests/buyer-access-test-cases.md.
+Where the voice lives today: the Poppy relay. The system prompt is assembled in call-poppy-api (doctrine, voice lock, turn budgets, a code scrub for em dashes and the contrast shape), and the knowledge base is the Poppy board. The old voice cards on the board are the 2025 ones.
+Fix, three layers:
+1. Code, ready on claude/voice-lock-v2 (8dce26d), not merged: Talk offer gated to the first reply by turn count; Golden Offer rules for one frame then keep moving, no numbered lists in chat, never open on their numbers; voice lock carries the baseline's own banned sentence; stripContrast in both the function and the client now collapses "The problem is not X. The problem is Y." Deploys on merge to main, Ashley's word.
+2. Knowledge base, Ashley's hands: docs/canon/poppy-paste-2026-10.md on claude/buyer-access-standard holds Voice v2.1, Bans v2 and Card 01.10 in one paste for the Poppy boards, replacing the old voice and identity cards. No deploy involved.
+3. The sovereign engine on claude/payments-desk with kb_global, after the blind test, as its own day.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
