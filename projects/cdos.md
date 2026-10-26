@@ -544,6 +544,12 @@ What the panel and the receipt say together: the Power year expired on the 18th,
 The morning email to Olivia stands as sent. Its premise was right in substance (an annual Power plan bought October 2025, ending now); its dates were off by ten days on both ends. The correction draft, which said no plan year was closing, was wrong and is deleted. If a renewal charge landed on the 18th, the ask converts: refund or credit that $3,997 against the make-good year.
 Deadline, final form: November 1 the account drops to 2,000 credits a month unless the Power plan is renewed or comped. The engine exit is the fix; the renewal decision is Ashley's.
 
+## 10/26 evening: iOS 1.0 was never released; build 17 uploaded
+
+App Store Connect, Ashley's screen: version 1.0 reads "Pending Developer Release." Apple approved it October 13 and it has waited for the Release This Version button since. The iOS app has not been downloadable at any point; every "live on the App Store" line in this charter and in the Olivia email means approved, not released. The web app at creatordarwinism.ai is the only live surface.
+Build 17 (version 1.1: This Week plan, Navigator v2, native dictation, misses cap, hidden legacy card) archived and uploaded from the Mac mini; it sits in TestFlight as "Ready to Submit." Xcode settings for the archive: version bumped 1.0 to 1.1, build 17, display name left to Info.plist ("Darwinism OS").
+Order given: release 1.0 now (approved build 14 goes live), then add version 1.1 in Distribution, attach build 17, paste What's New, submit. What's New copy is in the chat log 10/26.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
