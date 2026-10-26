@@ -561,7 +561,7 @@ Full loop on the phone for the first time: Golden Offer, lock-in, report ("The H
 
 ## 10/26 evening: "merge"
 
-Ashley's word at about 5:30 PM CDT. Merged into main and pushed: claude/voice-lock-v2 (4e0954e) and claude/stale-profile-fields, type-check clean. The voice-lock merge touches supabase/functions/call-poppy-api, so the Golden Offer prompt fixes (Talk offer once, one frame then keep moving, no numbered lists aloud, never open on their numbers, contrast scrub) are live on the Lovable deploy from this push. The four frontend fixes (stale profile fields, Navigator light mode, no early archetype, This Week masthead and count) reach the web on her Publish, and iOS in build 18. Lovable paste and Publish are hers.
+Ashley's word at about 5:30 PM CDT. Merged into main and pushed: claude/voice-lock-v2 (4e0954e) and claude/stale-profile-fields, type-check clean. The voice-lock merge touches supabase/functions/call-poppy-api, so the Golden Offer prompt fixes (Talk offer once, one frame then keep moving, no numbered lists aloud, never open on their numbers, contrast scrub) are live on the Lovable deploy from this push. The four frontend fixes (stale profile fields, Navigator light mode, no early archetype, This Week masthead and count) reach the web on her Publish, and iOS in build 18. Lovable synced at 888fea6 with no code change on its side; Ashley published about 5:35 PM CDT. Live on the web now: everything through 888fea6, including the misses cap, the Invisible rule, the hidden legacy card, the Capgo dictation plugin, the voice-lock engine fixes, and the four device-test fixes. iOS 1.1 (17) in review carries the code as of 532da2e; build 18 will carry the rest.
 
 ## Rules
 
