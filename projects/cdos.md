@@ -511,6 +511,13 @@ Tomorrow morning, in order: dump every Poppy board with docs/canon/tools/poppy-b
 Bridge decision for Ashley: renew Poppy one month (Sable's recommendation; buys the engine merge its own day) or run the engine reconcile under the deadline. Inside a week, renewal is the only safe move.
 Ready and waiting on her word: claude/voice-lock-v2 (engine prompt fixes, deploys on merge) and docs/canon/poppy-paste-2026-10.md (board paste). Both still worth doing even if the engine switch follows within weeks, since the board paste becomes the kb_global row.
 
+## Session log: 10/26 Poppy rescue parsed; iOS build ready for Xcode
+
+Rescue archive received (23.7 MB, 3,385 files, integrity clean). Contents: 2,292 Firestore payloads parsed into 556 documents (360 node records, 89 chat records, 62 templates, 30 board records, 1 graph), ten page snapshots, ten screenshots. Only one board was walked: Creator Darwinism OS (old-earth-CLTer). The database lists thirty boards; the ones that matter and were not opened: CDOS Writer's Room (updated 7/30), Ashley knowledge, ASHLEY'S API SUPPORT BOT, Creator Darwinism OS Website Layout, Creator Darwinism Grants, Ashley Content Writer's Room, Rudder Ranch, Short Form Content Board, website copy, Landing Page Lagoon, ebook master plan.
+Finding on the capture: text-node bodies live in the page (Liveblocks), not Firestore, and the page clips long cards, so the July mirror remains the full-text source for unchanged cards. Diff against July: 3 nodes added (a Pressure Test Report Generator annotation, a note that the report prompt lives in the app, one chat node showing model Sonnet 5 High), 0 removed, 8 rule cards grown since July with complete endings. Those eight refreshed in docs/canon/cards on claude/buyer-access-standard. Chat settings (model) are not in Firestore; the screen recording is the record for those.
+Security: the Camryn sales-call transcript with the card details is still a node on the Poppy board (textNode-morning-darkness-ma3s8). Redacted in the repo only. Ashley should delete that node on the board before the plan closes.
+iOS: npm install resolved the six plugins including @capgo/capacitor-speech-recognition; build and cap sync clean on the Mac; Xcode archive is the next step. Charter correction: the Poppy contact is Camryn, not Cameron, in the September entries above.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
