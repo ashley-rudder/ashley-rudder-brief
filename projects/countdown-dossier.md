@@ -59,6 +59,13 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-27 · Watch notes, the working date expires · logged 10/27
+
+No Spotify product or leadership news dated today surfaced in the sweep.
+The Prompted Playlists lead dated to its January 22 beta expansion (New Zealand test December 2025, UK/Ireland/Sweden/Australia February), all pre-memo, so it enters the record here as context only: one more private-station surface, no room.
+October 27 expired by its own gates. The working window is January, post-Wrapped. The watch continues daily; the figures hold current to the Q3 print until the Q4 print forces the next refresh.
+Doc frozen since 9/18, thirty-nine days.
+
 ## 2026-10-26 · Watch notes, gate day · logged 10/26
 
 No Spotify product or leadership news dated today surfaced in the sweep.
