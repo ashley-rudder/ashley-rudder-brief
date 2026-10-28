@@ -59,6 +59,13 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-28 · Watch notes · logged 10/28
+
+No Spotify news dated 10/27 or 10/28 cleared the verification bar.
+Two leads checked and held out: a Sweden price rise (10 kronor on individual) and a buyback authorization increase to roughly $2.223 billion, both aggregator-level, undated, and the buyback language reads Q2-era. They enter the memo only if a dated primary or two independent dated carries surface.
+The sweep surfaced the Q3 6-K's direct sec.gov URL; the fetch still dies at the network edge, so the Q3 figures hold at summary-level corroboration, labeled as such.
+Doc frozen since 9/18, forty days. First day of the January window.
+
 ## 2026-10-27 · Watch notes, the working date expires · logged 10/27
 
 No Spotify product or leadership news dated today surfaced in the sweep.
