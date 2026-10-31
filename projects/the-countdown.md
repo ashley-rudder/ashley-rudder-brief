@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+10/31, day forty-four: quiet Saturday hold. Wrapped 2026 has no announced date; the two prior editions landed December 3 and 4, so the desk pencils early December as the setup moment, labeled inference. Nothing else moved.
+
 10/30, day forty-three: quiet hold. Nothing cleared the bar, no Doc movement, no word on main. The watch holds toward Wrapped.
 
 10/29, day forty-two: quiet hold. No news cleared the bar, no Doc movement, no word. The January window's next fixed marks are Wrapped in early December, which the memo already argues is the Countdown's natural setup, and the Q4 print in late January, which forces the third figure refresh only if the send slips past it. The watch holds.

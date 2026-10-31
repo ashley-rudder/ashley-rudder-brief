@@ -59,6 +59,12 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-10-31 · Watch notes · logged 10/31
+
+No Spotify news dated 10/31 surfaced in the sweep.
+Wrapped 2026 timing calibrated for the January window: no date announced as of mid-October guides; the 2025 edition landed December 3 and the 2024 edition December 4, so early December is the pattern read. Labeled inference from pattern, not an announced fact.
+Doc frozen since 9/18, forty-three days. No movement on main.
+
 ## 2026-10-30 · Watch notes · logged 10/30
 
 No Spotify news dated 10/29 or 10/30 surfaced in the sweep. One undated ChatGPT account-link integration carry, no year stated, held out and touching nothing in the memo.
