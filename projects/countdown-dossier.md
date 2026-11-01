@@ -59,6 +59,18 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-11-01 · Watch notes, two context items dated · logged 11/1, corroborated
+
+No Spotify news dated November surfaced in the sweep. Two 2026 items the desk had not filed got dated and enter as context:
+1. Taste Profile: unveiled by Söderström at SXSW March 13, beta in New Zealand, US Premium rollout confirmed in the Q3 earnings release. Users can now edit the recommendation algorithm directly.
+2. Muse: a Meta AI-agent integration announced September 23; the agent queues and plays audio, builds playlists, saves to library. Confirmed launched in the Q3 release.
+Sources: TechCrunch 3/13 and the US-rollout piece, Pulse2, TheNextWeb, Routenote, music in africa, Q3 release carries. Corroborated at summary level across independent outlets.
+
+What they touch in the memo:
+1. Both deepen the thesis rather than threaten it. Taste Profile hands every listener the keys to their own private station; the solitude is now user-editable, and still no surface puts two listeners in one room. The "every recommendation is correct and lonely" line gains a 2026 beat if Ashley wants it in the Doc pass.
+2. Muse extends the agent posture from the Söderström call quote: Spotify as a surface other agents operate. Context for section 9's where-this-is-going framing, nothing staged.
+Doc frozen since 9/18, forty-four days. No movement on main.
+
 ## 2026-10-31 · Watch notes · logged 10/31
 
 No Spotify news dated 10/31 surfaced in the sweep.
