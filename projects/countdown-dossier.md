@@ -59,6 +59,13 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-11-04 to 11-10 · Watch notes, the restart gap · logged 11/10
+
+Repeated worker restarts cut off every push from 11/4 through 11/9 and swallowed the 11/5, 11/8 and 11/9 wakes before their sweeps ran; this entry covers the whole gap and says so plainly.
+The sweeps that did run (11/4, 11/6, 11/7, 11/10) found no Spotify news that cleared the bar. Wrapped 2026 remains unannounced as of 11/10.
+One upgrade from today's sweep: the held Söderström Q3-call agent line (Spotify as "an agent you can not only click on in our app, but talk to") gained a second independent carry at summary level, a market-news headline reading "Spotify is AI agent, says co-CEO." The substance is now corroborated across two independent carries; the exact wording stays held until a full transcript confirms it. The superfan quote, the one the alignment spine wants, still has one carry and still waits on Ashley's one-minute transcript check.
+Doc frozen since 9/18, fifty-three days as of 11/10. No movement on main beyond other desks' work.
+
 ## 2026-11-03 · Watch notes · logged 11/3
 
 No Spotify news dated today surfaced; the sweep returned only filed or known-old items (the Rogan deal, the 2023 layoffs, the undated ChatGPT link-up).
