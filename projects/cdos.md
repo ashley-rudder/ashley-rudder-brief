@@ -680,7 +680,7 @@ The decision half of the journey is verified on the engine (Golden Offer, lock-i
 
 ## 11/12, 2:45 AM: R2 on the engine, 3 of 5
 
-Session 279167f6, the cake-pricing scenario on version 2026-11-12.3: six labels on separate lines (the paragraph fix works), $47 for one live workshop with the spreadsheet included, DMs to the 23 who asked then one email to the 180 then one post, a four-branch rule by November 25, paid seats the only revenue, capacity as arithmetic. Fails: the workshop (four hours of prep) instead of the spreadsheet that already exists and was asked for; the reach check present at one to three sales and absent at zero; "23 named buyers" in the close. Three rules added to claude/record-the-call (version 2026-11-12.6). Release gate stands at R1 8 of 8 and R2 3 of 5; the rerun of R2 after the deploy decides it. Run records in the regression file.
+Session 279167f6, the cake-pricing scenario on version 2026-11-12.3: six labels on separate lines (the paragraph fix works), $47 for one live workshop with the spreadsheet included, DMs to the 23 who asked then one email to the 180 then one post, a four-branch rule by November 25, paid seats the only revenue, capacity as arithmetic. Fails: the workshop (four hours of prep) instead of the spreadsheet that already exists and was asked for; the reach check present at one to three sales and absent at zero; "23 named buyers" in the close. Three rules added to claude/record-the-call (version 2026-11-12.6), merged on her word with the recorded-calls directive (main, about 2:50 AM), pushed; the deploy paste is hers. Release gate stands at R1 8 of 8 and R2 3 of 5; the rerun of R2 on .6 decides it. Run records in the regression file.
 
 ## Rules
 
