@@ -630,8 +630,14 @@ Ashley asked whether the ladder covers the engine's cost. Sable's arithmetic [Li
 RULING, Ashley: "let's put that into play, I have to protect my margin." Built on claude/margin (da4ad11, prompt version 2026-11-11.6): (1) prompt caching on the engine, the knowledge rows and the static half of the doctrine as cached system blocks, so the repeating 30,000 tokens bill at a twentieth, taking a reply to about 4 cents and the daily-heavy case to about $60 a month; (2) a messages_per_month ceiling on the tier config, rolling thirty days, enforced in the relay beside the per-session limit, 403 with a plain message. Poppy path unchanged. Tier SQL handed to Ashley: Creator 600, Operator and Ultra 1,500, Discovery and Free no ceiling. (3) Auto-reload with a monthly cap in the Anthropic console, her hands.
 Ashley: "merge." claude/margin merged into main (a2824be), pushed; the deploy carries caching and the ceiling with the engine switch still off. Her hands from here: the key, the knowledge-row SQL, the tier SQL, auto-reload, the flip with model claude-opus-5-5, then R1.
 
+## 11/11 late: the flip is in, the function was stale, the rows went in as a migration
+
+Run six (session b6919f4b, after the flip) returned run three's reply word for word again. Main's function was checked and is right (engine settings loaded, switch read, chat calls call-poppy-api), so the function answering was not the function on main. [Likely] Lovable deploys edge functions on Publish, not on GitHub push; the only Publish since October 26 was that afternoon, so none of today's six merges had reached the running function. The 10/26 rule "Lovable auto-deploys supabase/functions on push" is wrong on this evidence and is corrected below.
+Database read through the Lovable chat: anthropic_api present, enabled true, model claude-opus-5-5; tier_monthly and tier_power present with the ceiling; the three kb rows absent (the 97KB paste never ran). Rows rewritten as a migration file on main (supabase/migrations/20261111230000_engine_knowledge_rows.sql, c0034ef) for Lovable to apply from the repo on request.
+Ashley published at about 11:55 PM. Her remaining pastes into the Lovable chat: apply the migration, run the trace on b6919f4b. Then R1 on the engine.
+
 ## Rules
 
-Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
+Nothing deploys without Ashley's word. Lovable deploys supabase/functions on Publish (evidence 11/11); a push to main stages code and deploys nothing on its own.
 Product repo work rides claude/payments-desk, never main.
 Secrets live in the Supabase dashboard only: never in chat, never in the repo.
