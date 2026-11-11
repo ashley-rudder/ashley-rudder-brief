@@ -610,6 +610,13 @@ Facts [Certain]: the relay calls Poppy's one-shot ask endpoint (POST /api/conver
 Built and merged on her word (4f99940): PROMPT_VERSION constant ("2026-11-11.4"), written into raw_api and returned as X-CDOS-Prompt-Version on the stream, bumped on every prompt change. From this deploy on, every user message carries the version of the prompt that served it. The SQL on the four evaluator sessions is still hers to run.
 Either answer points the same way: the sovereign engine, where the prompt is ours end to end and a draft can be checked in code before it is shown.
 
+## 11/11: replay confirmed on the shared chat node
+
+Run five (fresh session db036c00, exact scenario, on the deploy that carries the draft template and the version stamp per the function source Ashley copied out of Lovable Cloud) returned run three's $2,500 audit reply word for word, with none of the six template lines. Run four had returned run two's $3,500 reply word for word. [Certain] Identical questions on the Golden Offer chat node are answered with earlier answers, and prompt changes do not reach the reply. [Guessing] mechanism: a Poppy-side cache keyed on the message, or the chat node retrieving its own prior answers from the board as knowledge and the model copying them. Both are Poppy-side. The second would also mean one user's conversation can surface in another's, since every Golden Offer session from every user runs through one chat node.
+Probe built on claude/cache-buster (prompt version 2026-11-11.5): a unique request id appended to the message line with an instruction to draft fresh. Defeats a message-keyed cache; does nothing against retrieval. Merge on her word, then the same scenario once more: template lines mean cache, a third verbatim replay means retrieval.
+Trace she asked for: raw_api on the user message of db036c00 (prompt_version, template present) plus the stored assistant message is the full record; the SQL from earlier covers it with db036c00 added to the list.
+Engine switch sized: claude/payments-desk is 59 ahead and 34 behind main; its call-poppy-api differs from main's by 126 insertions and 108 deletions, and main has taken 12 prompt commits since October that the branch lacks. Reconcile is a day of careful merging, with the prompt doctrine from main carried onto the Anthropic path. Sable's recommendation: this week. Nothing shipped to the prompt since October 26 can be shown to reach a user while the relay replays.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
