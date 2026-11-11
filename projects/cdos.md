@@ -708,6 +708,8 @@ R1 and R2 on .12 (sessions 35269b36 and b79bbdb2, version unverified because the
 
 Ashley: "there should be a way to clear out everything but there isn't." Built on claude/reset-workspace (5fcb6b4): an admin-only edge function reset-workspace that clears a user's sessions, messages, reports, verdicts, commitments and vault, sends the profile back to the Navigator (every onboarding field nulled, onboarding_complete false) and zeroes the session counters, keeping the sign-in, the names, the tier and the roles; a Reset Workspace button on the admin user page, two clicks with the second reading "Confirm: wipe this workspace." One test account can play one fictional buyer, be wiped, and play the next. Deploy by name after the merge; no migration. The uitest password is unknown to this session and never passes through it; the app has no email sign-up, so a fresh test account comes in through Google and gets its tier from Admin.
 
+Ashley, from the Navigator on a test run: the session picker's buttons broke (four cards forced across a 560px overlay, titles split mid-word, the first card clipped, the call to action over the title). Fixed on claude/picker-width: the picker takes a layout prop, two-up by default for the Navigator overlay and dialogs with the call to action under the blurb, four across only on the dashboard. Client only; Publish after the merge.
+
 ## Rules
 
 Nothing deploys without Ashley's word. An edge function deploys only when Lovable is asked to deploy it by name (evidence 11/12); a push to main and a Publish both leave the running function as it was.
