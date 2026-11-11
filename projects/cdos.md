@@ -688,6 +688,8 @@ RULING, Ashley, on the evaluator's retention frame ("each return should help the
 
 Merged on her word (main c81ab13, about 7:30 AM). Her first deploy pastes went out before the merge and shipped main at .6, so nothing from the build was live; she sends the migration first, then the two deploys again, expected 2026-11-12.7.
 
+Done by 7:25 AM: migration 20261112120000_offer_versions.sql applied by the Lovable chat, call-poppy-api deployed at 2026-11-12.7, head-down-reminders deployed. Lovable pushed two commits of its own to main (bdf92fa "Work in progress", abf8e6b "chore: apply offer versions migration": a drizzle journal entry and generated types). Publish and the L1 test are hers.
+
 ## Rules
 
 Nothing deploys without Ashley's word. An edge function deploys only when Lovable is asked to deploy it by name (evidence 11/12); a push to main and a Publish both leave the running function as it was.
