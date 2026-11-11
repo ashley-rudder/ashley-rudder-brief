@@ -59,6 +59,15 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-11-11 · Watch notes, Wrapped timing firms · logged 11/11
+
+No dated Spotify news cleared the bar today. Three Wrapped timing reads for the January-window calendar, each labeled:
+1. The Wrapped data window reportedly closes mid-November, so the counting for 2026 ends about now. Multi-outlet at summary level, Spotify unconfirmed for 2026.
+2. Official Charts predicts Wednesday December 2 for the 2026 drop, its own prediction, not a Spotify date. Past drops: 11/30 (2022), 11/29 (2023), 12/4 (2024), 12/3 (2025).
+3. Single-outlet lead, held: LBC reports 2026 Wrapped adds an option to exclude songs and playlists. Enters the record only on a second carry.
+Twenty more CDOS commits on main, none touching this desk; Ashley remains active there.
+Doc frozen since 9/18, fifty-four days.
+
 ## 2026-11-04 to 11-10 · Watch notes, the restart gap · logged 11/10
 
 Repeated worker restarts cut off every push from 11/4 through 11/9 and swallowed the 11/5, 11/8 and 11/9 wakes before their sweeps ran; this entry covers the whole gap and says so plainly.
