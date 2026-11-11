@@ -624,6 +624,12 @@ Knowledge rows built on the docs branch: docs/canon/tools/kb-rows-2026-11.sql (2
 RULING, Ashley, 11/11: "let's do the switch." claude/sovereign-engine merged into main (2baa059), pushed; the deploy carries the engine code with the switch off, so nothing changes for users yet. Her hands, in order: (1) ANTHROPIC_API_KEY as an edge function secret in Lovable Cloud, never in chat or the repo; (2) run docs/canon/tools/kb-rows-2026-11.sql for the three rows; (3) the flip statement; (4) R1 and R2 on the engine, then the thirteen buyer-access cases. Flip back is one row.
 Still open after the switch: call-ip-vault-api remains on Poppy; prompt caching on the engine (the 20K-token knowledge block is a cache candidate); the Poppy cancellation.
 
+## 11/11: margin rails
+
+Ashley asked whether the ladder covers the engine's cost. Sable's arithmetic [Likely]: about 16 cents a reply on Opus 5.5 uncached (35,000 tokens in, 800 out), about $2 a session with its report, about $9 for a full 50-message session. Discovery Session ($27, one session) clears at any usage. Creator ($197, unlimited sessions at 50 messages each) and Operator ($497, unlimited) clear at any observed pattern and are open-ended on paper: a member running a 50-message session daily costs about $270 a month uncached. App Store tiers carry Apple's cut on top and stay positive at normal use.
+RULING, Ashley: "let's put that into play, I have to protect my margin." Built on claude/margin (da4ad11, prompt version 2026-11-11.6): (1) prompt caching on the engine, the knowledge rows and the static half of the doctrine as cached system blocks, so the repeating 30,000 tokens bill at a twentieth, taking a reply to about 4 cents and the daily-heavy case to about $60 a month; (2) a messages_per_month ceiling on the tier config, rolling thirty days, enforced in the relay beside the per-session limit, 403 with a plain message. Poppy path unchanged. Tier SQL handed to Ashley: Creator 600, Operator and Ultra 1,500, Discovery and Free no ceiling. (3) Auto-reload with a monthly cap in the Anthropic console, her hands.
+Order from here: the key, the knowledge rows, "merge" on claude/margin (engine and rails together, switch still off), the tier SQL, the flip, R1.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
