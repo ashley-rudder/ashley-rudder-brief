@@ -690,6 +690,8 @@ Merged on her word (main c81ab13, about 7:30 AM). Her first deploy pastes went o
 
 Done by 7:25 AM: migration 20261112120000_offer_versions.sql applied by the Lovable chat, call-poppy-api deployed at 2026-11-12.7, head-down-reminders deployed. Lovable pushed two commits of its own to main (bdf92fa "Work in progress", abf8e6b "chore: apply offer versions migration": a drizzle journal entry and generated types). Publish and the L1 test are hers.
 
+L1 in progress on her account: R2 locked, verdict Refine 44 accepted, the lineage strip renders (v1 at the test price, v2 the verdict). Gap found on the screenshot: the handoff button only showed when the week was over or every commitment was done, so partial results had no way into the judge. Fixed on claude/handoff-on-results (ab39beb): the button opens the moment a result exists ("Pressure test what came back" mid-week), and "$29 (test price)" no longer reads "to test" twice. Merge is hers, then Publish.
+
 ## Rules
 
 Nothing deploys without Ashley's word. An edge function deploys only when Lovable is asked to deploy it by name (evidence 11/12); a push to main and a Publish both leave the running function as it was.
