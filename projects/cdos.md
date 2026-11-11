@@ -617,6 +617,13 @@ Probe built on claude/cache-buster (prompt version 2026-11-11.5): a unique reque
 Trace she asked for: raw_api on the user message of db036c00 (prompt_version, template present) plus the stored assistant message is the full record; the SQL from earlier covers it with db036c00 added to the list.
 Engine switch sized: claude/payments-desk is 59 ahead and 34 behind main; its call-poppy-api differs from main's by 126 insertions and 108 deletions, and main has taken 12 prompt commits since October that the branch lacks. Reconcile is a day of careful merging, with the prompt doctrine from main carried onto the Anthropic path. Sable's recommendation: this week. Nothing shipped to the prompt since October 26 can be shown to reach a user while the relay replays.
 
+## 11/11: the sovereign engine, assembled
+
+Branch claude/sovereign-engine off today's main: the September engine commit (743b1f2, direct Anthropic path behind app_settings.anthropic_api.enabled) cherry-picked clean, plus the version stamp and an X-CDOS-Engine header. Same prompt, same SSE dialect, same report JSON; the knowledge comes from app_settings rows kb_global and kb_<bot_type> instead of a Poppy board. Model: anthropic_api.model if set, else the bot's configured model when it is a Claude id, else claude-opus-5; adaptive thinking on the 4.6 and later generations. Syntax clean. Not merged.
+Knowledge rows built on the docs branch: docs/canon/tools/kb-rows-2026-11.sql (28 cards into kb_global at about 20K tokens, 6 into kb_golden_offer, 4 into kb_judge, manifest alongside). Left out on purpose: the pricing staircase and tier allotments (the leak from 10/26), product-plan internals, the sales call, press transcripts, duplicates. The flip statement rides in the file, commented out.
+Her hands, in order: (1) ANTHROPIC_API_KEY as an edge function secret in Lovable Cloud, never in chat or the repo; (2) run the SQL for the three rows; (3) "merge" on claude/sovereign-engine, which deploys the engine code with the switch still off; (4) the flip statement; (5) R1 and R2 on the engine, then the thirteen buyer-access cases. Flip back is one row.
+Still open after the switch: call-ip-vault-api remains on Poppy; prompt caching on the engine (the 20K-token knowledge block is a cache candidate); the Poppy cancellation.
+
 ## Rules
 
 Nothing deploys without Ashley's word. Lovable auto-deploys supabase/functions on push, so any push touching those paths is a deploy.
