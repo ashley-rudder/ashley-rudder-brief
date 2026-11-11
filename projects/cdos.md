@@ -648,6 +648,6 @@ After that: two fresh sessions (1b9cb64f, a64ab06d, 12:23 AM CT) returned "No re
 
 ## Rules
 
-Nothing deploys without Ashley's word. An edge function deploys only when Lovable is asked to deploy it by name (evidence 11/12); a push to main and a Publish both leave the running function as it was. supabase/functions on Publish (evidence 11/11); a push to main stages code and deploys nothing on its own.
+Nothing deploys without Ashley's word. An edge function deploys only when Lovable is asked to deploy it by name (evidence 11/12); a push to main and a Publish both leave the running function as it was.
 Product repo work rides claude/payments-desk, never main.
 Secrets live in the Supabase dashboard only: never in chat, never in the repo.
