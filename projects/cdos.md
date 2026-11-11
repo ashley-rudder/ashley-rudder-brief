@@ -682,6 +682,8 @@ The decision half of the journey is verified on the engine (Golden Offer, lock-i
 
 Session 279167f6, the cake-pricing scenario on version 2026-11-12.3: six labels on separate lines (the paragraph fix works), $47 for one live workshop with the spreadsheet included, DMs to the 23 who asked then one email to the 180 then one post, a four-branch rule by November 25, paid seats the only revenue, capacity as arithmetic. Fails: the workshop (four hours of prep) instead of the spreadsheet that already exists and was asked for; the reach check present at one to three sales and absent at zero; "23 named buyers" in the close. Three rules added to claude/record-the-call (version 2026-11-12.6), merged on her word with the recorded-calls directive (main, about 2:50 AM), pushed; the deploy paste is hers. Release gate stands at R1 8 of 8 and R2 3 of 5; the rerun of R2 on .6 decides it. Run records in the regression file.
 
+Ashley pasted the vault migration (20261112010000_ip_vault_knowledge.sql) into the Lovable chat and sent the deploy paste for call-poppy-api; the source Lovable returned carries PROMPT_VERSION 2026-11-12.6 and all three .6 rules, matching main at c0fc6c0 [Certain from the paste]. The deploy line itself was not in what she sent, so the proof is the raw_api prompt_version on the R2 rerun. R2 prompt re-issued verbatim for a fresh session.
+
 ## Rules
 
 Nothing deploys without Ashley's word. An edge function deploys only when Lovable is asked to deploy it by name (evidence 11/12); a push to main and a Publish both leave the running function as it was.
