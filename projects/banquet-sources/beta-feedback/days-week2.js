@@ -283,6 +283,149 @@ Put the envelope somewhere safe tonight. Tomorrow you'll find out whose desk it 
 The collector sleeps tonight. The Judge doesn't.`
 },
 {
+n: 10, title: "God Always Collects: Trusting His Justice",
+tease: "Nothing was missed. Nothing will be dropped. You can come off the bench.",
+body: `## BEFORE YOU READ: TUNE IN
+
+Yesterday you resigned as the collector and sealed the envelope. And then, if you're honest, a question followed you around the house: so they just get away with it?
+
+Today answers that question. Nobody gets away with anything. Breathe. The Judge has been at His desk the whole time.
+
+Step 1: Acknowledge Your Humanity. After reading today's title, "God Always Collects," I'm feeling: Relieved / Suspicious of the relief / Angry still / Vindicated / Uneasy / Tired of holding court / Curious / Ready / Other: ______
+
+The question I've been carrying since yesterday is: ______
+
+When I imagine the person who hurt me facing no consequences, I feel: ______
+
+Step 2: Ask For Guidance. God, about Your justice, I need You to help me with: ______
+
+Step 3: Pray. "God, I handed You the ledger yesterday, and part of me has been trying to take it back ever since, because part of me doesn't trust anyone else to care about what happened to me. Today, show me Your desk. Show me the records You kept. Teach me the difference between justice delayed and justice denied. And steady me for whatever Your justice turns out to look like. Amen."
+
+Step 4: Sit In Silence (1–2 minutes). Somewhere, a complete record of everything that happened to you exists, kept by Someone who was in the room every time. Sit with that. It changes the temperature of the whole question.
+
+Step 5: Open Your Heart. Today I'm open to: Trusting the Judge / Retiring the gavel / Rest / A harder mercy than I expected / Whatever God wants to show me
+
+## SCRIPTURE
+
+Hebrews 4:13 (ESV) — "And no creature is hidden from his sight, but all are naked and exposed to the eyes of him to whom we must give account."
+
+Psalm 10:14 (ESV) — "But you do see, for you note mischief and vexation, that you may take it into your hands; to you the helpless commits himself; you have been the helper of the fatherless."
+
+Romans 12:19 (ESV) — "Beloved, never avenge yourselves, but leave it to the wrath of God, for it is written, 'Vengeance is mine, I will repay, says the Lord.'"
+
+## REFLECTION: GOD ALWAYS COLLECTS
+
+The fear under the forgiveness is always the same fear: if I let go, it gets dropped. Nobody saw. Nobody will answer for it. The case dies with my grip.
+
+So look first at the records, because the records are the whole foundation of today.
+
+No creature is hidden from his sight. All are naked and exposed to the eyes of him to whom we must give account. Every door that closed so no one would see. Every version of events they told afterward. Every thing done to a child too young to testify. Witnessed. Not one frame missing. The psalmist says it like a man exhaling for the first time in years: But you do see. You note mischief and vexation, that you may take it into your hands. Not "that you may feel bad about it." That you may take it into your hands. Seeing, for God, is the beginning of handling.
+
+And His record is better than yours in a way that should actually comfort you. You saw what they did. He also saw why. The outline of your story has people in it who harmed you from genuine hate, and people who harmed you from ignorance, exhaustion, their own unhealed wounds, the crumbs they were handed. You could never tell the difference from inside the hurt, and the hurt was real either way. But a just judge weighs the heart along with the act. He knows what was malice and what was blindness, and He will handle each appropriately. Appropriately. Not leniently. Not brutally. Appropriately, with the full file open.
+
+That is exactly why Romans 12:19 can ask of you something that sounds impossible: never avenge yourselves, but leave it to the wrath of God. Notice what that verse does not say. It does not say the wrath is cancelled. It says it has an owner, and the owner is not you. Vengeance is mine, I will repay, says the Lord. The debt you transferred yesterday did not fall into a shredder. It fell onto the desk of the only Judge with three qualifications you'll never have: complete records, clean hands, and the strength to carry a verdict without being destroyed by it. You were never disqualified from justice because your pain didn't matter. You were disqualified because you were a wounded party trying to be judge, jury, and collections in your own case. No court on earth allows that, for your protection as much as anyone's.
+
+So how does He collect? Every account in His ledger settles in one of two places. Some are settled at the cross: the person who hurt you kneels there someday, and their debt lands where yours landed, on Christ, paid in the same blood that paid for your worst. And some are settled at the judgment, where nothing is hidden and everything is answered. But here is the line to carry out of today: no account is ever dropped. Justice is served, or justice is coming. There is no third drawer in God's desk where cases go to be forgotten.
+
+Which means the waiting is not the system failing. The waiting is the system. His timing bends toward mercy on every side of the case, including, you may one day see, toward the time it took for YOU to be ready for any of this. Justice delayed, in His hands, is not justice denied. It is justice aimed.
+
+You can put the gavel down now. Court was never yours to run, and the Judge has never once left the bench.
+
+## PROMPT
+
+What have you been afraid would get dropped if you stopped gripping the case? What changes in your body when you believe the record is complete and the Judge is seated? ______
+
+## EXERCISE ONE: THE FULL RECORD
+
+Some of what happened to you had no witnesses. That's the part that aches: not just the harm, but the idea that it happened off the record.
+
+Write the things you most need God to have seen. The unwitnessed ones. The ones nobody believed, or nobody knew: ______
+
+Now write Hebrews 4:13 over the top of the list, in your own hand: "No creature is hidden from his sight."
+
+It was never off the record. The record was His the whole time.
+
+## EXERCISE TWO: THE REASSIGNMENT
+
+You resigned as collector yesterday. Today you retire as judge. Write it and say it, name by name:
+
+"God, I am not the judge of ______. I don't have the full records. You do. I don't have clean hands. You do. I can't carry a verdict without it crushing me. You can. I leave this case with You: served or coming, Your call, Your timing. I am off the bench."
+
+Notice what your shoulders do on the last line. That weight was the robe. You've been wearing it for years.
+
+## THE TURN: THE HARD MERCY
+
+Now the turn that separates real trust from dressed-up revenge.
+
+If their account settles at the cross, it means the person who hurt you kneels someday and receives the same mercy that found you in the landfill on Day 1. The same written-off debt. The same robe and ring and shoes.
+
+Sit with how that lands. If something in you just said "no, not them," you're in honest company; a prophet named Jonah sulked on a hillside over exactly this. But follow the thread: the mercy you're resisting for them is the mercy you're standing in.
+
+Can I want their redemption, or at least want to want it? ______
+
+"God, if Your justice for them turns out to look like Your mercy for me, make my heart able to bear it." Write what came up: ______
+
+(And if the honest answer today is "not yet": write "not yet." He can work with honest. He cannot work with pretended.)
+
+## NERVOUS SYSTEM RESET: OFF THE BENCH
+
+A body that has been running court for years sits like a judge: braced, forward, vigilant. Today it learns the posture of someone whose case is being handled.
+
+Sit back, all the way back, until the chair is actually holding you. Rest your palms open on your knees. Judges grip gavels. You're not holding one anymore.
+
+Breathe in for four, out for six. On each exhale, one line: "He sees." Then: "He collects." Then: "I rest."
+
+For two minutes, let something happen in the room without managing it: a sound, a shadow, a person passing. Witness without ruling on it.
+
+That's the new posture. Witness, not judge. It's lighter back here.
+
+How do you feel now? ______
+
+## PRAYER / AFFIRMATION
+
+- "Nothing was missed. Nothing will be dropped."
+
+- "The Judge has full records, clean hands, and His own timing. I'm off the bench."
+
+- "Justice is served or is coming. Both are His."
+
+Write your phrase: ______
+
+## ACTION STEP
+
+The next time your mind reopens the case today (the replay, the imaginary confrontation, the fantasy verdict), stop mid-scene and say: "Objection. Wrong judge." Then hand the scene over, out loud if you can: "Your case, Lord." Write down how many times you had to do it, with no shame about the number: ______
+
+## AFTER YOU READ: CHECK-IN
+
+How do you feel now? Lighter / Off the bench / Still gripping, less / Seen, finally / Uneasy about the mercy and honest / Rested / Held
+
+What did the Holy Spirit show you about His justice today? ______
+
+## GRATITUDE PRACTICE
+
+1 Thessalonians 5:18 (ESV) — "give thanks in all circumstances; for this is the will of God in Christ Jesus for you."
+
+Even with cases pending. Especially with cases pending.
+
+Three things I'm grateful for today: 1. ______  2. ______  3. ______
+
+One way I've seen God handle something I thought was forgotten: ______
+
+## SACRED PRACTICE: THE DELIVERY
+
+Go get the sealed envelope from Day 9. The one marked "For the Judge. Not for me."
+
+Open your Bible to Romans 12:19. Read the verse out loud one more time.
+
+Now place the envelope there, inside the book, at that page. Close the Bible over it.
+
+Say: "Delivered. Served or coming. His call, His timing. I am off the bench."
+
+Leave it there. That's the point: when the ledger tries to reopen next month, you will know exactly where the envelope lives, and whose book it lives in.
+
+The desk light in that courtroom never goes off. Yours finally can.`
+},
+{
 n: 11, title: "Love Sourcing and Love Hydration",
 tease: "Your thirst was never the problem. The question is where you drink.",
 body: `## BEFORE YOU READ: TUNE IN
