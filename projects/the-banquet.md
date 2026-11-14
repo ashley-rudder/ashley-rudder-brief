@@ -34,9 +34,9 @@ Day 9, "Forgiving Those Who Didn't Love You the Way You Needed," is composed and
 Spine: the ledger and the resignation from the collections department. Draws the forgiveness-is-not lines hard (not minimizing, not reconciliation, not trust, not a feeling; the boundary stays, said in the plainest words in the book). Ephesians 4:31-32, Colossians 3:13, Luke 23:34 verified via search renderings. Sacred Practice The Transfer moves Day 8's bottle into a sealed envelope "For the Judge, not for me," deliberately setting up Day 10, God Always Collects, which owns the justice question. Also inserted into banquet_days and live in the app the same hour.
 Day 10, "God Always Collects: Trusting His Justice," is composed and filed 10/1: https://docs.google.com/document/d/1wFtkkikxtShAJ52ox3Ch37NQ4TN5SspRMrZ8mDN94h8/edit
 Spine: the complete record (Hebrews 4:13, Psalm 10:14) and the retirement from the judge's bench. Romans 12:19 reassigns wrath rather than cancelling it; the Judge has complete records, clean hands, and the strength to carry a verdict. "Justice is served, or justice is coming. There is no third drawer." The Turn is Jonah's hard mercy. Reset: Off the Bench. Sacred Practice The Delivery places Day 9's sealed envelope inside the Bible at Romans 12:19. Inserted into banquet_days and live in the app 10/12.
-Day 13, "Breaking Generational Patterns," is composed 11/13 and live in the app the same hour; its Drive Doc is owed (the Drive connector was down that session) and files next working day.
+Day 13, "Breaking Generational Patterns," is composed 11/13, live in the app the same hour, and filed to Drive 11/14: https://docs.google.com/document/d/1saLKDvSvEgNxai_XhpBbBdI8DeEQlMkcwuR2vK0H1wg/edit
 Spine: the sour-grapes proverb God Himself retires in Ezekiel 18 (the chain is real, the chain is not law), Galatians 5:1's "again" as proof Paul knew the pull of the familiar yoke, 2 Corinthians 5:17 as the new line. The Turn widens the reader from inheritor to carrier ("it ran through me too"). Action step: a witnessed vow. Sacred Practice The Last Link cuts the reader's link out of a three-loop paper chain, clean like a cord at a birth, and keeps the open link at the page.
-Days standing: 1 through 13, thirteen of thirty, all live in the app. Drive holds clean Docs for 1 through 12. Next in order: Day 14, the Week 2 Weekly Reflection (Healing Review).
+Days standing: 1 through 13, thirteen of thirty, all live in the app and all filed clean in Drive. Next in order: Day 14, the Week 2 Weekly Reflection (Healing Review).
 
 APP JOURNAL UPDATE 9/29, on Ashley's word in chat ("make these sections selectable and to fill out the forms"): the reader is now a working journal. Option runs render as tappable multi-select chips, every blank renders as an inline fill or a writing box, choose-one lists are tappable, and the form's day chips generate from the live day list so new days arrive with their chip. Journal entries persist in localStorage on the reader's device only (stated on the page); only the three marks are ever sent. Production deployment READY.
 
@@ -129,10 +129,12 @@ As of 9/18 the Banquet has one writing surface: this desk. The portable-brief th
 
 2026-11-13. Day 13 composed and shipped: the chain-is-not-law spine, the Inheritance Inventory, the Interruption, the downstream Turn, The Last Link. Ezekiel 18:2, Galatians 5:1, 2 Corinthians 5:17 verified via ESV.org search renderings. Inserted into banquet_days through the still-open seed door (silver lining of open loop 8; closure still owed and still hers). Drive connector down all session, so the Day 13 Doc files next working day. Feedback table: no marks. The 999 probe row still shows in the app library until she runs the cleanup SQL. Days 1 through 13 live.
 
+2026-11-14. Day 13 Doc filed to Drive, closing the item owed from 11/13; Drive and the app now both hold 1 through 13. Feedback table: no marks. Seed door and the 999 probe row still wait on Ashley (open loop 8).
+
 ## Cadence
 
 Daily. A dedicated desk session carries this work and a daily wake keeps it moving.
 
 ## Next action
 
-Ashley: close the seed door (open loop 8, two minutes), open the app once and bless it, name the circle, give the word on the invite. Sable: file the Day 13 Doc to Drive, then compose Day 14, the Weekly Reflection (Healing Review), on the next working day.
+Ashley: close the seed door (open loop 8, two minutes), open the app once and bless it, name the circle, give the word on the invite. Sable: compose Day 14, the Weekly Reflection (Healing Review), on the next working day.
