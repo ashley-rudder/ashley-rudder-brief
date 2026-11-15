@@ -59,6 +59,11 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-11-15 · Watch notes · logged 11/15
+
+No 2026-dated Spotify news surfaced. One lead chased and dated out: the Nordic Partner Program expansion ran November 18, 2025, pre-memo, already in the Booth's universe.
+Doc frozen since 9/18, fifty-eight days.
+
 ## 2026-11-14 · Watch notes · logged 11/14
 
 No dated Spotify news surfaced; the sweep returned only filed background. Wrapped 2026 unannounced.
