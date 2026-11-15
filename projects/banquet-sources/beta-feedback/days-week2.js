@@ -821,5 +821,117 @@ Now take scissors and cut your link open. Not torn in anger. Cut clean, the way 
 Keep the open link in your journal at today's page. Every time you see it, say it again: "It stops with me."
 
 A closed loop carries. An open one releases. You are the open link now, and everything downstream of you flows through free hands.`
+},
+{
+n: 14, title: "Weekly Reflection: Healing Review",
+tease: "The hardest week in the book is behind you. Walk the ward and see what knit.",
+body: `## WHAT TODAY IS
+
+Six days of surgery. Today, no scalpel. Today you walk the recovery ward and see what has started to knit. This was the hardest week in the book, and you are still here. Pause. Process. Honor what God repaired this week.
+
+## BEFORE YOU BEGIN: TUNE IN (SHORT FORM)
+
+Step 1: One word for how I arrive today: ______
+
+Step 2: One thing I need from God in this hour: ______
+
+Step 3: Pray. "God, this was the week of wounds, and You were in every room. Walk me back through it gently. Show me what You bound up while I was busy bleeding. Be still with me. Amen."
+
+Step 4: Sit In Silence (2 minutes today). You spent six days with your hands in the hardest drawers of your story. Nothing to open today. Just sit with the One who kept every tear on record.
+
+## SCRIPTURE
+
+Psalm 147:3 (ESV) — "He heals the brokenhearted and binds up their wounds."
+
+Joel 2:25 (ESV) — "I will restore to you the years that the swarming locust has eaten..."
+
+Binds up. Restore the years. Those are this week's two promises in four words: the wound gets dressed, and the time gets paid back. We're going back through the week to watch both happen.
+
+## THE WEEK IN ONE LOOK
+
+Six days, six movements of one healing:
+
+- Day 8 — When Love Has Hurt You. The wounds got named actual size, and God's first move was proximity, not explanation.
+- Day 9 — Forgiving Those Who Didn't Love You the Way You Needed. You resigned from the collections department. The debt went into the envelope, for the Judge, not for you.
+- Day 10 — God Always Collects. The record is complete, the Judge is seated, and there is no third drawer. You came off the bench.
+- Day 11 — Love Sourcing and Love Hydration. The thirst was never the problem. You walked away from the cracked cisterns and took the first drink.
+- Day 12 — A Funeral for the Fantasy. You buried the parent who was never coming, kept the gifts, and released the throne.
+- Day 13 — Breaking Generational Patterns. The chain is real, the chain is not law, and you cut your link open.
+
+Read the list slowly. Circle the day that cost you the most.
+
+## THE REVIEW
+
+1. Which day hit you hardest, and at which exact line or moment? ______
+
+2. Which day did you resist, rush, or want to skip? (Resistance is a map. It usually marks the spot.) ______
+
+3. The week asked your hands to do heavy things: keep a bottle, seal an envelope, deliver it to the Judge, pour out a drink, hold a funeral, cut a chain. Which practice did you actually do, and what did doing it do? ______
+
+4. Go back and reread your After You Read check-ins from Days 8 through 13. What pattern do you see in what you wrote? ______
+
+5. Is there a forgiveness from Day 9 that has tried to crawl back onto your desk this week? Name it, and walk it back to Day 10's verse: the Judge has it. ______
+
+6. Finish this sentence honestly: "A week ago my wounds were ______. Today they are ______."
+
+## IF YOU MISSED DAYS
+
+No shame at this table. This was the heaviest week, and some days you may have looked at and set down. That is not failure. That is pacing.
+
+Don't try to make up all of them. Pick the ONE whose title tugs at you and give it its full day this week. The rest will wait. So will He.
+
+The day I'm going back for: ______
+
+## CELEBRATE
+
+Joel says the years get restored. So start the accounting in writing.
+
+Three things God repaired, loosened, or lifted this week: 1. ______  2. ______  3. ______
+
+One thing I did this week that the me of a year ago could not have done: ______
+
+The locust years I'm asking Him to restore: ______
+
+## NERVOUS SYSTEM RESET: THE EXHALE WEEK
+
+Six days of grief work lives in the body. Today's reset is one long exhale.
+
+Set a timer for five minutes. Lie down if you can. Place one hand on your chest, one on your belly. Breathe in through your nose, and let every exhale be longer than the inhale, like setting something heavy down slowly. No counting today. No technique. If the week rises up while you lie there, let it pass through like weather. When the timer ends, say: "He heals the brokenhearted. He is not done with me."
+
+How does your body feel after the hardest week? (That answer is information.) ______
+
+## PRAYER / AFFIRMATION
+
+One for the week behind: "He bound up what I finally uncovered. Forget not."
+
+One for the week ahead: "The wounds were the digging. What gets planted next is love."
+
+Write your own, if one has been forming: ______
+
+## AFTER YOU REFLECT: CHECK-IN
+
+How do you feel now? Lighter / Emptied in a clean way / Tender / Proud and surprised about it / Still grieving / Ready for Week 3 / Held
+
+What did the Holy Spirit show you in the looking back? ______
+
+## GRATITUDE PRACTICE
+
+1 Thessalonians 5:18 (ESV) — "give thanks in all circumstances; for this is the will of God in Christ Jesus for you."
+
+All circumstances included this week's. Three moments from THIS WEEK I'm grateful for, hard ones allowed: 1. ______  2. ______  3. ______
+
+## SACRED PRACTICE: THE TOAST
+
+This week your hands kept a bottle, sealed an envelope, delivered it, poured out an old drink, buried a fantasy, and cut a chain. Tonight they do one more thing. They raise a glass.
+
+Fill a glass with clean, cold water. Stand or sit somewhere that feels like yours.
+
+Raise it and say the toast out loud, slowly: "To the wounds that finally got named. To the debts that left my desk. To the graves I had the courage to dig. To the chain that ends with me. And to the One who was in every room."
+
+Then drink the whole glass. Living water, Day 11 said. Let this be the first drink of the new week.
+
+Week 3 is different country. The digging is done for now. Starting tomorrow, we stop excavating the love that failed you and start studying the Love that never will.
+
+You made it through the hardest week of this book. Guest of honor, again, at a quiet table.`
 }
-);;
+);;;
