@@ -114,5 +114,124 @@ Look at the total. That number is what your tired is made of.
 Now write across the whole page, in the largest letters yet: VOID. Not "paid," this time. VOID. There was never anything to bill. The love predates the work.
 
 Fold the invoice and put it in your journal at today's page, next to everything else your hands have learned this month. Tomorrow we look at the love that keeps promises. Tonight, you're simply loved, off the clock, at full strength.`
+},
+{
+n: 16, title: "Hesed: Covenant Love",
+tease: "Not weather. Climate. Love that took an oath, with mercies that arrive on schedule.",
+body: `## BEFORE YOU READ: TUNE IN
+
+Step 1: Acknowledge Your Humanity. After reading today's title, "Hesed — Covenant Love," I'm feeling: Steadied / Wary of promises / Hungry for loyal / Doubtful / Comforted / Braced for the catch / Curious / Ready / Other: ______
+
+When I hear the word "promise," the first memory that surfaces is: ______
+
+Love, in my experience, has mostly been: Weather that changes / A contract with terms / A door that could close / Something steady / Other: ______
+
+Step 2: Ask For Guidance. God, about love that stays, I need You to help me with: ______
+
+Step 3: Pray. "God, yesterday I learned Your love has no conditions. Today I need to know it has no expiration. I have loved people whose love was weather, and I have braced for leaving so long that staying feels like a trick. Show me the word You use for Your loyalty, and let me stand on it like ground. Amen."
+
+Step 4: Sit In Silence (1–2 minutes). His mercies were new this morning before you opened your eyes. They will be new again tomorrow whether today goes well or not. Sit with a love that renews on a schedule nothing can interrupt.
+
+Step 5: Open Your Heart. Today I'm open to: Trusting a promise / Standing on ground that holds / Loyalty without a catch / Rest / Whatever God wants to show me
+
+## SCRIPTURE
+
+Lamentations 3:22-23 (ESV) — "The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness."
+
+Deuteronomy 7:9 (ESV) — "Know therefore that the LORD your God is God, the faithful God who keeps covenant and steadfast love with those who love him and keep his commandments, to a thousand generations,"
+
+Psalm 136:1 (ESV) — "Give thanks to the LORD, for he is good, for his steadfast love endures forever."
+
+## REFLECTION: LOVE THAT STAYS
+
+Yesterday's word was Greek. Today's is Hebrew, and it is the Old Testament's favorite thing to say about God: hesed. Your English Bible translates it "steadfast love," and once you learn to see it, it is everywhere. It is the word in Lamentations when the steadfast love of the LORD never ceases. It is the word Psalm 136 repeats twenty-six times in twenty-six verses, once per line, like a heartbeat: for his steadfast love endures forever. The psalmist is not being repetitive. He is being accurate. That refrain is what reality sounds like underneath everything else.
+
+Hesed is loyal love. Covenant love. Love that has taken an oath. And to feel its weight you have to know the difference between a contract and a covenant, because most of us were loved on contract. A contract holds as long as both sides perform: you behave, I stay; you disappoint me, the deal is off. Contract love is why you flinch when you make a mistake, why you keep receipts, why part of you has a go-bag packed in every relationship. But a covenant is not held up by two performances. It is held up by an oath, and it holds even when one side collapses, because the One who swore it does not collapse. Deuteronomy says it plainly: the faithful God who keeps covenant and steadfast love to a thousand generations. Keeps. Present tense, every morning, for a thousand generations of people who kept almost nothing.
+
+Now set that next to your history, because this is where today either stays theory or becomes ground. The love you learned may have been weather. Warm fronts and cold fronts. Affection that depended on moods you could not predict, promises that depended on circumstances nobody controlled. Children of weather become adults who watch the sky: reading tones, checking faces, bracing for the change. If that is you, hear what hesed actually offers. Not a better forecast. A different climate. His mercies are new every morning, Lamentations says, and look at where that sentence was written: in the rubble of a destroyed city, by a man watching the worst day of his nation's history. Great is your faithfulness is not a sunny-day lyric. It is what a griever found at the bottom, when everything else had left: the one love still arriving on schedule.
+
+And here is the quiet miracle of hesed for you specifically. It does not renew because you stayed lovable overnight. It renews because He stays Himself overnight. Yesterday you learned the love is not indexed to your performance. Today, learn it is not indexed to time, to mood, to circumstance, or to how the last season went. It endures forever. It has never once lapsed for lack of payment. You have been bracing for an ending that is not on the calendar, because there is no calendar. There is an oath.
+
+You can unpack the go-bag. The climate changed when He swore.
+
+## PROMPT
+
+Who taught you that love is weather? What does your body do, even now, when someone's tone shifts? What would living in a fixed climate feel like? ______
+
+## EXERCISE ONE: THE TRACK RECORD
+
+A covenant is only as good as its keeper's record. So audit His, in your own life.
+
+Times God came through for me, held me, or kept a mercy coming when I did not expect it: ______
+
+Times God has left me the way people left me: ______
+
+Look at the second list. If it is empty, let that be data the bracing has never had.
+
+## EXERCISE TWO: THE REFRAIN
+
+Psalm 136 answers every line of history with the same refrain. Write three lines of your own history, hard ones allowed, and give each the psalmist's answer.
+
+______ — for his steadfast love endures forever.
+
+______ — for his steadfast love endures forever.
+
+______ — for his steadfast love endures forever.
+
+Read all three aloud. This is how the psalm was meant to work: your history, His refrain.
+
+## THE TURN: WHAT WEATHER ARE YOU
+
+The honest question, and you knew it was coming: to the people you love, are you climate or weather? Does your warmth depend on your day, your stress, their performance?
+
+The person who most often gets my weather instead of my covenant is: ______
+
+One promise I have made that needs keeping this week: ______
+
+Hesed received becomes hesed kept. That is the family trait of the new line you joined on Day 13.
+
+## NERVOUS SYSTEM RESET: THE ANCHOR BREATH
+
+The watcher of skies lives in your shoulders and your scanning eyes.
+
+Sit comfortably. This time, breathe in a steady, even rhythm: four counts in, four counts out, no holds, eight rounds, like waves that keep the same interval. While you breathe, repeat one word on every exhale: "Steadfast." Let the rhythm itself preach the sermon: regular, reliable, arriving again. The forecast is fixed.
+
+What settles in your body when the rhythm stays the same? ______
+
+## PRAYER / AFFIRMATION
+
+Prayer: "God, retrain the watcher in me. I have read skies my whole life, and You are not weather. Teach my body the climate of covenant: mercies on schedule, love under oath, faithfulness that was there in the rubble and will be there in the morning. Amen."
+
+Affirmation: "I am loved under oath. The climate is fixed. The mercies arrive every morning, and tomorrow's are already on the way."
+
+## ACTION STEP
+
+Keep one small promise today, completely, including to yourself. Say what you will do, then do exactly that. Covenant people are built one kept word at a time.
+
+## AFTER YOU READ: CHECK-IN
+
+Right now I'm feeling: Steadied / Grieving the weather years / Safer / Still watching the sky a little / Grateful / Quietly amazed / Other: ______
+
+One thing from today I don't want to forget: ______
+
+## GRATITUDE PRACTICE
+
+"Give thanks in all circumstances; for this is the will of God in Christ Jesus for you." (1 Thessalonians 5:18, ESV)
+
+Today I'm grateful for: ______
+
+One mercy that was new this very morning: ______
+
+## SACRED PRACTICE: THE STANDING STONE
+
+When God kept covenant in the old stories, His people set up a stone, so the keeping would have an address, a place the eye could return to on doubting days.
+
+Find a small stone. From the yard, the sidewalk, anywhere. Wash it.
+
+On it, in permanent marker, write one word that names a promise He has already kept to you. One word is enough: the year He carried you, the person He sent, the morning the mercy came.
+
+Set it where you will see it daily: the windowsill, the desk, beside this journal. It is the first stone of your track record. When the watcher in you starts reading skies again, pick it up. Feel the weight. Ground does not change with the weather.
+
+Tomorrow, the Love that calls you friend. Tonight, you stand on oath-kept ground, and the mercies for tomorrow are already loaded.`
 }
-);
+);;
