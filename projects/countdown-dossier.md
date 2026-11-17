@@ -59,6 +59,11 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-11-17 · Watch notes · logged 11/17
+
+No dated Spotify news surfaced; only filed background returned.
+Doc frozen since 9/18, sixty days.
+
 ## 2026-11-16 · Watch notes, the Wrapped machine is running · logged 11/16
 
 Still no announced 2026 date, but the machinery is visible: Spotify published its artist campaign guide November 5 and the artist video-message submission deadline reportedly moved from November 6 to November 13, now passed. The data cutoff lands around mid-November on the 2025 pattern. Together these put the drop on schedule for the penciled first week of December. Summary level across the artist-campaign coverage; the exclusion-option lead stays single-carry and held.
