@@ -182,6 +182,24 @@ IMG_5923 and IMG_5924 are vertical 2160x3840. They run as 2160-wide 16:9 centre-
 Still open: her pass on v1, the Rodrigo call (family lane, one bleep), the Druski analysis 22992ac5 still queued so all grammar numbers are guesses, and the grade (sources measure 103 to 118 luma, v1 ships ungraded).
 Ep 1 footage waits in the Ep 1 folder until E01 lands.
 
+
+## The footage intake law (Ashley's ruling, 11/18)
+
+Three retrievals in a row failed the same way: shot, edited on the mini, unfindable two weeks later.
+From now on, every shoot day ends with the camera originals in ONE Drive folder owned by hello@ashleyrudder.com, before anyone edits a frame.
+Folder scheme: Footage / SERIES / YYYY-MM-DD_short-name (example: Footage / QOC / 2026-08-28_bass-pro).
+Originals only in that folder. Proxies, packages, and renders live beside it in an Edits folder, never mixed in.
+Blackmagic Cloud or camera media counts as the capture point, not storage; offload into the folder the same day.
+No desk starts an edit on footage that is not in the folder. The desk that receives footage checks this first.
+
+## The August 28 hunt (11/18)
+
+Ashley is looking for the August 28 shoot, recorded as the start of the Blackmagic workflow.
+Checked and empty: the hello@ Drive holds zero files of any kind created or dated August 27 to September 1.
+The Bass Pro folder under info.ashleyrudder@gmail.com still shows no contents to the hello@ connector.
+The November Quiet On The Creek folder holds IMG_0868 (probes as shot 2023-09-11, archive) and IMG_0871 (unprobed; as of 11/18 its link requires sign-in, so sharing changed).
+Remaining places it can be, all on Ashley's side: Blackmagic Cloud inside Resolve on the mini (Project Manager, Cloud tab); the camera's card or SSD; a folder on the mini (Finder search by date); the info@ Drive.
+
 ## Next action
 
 Miss Moth: place the three archival finds on their beats, taking the cut to 21 cards, and re-encode. Then Ashley's calls on runtime, caption style, and the reshoot.
