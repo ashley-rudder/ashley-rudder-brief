@@ -233,5 +233,120 @@ On it, in permanent marker, write one word that names a promise He has already k
 Set it where you will see it daily: the windowsill, the desk, beside this journal. It is the first stone of your track record. When the watcher in you starts reading skies again, pick it up. Feel the weight. Ground does not change with the weather.
 
 Tomorrow, the Love that calls you friend. Tonight, you stand on oath-kept ground, and the mercies for tomorrow are already loaded.`
+},
+{
+n: 17, title: "Phileo: Friendship Love",
+tease: "He does not just love you. He likes you. The promotion came hours before your worst failure.",
+body: `## BEFORE YOU READ: TUNE IN
+
+Step 1: Acknowledge Your Humanity. After reading today's title, "Phileo — Friendship Love," I'm feeling: Warmed / Awkward / Doubtful God likes me / Lonely enough to hope / Curious / Formal around God / Softened / Ready / Other: ______
+
+If I'm honest, I relate to God mostly like: An employee / A defendant / A distant relative / A student / A friend / Other: ______
+
+The idea that God would enjoy my company makes me feel: ______
+
+Step 2: Ask For Guidance. God, about being Your friend and not just Your servant, I need You to help me with: ______
+
+Step 3: Pray. "Jesus, I know how to serve You, apologize to You, and ask You for things. I don't really know how to just be with You. You said You call me friend. I'd like to find out what that means. Pull up a chair. Amen."
+
+Step 4: Sit In Silence (1–2 minutes). Don't work at this one. Friends can share a room without performing. Sit with Him the way you'd sit with someone who already enjoys you. That is the whole exercise.
+
+Step 5: Open Your Heart. Today I'm open to: Being liked, not just loved / A promotion I didn't apply for / Talking plainly / Company / Whatever God wants to show me
+
+## SCRIPTURE
+
+John 15:15 (ESV) — "No longer do I call you servants, for the servant does not know what his master is doing; but I have called you friends, for all that I have heard from my Father I have made known to you."
+
+John 15:13 (ESV) — "Greater love has no one than this, that someone lay down his life for his friends."
+
+Proverbs 18:24 (ESV) — "A man of many companions may come to ruin, but there is a friend who sticks closer than a brother."
+
+## REFLECTION: THE PROMOTION
+
+Two days, two words. Agape said the love has no conditions. Hesed said it has no expiration. Today's word is phileo, and it answers a question the first two don't quite reach: fine, God loves me, He's committed to me, but does He LIKE me?
+
+You know the difference. There are people you love out of duty, history, or blood, and there are people whose number lights up your phone and something in you is glad. Phileo is the second one: warm, affectionate, I-enjoy-you love. Friendship. And the staggering claim of the Gospels is that this word belongs in a sentence about God and you.
+
+Listen to what Jesus does in that upper room, hours before the cross. No longer do I call you servants. Why not? His reason is precise: the servant does not know what his master is doing. Servants get tasks. Friends get told. But I have called you friends, for all that I have heard from my Father I have made known to you. Read that twice, because it defines friendship with God forever after: friendship is disclosure. Jesus proves these men are His friends not by feeling something at them but by telling them everything. The inner conversation of God, opened to people who would scatter by morning. And He knew they would scatter, and He said it anyway. The promotion was not a performance review. It was a gift, hours before their worst failure.
+
+Maybe you have spent your whole faith in the servants' quarters. Reporting for duty. Apologizing for the quality of the work. Speaking to God in the stiff voice people use for an employer, assuming He tolerates you the way bosses tolerate adequate staff. The servant mindset can even look like devotion. But it quietly refuses the thing Jesus died to open: the seat at the table. Greater love has no one than this, that someone lay down his life for his friends. His friends. When He stretched out His arms, friendship is the word He had just chosen for who you are.
+
+And this Friend has a trait the proverb saw coming: there is a friend who sticks closer than a brother. You may know the ache of many companions: rooms full of people, none of whom know you; friendships that lasted while you were useful or fun. Phileo from Jesus is the other kind. It stays in the hospital room. It knows the unedited version. It weeps at the tomb of the one it loves, where the bystanders said, see how he loved him. That word is phileo. He is not embarrassed to be seen feeling it.
+
+So today's invitation is almost scandalously simple. Stop auditioning. Start visiting. He has already told you what the Master is doing. That only happens with friends.
+
+## PROMPT
+
+Where did you learn to use the servant's voice with God? What would you talk to Him about today if you believed He actually enjoys you? ______
+
+## EXERCISE ONE: THE SERVANT'S SCRIPT
+
+Catch the staff behavior in your own faith.
+
+Ways I act like God's employee instead of His friend (only approaching with business, apologizing for existing, performing gratitude, keeping visits short): ______
+
+Next to each one, write what a friend would do instead.
+
+## EXERCISE TWO: THE TELLING
+
+Jesus defined friendship as telling. Friends get the inside of the heart, not just instructions.
+
+Something I have never told God plainly, in my own words, because it felt too small, too petty, or too unspiritual: ______
+
+Tell Him now, in writing, in exactly the voice you'd use with your closest friend: ______
+
+## THE TURN: THE FRIEND YOU WON'T LET STICK
+
+The many-companions ache usually has a door we hold shut from inside. Someone has tried to be the sticking kind of friend to you, and the servant in you keeps them at arm's length: never needing, never unedited, never a bother.
+
+The person who has tried to stick closer, whom I keep at a polite distance: ______
+
+One unedited thing I could let them see or know this week: ______
+
+Phileo received becomes phileo risked. Friendship with God trains you to stop performing for people too.
+
+## NERVOUS SYSTEM RESET: THE COMPANION'S POSTURE
+
+The servant stands at attention. The friend settles in.
+
+Sit the way you sit with your oldest friend: back supported, shoulders down, legs however they land. Breathe in for four, out for six, four rounds. On each exhale, let the body drop one rank: from staff, to guest, to family, to friend. Say on the last exhale: "I'm not on duty here."
+
+What changes in your body when you're not on duty? ______
+
+## PRAYER / AFFIRMATION
+
+Prayer: "Jesus, You called me friend before I earned it and after You knew everything. Teach me to drop the servant's voice. Tell me what You're doing, the way You promised friends get told, and let me tell You everything back: the big, the small, the petty, the real. Amen."
+
+Affirmation: "I am called friend by the One who knows me unedited. I am liked, not just loved. I have a seat, not a shift."
+
+## ACTION STEP
+
+Talk to God once today about something completely unimportant: the game, the weather, the thing that made you laugh. No request, no confession, no agenda. Friends waste time together. Waste five minutes with Him.
+
+## AFTER YOU READ: CHECK-IN
+
+Right now I'm feeling: Warmed / Shy about this / Promoted / Sad about the servant years / Light / Accompanied / Other: ______
+
+One thing from today I don't want to forget: ______
+
+## GRATITUDE PRACTICE
+
+"Give thanks in all circumstances; for this is the will of God in Christ Jesus for you." (1 Thessalonians 5:18, ESV)
+
+Today I'm grateful for: ______
+
+One friend who has stuck, human or divine: ______
+
+## SACRED PRACTICE: THE SECOND CHAIR
+
+Tonight, set out two chairs, facing each other or side by side. Sit in one.
+
+The other is His. Not a prop. A discipline, for your body, which has only ever known the standing-at-attention version of God.
+
+Now talk. Out loud, quietly, in your plainest voice. No church words. Tell Him about your day the way you would tell the friend who sticks: the annoying part, the funny part, the part you're worried about, the part you're proud of. If you run out of words, sit in the quiet together. Friends can do that.
+
+Before you get up, say: "Thanks for coming. You're always welcome here." Leave the second chair out overnight.
+
+Tomorrow, the Love that is three and one, the friendship older than the universe. Tonight, it's just the two of you, and He stayed late on purpose.`
 }
-);;
+);;;
