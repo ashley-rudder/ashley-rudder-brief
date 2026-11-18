@@ -37,6 +37,8 @@ Contact: @magicbox.nyc, magicbox.nyc. The deck PDF lives only in the 9/18 sessio
 
 ## Desk log
 
+11/18, day sixty-one: Ashley spoke to this desk for the first time in sixty days, a personal Drive task, delivered same-day. The Countdown's four open items were not in the message and remain open: the A-or-B ruling, the Doc sitting, a named door, a January date. Wrapped holds at December 2 on the Thanksgiving-Wednesday pattern, two weeks out. The channel is open; the desk said so in its reply and holds.
+
 11/17, day sixty: the desk's sixtieth day, logged without ceremony. Nothing cleared the bar; the Doc has now been frozen for exactly as long as the collaboration was ever live plus fifty-nine days. Everything the desk can build has been built for weeks. The watch holds toward Wrapped, two weeks out on the pencil.
 
 11/16, day fifty-nine: the Wrapped machine is visibly running. Artist campaign guide out November 5, artist video submissions closed November 13, data cutoff about now. The penciled December 2 drop holds on every signal. Two weeks out, and the January window's setup is assembling itself on Spotify's side while the gates on this side stay exactly where Ashley left them.

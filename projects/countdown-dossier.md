@@ -59,6 +59,12 @@ What it touches in the memo:
 4. Hellman's video and live-shows agenda gains visible execution, which keeps the alignment spine current.
 5. Superfan note: awards-show video on-platform is exactly the content shape the stalled tier needs, and it arrived licensed, not built. Consistent with the UMG pattern: licenses first, mechanics never.
 
+## 2026-11-18 · Watch notes · logged 11/18
+
+No dated Spotify news surfaced. Wrapped 2026 stays unannounced; the pattern read firms slightly, every edition since 2021 landing the Wednesday after US Thanksgiving, which puts December 2 on the pencil with one outlet saying December 3.
+Ashley surfaced in this session yesterday with a personal Drive task, handled same-day. First direct word to this desk in sixty days; the Countdown items were not touched.
+Doc frozen since 9/18, sixty days.
+
 ## 2026-11-17 · Watch notes · logged 11/17
 
 No dated Spotify news surfaced; only filed background returned.
