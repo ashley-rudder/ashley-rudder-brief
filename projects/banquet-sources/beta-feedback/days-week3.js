@@ -463,5 +463,122 @@ When it is done, tie off the ends and lay it in this journal as your bookmark. F
 Scripture says a cord of three strands is not quickly broken. Neither is the love that made you. Neither, anymore, are you.
 
 Tomorrow, the Spirit who makes that love an inside job. Tonight, you are the newest guest at the oldest table, and the voice over the water is still speaking.`
+},
+{
+n: 19, title: "The Holy Spirit: God’s Presence Within You",
+tease: "With became in. The Helper is in residence, not on call, and the house was never empty.",
+body: `## BEFORE YOU READ: TUNE IN
+
+Step 1: Acknowledge Your Humanity. After reading today's title, "The Holy Spirit — God's Presence Within You," I'm feeling: Curious / Unsure about the Spirit / Lonely and listening / Comforted / Confused by this Person / Hungry for company / Quiet / Ready / Other: ______
+
+The place or time I feel most alone is: ______
+
+When I hear "God lives in you," my honest reaction is: ______
+
+Step 2: Ask For Guidance. Holy Spirit, I have talked about You more than I have talked to You. Today I need help with: ______
+
+Step 3: Pray. "God, You have spent four days showing me a love with no conditions, no expiration, real friendship, and a family older than time. Today You say that love moved in. Not near me. In me. Teach me to live like someone who is never, ever alone in the house. Amen."
+
+Step 4: Sit In Silence (1–2 minutes). Pay attention to your breath. The Hebrew word for Spirit is the word for breath. Closer than the air in your lungs, and just as constant, and just as easy to forget. Sit with the Breath inside the breath.
+
+Step 5: Open Your Heart. Today I'm open to: Company in the empty places / A Helper, not just a doctrine / Being a temple / Listening / Whatever God wants to show me
+
+## SCRIPTURE
+
+John 14:16-17 (ESV) — "And I will ask the Father, and he will give you another Helper, to be with you forever, even the Spirit of truth, whom the world cannot receive, because it neither sees him nor knows him. You know him, for he dwells with you and will be in you."
+
+1 Corinthians 6:19 (ESV) — "Or do you not know that your body is a temple of the Holy Spirit within you, whom you have from God? You are not your own,"
+
+Romans 8:26 (ESV) — "Likewise the Spirit helps us in our weakness. For we do not know what to pray for as we ought, but the Spirit himself intercedes for us with groanings too deep for words."
+
+## REFLECTION: NEVER ALONE IN THE HOUSE
+
+On His last night, Jesus told His friends something that should have sounded impossible: it is better for you that I go. Better? Better than God beside you at the dinner table? Yes, He said, because of who was coming. I will ask the Father, and he will give you another Helper. The Greek word for "another" there means another of the same kind. Not a lesser substitute. Not a long-distance arrangement. The same presence, the same love, the same God, with one staggering upgrade in the address: he dwells with you and will be in you. With became in. Beside became inside. The friends got Jesus for three years at arm's length. You get the Spirit at zero distance, forever.
+
+Let that reorganize the word "alone." You have felt it: the apartment at night, the hospital waiting room, the crowd where nobody knows you, the marriage or the ministry where you carry everything and no one carries you. Loneliness is real and this book will not insult yours. But hear what the Christian faith actually claims. There has not been one moment since the Spirit took up residence that you have been by yourself. Not one empty room that was empty. Not one 3 a.m. without a witness. The Helper is not on call. He is in residence.
+
+Paul pushes it further with a word that should take your breath: temple. Do you not know that your body is a temple of the Holy Spirit within you? In Paul's world, a temple was the one address on earth where a god lived. Israel's temple had an inner room so holy one man entered once a year. And Paul looks at your body, the one you criticize in mirrors, the one that carries your history and your scars, and says: that is the address now. God's dwelling moved out of architecture and into you. You have been walking around all week carrying the holiest place on earth and calling yourself ordinary.
+
+And what does this inward God do in there? The tenderest verse of the three answers. The Spirit helps us in our weakness. For we do not know what to pray for as we ought, but the Spirit himself intercedes for us with groanings too deep for words. You know the nights this is about. The ones where the pain has no sentences, where you sit with a grief or a fear and cannot produce one coherent word toward heaven. You thought prayer failed those nights. Paul says the opposite: those were the nights the Spirit took over, praying from inside you, in a language under language, groans too deep for words. When you could not speak, Someone in you was speaking. You have never once prayed alone, and on your worst nights you did not have to pray at all. He carried it.
+
+So the empty house was never empty. The Helper lives here. Today, start acting like someone who has company.
+
+## PROMPT
+
+Where does loneliness hit you hardest? What changes about that exact place or hour if the Helper is in residence there, not on call? ______
+
+## EXERCISE ONE: THE ADDRESS LIST
+
+Write the places and hours where you feel most alone: the rooms, the commutes, the times of night: ______
+
+Now go back through the list and write over each one, in small letters: "He is in residence here."
+
+The feeling may take time to catch up. The fact is already true at every address.
+
+## EXERCISE TWO: THE LISTENING
+
+The Spirit speaks. Not usually in thunder; in nudges, reminders, truth that arrives with peace. His voice never contradicts Scripture, and it sounds like Jesus.
+
+Sit quietly for five minutes with one question: "Holy Spirit, what do You want me to know today?"
+
+What rose while I listened (a word, a name, a verse, a nudge, or just quiet): ______
+
+Don't grade it. Listening is a skill, and today was a rep.
+
+## THE TURN: HOW YOU TREAT THE TEMPLE
+
+If your body is His address, look at how the temple is being kept. Not for shame. For honor. The sleep, the food, the rest, the punishing self-talk said inside His house.
+
+One way I have been treating the temple like a storage unit: ______
+
+One act of temple honor I will do this week (rest, nourishment, movement, or simply ending the mirror insults): ______
+
+The upkeep is not vanity. It is hospitality toward the Resident.
+
+## NERVOUS SYSTEM RESET: THE BREATH INSIDE THE BREATH
+
+Spirit and breath are one word in Scripture's languages. So tonight the reset is the oldest one in the book.
+
+Breathe in slowly for four counts, and as you do, say inwardly: "You are here." Hold for two. Breathe out for six: "I am not alone." Eight rounds, no rush.
+
+You take around twenty thousand breaths a day. Every one of them can be a remembrance.
+
+What shifts in the loneliness when the breath itself becomes company? ______
+
+## PRAYER / AFFIRMATION
+
+Prayer: "Holy Spirit, forgive me for living like the house was empty. Thank You for the nights You prayed when I had no words, for the company I never noticed, for making an address out of me. Teach me Your voice. Help me keep Your house. And when the loneliness lies to me, groan the truth from the inside. Amen."
+
+Affirmation: "I am the address of God. The Helper is in residence, not on call. I have never prayed alone, and I have never once been by myself."
+
+## ACTION STEP
+
+Once today, in the actual moment you need help, small or large, ask out loud: "Helper, help me with this." Traffic, the hard email, the urge, the fear. Not a ritual. A roommate. Start talking to the One who lives here.
+
+## AFTER YOU READ: CHECK-IN
+
+Right now I'm feeling: Accompanied / Stirred / Less alone / Tender about the wordless nights / Curious to listen more / Peaceful / Other: ______
+
+One thing from today I don't want to forget: ______
+
+## GRATITUDE PRACTICE
+
+"Give thanks in all circumstances; for this is the will of God in Christ Jesus for you." (1 Thessalonians 5:18, ESV)
+
+Today I'm grateful for: ______
+
+One wordless night I now believe Someone was praying for me: ______
+
+## SACRED PRACTICE: THE LAMP LEFT ON
+
+The old temple kept a lamp burning through the night, so that the house of God was never dark.
+
+Tonight, take a small light, a candle you can safely use, or simply a small lamp or nightlight, and carry it to the room or spot in your home where the alone feeling lives: the side of the bed, the kitchen at midnight, the desk chair.
+
+Set the light there and let it burn or glow a while as you say: "This house is occupied. He dwells with me and is in me. The lamp is His."
+
+If it is safe, leave a small light on through tonight. Let your eyes learn what your spirit is learning: the house is never empty, and the Light did not move out when the feeling moved in.
+
+Tomorrow, the name that is also your name: love as identity. Tonight, every room you own is a lit room, and the Helper keeps the night watch.`
 }
-);;;;
+);;;;;
