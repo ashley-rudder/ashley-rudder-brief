@@ -580,5 +580,120 @@ Set the light there and let it burn or glow a while as you say: "This house is o
 If it is safe, leave a small light on through tonight. Let your eyes learn what your spirit is learning: the house is never empty, and the Light did not move out when the feeling moved in.
 
 Tomorrow, the name that is also your name: love as identity. Tonight, every room you own is a lit room, and the Helper keeps the night watch.`
+},
+{
+n: 20, title: "Love as God's Identity (and Yours)",
+tease: "God is love. And because you are His child, love is your name too.",
+body: `## BEFORE YOU READ: TUNE IN
+
+Step 1: Acknowledge Your Humanity. After reading today's title, "Love as God's Identity (and Yours)," I'm feeling: Curious / Unworthy of the name / Proud in a new way / Doubtful / Stirred / Like an impostor / Settled / Ready / Other: ______
+
+When I describe who I am, the first three words I usually reach for are: ______
+
+The idea that "love" could be part of my identity, not just my to-do list, makes me feel: ______
+
+Step 2: Ask For Guidance. God, about carrying Your name and Your nature, I need You to help me with: ______
+
+Step 3: Pray. "Father, this week You showed me a love with no conditions, no expiration, real friendship, an eternal family, and a Resident. Today You say something bigger: that love is not just what You do. It is who You are. And because I am Your child, it is who I am becoming. Write the family name on me. Amen."
+
+Step 4: Sit In Silence (1–2 minutes). Children absorb identity before they ever study it. They catch the accent, the walk, the laugh. Sit quietly in the presence of your Father and let the resemblance begin where all resemblance begins: proximity.
+
+Step 5: Open Your Heart. Today I'm open to: A new name / Being defined by whose I am / Family resemblance / Dropping the old labels / Whatever God wants to show me
+
+## SCRIPTURE
+
+1 John 4:16 (ESV) — "So we have come to know and to believe the love that God has for us. God is love, and whoever abides in love abides in God, and God abides in him."
+
+1 John 3:1 (ESV) — "See what kind of love the Father has given to us, that we should be called children of God; and so we are."
+
+1 John 4:19 (ESV) — "We love because he first loved us."
+
+## REFLECTION: THE FAMILY NAME
+
+Five days ago this week opened with a claim that still sounds too large: God is love. Notice what John did not write. He did not write that God is loving, the way a person is tall or funny or patient. Adjectives describe behavior. John used a noun. Love is not one of God's moods or even one of His virtues. It is His identity. Everything He does, He does out of what He is, which is why the agape had no conditions, the hesed had no expiration, the friendship was real, the family was eternal, and the Spirit moved in. You have not been studying five subjects this week. You have been walking around one Person, viewing the same identity from five sides.
+
+Now John turns from who God is to who that makes you. See what kind of love the Father has given to us, that we should be called children of God. And then he adds three words that close every loophole your self-doubt will look for: and so we are. Not called children as a courtesy title. Not children on probation. Are. When John wrote this, he was an old man who had leaned on Jesus' chest at dinner, and you can still hear the astonishment in his sentence. Look at it, he says. Look what kind of love. The Greek behind "what kind" carries the sense of "from what country." This love is foreign. It is not from here. No one on earth hands out family membership to people who did nothing to earn it. The Father does.
+
+Here is why that rearranges your identity. Children inherit more than a last name. They inherit a nature. You carry your family's eyes, their temper, their laugh, their wounds. Identity flows downhill, from parent to child, whether anyone consents or not. So follow the logic of the new birth: if your Father's very being is love, then love is not an assignment He gave you. It is a genetic fact about you. The most spiritual thing you will ever do is not to try harder at love. It is to live like who you already are.
+
+And John knows exactly how the resemblance grows, because he states the mechanism in seven words: we love because he first loved us. Not we love because we should. Because He first loved. Love in you is always an echo, never a performance. The reader who soaked in agape this week will find patience arriving unannounced. The one who tasted hesed will catch themselves staying when they used to leave. You do not manufacture the family trait. You absorb it at the table, and then it starts showing up in your voice.
+
+So retire the old introductions. Anxious. Difficult. Too much. Not enough. Those were descriptions of your circumstances, and some of them were just insults you memorized. None of them are your name. You come from Love. That is the house you were born into, and the resemblance is already forming.
+
+## PROMPT
+
+Which old label have you been using as an identity? What changes this week if you introduce yourself, to yourself, as a child of the house of Love? ______
+
+## EXERCISE ONE: THE OLD NAMES
+
+Write the identity words you have carried, the ones from report cards, exes, parents, your own 2 a.m. voice: ______
+
+Now read the list once and write across it, large enough to cover them: "CALLED CHILDREN OF GOD. AND SO WE ARE."
+
+A label is not a birth certificate. Only one document in this exercise tells the truth about your bloodline.
+
+## EXERCISE TWO: THE RESEMBLANCE AUDIT
+
+Family resemblance shows up in small, unplanned moments.
+
+Where love has started showing up in me without my effort this week (more patience, a softer first reaction, staying present where I used to leave): ______
+
+One trait of my Father I want the family resemblance to grow into next: ______
+
+Don't grade the gaps. Resemblance is a direction, not a final exam.
+
+## THE TURN: THE NAME YOU GIVE OTHERS
+
+If love is your surname, it changes how you name other people too. The coworker you filed under "impossible." The family member filed under "lost cause." You have been handing out identities the way the world handed them to you.
+
+One person I have labeled, and the label I gave them: ______
+
+The name a child of Love could call them instead: ______
+
+You know what a wrong label costs. Stop printing them.
+
+## NERVOUS SYSTEM RESET: THE INHERITANCE BREATH
+
+Identity lives deeper than opinion. It lives in the body that flinches when the old names play.
+
+Breathe in for four counts and receive: "I come from Love." Hold for two. Breathe out for six and release one old label by name, silently. Eight rounds, one label per exhale. If you run out of labels, spend the remaining exhales on: "And so I am."
+
+What does your body feel like with fewer names on it? ______
+
+## PRAYER / AFFIRMATION
+
+Prayer: "Father, You did not just forgive me. You named me. Teach me to answer to child before I answer to any other word. Grow the resemblance in me until the people I meet can guess whose house I come from. And when the old labels call, let me leave them unanswered. Amen."
+
+Affirmation: "God is love, and I am His child. Love is my inheritance and my name. I love because He first loved me."
+
+## ACTION STEP
+
+Once today, when the old identity speaks (anxious, failure, too much, unlovable), answer it out loud or in writing with your real one: "That is not my name. I am a child of God. And so I am." Interrupt the alias. Answer to the name.
+
+## AFTER YOU READ: CHECK-IN
+
+Right now I'm feeling: Named / Settled / Emotional about the old labels / Proud of my house / Still absorbing it / Light / Other: ______
+
+One thing from today I don't want to forget: ______
+
+## GRATITUDE PRACTICE
+
+"Give thanks in all circumstances; for this is the will of God in Christ Jesus for you." (1 Thessalonians 5:18, ESV)
+
+Today I'm grateful for: ______
+
+One way the family resemblance has already shown up in my life: ______
+
+## SACRED PRACTICE: THE SIGNATURE
+
+Tonight, take one clean page and sign your name at the center, the full signature you use on documents that matter.
+
+Beneath it, in your own hand, write the lineage line: "of the house of Love. Child of God. And so I am."
+
+Then sign it again, slowly, like you are signing for an inheritance, because you are. Read the whole page out loud once.
+
+Fold it and put it where you keep important papers: the passport drawer, the file with the birth certificate. Let your name sit among the documents that prove who you are, because now it does.
+
+Tomorrow, the week in one look: five faces of one Love, reviewed and sealed. Tonight, the ink is dry on your real name, and the house it belongs to never disowns its children.`
 }
-);;;;;
+);;;;;;
