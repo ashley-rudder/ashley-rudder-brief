@@ -52,7 +52,9 @@ Day 19, "The Holy Spirit: God's Presence Within You," is composed, filed, and li
 Spine: "another Helper" as another of the same kind, with-became-in; the body as the relocated temple; Romans 8:26 as the answer to the wordless nights, the Spirit praying from inside when the reader could not. The loneliness address list, the five-minute Listening with its discernment note, the temple-not-storage-unit Turn. Sacred Practice The Lamp Left On carries a light into the loneliest room.
 Day 20, "Love as God's Identity (and Yours)," is composed, filed, and live 11/21: https://docs.google.com/document/d/1dxT8DwmyOiugnzaR39Vj7ESwwDrldmXdUDGN_tRF6ag/edit
 Spine: the week's capstone. God IS love (noun, not adjective), so the five days were five sides of one identity; 1 John 3:1's "and so we are" closes the loopholes; identity flows downhill, so love is the reader's inheritance, not their assignment; 1 John 4:19 as the mechanism (echo, never performance). The Old Names exercise, the Resemblance Audit, the label-retiring Turn. Sacred Practice The Signature files the reader's name among the documents that prove who they are.
-Days standing: 1 through 20, twenty of thirty, all live in the app and all filed clean in Drive. Next in order: Day 21, the Weekly Reflection closing Week 3.
+Day 21, "Weekly Reflection: Nature of Love Review," is composed, filed, and live 11/22: https://docs.google.com/document/d/1sF1gbI0km2NoNg6gmFRSJMyts5h1BxtRJSu4QRt746M/edit
+Spine: the Day 7/14 reflection format. The week in one look walks Days 15 through 20 as six sides of one Love; the review probes belief, not wounds ("which day was hardest to believe"); Celebrate counts the new knowledge and the family resemblance. Sacred Practice The Table Set for One More gathers the week's six built objects (invoice, stone, chair, cord, lamp, signature) as physical evidence. Closer hands the reader into Week 4: the inheritance comes with authority. Scriptures reuse verified 1 John 4:16 and Lamentations 3:22-23.
+Days standing: 1 through 21, twenty-one of thirty, all live in the app and all filed clean in Drive. Week 3 is complete. Next in order: Day 22, "I Am a Child of God," opening Week 4 (authority), with the song note to confirm with Ashley ("Who I say I am. Look up the song, mom's favorite").
 
 APP JOURNAL UPDATE 9/29, on Ashley's word in chat ("make these sections selectable and to fill out the forms"): the reader is now a working journal. Option runs render as tappable multi-select chips, every blank renders as an inline fill or a writing box, choose-one lists are tappable, and the form's day chips generate from the live day list so new days arrive with their chip. Journal entries persist in localStorage on the reader's device only (stated on the page); only the three marks are ever sent. Production deployment READY.
 
@@ -157,6 +159,7 @@ As of 9/18 the Banquet has one writing surface: this desk. The portable-brief th
 
 2026-11-19. Day 18 composed, filed, and live: the Trinity day, overflow not remedy, the braid in the book. Matthew 3:16-17 and John 17:24 verified via search renderings; 1 John 4:8 reused from Day 2's verification. Seed door and the 999 row still wait on Ashley; no reader invited yet.
 
+2026-11-22. Day 21 composed, filed, and live: the Week 3 reflection, the table set for one more. No new verses; both scriptures reuse in-session verifications. Weeks 1 through 3 now stand complete, twenty-one of thirty. Seed door and the 999 row still wait on Ashley; no reader invited yet.
 2026-11-21. Day 20 composed, filed, and live: the identity capstone, the family name. 1 John 3:1 verified via ESV.org search renderings in-session; 1 John 4:16 and 4:19 reuse Day 2's verification. Week 3 has one day left, the reflection. Seed door and the 999 row still wait on Ashley; no reader invited yet.
 2026-11-20. Day 19 composed, filed, and live: the indwelling day, the lamp left on. John 14:16-17 and 1 Corinthians 6:19 verified via ESV.org search renderings; Romans 8:26's exact ESV wording did not surface in search snippets and is flagged above for the print-gate pass. Seed door and the 999 row still wait on Ashley; no reader invited yet.
 
@@ -166,4 +169,4 @@ Daily. A dedicated desk session carries this work and a daily wake keeps it movi
 
 ## Next action
 
-Ashley: close the seed door (open loop 8, two minutes), open the app once and bless it, name the circle, give the word on the invite. Sable: compose Day 21, the Week 3 Reflection (Nature of Love Review), on the next working day.
+Ashley: close the seed door (open loop 8, two minutes), open the app once and bless it, name the circle, give the word on the invite. Sable: compose Day 22, "I Am a Child of God," on the next working day, flagging the song reference for Ashley's confirmation rather than guessing the track.

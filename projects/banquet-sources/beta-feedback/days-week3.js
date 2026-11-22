@@ -695,5 +695,117 @@ Then sign it again, slowly, like you are signing for an inheritance, because you
 Fold it and put it where you keep important papers: the passport drawer, the file with the birth certificate. Let your name sit among the documents that prove who you are, because now it does.
 
 Tomorrow, the week in one look: five faces of one Love, reviewed and sealed. Tonight, the ink is dry on your real name, and the house it belongs to never disowns its children.`
+},
+{
+n: 21, title: "Weekly Reflection: Nature of Love Review",
+tease: "Six days at one table with one Love. Push back the chair and taste it again, slower.",
+body: `## WHAT TODAY IS
+
+Six days at one table, studying one Host. No new course today. Today you push back from the table, look at everything that was served, and let it digest. Week 2 dug out what love was never supposed to be. This week you finally saw what it is. Pause. Process. Taste it again, slower.
+
+## BEFORE YOU BEGIN: TUNE IN (SHORT FORM)
+
+Step 1: One word for how I arrive today: ______
+
+Step 2: One thing I need from God in this hour: ______
+
+Step 3: Pray. "God, this was the week I stopped guessing about Your love and started looking at it. Walk me back through what I saw: the love with no conditions, no expiration, real friendship, an eternal family, a Resident, and a name. Let none of it slide off me. Be still with me. Amen."
+
+Step 4: Sit In Silence (2 minutes today). Nothing to learn right now. You spent six days being told who Love is and whose you are. Sit in the company of the One the whole week was about.
+
+## SCRIPTURE
+
+1 John 4:16 (ESV) — "So we have come to know and to believe the love that God has for us. God is love, and whoever abides in love abides in God, and God abides in him."
+
+Lamentations 3:22-23 (ESV) — "The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness."
+
+Know and believe. Never ceases. That is the week in five words: this love can be studied, and it cannot be exhausted. We're going back through to make sure both landed.
+
+## THE WEEK IN ONE LOOK
+
+Six days, six sides of one Love:
+
+- Day 15 — Agape: Love Without Conditions. The invoice came back blank. This love has no price column, and your performance was never the payment.
+- Day 16 — Hesed: The Love That Stays. Covenant, not contract. You set up a standing stone for the Love with no expiration date.
+- Day 17 — Phileo: Friendship Love. The promotion from staff to friend. He does not just love you. He likes you, and He stayed late at the second chair.
+- Day 18 — The Trinity as Perfect Love. The table was full before you existed, and you were added anyway. Overflow, not need. You resigned as somebody's remedy.
+- Day 19 — The Holy Spirit: God's Presence Within You. With became in. The house was never empty, and the lamp got left on.
+- Day 20 — Love as God's Identity (and Yours). God is love, noun not adjective, and children inherit the nature. You signed your real name.
+
+Read the list slowly. Circle the day that fed you the most.
+
+## THE REVIEW
+
+1. Which day changed how you see God most, and at which exact line or moment? ______
+
+2. Which day was hardest to believe? (Unbelief is a map too. It marks where the old picture of God still hangs.) ______
+
+3. The week asked your hands to build things: a blank invoice, a standing stone, a second chair, a braided cord, a lamp left on, a signature page. Which practice did you actually do, and what did doing it do? ______
+
+4. Go back and reread your After You Read check-ins from Days 15 through 20. What pattern do you see in what you wrote? ______
+
+5. Day 17 asked you to let one person one layer closer, and Day 18 called the fortress a lie. Did anyone get closer this week? What happened, or what stopped it? ______
+
+6. Finish this sentence honestly: "A week ago I thought God's love was ______. Today I know it is ______."
+
+## IF YOU MISSED DAYS
+
+No shame at this table. Some weeks the feast gets interrupted. That is not failure. That is life.
+
+Don't try to make up all of them. Pick the ONE whose title pulls at you and give it its full day this week. The rest will wait. So will He.
+
+The day I'm going back for: ______
+
+## CELEBRATE
+
+The mercies are new every morning, which means somebody should be counting them.
+
+Three things I now know about God's love that I only suspected a week ago: 1. ______  2. ______  3. ______
+
+One place love showed up in my behavior this week without my effort (the family resemblance, already forming): ______
+
+The old picture of God I am leaving behind in Week 3: ______
+
+## NERVOUS SYSTEM RESET: THE RECEIVING WEEK
+
+Six days of receiving is its own kind of work. Bodies braced for scarcity do not relax at a feast overnight.
+
+Set a timer for five minutes. Sit comfortably, palms open on your knees, the posture of someone being handed something. Breathe in through your nose and let the exhale be longer than the inhale, like settling deeper into a chair you trust. No counting today. If a day from the week rises up, the stone, the chair, the lamp, let it come. When the timer ends, say: "His love never ceases. I live in that house now."
+
+What does your body do with a love it doesn't have to earn? (That answer is information.) ______
+
+## PRAYER / AFFIRMATION
+
+One for the week behind: "I came to know and believe the love God has for me. Forget not."
+
+One for the week ahead: "A child who knows the Father's love can learn the Father's authority."
+
+Write your own, if one has been forming: ______
+
+## AFTER YOU REFLECT: CHECK-IN
+
+How do you feel now? Full in a new way / Settled / Loved and almost embarrassed by it / Still absorbing / Tender / Ready for Week 4 / Named
+
+What did the Holy Spirit show you in the looking back? ______
+
+## GRATITUDE PRACTICE
+
+1 Thessalonians 5:18 (ESV) — "give thanks in all circumstances; for this is the will of God in Christ Jesus for you."
+
+Three moments from THIS WEEK I'm grateful for: 1. ______  2. ______  3. ______
+
+## SACRED PRACTICE: THE TABLE SET FOR ONE MORE
+
+This week you built small monuments: an invoice with no total, a stone, a chair, a cord, a lamp, a signature. Tonight, gather them, or gather what remains of them, and set them together in one place like a table setting.
+
+Look at the collection. One week ago none of it existed. Now there is physical evidence in your home that Love has no conditions, no expiration, likes your company, predates the universe, lives in you, and gave you its name.
+
+Say over the gathered things: "This is the house I was born into. I am not a guest here anymore."
+
+Keep the braided cord in this journal and the signature page with your documents. The rest can return to ordinary life, the way sacred things do.
+
+Week 4 is new country. You know whose child you are now. Starting tomorrow, you learn what the Father's children are allowed to do: the inheritance comes with authority.
+
+Three weeks in. The roots are no longer theory. Something in you has started to drink.`
 }
-);;;;;;
+);;;;;;;
