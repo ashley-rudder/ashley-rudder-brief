@@ -229,5 +229,124 @@ Then hold the pan a moment and say: "This is my surface now. Heat reaches me. Fo
 Put the pan away in its place. You will see it again on ordinary days, and it will preach this sermon every time.
 
 Tomorrow, the body gets enlisted: how a child of God stands, breathes, and takes up space. Tonight, check your surface. Three things slid off it today that would have stuck a month ago.`
+},
+{
+n: 24, title: "Power Pose",
+tease: "Shame has a posture. So does a child of the King. Today your body learns the new name.",
+body: `## BEFORE YOU READ: TUNE IN
+
+Step 1: Acknowledge Your Humanity. After reading today's title, "Power Pose," I'm feeling: Curious / A little silly already / Aware of my shoulders / Tired in my body / Interested / Doubtful posture matters to God / Game / Ready / Other: ______
+
+If my posture right now could talk, it would say: ______
+
+The place where my body shrinks the most (a certain room, a certain person, a certain memory) is: ______
+
+Step 2: Ask For Guidance. God, about the way I carry this body You made, I need You to help me with: ______
+
+Step 3: Pray. "Father, You have spent twenty-three days renaming my heart. Today, teach my body the new name. You call Yourself the lifter of my head, so lift it. Let my spine learn what my spirit is learning. Amen."
+
+Step 4: Sit In Silence (1–2 minutes). Before you read a word, notice how you are sitting. Don't fix it. Just notice: the shoulders, the jaw, the eyes. The body has been listening to every lie you ever believed. Starting today, it gets to listen to the truth.
+
+Step 5: Open Your Heart. Today I'm open to: A lifted head / Taking up my assigned space / Standing when I'd rather fold / Letting my body join my faith / Whatever God wants to show me
+
+## SCRIPTURE
+
+Psalm 3:3 (ESV) — "But you, O LORD, are a shield about me, my glory, and the lifter of my head."
+
+2 Timothy 1:7 (ESV) — "for God gave us a spirit not of fear but of power and love and self-control."
+
+Ephesians 6:13 (ESV) — "Therefore take up the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand firm."
+
+## REFLECTION: THE LIFTER OF MY HEAD
+
+Shame has a posture. You have seen it, and you have worn it: the dropped head, the curled shoulders, the eyes that study the floor, the body trying to take up less space than God assigned it. Nobody teaches it. It installs itself, one verdict at a time, until the bend feels like who you are. The Bible takes this seriously, because the Bible never treats you as a soul in a jar. You are body and spirit together, and the lies you unlearned this week left fingerprints on both.
+
+Now listen to David's name for God, written while he was running for his life, surrounded and outnumbered: You, O LORD, are a shield about me, my glory, and the lifter of my head. The lifter of my head. Of all the things David could praise in that trench, he names the God who puts a hand under a hung chin and raises it. Not the fixer of circumstances first. The lifter of the head in the middle of them. David's situation had not changed a single degree when he wrote that line. His posture had. Some mornings, that is the first miracle available.
+
+Luke tells of a woman who had been bent double for eighteen years, unable to stand straight, invisible at the edge of the synagogue. Jesus saw her, called her to the center, and freed her, and she straightened up and glorified God. But hear the name He gave her while every eye watched her rise: daughter of Abraham. Identity first, posture following. She did not straighten up to become a daughter. She straightened because she already was one and somebody finally said so. Twenty-three days of this book have been Jesus calling you to the center. Today you stand up in front of the room.
+
+Your body is not a bystander in that stand. Paul told a fearful young pastor: God gave us a spirit not of fear but of power and love and self-control. Read the list again and notice the last word: self-control, the same word that closes the fruit of the Spirit. The Spirit in you is not only growing patience on your branches. He is steadying the vessel itself: the breath, the voice, the posture under pressure. And Paul's armor speech ends not with a charge to conquer but with the humblest military verb in Scripture: having done all, to stand firm. Not advance. Not win. Stand. Some days the entire victory is that you stayed vertical, head up, in the room you used to shrink in.
+
+So today is deliberately physical, and no, it is not vanity or theater. The world reads your body, and so do you. A child of the King who walks like a defendant preaches the wrong sermon to their own nervous system. Stand like who you are. The head you are lifting was already paid for.
+
+## PROMPT
+
+Where did your body learn to shrink, and who taught it? What would change if you entered that same room the way a daughter or son of the King enters a room? ______
+
+## EXERCISE ONE: THE POSTURE INVENTORY
+
+The body keeps the old verdicts. Find where.
+
+When I feel ashamed or outranked, my body does this (shoulders, eyes, voice, breath, hands): ______
+
+The person or place that bends me fastest: ______
+
+What my body is saying in those moments that my mouth never would: ______
+
+## EXERCISE TWO: THE STANDING PRACTICE
+
+Now teach it the new verdict. Stand up, right now, mid-reading.
+
+Feet planted shoulder-width. Shoulders rolled back and down. Hands open at your sides. Chin level. Crown lifted, like the hand of God is under it, because it is.
+
+Hold it for two full minutes and speak yesterday's and the day before's words out loud: "I am a child of God. And so I am. No weapon fashioned against me succeeds."
+
+What I felt in my body by the second minute: ______
+
+## THE TURN: THE SPACE YOU OWE THE ROOM
+
+Shrinking can masquerade as humility. It is not. Humility is power held gently. Shrinking is a lie about who assigned your space.
+
+A place I shrink that actually needs my full stature (the meeting, the family table, the friendship, the calling): ______
+
+What the people in that room lose when I show up folded: ______
+
+Taking up your assigned space is not pride. It is stewardship of a body God calls a temple.
+
+## NERVOUS SYSTEM RESET: THE VERTICAL BREATH
+
+Tonight, breathe like a lifted head.
+
+Stand or sit tall. Breathe in for four counts and let the inhale literally raise you: ribs up, crown up, an inch of new height. Hold for two at full stature. Breathe out for six without collapsing: the shoulders stay back, only the air leaves. Eight rounds. The exhale that doesn't slump is the whole lesson: you can release without folding.
+
+Say at the end: "You are the lifter of my head."
+
+What changed between round one and round eight? ______
+
+## PRAYER / AFFIRMATION
+
+Prayer: "Lord, You are the shield about me and the lifter of my head. Undo the bend the years installed. Teach my spine the gospel, my shoulders the adoption, my eyes the level gaze of the heir. And in the evil day, when I have done all, let me still be standing. Amen."
+
+Affirmation: "God gave me a spirit of power, love, and self-control. I stand at full stature in my assigned space. My head has a Lifter."
+
+## ACTION STEP
+
+Once today, enter a room like a child of the King: head level, shoulders open, pace unhurried. Pick the room on your Posture Inventory if you can. You are not performing confidence. You are matching your body to a verdict already delivered.
+
+## AFTER YOU READ: CHECK-IN
+
+Right now I'm feeling: Taller / Emotional about the bend / Stronger / Self-conscious and doing it anyway / Steady / Lifted / Other: ______
+
+One thing from today I don't want to forget: ______
+
+## GRATITUDE PRACTICE
+
+"Give thanks in all circumstances; for this is the will of God in Christ Jesus for you." (1 Thessalonians 5:18, ESV)
+
+Today I'm grateful for: ______
+
+One moment I stood taller this month than I could have a year ago: ______
+
+## SACRED PRACTICE: THE LIFTED HEAD
+
+Tonight, stand in front of a mirror. Begin the way shame taught you: head down, eyes on the floor. Stay there a breath and feel how familiar it is.
+
+Then, slowly, as slowly as a sunrise, let your head rise. Imagine the hand under your chin doing the lifting, because tonight you are not raising your head. You are letting it be raised.
+
+When your eyes reach your own eyes, hold the gaze and say: "Daughter of the King." Or: "Son of the King." Then: "He is the lifter of my head. And so I am lifted."
+
+Stay at full height for three breaths. Notice that the mirror holds a different person at the end of the practice than it did at the beginning, and that nothing changed but the truth being applied.
+
+Tomorrow, the ground under the standing: promises that do not move. Tonight, sleep with your crown returned to its place. It never actually left.`
 }
-);;
+);;;
